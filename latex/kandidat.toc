@@ -1,0 +1,11 @@
+\select@language {swedish}
+\contentsline {section}{\numberline {1}Historik, eller tidigare arbete}{1}
+\contentsline {subsection}{\numberline {1.1}Tiden vi lever i}{1}
+\contentsline {section}{\numberline {2}Sonifiering: vad \IeC {\"a}r det?}{1}
+\contentsline {section}{\numberline {3}Diabetes}{2}
+\contentsline {section}{\numberline {4}Deltagande och interaktion}{2}
+\contentsline {subsection}{\numberline {4.1}\emph {Data mining} och integritet}{2}
+\contentsline {section}{\numberline {5}Musiken}{2}
+\contentsline {subsection}{\numberline {5.1}Rumslighet}{2}
+\contentsline {subsection}{\numberline {5.2}Temporalitet}{2}
+\contentsline {subsection}{\numberline {5.3}Generativt}{2}
