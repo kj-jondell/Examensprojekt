@@ -13,8 +13,8 @@ Varje instans av mätdata existerar som ett "objekt" i musiken, objekten har vis
 	1. Litteraturstudie
 
 ## Diverse
-* Ska hemsida vara på svenska eller engelska? [ ]
-* Merge med "idé"-textfil [ ]
-* Sätta upp GitHub (pages kanske t.o.m?) [ ]
-* Annat [x]
+- [ ] Ska hemsida vara på svenska eller engelska? 
+- [ ] Merge med "idé"-textfil 
+- [ ] Sätta upp GitHub (pages kanske t.o.m?) 
+- [x] Annat 
 
