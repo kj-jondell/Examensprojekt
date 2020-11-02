@@ -1,8 +1,20 @@
 # Struktur av system
-Hemsida (interaktion med användarna) -> Python-server (tar emot användar-data, tolkar data och servrar) <-> SuperCollider (genererar musik)
+**Hemsida** (interaktion med användarna) -> **Python**-server (tar emot användar-data, tolkar data och servrar) <-> **SuperCollider** (genererar musik)
 
-# Musik
-Varje instans av mätdata existerar som ett *objekt* i musiken, objekten har vissa attribut (såsom register, spatiell kodning, etc). Koda gärna binauralt (kanske via *Ambisonics*).
+# Musik (SuperCollider-kod)
+Varje instans av mätdata existerar som ett *objekt* i musiken, objekten har vissa attribut (såsom register, spatiell kodning, etc). Koda gärna binauralt (kanske via *Ambisonics*). Klassen har en Osc-tolkarfunktion.
+
+Använd *Diabetessynth* som klangkälla? Kanske även andra Synthar.
+
+### Effektkedja
+Använda effekter för bl.a. spatialitet (delay/reverb), förstärkning, mixining och manipulation.
+
+### Klangkällor
+Följande beskriver vilka ljudkällor (syntesmetoder) som kan tänkas användas:
+
+* *Diabetessynth* (dvs. granulärsynth/wavetable-synth)
+* FM-synth/AM-synth
+* Annan granulär/sampler/wavetable-synth
 
 ### Harmonicitet (spektralitet)
 Varje *objekt* har följande attribut i förhållande till spektralitet:
@@ -10,11 +22,12 @@ Varje *objekt* har följande attribut i förhållande till spektralitet:
 * Register
 * Tonart (bruksskala)
 * Stämning (*renstämd/liksvävig*)
+* Klangfärg (bestäms av mätdata?)
 
 ### Temporalitet
 Varje *objekt* har följande attribut i förhållande till temporalitet:
 
-* Tempo (?)
+* Tempo 
 
 ### Spatialitet
 Varje *objekt* har följande attribut i förhållande till spatialitet:
@@ -36,3 +49,4 @@ Varje *objekt* har följande attribut i förhållande till spatialitet:
 - [ ] Ska hemsida vara på svenska eller engelska? 
 - [ ] Merge med "idé"-textfil 
 - [ ] Sätta upp GitHub (pages kanske t.o.m?) 
+- [ ] Tänk på vilket register som ska motsvaras av vilken typ av ljudkälla...
