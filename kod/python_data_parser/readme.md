@@ -6,14 +6,15 @@ Varje instans av mätdata existerar som ett "objekt" i musiken, objekten har vis
 
 # TODO
 1. Kod för musik (skelettkod till en början)
-		a. SuperCollider
-		b. Python
-2. Text till seminarium 
-		a. Skelett för layout av examenstext (deadline 8/11)
-		b. Litteraturstudie
+    1. __SuperCollider__
+    1. __Python__
+1. Text till seminarium 
+	1. Skelett för layout av examenstext (deadline 8/11)
+	1. Litteraturstudie
 
 ## Diverse
-* Ska hemsida vara på svenska eller engelska? []
-* Merge med "idé"-textfil []
-* Sätta upp GitHub (pages kanske t.o.m?) []
+* Ska hemsida vara på svenska eller engelska? [ ]
+* Merge med "idé"-textfil [ ]
+* Sätta upp GitHub (pages kanske t.o.m?) [ ]
+* Annat [x]
 
