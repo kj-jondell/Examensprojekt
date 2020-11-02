@@ -1,8 +1,10 @@
 # Struktur av system
-**Hemsida** (interaktion med användarna) -> **Python**-server (tar emot användar-data, tolkar data och servrar) <-> **SuperCollider** (genererar musik)
+**Hemsida** (interaktion med användarna) -> **Python**-server (tar emot användar-data, tolkar data och servrar) <-> **SuperCollider** (genererar musik). 
+
+Kommunikation mellan Python-server och SuperCollider-patch sker *antingen* i realtid via OSC **eller** asynkront via CSV-filer. 
 
 # Musik (SuperCollider-kod)
-Varje instans av mätdata existerar som ett *objekt* i musiken, objekten har vissa attribut (såsom register, spatiell kodning, etc). Koda gärna binauralt (kanske via *Ambisonics*). Klassen har en Osc-tolkarfunktion.
+Varje instans av mätdata existerar som ett *objekt* i musiken, objekten har vissa attribut (såsom register, spatiell kodning, etc). Koda gärna binauralt (kanske via *Ambisonics*). Klassen har en Osc-tolkarfunktion **eller** CSV-filläsare.
 
 Använd *Diabetessynth* som klangkälla? Kanske även andra Synthar.
 
