@@ -1,9 +1,12 @@
 (*Dokument uppdaterat:* \today)
 
 # Struktur av system
-![Flowchart program](https://user-images.githubusercontent.com/30523857/98031352-a582f600-1e12-11eb-9e1f-11a99414f452.jpg)
+![Flödesdiagram av system](https://user-images.githubusercontent.com/30523857/98031352-a582f600-1e12-11eb-9e1f-11a99414f452.jpg)
 
-**Hemsida** (interaktion med användarna) -> **Python**-server (tar emot användar-data, tolkar data och servrar) <-> **SuperCollider** (genererar musik) -> **Webbradio** (dvs. *DarkIce* -> *IceCast*, som strömmar ut musiken) -> **Hemsida** (som spelar upp musiken)
+- **Hemsida** (interaktion med användarna -- dvs. uppladdning av mätdata som Excel-fil -- *och* spelar upp musiken) 
+- **Python-server** (tar emot användar-data, tolkar data och servrar) 
+- **SuperCollider** (genererar musik) 
+- **Webbradio** (dvs. *DarkIce* och *IceCast*, som strömmar ut musiken) 
 
 Kommunikation mellan Python-server och SuperCollider-patch sker *antingen* i realtid via OSC **eller** asynkront via CSV-filer. 
 
@@ -12,7 +15,7 @@ Blodsocker mäts i mmol/L och varierar hos en icke-diabetiker mellan 4 och 6 mmo
 
 Att s.k. *mappa* denna data till musikaliska parametrar är förstås godtyckligt -- värdena i sig har ingen musikalisk mening -- och bör så vara: det är helt enkelt min konstnärliga gärning som bestämmer hur de förhåller sig till varandra. Även en bearbetad signal går att använda för att styra musiken: interpolation (mellan de diskreta mätpunkterna), variation (FFT, derivator, etc.), stokastiska egenskaper (auto-korrelation etc), statistiska egenskaper (median, medel, etc.). "*Tid i målområdet*" och liknande värden kan också vara intressanta att använda, och har medicinsk betydelse.
 
-Det som är viktigt i denna *mappning* är dock att den gestaltade datan -- dvs. musiken -- **inte** får avslöja något om den underliggande eller bakomliggande (mät)datan. Dels är det en integritetsfråga, som diskuteras vidare nedan, dels är det en förutsättning för detta projekt: det existerar inga "*bra*" eller "*dåliga*" värden. Delningen av värdena är det viktiga. Genom delningen sker en kollektiv kreation: *lägereldssången*. 
+Det som är viktigt i denna *mappning* är dock att den gestaltade datan -- dvs. musiken -- **inte** får avslöja något om den underliggande eller bakomliggande (mät)datan. Dels är det en integritetsfråga, som diskuteras vidare nedan, dels är det en förutsättning för detta projekt: det existerar inga "*bra*" eller "*dåliga*" värden. Delningen av värdena är det viktiga, det är via delningen som det gemensamma sker.
 
 ## Integritet, delning osv.
 
@@ -21,6 +24,8 @@ Det som är viktigt i denna *mappning* är dock att den gestaltade datan -- dvs.
 Varje instans av mätdata existerar som ett *objekt* i musiken, objekten har vissa attribut (såsom register, spatiell kodning, etc). Koda gärna binauralt (kanske via *Ambisonics*). Klassen har en Osc-tolkarfunktion **eller** CSV-filläsare.
 
 Använd *Diabetessynth* som klangkälla? Kanske även andra Synthar.
+
+Musiken ska vara deterministisk. Parametrarna styrs *helt* av blodsockervärdena.
 
 ### Effektkedja
 Använda effekter för bl.a. spatialitet (delay/reverb), förstärkning, mixining och manipulation.
