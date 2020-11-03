@@ -1,6 +1,8 @@
 (*Dokument uppdaterat:* \today)
 
 # Struktur av system
+![Flowchart program](https://user-images.githubusercontent.com/30523857/98031117-550b9880-1e12-11eb-9abd-c8afc5563eac.png)
+
 **Hemsida** (interaktion med användarna) -> **Python**-server (tar emot användar-data, tolkar data och servrar) <-> **SuperCollider** (genererar musik) -> **Webbradio** (dvs. *DarkIce* -> *IceCast*, som strömmar ut musiken) -> **Hemsida** (som spelar upp musiken)
 
 Kommunikation mellan Python-server och SuperCollider-patch sker *antingen* i realtid via OSC **eller** asynkront via CSV-filer. 
