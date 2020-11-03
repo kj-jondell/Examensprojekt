@@ -1,5 +1,7 @@
+(*Dokument uppdaterat:* \today)
+
 # Struktur av system
-**Hemsida** (interaktion med användarna) -> **Python**-server (tar emot användar-data, tolkar data och servrar) <-> **SuperCollider** (genererar musik). 
+**Hemsida** (interaktion med användarna) -> **Python**-server (tar emot användar-data, tolkar data och servrar) <-> **SuperCollider** (genererar musik) -> **Webbradio** (dvs. *DarkIce* -> *IceCast*, som strömmar ut musiken) -> **Hemsida** (som spelar upp musiken)
 
 Kommunikation mellan Python-server och SuperCollider-patch sker *antingen* i realtid via OSC **eller** asynkront via CSV-filer. 
 
@@ -49,6 +51,6 @@ Varje *objekt* har följande attribut i förhållande till spatialitet:
 
 ## Diverse
 - [ ] Ska hemsida vara på svenska eller engelska? 
-- [ ] Merge med "idé"-textfil 
+- [ ] Merge med "idé"-textfil
 - [ ] Sätta upp GitHub (pages kanske t.o.m?) 
 - [ ] Tänk på vilket register som ska motsvaras av vilken typ av ljudkälla...
