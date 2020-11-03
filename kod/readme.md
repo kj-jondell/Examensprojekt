@@ -1,7 +1,7 @@
 (*Dokument uppdaterat:* \today)
 
 # Struktur av system
-![Flowchart program](https://user-images.githubusercontent.com/30523857/98031117-550b9880-1e12-11eb-9abd-c8afc5563eac.png)
+![Flowchart program](https://user-images.githubusercontent.com/30523857/98031352-a582f600-1e12-11eb-9e1f-11a99414f452.jpg)
 
 **Hemsida** (interaktion med användarna) -> **Python**-server (tar emot användar-data, tolkar data och servrar) <-> **SuperCollider** (genererar musik) -> **Webbradio** (dvs. *DarkIce* -> *IceCast*, som strömmar ut musiken) -> **Hemsida** (som spelar upp musiken)
 
