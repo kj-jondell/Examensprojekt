@@ -1,7 +1,7 @@
 (*Dokument uppdaterat:* \today)
 
 # Struktur av system
-![Flödesdiagram av system](https://user-images.githubusercontent.com/30523857/98031352-a582f600-1e12-11eb-9e1f-11a99414f452.jpg)
+![Flödesdiagram av system](media/flowchart.png)
 
 - **Hemsida** (interaktion med användarna -- dvs. uppladdning av mätdata som Excel-fil -- *och* spelar upp musiken) 
 - **Python-server** (tar emot användar-data, tolkar data och servrar) 

@@ -1,0 +1,9 @@
+flowchart LR
+	A["Hemsida"]
+	B["Python"]
+	C["SuperCollider"]
+	D["Internet-radio"]
+	A -->|REST| B
+	B <-->|Osc/Csv| C
+	C -->|Ljud| D
+	D -->|Mp3| A
