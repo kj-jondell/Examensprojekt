@@ -1,12 +1,13 @@
 # Fdb version 3
-["bibtex kandidat"] 1601374956 "kandidat.aux" "kandidat.bbl" "kandidat" 1601375259
+["bibtex kandidat"] 1604742237 "kandidat.aux" "kandidat.bbl" "kandidat" 1604742237
   "/usr/local/texlive/2017/texmf-dist/bibtex/bst/harvard/agsm.bst" 1480098435 25549 e3d0f1ab4ae55e777f7352db30e2c6f7 ""
   "bibtex/kandidatarbete.bib" 1601369646 2150 fef6e37af9021d6bc82b6132d779fda6 ""
-  "kandidat.aux" 1601375258 1168 c927ee208ff549f3cc967e18e2ef46a1 ""
+  "kandidat.aux" 1604742235 1318 77f5bf2bd7287bed398b89dfdff5bef8 ""
   (generated)
-  "kandidat.bbl"
   "kandidat.blg"
-["pdflatex"] 1601375258 "kandidat.tex" "kandidat.pdf" "kandidat" 1601375259
+  "kandidat.bbl"
+["pdflatex"] 1604742238 "kandidat.tex" "kandidat.pdf" "kandidat" 1604742238
+  "../kod/Flowchart-program.jpg" 1604431477 12303 3c6ed3803b9b38203eb9b3213990b915 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -73,15 +74,15 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1517944319 4129591 16f4d7d05ee43dac30c2b4fee852c5e5 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "kandidat.aux" 1601375258 1168 c927ee208ff549f3cc967e18e2ef46a1 ""
-  "kandidat.bbl" 1601374956 373 6f0a13ae64069a453861a86b9e0c6760 "bibtex kandidat"
-  "kandidat.tex" 1601375257 2275 f07ce036a8a306ca3b2b9cdc99f584ca ""
-  "kandidat.toc" 1601375258 679 53ca002af3b6ab8d30cf7f4c551bde3d ""
+  "kandidat.aux" 1604742235 1318 77f5bf2bd7287bed398b89dfdff5bef8 ""
+  "kandidat.bbl" 1604742238 373 6f0a13ae64069a453861a86b9e0c6760 "bibtex kandidat"
+  "kandidat.tex" 1604742237 2462 c1c12b4cfdf5fea082f8808cff507af9 ""
+  "kandidat.toc" 1604742235 702 29d96252a85bdfb834be0e07356ddd08 ""
   (generated)
   "kandidat.log"
-  "kandidat.pdf"
-  "kandidat-blx.bib"
-  "kandidat.bcf"
   "kandidat.toc"
   "kandidat.run.xml"
+  "kandidat.bcf"
+  "kandidat-blx.bib"
   "kandidat.aux"
+  "kandidat.pdf"
