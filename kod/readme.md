@@ -1,7 +1,7 @@
 (*Dokument uppdaterat:* \today)
 
 # Struktur av system
-![Flödesdiagram av system](media/flowchart.png)
+![Flödesdiagram av system](../media/flowchart.png)
 
 - **Hemsida** (interaktion med användarna -- dvs. uppladdning av mätdata som Excel-fil -- *och* spelar upp musiken) 
 - **Python-server** (tar emot användar-data, tolkar data och servrar) 
