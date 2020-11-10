@@ -14,7 +14,9 @@ Planen ska innehålla:
 ## Beskrivning av arbetet
 Arbetet består i tre delar: dels bygga en hemsida där diabetiker kan ladda upp sina blodsockervärden, höra internetradiostation, läsa texter, interagera och ta del av projektet; dels bygga ett (*SuperCollider*-)program som genererar musiken. Dels skriva om/problematisera/studera det större ämnet sonifiering (och även andra ämnen som berörs av projektet, bl.a.  upplevelserna av att ha diabetes). Dessa delar måste förstås även kopplas samman (SuperCollider-patchen beror av blodsockervärdena som delas till servern; patchen i sin tur strömmar musiken tillbaka till hemsidan, se figur nedan). Det mer konstnärliga arbetet i att bestämma hur värdena ska tolkas i musiken och balansen av hur styrd musiken är av mina stilistiska preferenser och blodsockervärdena sker kontinuerligt. Jag önskar även föra en dialog med diabetiker i existerande diabetes-communities.
 
-![Flödesdiagram av system](https://user-images.githubusercontent.com/30523857/98031352-a582f600-1e12-11eb-9e1f-11a99414f452.jpg)
+![Flödesdiagram av system](../../../media/flowchart.png)
+
+![Gantt schema](../../../media/gantt.png)
 
 ## Musik
 Musiken ska presenteras på en internetradiostation som jag bygger. I en eventuell examenskonsert presenterar jag musiken som då spelas på radiostationen. Den är evig och formen bestäms av huruvida nån har delat sina blodsockervärden (som då triggar igång tolkningen av dessa, och som är ''_aktiva_'' i ca. ett dygn). Allt ljud produceras med SuperCollider (ev. andra ''hjälp-program'').

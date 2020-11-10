@@ -1,0 +1,5 @@
+.grid {
+    stroke: lightgrey;
+    opacity: 0.35;
+    shape-rendering: crispEdges;
+}
