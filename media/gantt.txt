@@ -15,6 +15,7 @@ gantt
 	Bestämma ljudkällor/orkestrering				:ljud, 2020-12-01, 10w
 	Koppla samman med Python-server     :osc_sc, after osc_p, 3d
 	Bestämma form, skriva musik 				:musik, after osc_sc, 2021-04-15
+	Binauralisiering 				:binaur, after stream, 2021-04-15
 
     section Python-server
 	Parser (tolka indata) 		:parse, 2020-12-01, 1w
