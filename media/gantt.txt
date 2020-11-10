@@ -7,7 +7,7 @@ gantt
 
 	section Generellt
     Hitta server för hosting (t.ex. AWS)	:crit, c2, 2021-01-16, 18d
-	Annonsera projekt (i forum, etc.)				:diab, after uppspelning, 2021-04-27
+	Annonsera projekt, dialog (forum)				:diab, after uppspelning, 2021-04-27
 	Konsert (?)									:konsert, 2021-04-27, 1d 
 
     section SuperCollider-patch
@@ -22,7 +22,7 @@ gantt
 	Asynkron kommunikation (Csv)			:csv_p, after parse, 3w
 
     section Internetradio
-	Fixa Darkice/Icecast :crit, stream, after c2, 3d
+	Darkice/Icecast :crit, stream, after c2, 3d
 
     section Hemsida
 	Uppladdning av blodsockervärden		:blodsocker, 2021-01-01, 3w
