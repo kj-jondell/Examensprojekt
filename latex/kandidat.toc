@@ -1,12 +1,15 @@
 \select@language {swedish}
 \contentsline {section}{\numberline {1}Introduktion}{1}
 \contentsline {subsection}{\numberline {1.1}Bakgrund}{1}
-\contentsline {section}{\numberline {2}Sonifiering: vad \IeC {\"a}r det?}{2}
-\contentsline {section}{\numberline {3}Diabetes}{2}
-\contentsline {section}{\numberline {4}Deltagande och interaktion}{2}
-\contentsline {subsection}{\numberline {4.1}\emph {Data mining} och integritet}{2}
-\contentsline {section}{\numberline {5}Musiken}{2}
-\contentsline {subsection}{\numberline {5.1}Rumslighet}{2}
-\contentsline {subsection}{\numberline {5.2}Temporalitet}{2}
-\contentsline {subsection}{\numberline {5.3}Generativt}{2}
-\contentsline {section}{\numberline {6}System}{3}
+\contentsline {subsection}{\numberline {1.2}Sonifiering}{1}
+\contentsline {subsubsection}{\numberline {1.2.1}Det m\IeC {\"a}tbara och det om\IeC {\"a}tbara}{1}
+\contentsline {subsection}{\numberline {1.3}Diabetes}{2}
+\contentsline {subsubsection}{\numberline {1.3.1}Communities}{2}
+\contentsline {subsubsection}{\numberline {1.3.2}Blodsockerv\IeC {\"a}rden}{2}
+\contentsline {section}{\numberline {2}Process}{2}
+\contentsline {subsection}{\numberline {2.1}SuperCollider-system}{2}
+\contentsline {section}{\numberline {3}Musiken}{2}
+\contentsline {subsection}{\numberline {3.1}Rumslighet}{2}
+\contentsline {subsection}{\numberline {3.2}Temporalitet}{3}
+\contentsline {subsection}{\numberline {3.3}Generativt}{3}
+\contentsline {section}{\numberline {4}Sammanfattning}{3}

@@ -1,62 +1,80 @@
-\documentclass[12pt]{article}
+\documentclass[11pt, twoside, a4paper]{article}
 \usepackage{lipsum}
 \usepackage{epigraph}
 \usepackage{graphicx}
 \usepackage[swedish]{babel}
 \usepackage{natbib}
 \usepackage[utf8]{inputenc}
-\usepackage[margin=0.5in, bmargin=0.8in]{geometry}
+\usepackage[margin=1in, bmargin=0.8in]{geometry}
 
 \usepackage{csquotes}
 
-\begin{document}
-\title{Kandidatarbete i elektroakustisk komposition\\(arbetstitel)}
+\title{Värden och värden:\\
+	\large en studie av kollektiv sonifiering
+}
 \author{Karl Johannes Jondell}
+\date{\today}
+
+\begin{document}
 
 \maketitle
 
 \begin{abstract}
 Vad handlar detta projekt om?
-
-Vem är detta projekt för? Vem kommer läsa denna text? 
 \end{abstract}
 
-\begin{keyword}
-sonifiering, diabetes, interaktion
-\end{keyword}
+% \begin{keyword}
+% sonifiering \sep% 
+% diabetes \sep%
+% interaktion
+% \end{keyword}
 
 \tableofcontents
 
 \section{Introduktion}
-Projekt...
+Detta projekt utgör ...
 
 \subsection{Bakgrund}
 Projekt från ettan, diabetes-synth, radiostation, etc.
-Pandemin....
 
-\section{Sonifiering: vad är det?}
-sonifiering... \cite{bijsterveld_sonic_2019}
+\subsection{Sonifiering}
+Sonifiering... \cite{bijsterveld_sonic_2019}. 
+Smalley och spektromorfologin (olika ordningar av \emph{surrogacy},  gestaltandet av \emph{datan}).
 
 Bearbetad data och orginaldata. Sensorfel.
+\subsubsection{Det mätbara och det omätbara}
+\cite{bornemark_det_2018}
 
-\section{Diabetes}
-Inte vara ensam i sin sjukdom... (utveckla)
+\subsection{Diabetes}
+Vad är diabetes? 
 
-Dela med sig av sina värden (t.ex. i olika grupper) men utan nån värdering/stigmatisering...
+\subsubsection{Communities}
 
-\section{Deltagande och interaktion}
-Erfarenheter från projekt i ettan. Delande.
+\subsubsection{Blodsockervärden}
+Blodsocker mäts i mmol/L och varierar hos en icke-diabetiker mellan 4 och 6 mmol/L [källa]. Hos en diabetiker kan detta värde variera från under 1 till över 30 mmol/L, och Freestyle Libre-sensorn har ett spann på att mäta från lägst 2,2 till 27,7 mmol/L (annars visar den \emph{LO} respektive \emph{HI}). Freestyle Libre-sensorn mäter kontinuerligt var 15:e minut.
 
-\subsection{\emph{Data mining} och integritet}
-Problem i ett sådant projekt med GDPR och insamlande av så personlig data. Vem är jag att be om så pass personlig information som blodsockervärden? Offentligt vs. privat-projekt. (Tack vare projektet samrörelse med statlig myndighet? dvs. KMH, ett förtroendeingivande)
+Att s.k. \emph{mappa} denna data till musikaliska parametrar är förstås godtyckligt --- värdena i sig har ingen musikalisk mening --- och bör så vara: det är helt enkelt min konstnärliga gärning som bestämmer hur de förhåller sig till varandra. Även en bearbetad signal går att använda för att styra musiken: interpolation (mellan de diskreta mätpunkterna), variation (FFT, derivator, etc.), stokastiska egenskaper (auto-korrelation etc), statistiska egenskaper (median, medel, etc.). ''\emph{Tid i målområdet}'' och liknande värden kan också vara intressanta att använda, och har medicinsk betydelse.
+
+Det som är viktigt i denna \emph{mappning} är dock att den gestaltade datan --- dvs. musiken --- \textbf{inte} får avslöja något om den underliggande eller bakomliggande (mät)datan. Dels är det en integritetsfråga, som diskuteras vidare nedan, dels är det en förutsättning för detta projekt: det existerar inga \emph{bra} eller \emph{dåliga} värden. Själva delningen av värdena är det viktiga.
+
+
+\section{Process}
+Beskrivning/dokumentation av tekniken...
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{../media/flowchart.png}
+\caption{Översiktsdiagram av system}
+\end{figure}
+
+\subsection{SuperCollider-system}
+Varje instans av mätdata existerar som ett \emph{objekt} (motsvarande en ljudkälla, inte schaefferiansk) i musiken, objekten har vissa attribut (såsom register, spatiell kodning, etc). Även kodat binauralt (via \emph{Ambisonics}). Klassen har en Osc-tolkarfunktion (\textbf{eller} CSV-filläsare, om asynkron).
 
 \section{Musiken}
 Den konstnärliga friheten. Hur pass mycket kontroll som överlåtes till \enquote{serien} (i detta fall blodsockervärdet). Behöver musiken gestalta, spegla, estetisera erfarenheten som diabetiker? Eller vara intresseväckande, tillgänglig, \enquote{relaterbar}? 
 
 \subsection{Rumslighet}
 En \enquote{kör} av blodsockervärden, spatialiserade i nån mening för att ge en känsla av påverkan eller åverkan på musiken. 
-
-Rumsligheten i ett sådant hyperdigitalt projekt som detta (...)
 
 Konsertupplevelse (i Lilla salen? spela ett utdrag ur liveströmmen...)
 
@@ -66,12 +84,8 @@ Den tidsmässiga uppfattningen av musiken. En 24/7 livestream av musiken (hur ut
 \subsection{Generativt}
 Musiken är generativ. Serialism?
 
-\section{System}
-\begin{figure}[h!]
-\centering
-\includegraphics{../kod/Flowchart-program.jpg}
-\caption{Flödesdiagram av system}
-\end{figure}
+\section{Sammanfattning}
+Lärdomar etc...
 
 \bibliographystyle{agsm}
 \bibliography{bibtex/kandidatarbete.bib}
