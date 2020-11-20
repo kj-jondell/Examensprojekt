@@ -6,6 +6,7 @@
 - **Hemsida** (interaktion med användarna -- dvs. uppladdning av mätdata som Excel-fil -- *och* spelar upp musiken) 
 - **Python-server** (tar emot användar-data, tolkar data och servrar) 
 - **SuperCollider** (genererar musik) 
+* **openFrameworks** (visualisering...)
 - **Webbradio** (dvs. *DarkIce* och *IceCast*, som strömmar ut musiken) 
 
 Kommunikation mellan Python-server och SuperCollider-patch sker *antingen* i realtid via OSC **eller** asynkront via CSV-filer. 
@@ -16,6 +17,18 @@ Blodsocker mäts i mmol/L och varierar hos en icke-diabetiker mellan 4 och 6 mmo
 Att s.k. *mappa* denna data till musikaliska parametrar är förstås godtyckligt -- värdena i sig har ingen musikalisk mening -- och bör så vara: det är helt enkelt min konstnärliga gärning som bestämmer hur de förhåller sig till varandra. Även en bearbetad signal går att använda för att styra musiken: interpolation (mellan de diskreta mätpunkterna), variation (FFT, derivator, etc.), stokastiska egenskaper (auto-korrelation etc), statistiska egenskaper (median, medel, etc.). "*Tid i målområdet*" och liknande värden kan också vara intressanta att använda, och har medicinsk betydelse.
 
 Det som är viktigt i denna *mappning* är dock att den gestaltade datan -- dvs. musiken -- **inte** får avslöja något om den underliggande eller bakomliggande (mät)datan. Dels är det en integritetsfråga, som diskuteras vidare nedan, dels är det en förutsättning för detta projekt: det existerar inga "*bra*" eller "*dåliga*" värden. Delningen av värdena är det viktiga, det är via delningen som det gemensamma sker.
+
+Följande är en plott av interpolerad data från en dag (m.h.a. en BSpline):
+
+![Interpolation](../media/data/interpolated.png)
+
+## Bearbetning
+
+Här är några exempel på bearbetad data:
+
+![Första ordningen differentiering](../media/data/1st-order.png)
+
+![Femte ordningen differentiering](../media/data/5st-order.png)
 
 ## Integritet, delning osv.
 
@@ -36,6 +49,9 @@ Följande beskriver vilka ljudkällor (syntesmetoder) som kan tänkas användas:
 * *Diabetessynth* (dvs. granulärsynth/wavetable-synth)
 * FM-synth/AM-synth
 * Annan granulär/sampler/wavetable-synth
+
+#### Instrumentation / orkestrering
+Fyrstämmig sats; använd **SATB**.
 
 ### Harmonicitet (spektralitet)
 Varje *objekt* har följande attribut i förhållande till spektralitet:

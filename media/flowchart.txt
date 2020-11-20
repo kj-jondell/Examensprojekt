@@ -2,8 +2,11 @@ flowchart LR
 	A["Hemsida"]
 	B["Python-server"]
 	C["SuperCollider-patch"]
-	D["Internetradio"]
+	D["openFrameworks"]
+	E["Internetradio"]
 	A -->|REST| B
 	B <-->|Osc/Csv| C
-	C -->|Ljud| D
-	D -->|Mp3| A
+	B -->|Osc/Csv| D
+	C <-->|Osc| D
+	C -->|Ljud| E
+	E -->|Mp3| A
