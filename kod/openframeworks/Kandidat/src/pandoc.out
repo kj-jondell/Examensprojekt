@@ -1,0 +1,12 @@
+[WARNING] Could not fetch resource '../media/flowchart.png': replacing image with description
+[WARNING] Could not fetch resource '../media/data/interpolated.png': replacing image with description
+[WARNING] Could not fetch resource '../media/data/1st-order.png': replacing image with description
+[WARNING] Could not fetch resource '../media/data/5st-order.png': replacing image with description
+Error producing PDF.
+! Undefined control sequence.
+l.90 '\,'`{[}\newEvent
+
+[WARNING] Could not fetch resource '../media/flowchart.png': replacing image with description
+[WARNING] Could not fetch resource '../media/data/interpolated.png': replacing image with description
+[WARNING] Could not fetch resource '../media/data/1st-order.png': replacing image with description
+[WARNING] Could not fetch resource '../media/data/5st-order.png': replacing image with description

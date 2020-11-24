@@ -2,6 +2,9 @@ import xlrd
 from scipy.interpolate import BSpline
 import matplotlib.pyplot as plt
 from dateutil import parser
+import numpy
+import scipy.fftpack 
+import scipy.signal
 
 ROW_OFFSET = 5
 SHEET_NO = 1
@@ -24,7 +27,7 @@ def parse_data(sheet):
         times.append((int)((date-base_time).total_seconds()/60))
     return times, values
 
-def plot_interpolated_values(times, values, show_plot=True, savefig=False):
+def plot_interpolated_values(times, values, show_plot=False, savefig=False):
     spl = BSpline(times, values, k = 1)
     spl_list = []
 
@@ -43,13 +46,20 @@ def plot_interpolated_values(times, values, show_plot=True, savefig=False):
         plt.show()
 
 """
-Plots differentiated list and returns
+Calculates differentiated list
 """
-def plot_differentiated_values(values, show_plot=True, title="Differentiated values", order=1, savefig=False):
+def get_differentiated(values):
     diff_list = []
     for index, value in enumerate(values):
         if index>0:
             diff_list.append((value-values[index-1])/(15)) #h = 15, step size...
+    return diff_list 
+
+"""
+Plots differentiated list and returns
+"""
+def plot_differentiated_values(values, show_plot=False, title="Differentiated values", order=1, savefig=False):
+    diff_list = get_differentiated(values)
 
     fig = plt.figure()
     plt.plot([value * 15 for value in range(len(diff_list))], diff_list, '-ok') # measures each 15 min...
@@ -63,17 +73,34 @@ def plot_differentiated_values(values, show_plot=True, title="Differentiated val
         plt.show()
     return diff_list
 
-    
+def plot_fft(values, T = 1.0/800.0):
+    N  = len(values)
+    x = numpy.linspace(0.0, N*T, N)
+    yf = scipy.fftpack.fft(values)
+    xf = numpy.linspace(0.0, int(1.0/(2.0*T)), int(N/2))
+
+    plt.plot(xf, 2.0/N * numpy.abs(yf[:N//2]))
 
 sheet = xlrd.open_workbook("kj@jondell.com.xls").sheet_by_index(SHEET_NO)
 times, values = parse_data(sheet)
-plot_interpolated_values(times[:100], values[:100], False, savefig=True)
-#plot up to fifth order differentiation
-names = ["First", "Second", "Third", "Fourth", "Fifth"]
-differentiated_values = values[:100]
-for order in range(len(names)):
-    differentiated_values = plot_differentiated_values(differentiated_values, False, order = order+1,  title=f"{names[order]}-order differentiated", savefig=True)
+plot_interpolated_values(times[:1000], values[:1000])
+plt.figure()
+plot_fft(values)
+plt.figure()
+differentiated = values
+for ind in range(10):
+    differentiated = get_differentiated(differentiated)
+plot_fft(differentiated)
+plot_interpolated_values(times[:1000], differentiated[:1000])
+plt.show()
 
+# plot_interpolated_values(times[:100], values[:100], False, savefig=False)
+#plot up to fifth order differentiation
+# names = ["First", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh", "Eight", "Ninth", "Tenth"]
+# differentiated_values = values[:100]
+# for order in range(len(names)):
+#     differentiated_values = plot_differentiated_values(differentiated_values, False, order = order+1,  title=f"{names[order]}-order differentiated", savefig=False)
+# 
 #plt.show()
 
 # first_order = plot_differentiated_values(values[:100], False, title="First order differentiated")

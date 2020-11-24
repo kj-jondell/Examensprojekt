@@ -9,7 +9,15 @@
 * **openFrameworks** (visualisering...)
 - **Webbradio** (dvs. *DarkIce* och *IceCast*, som strömmar ut musiken) 
 
-Kommunikation mellan Python-server och SuperCollider-patch sker *antingen* i realtid via OSC **eller** asynkront via CSV-filer. 
+Kommunikation mellan Python-server och SuperCollider-patch (och openFrameworks-program) sker *antingen* i realtid via OSC **eller** asynkront via CSV-filer. 
+
+# Kommunikation ("namespace")
+Python-servern kommunicerar med SuperCollider och openFrameworks genom att skicka Osc-meddelanden och Csv-filer. När ny data finns tillgänglig så skickar Python-servern ett Osc-meddelande på formen:
+
+`[/newEvent, <csv-filepath>, <min>, <max>]`
+
+där `csv-filepath` ger filvägen till en Csv-fil innehållandes den nya datan (som kan vara rådata eller bearbetad...)
+
 
 # Blodsockervärden
 Blodsocker mäts i mmol/L och varierar hos en icke-diabetiker mellan 4 och 6 mmol/L. Hos en diabetiker kan detta värde variera från under 1 till över 30 mmol/L, och Freestyle Libre-sensorn har ett spann på att mäta från lägst 2,2 till 27,7 mmol/L (annars visar den "*LO*" (sic) respektive "*HI*" (sic)). Freestyle Libre-sensorn mäter kontinuerligt var 15:e minut.
@@ -85,7 +93,7 @@ Varje *objekt* har följande attribut i förhållande till spatialitet:
 ## Diverse
 - [ ] Hantera *lo*, *hi*, och mg/dL (ist. för mmol/L).
 - [ ] Ska hemsida vara på svenska eller engelska? 
-- [ ] Merge med "idé"-textfil
-- [ ] Sätta upp GitHub (pages kanske t.o.m?) 
+- [x] Merge med "idé"-textfil (se fil i övre mapp...)
+- [x] Sätta upp GitHub (pages kanske t.o.m?) 
 - [ ] Tänk på vilket register som ska motsvaras av vilken typ av ljudkälla...
 - [ ] openFrameworks... visualisering av mätdata?
