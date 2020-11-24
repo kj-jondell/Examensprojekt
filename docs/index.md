@@ -8,7 +8,7 @@ Please visit [this website](http://kj.jondell.com) to listen to the radio stream
 ### Example of data
 This is an example of how the data could look like:
 
-![Interpolation](../media/data/interpolated.png)
+![Interpolation](media/interpolated.png)
 
 ### About me
 This is my final project for my B.Mus. in *electroacoustic composition* at the Royal College of Music in Stockholm. 
