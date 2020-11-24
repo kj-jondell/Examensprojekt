@@ -1,5 +1,5 @@
 gantt
-    title Preliminär plan (2020-11-10)
+    title Preliminär plan (2020-11-24)
     dateFormat  YYYY-MM-DD
 	axisFormat %b-%d
 	todayMarker stroke-width:1px,stroke:#c00,opacity:0.5
@@ -13,6 +13,7 @@ gantt
     section SuperCollider-patch
 	Bestämma mappningar				:active, mapp, 2020-11-09, 10w
 	Bestämma ljudkällor/orkestrering				:ljud, 2020-12-01, 10w
+	Färdig prototyp									:crit, prototyp, 2020-12-27, 1d 
 	Koppla samman med Python-server     :osc_sc, after osc_p, 3d
 	Bestämma form, skriva musik 				:musik, after osc_sc, 2021-04-15
 	Binauralisiering 				:binaur, after stream, 2021-04-15
