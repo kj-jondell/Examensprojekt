@@ -59,17 +59,40 @@ def plot_fft(values, T = 1.0/800.0):
 
     plt.plot(xf, 2.0/N * numpy.abs(yf[:N//2]))
 
-times, values = parser().parse_data("kj@jondell.com.xls")
-plot_interpolated_values(times[:1000], values[:1000])
-plt.figure()
-plot_fft(values)
-plt.figure()
-differentiated = values
-for ind in range(10):
-    differentiated = get_differentiated(differentiated)
-plot_fft(differentiated)
-plot_interpolated_values(times[:1000], differentiated[:1000])
-plt.show()
+index = 0
+base_time = 0
+import csv
+import dateutil
+with open('Karl JohannesJondell_glucose_7-12-2020.csv') as csvfile:
+    reader = csv.reader(csvfile, delimiter = ',')
+    next(reader)
+    for row in reader:
+        if index<10:
+            try:
+                #print(dateutil.parser.parse(row[2]))
+                if index == 0:
+                    base_time = dateutil.parser.parse(row[2])
+                else:
+                    print(int((dateutil.parser.parse(row[2])-base_time).total_seconds()/60))
+            except:
+                continue
+            try:
+                print(float(row[4].replace(',','.')))
+            except:
+                continue
+            index = index+1
+
+#times, values = parser().parse_data("kj@jondell.com.xls")
+#plot_interpolated_values(times[:1000], values[:1000])
+#plt.figure()
+#plot_fft(values)
+#plt.figure()
+#differentiated = values
+#for ind in range(10):
+#    differentiated = get_differentiated(differentiated)
+#plot_fft(differentiated)
+#plot_interpolated_values(times[:1000], differentiated[:1000])
+#plt.show()
 
 # plot_interpolated_values(times[:100], values[:100], False, savefig=False)
 # plot up to fifth order differentiation

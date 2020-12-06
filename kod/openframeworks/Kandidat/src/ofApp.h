@@ -1,6 +1,9 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofxOsc.h"
+
+#define OSC_PORT 7771
 
 class ofApp : public ofBaseApp {
 
@@ -20,4 +23,10 @@ public:
   void windowResized(int w, int h);
   void dragEvent(ofDragInfo dragInfo);
   void gotMessage(ofMessage msg);
+
+private:
+  ofxOscSender sender;
+  ofxOscReceiver receiver;
+  ofVec2f theCircle;
+  ofVec2f v1;
 };

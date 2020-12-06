@@ -1,5 +1,6 @@
 obj/osx/Release/src/main.o: \
   /Users/kj/Documents/school/KMH/åk3/kandidat/kod/openframeworks/Kandidat/src/main.cpp \
+  /Users/kj/Documents/school/KMH/åk3/kandidat/kod/openframeworks/Kandidat/src/ofApp.h \
   /Users/kj/Documents/of_v0.11.0_osx_release/libs/openFrameworks/ofMain.h \
   /Users/kj/Documents/of_v0.11.0_osx_release/libs/openFrameworks/utils/ofConstants.h \
   /Users/kj/Documents/of_v0.11.0_osx_release/libs/glew/include/GL/glew.h \
@@ -862,7 +863,23 @@ obj/osx/Release/src/main.o: \
   /Users/kj/Documents/of_v0.11.0_osx_release/libs/openFrameworks/3d/of3dUtils.h \
   /Users/kj/Documents/of_v0.11.0_osx_release/libs/openFrameworks/3d/ofCamera.h \
   /Users/kj/Documents/of_v0.11.0_osx_release/libs/openFrameworks/3d/ofEasyCam.h \
-  /Users/kj/Documents/school/KMH/åk3/kandidat/kod/openframeworks/Kandidat/src/ofApp.h
+  /Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/src/ofxOsc.h \
+  /Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/src/ofxOscArg.h \
+  /Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/src/ofxOscMessage.h \
+  /Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/src/ofxOscSender.h \
+  /Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h \
+  /Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h \
+  /Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/osc/OscException.h \
+  /Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h \
+  /Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/ip/NetworkingUtils.h \
+  /Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h \
+  /Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/src/ofxOscBundle.h \
+  /Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/src/ofxOscReceiver.h \
+  /Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/osc/OscPacketListener.h \
+  /Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h \
+  /Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/osc/../ip/PacketListener.h
+
+/Users/kj/Documents/school/KMH/åk3/kandidat/kod/openframeworks/Kandidat/src/ofApp.h:
 
 /Users/kj/Documents/of_v0.11.0_osx_release/libs/openFrameworks/ofMain.h:
 
@@ -2588,4 +2605,32 @@ obj/osx/Release/src/main.o: \
 
 /Users/kj/Documents/of_v0.11.0_osx_release/libs/openFrameworks/3d/ofEasyCam.h:
 
-/Users/kj/Documents/school/KMH/åk3/kandidat/kod/openframeworks/Kandidat/src/ofApp.h:
+/Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/src/ofxOsc.h:
+
+/Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/src/ofxOscArg.h:
+
+/Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/src/ofxOscMessage.h:
+
+/Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/src/ofxOscSender.h:
+
+/Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h:
+
+/Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h:
+
+/Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/osc/OscException.h:
+
+/Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h:
+
+/Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/ip/NetworkingUtils.h:
+
+/Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h:
+
+/Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/src/ofxOscBundle.h:
+
+/Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/src/ofxOscReceiver.h:
+
+/Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/osc/OscPacketListener.h:
+
+/Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h:
+
+/Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/osc/../ip/PacketListener.h:
