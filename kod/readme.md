@@ -49,17 +49,20 @@ Använd *Diabetessynth* som klangkälla? Kanske även andra Synthar.
 Musiken ska vara deterministisk. Parametrarna styrs *helt* av blodsockervärdena.
 
 ### Effektkedja
-Använda effekter för bl.a. spatialitet (delay/reverb), förstärkning, mixining och manipulation.
+Använda effekter för bl.a. spatialitet (delay/reverb), förstärkning, mixining och manipulation. Waveshaping (saturation/overdrive) och resonatorer...
 
-### Klangkällor
+### Klangkällor / Instrumentation / orkestrering
 Följande beskriver vilka ljudkällor (syntesmetoder) som kan tänkas användas:
+Fyrstämmig sats; använd **SATB**.
 
+* Elstörnings-*trummaskin* (som jag använde på Landet-konserten...)
+	* Genom en (*Moiré*-styrd) resonator... för harmonik/melodik
+		* Andra *"instrument"* från min konsert?
 * *Diabetessynth* (dvs. granulärsynth/wavetable-synth)
 * FM-synth/AM-synth
 * Annan granulär/sampler/wavetable-synth
-
-#### Instrumentation / orkestrering
-Fyrstämmig sats; använd **SATB**.
+* Diverse fältinspelningar/samplingar
+	* Sampla cello?
 
 ### Harmonicitet (spektralitet)
 Varje *objekt* har följande attribut i förhållande till spektralitet:
@@ -73,6 +76,7 @@ Varje *objekt* har följande attribut i förhållande till spektralitet:
 Varje *objekt* har följande attribut i förhållande till temporalitet:
 
 * Tempo 
+* Rytmik
 
 ### Spatialitet
 Varje *objekt* har följande attribut i förhållande till spatialitet:

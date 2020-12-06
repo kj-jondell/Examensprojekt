@@ -1,31 +1,9 @@
-import xlrd 
 from scipy.interpolate import BSpline
 import matplotlib.pyplot as plt
-from dateutil import parser
 import numpy
 import scipy.fftpack 
 import scipy.signal
-
-ROW_OFFSET = 5
-SHEET_NO = 1
-
-def parse_data(sheet):
-    amt_data = sheet.nrows - ROW_OFFSET
-    base_time = 0
-    times = []
-    values = []
-    for row in range(amt_data):
-        ### read and interpret data.
-        date_string = sheet.cell_value(rowx = ROW_OFFSET + row, colx = 0)
-        glucose_level = sheet.cell_value(rowx = ROW_OFFSET + row, colx = 1)
-
-        date = parser.parse(date_string)
-        values.append(glucose_level)
-
-        if base_time == 0:
-            base_time = date
-        times.append((int)((date-base_time).total_seconds()/60))
-    return times, values
+from cgmparser.Parser import Parser as parser
 
 def plot_interpolated_values(times, values, show_plot=False, savefig=False):
     spl = BSpline(times, values, k = 1)
@@ -81,8 +59,7 @@ def plot_fft(values, T = 1.0/800.0):
 
     plt.plot(xf, 2.0/N * numpy.abs(yf[:N//2]))
 
-sheet = xlrd.open_workbook("kj@jondell.com.xls").sheet_by_index(SHEET_NO)
-times, values = parse_data(sheet)
+times, values = parser().parse_data("kj@jondell.com.xls")
 plot_interpolated_values(times[:1000], values[:1000])
 plt.figure()
 plot_fft(values)
@@ -95,13 +72,13 @@ plot_interpolated_values(times[:1000], differentiated[:1000])
 plt.show()
 
 # plot_interpolated_values(times[:100], values[:100], False, savefig=False)
-#plot up to fifth order differentiation
+# plot up to fifth order differentiation
 # names = ["First", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh", "Eight", "Ninth", "Tenth"]
 # differentiated_values = values[:100]
 # for order in range(len(names)):
 #     differentiated_values = plot_differentiated_values(differentiated_values, False, order = order+1,  title=f"{names[order]}-order differentiated", savefig=False)
 # 
-#plt.show()
+# plt.show()
 
 # first_order = plot_differentiated_values(values[:100], False, title="First order differentiated")
 # second_order = plot_differentiated_values(first_order, False, title="Second order differentiated", order=2)
