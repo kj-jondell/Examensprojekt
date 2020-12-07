@@ -15,11 +15,10 @@ client = udp_client.SimpleUDPClient(args.ip, args.port)
 def send_osc_message(message):
     client.send_message("/filter", float(message))
 
-while True:
-    for index, time in enumerate(times):
-        timer.sleep(0.0005)
-        #send_osc_message(values[index]/20.0)
-        try:
-            send_osc_message(values[index]-values[index+1])
-        except:
-            pass
+for index, time in enumerate(times):
+    timer.sleep(0.005)
+    #send_osc_message(values[index]/20.0)
+    try:
+        send_osc_message(values[index]-values[index+1])
+    except:
+        pass

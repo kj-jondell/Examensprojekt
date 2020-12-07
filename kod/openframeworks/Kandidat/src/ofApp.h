@@ -27,6 +27,5 @@ public:
 private:
   ofxOscSender sender;
   ofxOscReceiver receiver;
-  ofVec2f theCircle;
-  ofVec2f v1;
+  ofVec2f theCircle, previousPoint, velocity;
 };

@@ -5,8 +5,10 @@ void ofApp::setup() {
   ofSetCircleResolution(50);
   ofSetFrameRate(100);
   theCircle.set(ofGetWidth() / 2.f, ofGetHeight() / 2.f);
+  previousPoint.set(theCircle);
   receiver.setup(OSC_PORT);
-  v1.set(1.9f, 1.9f);
+  velocity.set(5.0f, 5.0f);
+  // velocity.normalize();
   ofSetBackgroundAuto(false);
 }
 
@@ -16,16 +18,24 @@ void ofApp::update() {
     ofxOscMessage message;
     receiver.getNextMessage(&message);
     if (message.getAddress() == "/filter") {
-      v1 = v1.getRotated(message.getArgAsFloat(0) * 360.f);
-      theCircle += v1;
-      if (theCircle.x > ofGetWidth())
+      velocity = velocity.getRotated(message.getArgAsFloat(0) * 10.f);
+      theCircle += velocity;
+      if (theCircle.x > ofGetWidth()) {
         theCircle.x = 0;
-      else if (theCircle.x < 0)
+        previousPoint.set(theCircle);
+
+      } else if (theCircle.x < 0) {
         theCircle.x = ofGetWidth();
-      if (theCircle.y > ofGetHeight())
+        previousPoint.set(theCircle);
+      }
+      if (theCircle.y > ofGetHeight()) {
         theCircle.y = 0;
-      else if (theCircle.y < 0)
+        previousPoint.set(theCircle);
+
+      } else if (theCircle.y < 0) {
         theCircle.y = ofGetHeight();
+        previousPoint.set(theCircle);
+      }
     }
   }
 }
@@ -34,8 +44,10 @@ void ofApp::update() {
 void ofApp::draw() {
   ofEnableAlphaBlending();
   ofFill();
-  ofSetColor(30, 0, 30, 100);
-  ofDrawCircle(theCircle.x, theCircle.y, 2);
+  ofSetColor(90, 89, 99, 100);
+  ofDrawLine(theCircle, previousPoint);
+  previousPoint.set(theCircle);
+  // ofDrawCircle(theCircle.x, theCircle.y, 2);
   // ofDisableAlphaBlending();
 }
 
