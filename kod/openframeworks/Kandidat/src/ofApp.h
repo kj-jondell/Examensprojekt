@@ -1,9 +1,13 @@
 #pragma once
 
+#include "DataThread.h"
 #include "ofMain.h"
+#include "ofMath.h"
 #include "ofxOsc.h"
+#include <vector>
 
 #define OSC_PORT 7771
+#define LINE_SEGMENTS 200
 
 class ofApp : public ofBaseApp {
 
@@ -23,9 +27,13 @@ public:
   void windowResized(int w, int h);
   void dragEvent(ofDragInfo dragInfo);
   void gotMessage(ofMessage msg);
+  void exit() {}
 
 private:
-  ofxOscSender sender;
   ofxOscReceiver receiver;
-  ofVec2f theCircle, previousPoint, velocity;
+  std::vector<ofVec2f> points;
+  std::vector<float> values;
+  std::vector<int> times;
+  bool isDataReceived = false;
+  DataThread dataThread;
 };

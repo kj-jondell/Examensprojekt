@@ -1,6 +1,7 @@
 obj/osx/Release/src/main.o: \
   /Users/kj/Documents/school/KMH/åk3/kandidat/kod/openframeworks/Kandidat/src/main.cpp \
   /Users/kj/Documents/school/KMH/åk3/kandidat/kod/openframeworks/Kandidat/src/ofApp.h \
+  /Users/kj/Documents/school/KMH/åk3/kandidat/kod/openframeworks/Kandidat/src/DataThread.h \
   /Users/kj/Documents/of_v0.11.0_osx_release/libs/openFrameworks/ofMain.h \
   /Users/kj/Documents/of_v0.11.0_osx_release/libs/openFrameworks/utils/ofConstants.h \
   /Users/kj/Documents/of_v0.11.0_osx_release/libs/glew/include/GL/glew.h \
@@ -880,6 +881,8 @@ obj/osx/Release/src/main.o: \
   /Users/kj/Documents/of_v0.11.0_osx_release/addons/ofxOsc/libs/oscpack/src/osc/../ip/PacketListener.h
 
 /Users/kj/Documents/school/KMH/åk3/kandidat/kod/openframeworks/Kandidat/src/ofApp.h:
+
+/Users/kj/Documents/school/KMH/åk3/kandidat/kod/openframeworks/Kandidat/src/DataThread.h:
 
 /Users/kj/Documents/of_v0.11.0_osx_release/libs/openFrameworks/ofMain.h:
 

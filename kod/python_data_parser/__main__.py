@@ -59,29 +59,7 @@ def plot_fft(values, T = 1.0/800.0):
 
     plt.plot(xf, 2.0/N * numpy.abs(yf[:N//2]))
 
-index = 0
-base_time = 0
-import csv
-import dateutil
-with open('Karl JohannesJondell_glucose_7-12-2020.csv') as csvfile:
-    reader = csv.reader(csvfile, delimiter = ',')
-    next(reader)
-    for row in reader:
-        if index<10:
-            try:
-                #print(dateutil.parser.parse(row[2]))
-                if index == 0:
-                    base_time = dateutil.parser.parse(row[2])
-                else:
-                    print(int((dateutil.parser.parse(row[2])-base_time).total_seconds()/60))
-            except:
-                continue
-            try:
-                print(float(row[4].replace(',','.')))
-            except:
-                continue
-            index = index+1
-
+parser().parse_csv_data(filename="Karl JohannesJondell_glucose_7-12-2020.csv")
 #times, values = parser().parse_data("kj@jondell.com.xls")
 #plot_interpolated_values(times[:1000], values[:1000])
 #plt.figure()

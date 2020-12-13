@@ -1,4 +1,5 @@
 import xlrd 
+import csv
 from dateutil import parser
 
 ROW_OFFSET = 5
@@ -10,6 +11,28 @@ class Parser():
 
     def __init__(self):
         pass
+
+    def parse_csv_data(self, filename):
+        base_time = 0
+        raw_times = []
+        times = []
+
+        values = []
+        with open(filename) as csvfile:
+            reader = csv.reader(csvfile, delimiter = ',')
+            next(reader) # skip first row
+            next(reader) # skip second row
+            for row in reader:
+                try:
+                    if(int(row[3])<=1):
+                        values.append(float(row[4+int(row[3])].replace(',','.')))
+                        raw_times.append(parser.parse(row[2]))
+                except:
+                    continue
+        base_time = min(raw_times)
+        for time_value in raw_times:
+            times.append(int((time_value-base_time).total_seconds()/60))
+        return times, values
         
     def parse_data(self, filename):
         sheet = xlrd.open_workbook(filename).sheet_by_index(SHEET_NO)
