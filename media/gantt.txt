@@ -1,5 +1,5 @@
 gantt
-    title Preliminär plan (2020-11-24)
+    title Preliminär plan (2020-12-14)
     dateFormat  YYYY-MM-DD
 	axisFormat %b-%d
 	todayMarker stroke-width:1px,stroke:#c00,opacity:0.5
@@ -8,7 +8,7 @@ gantt
 	section Generellt
     Hitta server för hosting (t.ex. AWS)	:crit, c2, 2021-01-16, 18d
 	Annonsera projekt, dialog (forum)				:diab, after uppspelning, 2021-04-27
-	Konsert (?)									:konsert, 2021-04-27, 1d 
+	Konsert 									:konsert, 2021-04-27, 1d 
 
     section SuperCollider-patch
 	Bestämma mappningar				:active, mapp, 2020-11-09, 10w
@@ -19,7 +19,7 @@ gantt
 	Binauralisiering 				:binaur, after stream, 2021-04-15
 
     section Python-server
-	Parser (tolka indata) 		:parse, 2020-12-01, 1w
+	Parser (tolka indata) 		:parse, 2020-12-01, 4w
 	Synkron kommuninkation (Osc)			:osc_p, after parse, 3w
 	Asynkron kommunikation (Csv)			:csv_p, after parse, 3w
 
@@ -33,8 +33,8 @@ gantt
 	Annan interaktion (röstmeddelanden)					:interaktion, after uppspelning, 2w
 
     section Text (rapport)
-    Samla/läsa referenser	          :active, a1, 2020-11-09, 6w
-	Skelett/skiss :active, struc, 2020-11-09, 2020-12-15
+    Samla/läsa referenser	          :active, a1, 2020-11-09, 8w
+	Skelett/skiss :active, struc, 2020-11-09, 2020-12-31
 	Preliminär plan :crit, plan, 2020-12-15, 1d
     Skriva sammanfattning över referenser 				:sammanfattning, after a1, 1w
 	Skriva text :text, after sammanfattning, 2021-04-15
