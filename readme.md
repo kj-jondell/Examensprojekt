@@ -1,3 +1,8 @@
+---
+title: "Readme"
+geometry: margin=1.5cm
+---
+
 # Länkar till delar av projekt
 Här är lite länkar för att snabbt navigera till olika delar av projektet!
 
