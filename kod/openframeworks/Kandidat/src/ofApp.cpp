@@ -69,11 +69,11 @@ void ofApp::draw() {
   dataThread.lock();
   for (size_t i = 0; i < points.size() - 1; i++) {
     ofSetColor(255, 255, 255, ofMap(i, 0, LINE_SEGMENTS, 255, 0, true));
-    ofVec2f currentPoint = points[i + 1], lastPoint = points[i];
-    // std::cout << points[i + 1] << std::endl;
-    if (currentPoint.distance(lastPoint) <
-        (MIN(ofGetWidth(), ofGetHeight()) - 50))
-      ofDrawLine(currentPoint, lastPoint);
+    // ofVec2f currentPoint = points[i + 1], lastPoint = points[i];
+    // // std::cout << points[i + 1] << std::endl;
+    // if (currentPoint.distance(lastPoint) <
+    //     (MIN(ofGetWidth(), ofGetHeight()) - 50))
+    //   ofDrawLine(currentPoint, lastPoint);
   }
   dataThread.unlock();
   // std::cout << (MIN(ofGetWidth(), ofGetHeight()) - 10) << std::endl;
