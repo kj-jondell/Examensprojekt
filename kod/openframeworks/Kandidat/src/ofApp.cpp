@@ -5,7 +5,10 @@ void ofApp::setup() {
   ofSetCircleResolution(50);
   ofSetFrameRate(100);
   // previousPoint.set(theCircle);
+  points = new std::vector<ofVec2f>();
   receiver.setup(OSC_PORT);
+  // points = {ofVec2f(0.0, 0.0), ofVec2f(0.0, 0.0), ofVec2f(0.0, 0.0)};
+
   // points.push_back(theCircle);
   // velocity.normalize();
   // ofSetBackgroundAuto(false);
@@ -30,11 +33,7 @@ void ofApp::update() {
       }
   }
   if (isDataReceived) {
-    // std::cout << values.size() << std::endl;
-    // std::cout << times.size() << std::endl;
-    // points.insert(points.begin(), theCircle);
-    // while (points.size() > LINE_SEGMENTS)
-    //  points.pop_back();
+    // dataThread.start();
   }
   // std::cout << dataThread.getPoints().size() << std::endl;
   // velocity = velocity.getRotated(message.getArgAsFloat(0) * 10.f);
@@ -65,17 +64,18 @@ void ofApp::update() {
 void ofApp::draw() {
   ofEnableAlphaBlending();
   ofFill();
-  points = dataThread.getPoints();
-  dataThread.lock();
-  for (size_t i = 0; i < points.size() - 1; i++) {
+  //&points = dataThread.getPoints();
+  // dataThread.lock();
+  for (size_t i = 0; i < points->size() - 1; i++) {
     ofSetColor(255, 255, 255, ofMap(i, 0, LINE_SEGMENTS, 255, 0, true));
-    // ofVec2f currentPoint = points[i + 1], lastPoint = points[i];
-    // // std::cout << points[i + 1] << std::endl;
-    // if (currentPoint.distance(lastPoint) <
-    //     (MIN(ofGetWidth(), ofGetHeight()) - 50))
-    //   ofDrawLine(currentPoint, lastPoint);
+    //   // ofVec2f currentPoint = points[i + 1], lastPoint = points[i];
+    //   // // std::cout << points[i + 1] << std::endl;
+    //   // if (currentPoint.distance(lastPoint) <
+    //   //   (MIN(ofGetWidth(), ofGetHeight()) - 50))
+    //   //   ofDrawLine(currentPoint, lastPoint);
   }
-  dataThread.unlock();
+
+  // dataThread.unlock();
   // std::cout << (MIN(ofGetWidth(), ofGetHeight()) - 10) << std::endl;
   // std::cout << ofGetHeight() << std::endl;
 

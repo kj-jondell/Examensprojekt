@@ -31,7 +31,7 @@ public:
 
 private:
   ofxOscReceiver receiver;
-  std::vector<ofVec2f> points;
+  std::vector<ofVec2f> *points;
   std::vector<float> values;
   std::vector<int> times;
   bool isDataReceived = false;
