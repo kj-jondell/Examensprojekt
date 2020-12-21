@@ -1,14 +1,97 @@
-\begin{thebibliography}{xx}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\harvarditem{Bijsterveld}{2019}{bijsterveld_sonic_2019}
-Bijsterveld, K.  \harvardyearleft 2019\harvardyearright , {\em Sonic {Skills}:
-  {Listening} for {Knowledge} in {Science}, {Medicine} and {Engineering}
-  (1920s-{Present})}, Palgrave Macmillan UK.
-\newline\harvardurl{https://www.palgrave.com/gp/book/9781137598318}
 
-\harvarditem{Bornemark}{2018}{bornemark_det_2018}
-Bornemark, J.  \harvardyearleft 2018\harvardyearright , {\em Det omätbaras
-  renässans: en uppgörelse med pedanternas världsherravälde}, Volante,
-  Stockholm.
+\refsection{0}
+  \sortlist[entry]{nyt/global/}
+    \entry{bijsterveld_sonic_2019}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1dcce9f1f8a2b481ea311e93d0f0fb43}{%
+           family={Bijsterveld},
+           familyi={B\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Palgrave Macmillan UK}%
+      }
+      \strng{namehash}{1dcce9f1f8a2b481ea311e93d0f0fb43}
+      \strng{fullhash}{1dcce9f1f8a2b481ea311e93d0f0fb43}
+      \strng{authornamehash}{1dcce9f1f8a2b481ea311e93d0f0fb43}
+      \strng{authorfullhash}{1dcce9f1f8a2b481ea311e93d0f0fb43}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{It is common for us today to associate the practice of science primarily with the act of seeing—with staring at computer screens, analyzing graphs, and presenting images. We may notice that physicians use stethoscopes to listen for disease, that biologists tune into sound recordings to understand birds, or that engineers have created Geiger tellers warning us for radiation through sound. But in the sciences overall, we think, seeing is believing. This open access book explains why, indeed, listening for knowledge plays an ambiguous, if fascinating, role in the sciences. For what purposes have scientists, engineers and physicians listened to the objects of their interest? How did they listen exactly? And why has listening often been contested as a legitimate form of access to scientific knowledge? This concise monograph combines historical and ethnographic evidence about the practices of listening on shop floors, in laboratories, field stations, hospitals, and conference halls, between the 1920s and today. It shows how scientists have used sonic skills—skills required for making, recording, storing, retrieving, and listening to sound—in ensembles: sets of instruments and techniques for particular situations of knowledge making. Yet rather than pleading for the emancipation of hearing at the expense of seeing, this essay investigates when, how, and under which conditions the ear has contributed to science dynamics, either in tandem with or without the eye.}
+      \field{isbn}{978-1-137-59831-8}
+      \field{shorttitle}{Sonic {Skills}}
+      \field{title}{Sonic {Skills}: {Listening} for {Knowledge} in {Science}, {Medicine} and {Engineering} (1920s-{Present})}
+      \field{urlday}{29}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1057/978-1-137-59829-5
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/kj/Zotero/storage/TICT8AIB/Bijsterveld - 2019 - Sonic Skills Listening for Knowledge in Science, .pdf:application/pdf;Snapshot:/Users/kj/Zotero/storage/GI6PKYK9/9781137598318.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.palgrave.com/gp/book/9781137598318
+      \endverb
+    \endentry
+    \entry{bornemark_det_2018}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0e966a02a6ded44e65396808f53580a1}{%
+           family={Bornemark},
+           familyi={B\bibinitperiod},
+           given={Jonna},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {Swedish}%
+      }
+      \list{location}{1}{%
+        {Stockholm}%
+      }
+      \list{publisher}{1}{%
+        {Volante}%
+      }
+      \strng{namehash}{0e966a02a6ded44e65396808f53580a1}
+      \strng{fullhash}{0e966a02a6ded44e65396808f53580a1}
+      \strng{authornamehash}{0e966a02a6ded44e65396808f53580a1}
+      \strng{authorfullhash}{0e966a02a6ded44e65396808f53580a1}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{Det omätbaras renässans}
+      \field{title}{Det omätbaras renässans: en uppgörelse med pedanternas världsherravälde}
+      \field{year}{2018}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
 
-\end{thebibliography}

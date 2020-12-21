@@ -1,13 +1,26 @@
 \documentclass[11pt, twoside, a4paper]{article}
-\usepackage{lipsum}
 \usepackage{epigraph}
 \usepackage{graphicx}
 \usepackage[swedish]{babel}
-\usepackage{natbib}
+%\usepackage{natbib}
 \usepackage[utf8]{inputenc}
-\usepackage[margin=3cm]{geometry}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{multicol, float, blindtext, kantlipsum}
+
+\usepackage[citestyle=authortitle-ibid, bibstyle=authoryear, backend=biber, labeldateparts]{biblatex}
+\usepackage{hyperref}
+\addbibresource{bibtex/kandidatarbete.bib}
 
 \usepackage{csquotes}
+
+\usepackage{sectsty}
+\subsubsectionfont{\normalfont\itshape}
+%\subsectionfont{\normalfont\centering}
+
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\LARGE\bfseries}{\thesection}{1em}{}[{}]
+  % \titlerule[0.8pt]
 
 \title{Värden och värden:\\
 	\large en studie av kollektiv sonifiering
@@ -30,29 +43,40 @@
 % \end{keyword}
 
 \tableofcontents
+\clearpage
 
 \newpage
+\begin{multicols}{2}
 
-\section{Introduktion}
-Detta projekt utgör ...
+\section*{Introduktion}
+\addcontentsline{toc}{section}{Introduktion}
+\kant[1]
 
-\subsection{Bakgrund}
-Projekt från ettan, diabetes-synth, radiostation, etc.
+\subsection*{Bakgrund}
+\addcontentsline{toc}{subsection}{Bakgrund}
+%Projekt från ettan, diabetes-synth, radiostation, etc.
+\kant[2-2]
 
-\subsection{Sonifiering}
-Sonifiering... \cite{bijsterveld_sonic_2019}. 
-Smalley och spektromorfologin (olika ordningar av \emph{surrogacy},  gestaltandet av \emph{datan}).
 
-Bearbetad data och orginaldata. Sensorfel.
-\subsubsection{Det mätbara och det omätbara}
-\cite{bornemark_det_2018}
+\subsection*{Sonifiering}
+\addcontentsline{toc}{subsection}{Sonifiering}
+\kant[3-3]
+Sonifiering (eller är det verkligen sonifiering). \footcite{bijsterveld_sonic_2019}
+Smalley och spektromorfologin. \footnote{Olika ordningar av \emph{surrogacy},  gestaltandet av \emph{datan}.} Bearbetad data och orginaldata. Sensorfel.
 
-\subsection{Diabetes}
-Vad är diabetes? 
+\subsubsection*{Det mätbara och det omätbara}
+\addcontentsline{toc}{subsubsection}{\textit{Det mätbara och det omätbara}}
+Bornemark \footcite{bornemark_det_2018}
 
-\subsubsection{Communities}
+\subsection*{Diabetes}
+\addcontentsline{toc}{subsection}{Diabetes}
+\kant[4-4]
 
-\subsubsection{Blodsockervärden}
+%\subsubsection*{Communities}
+%\addcontentsline{toc}{subsubsection}{\textit{Communities}}
+
+\subsubsection*{Blodsockervärden}
+\addcontentsline{toc}{subsubsection}{\textit{Blodsockervärden}}
 Blodsocker mäts i mmol/L och varierar hos en icke-diabetiker mellan 4 och 6 mmol/L [källa]. Hos en diabetiker kan detta värde variera från under 1 till över 30 mmol/L, och Freestyle Libre-sensorn har ett spann på att mäta från lägst 2,2 till 27,7 mmol/L (annars visar den \emph{LO} respektive \emph{HI}). Freestyle Libre-sensorn mäter kontinuerligt var 15:e minut.
 
 Att s.k. \emph{mappa} denna data till musikaliska parametrar är förstås godtyckligt --- värdena i sig har ingen musikalisk mening --- och bör så vara: det är helt enkelt min konstnärliga gärning som bestämmer hur de förhåller sig till varandra. Även en bearbetad signal går att använda för att styra musiken: interpolation (mellan de diskreta mätpunkterna), variation (FFT, derivator, etc.), stokastiska egenskaper (auto-korrelation etc), statistiska egenskaper (median, medel, etc.). ''\emph{Tid i målområdet}'' och liknande värden kan också vara intressanta att använda, och har medicinsk betydelse.
@@ -60,39 +84,46 @@ Att s.k. \emph{mappa} denna data till musikaliska parametrar är förstås godty
 Det som är viktigt i denna \emph{mappning} är dock att den gestaltade datan --- dvs. musiken --- \textbf{inte} får avslöja något om den underliggande eller bakomliggande (mät)datan. Dels är det en integritetsfråga, som diskuteras vidare nedan, dels är det en förutsättning för detta projekt: det existerar inga \emph{bra} eller \emph{dåliga} värden. Själva delningen av värdena är det viktiga.
 
 
-\section{Process}
+\section*{Process}
+\addcontentsline{toc}{subsection}{Process}
 Beskrivning/dokumentation av tekniken...
 
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{../media/flowchart.png}
+\includegraphics[width=0.5\textwidth]{../media/flowchart.png}
 \caption{Översiktsdiagram av system}
 \end{figure}
 
-\subsection{SuperCollider-system}
+\subsection*{SuperCollider-system}
+\addcontentsline{toc}{subsection}{SuperCollider-system}
 Varje instans av mätdata existerar som ett \emph{objekt} (motsvarande en ljudkälla, inte schaefferiansk) i musiken, objekten har vissa attribut (såsom register, spatiell kodning, etc). Även kodat binauralt (via \emph{Ambisonics}). Klassen har en Osc-tolkarfunktion (\textbf{eller} CSV-filläsare, om asynkron).
 
-\section{Musiken}
+\section*{Musiken}
+\addcontentsline{toc}{section}{Musiken}
 Den konstnärliga friheten. Hur pass mycket kontroll som överlåtes till \enquote{serien} (i detta fall blodsockervärdet). Behöver musiken gestalta, spegla, estetisera erfarenheten som diabetiker? Eller vara intresseväckande, tillgänglig, \enquote{relaterbar}? 
 
-\subsection{Rumslighet}
+\subsection*{Rumslighet}
+\addcontentsline{toc}{subsection}{Rumslighet}
 En \enquote{kör} av blodsockervärden, spatialiserade i nån mening för att ge en känsla av påverkan eller åverkan på musiken. 
 
 Konsertupplevelse (i Lilla salen? spela ett utdrag ur liveströmmen...)
 
-\subsection{Temporalitet}
+\subsection*{Temporalitet}
+\addcontentsline{toc}{subsection}{Temporalitet}
 Den tidsmässiga uppfattningen av musiken. En 24/7 livestream av musiken (hur utgörs lyssnadet? formen? \emph{Slow as possible}, \emph{Longplayer} och liknande...)
 
-\subsection{Generativt}
+\subsection*{Generativt}
+\addcontentsline{toc}{subsection}{Generativt}
 Musiken är generativ. Serialism?
 
-\section{Sammanfattning}
+\section*{Sammanfattning}
+\addcontentsline{toc}{section}{Sammanfattning}
 Lärdomar etc...
 
 \newpage
 
-\bibliographystyle{agsm}
-\bibliography{bibtex/kandidatarbete.bib}
+\printbibliography
 
+\end{multicols}
 \end{document}
 

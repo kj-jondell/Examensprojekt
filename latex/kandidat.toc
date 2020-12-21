@@ -1,15 +1,29 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \select@language {swedish}
-\contentsline {section}{\numberline {1}Introduktion}{2}
-\contentsline {subsection}{\numberline {1.1}Bakgrund}{2}
-\contentsline {subsection}{\numberline {1.2}Sonifiering}{2}
-\contentsline {subsubsection}{\numberline {1.2.1}Det m\IeC {\"a}tbara och det om\IeC {\"a}tbara}{2}
-\contentsline {subsection}{\numberline {1.3}Diabetes}{2}
-\contentsline {subsubsection}{\numberline {1.3.1}Communities}{2}
-\contentsline {subsubsection}{\numberline {1.3.2}Blodsockerv\IeC {\"a}rden}{2}
-\contentsline {section}{\numberline {2}Process}{2}
-\contentsline {subsection}{\numberline {2.1}SuperCollider-system}{2}
-\contentsline {section}{\numberline {3}Musiken}{3}
-\contentsline {subsection}{\numberline {3.1}Rumslighet}{3}
-\contentsline {subsection}{\numberline {3.2}Temporalitet}{3}
-\contentsline {subsection}{\numberline {3.3}Generativt}{3}
-\contentsline {section}{\numberline {4}Sammanfattning}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Introduktion}{2}{Doc-Start}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Bakgrund}{2}{section*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Sonifiering}{2}{section*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\textit {Det m\IeC {\"a}tbara och det om\IeC {\"a}tbara}}{2}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Diabetes}{2}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\textit {Blodsockerv\IeC {\"a}rden}}{3}{section*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Process}{3}{section*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{SuperCollider-system}{3}{figure.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Musiken}{3}{figure.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Rumslighet}{3}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Temporalitet}{3}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Generativt}{3}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Sammanfattning}{3}{section*.4}
