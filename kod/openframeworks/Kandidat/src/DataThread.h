@@ -5,7 +5,6 @@
 #include <vector>
 
 #define SLEEP_TIME 20
-#define LINE_SEGMENTS 200
 
 class DataThread : public ofThread {
 

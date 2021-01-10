@@ -2,12 +2,12 @@
 
 //--------------------------------------------------------------
 void ofApp::setup() {
-  // ofSetCircleResolution(50);
-  // ofSetFrameRate(100);
+  ofSetCircleResolution(50);
+  ofSetFrameRate(100);
   // previousPoint.set(theCircle);
-  // points = new std::vector<ofVec2f>();
-  // receiver.setup(OSC_PORT);
-  // points = {ofVec2f(0.0, 0.0), ofVec2f(0.0, 0.0), ofVec2f(0.0, 0.0)};
+  points = new std::vector<ofVec2f>();
+  receiver.setup(OSC_PORT);
+  points = {ofVec2f(0.0, 0.0), ofVec2f(0.0, 0.0), ofVec2f(0.0, 0.0)};
 
   // points.push_back(theCircle);
   // velocity.normalize();
@@ -28,8 +28,8 @@ void ofApp::update() {
         times.push_back(message.getArgAsInt(0));
       else if (message.getAddress() == "/done") {
         isDataReceived = true;
-        dataThread.setReceivedData(values);
-        dataThread.startThread();
+        // dataThread.setReceivedData(values);
+        // dataThread.startThread();
       }
   }
   if (isDataReceived) {

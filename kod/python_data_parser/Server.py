@@ -1,5 +1,4 @@
 from cgmparser.Parser import Parser as parser
-import time as timer
 from pythonosc import udp_client
 import argparse
 
