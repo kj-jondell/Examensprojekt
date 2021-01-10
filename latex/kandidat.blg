@@ -1,14 +1,14 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'kandidat.blg'
-[71] biber-darwin:303> INFO - === Mon Dec 21, 2020, 16:56:42
-[101] Biber.pm:359> INFO - Reading 'kandidat.bcf'
-[243] Biber.pm:835> INFO - Found 2 citekeys in bib section 0
-[266] Biber.pm:3670> INFO - Processing section 0
-[287] Biber.pm:3840> INFO - Looking for bibtex format file 'bibtex/kandidatarbete.bib' for section 0
-[296] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[303] bibtex.pm:1292> INFO - Found BibTeX data source 'bibtex/kandidatarbete.bib'
-[359] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[359] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[359] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'sv-SE'
-[363] bbl.pm:608> INFO - Writing 'kandidat.bbl' with encoding 'UTF-8'
-[364] bbl.pm:712> INFO - Output to kandidat.bbl
+[60] biber-darwin:303> INFO - === Mon Dec 21, 2020, 22:00:46
+[96] Biber.pm:359> INFO - Reading 'kandidat.bcf'
+[242] Biber.pm:835> INFO - Found 3 citekeys in bib section 0
+[282] Biber.pm:3670> INFO - Processing section 0
+[315] Biber.pm:3840> INFO - Looking for bibtex format file 'bibtex/kandidatarbete.bib' for section 0
+[318] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[327] bibtex.pm:1292> INFO - Found BibTeX data source 'bibtex/kandidatarbete.bib'
+[396] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[397] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[397] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'sv-SE'
+[406] bbl.pm:608> INFO - Writing 'kandidat.bbl' with encoding 'UTF-8'
+[407] bbl.pm:712> INFO - Output to kandidat.bbl

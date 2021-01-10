@@ -53,9 +53,10 @@
       <file>blx-dm.def</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
+      <file>blx-natbib.def</file>
       <file>authoryear.bbx</file>
       <file>standard.bbx</file>
-      <file>authortitle-ibid.cbx</file>
+      <file>verbose-ibid.cbx</file>
       <file>biblatex.cfg</file>
       <file>swedish.lbx</file>
     </requires>

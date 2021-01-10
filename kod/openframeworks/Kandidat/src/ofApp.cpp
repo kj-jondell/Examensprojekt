@@ -2,11 +2,11 @@
 
 //--------------------------------------------------------------
 void ofApp::setup() {
-  ofSetCircleResolution(50);
-  ofSetFrameRate(100);
+  // ofSetCircleResolution(50);
+  // ofSetFrameRate(100);
   // previousPoint.set(theCircle);
-  points = new std::vector<ofVec2f>();
-  receiver.setup(OSC_PORT);
+  // points = new std::vector<ofVec2f>();
+  // receiver.setup(OSC_PORT);
   // points = {ofVec2f(0.0, 0.0), ofVec2f(0.0, 0.0), ofVec2f(0.0, 0.0)};
 
   // points.push_back(theCircle);

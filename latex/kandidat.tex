@@ -4,11 +4,14 @@
 \usepackage[swedish]{babel}
 %\usepackage{natbib}
 \usepackage[utf8]{inputenc}
-\usepackage[margin=2.5cm]{geometry}
+\usepackage[margin=3cm]{geometry}
 \usepackage{multicol, float, blindtext, kantlipsum}
 
-\usepackage[citestyle=authortitle-ibid, bibstyle=authoryear, backend=biber, labeldateparts]{biblatex}
-\usepackage{hyperref}
+\usepackage[citestyle=verbose-ibid, bibstyle=authoryear, natbib=true, url=false, doi=false, isbn=false, backend=biber, labeldateparts]{biblatex}
+\AtEveryBibitem{%
+  \clearlist{language}%
+}
+%\usepackage{hyperref}
 \addbibresource{bibtex/kandidatarbete.bib}
 
 \usepackage{csquotes}
@@ -61,13 +64,14 @@
 \subsection*{Sonifiering}
 \addcontentsline{toc}{subsection}{Sonifiering}
 \kant[3-3]
-Sonifiering (eller är det verkligen sonifiering). \footcite{bijsterveld_sonic_2019}
+Sonifiering (eller är det verkligen sonifiering). \footcite[2]{bijsterveld_sonic_2019}
 Smalley och spektromorfologin. \footnote{Olika ordningar av \emph{surrogacy},  gestaltandet av \emph{datan}.} Bearbetad data och orginaldata. Sensorfel.
 
 \subsubsection*{Det mätbara och det omätbara}
 \addcontentsline{toc}{subsubsection}{\textit{Det mätbara och det omätbara}}
 Bornemark \footcite{bornemark_det_2018}
-
+Bijsterveld \footcite[100-102]{bijsterveld_sonic_2019}
+McLuhan \footcite[2]{mcluhan_understanding_2015}
 \subsection*{Diabetes}
 \addcontentsline{toc}{subsection}{Diabetes}
 \kant[4-4]
@@ -120,10 +124,12 @@ Musiken är generativ. Serialism?
 \addcontentsline{toc}{section}{Sammanfattning}
 Lärdomar etc...
 
-\newpage
-
-\printbibliography
-
 \end{multicols}
+
+\twocolumn
+
+\printbibliography[type=book,title={Böcker}]
+\printbibliography[type=article,title={Artiklar}]
+
 \end{document}
 

@@ -2,28 +2,28 @@
 \defcounter {refsection}{0}\relax 
 \select@language {swedish}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Introduktion}{2}{Doc-Start}
+\contentsline {section}{Introduktion}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Bakgrund}{2}{section*.1}
+\contentsline {subsection}{Bakgrund}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Sonifiering}{2}{section*.1}
+\contentsline {subsection}{Sonifiering}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\textit {Det m\IeC {\"a}tbara och det om\IeC {\"a}tbara}}{2}{section*.2}
+\contentsline {subsubsection}{\textit {Det m\IeC {\"a}tbara och det om\IeC {\"a}tbara}}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Diabetes}{2}{section*.2}
+\contentsline {subsection}{Diabetes}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\textit {Blodsockerv\IeC {\"a}rden}}{3}{section*.3}
+\contentsline {subsubsection}{\textit {Blodsockerv\IeC {\"a}rden}}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Process}{3}{section*.3}
+\contentsline {subsection}{Process}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{SuperCollider-system}{3}{figure.1}
+\contentsline {subsection}{SuperCollider-system}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Musiken}{3}{figure.1}
+\contentsline {section}{Musiken}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Rumslighet}{3}{section*.4}
+\contentsline {subsection}{Rumslighet}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Temporalitet}{3}{section*.4}
+\contentsline {subsection}{Temporalitet}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Generativt}{3}{section*.4}
+\contentsline {subsection}{Generativt}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Sammanfattning}{3}{section*.4}
+\contentsline {section}{Sammanfattning}{4}

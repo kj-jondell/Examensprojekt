@@ -3,8 +3,6 @@ import time as timer
 from pythonosc import udp_client
 import argparse
 
-#times, values = parser().parse_data("kj@jondell.com3.xls")
-#times, values = parser().parse_data("kj@jondell.com.xls")
 times, values = parser().parse_csv_data(filename="Karl JohannesJondell_glucose_7-12-2020.csv")
 zipped_lists = zip(times, values)
 sorted_list = sorted(zipped_lists)

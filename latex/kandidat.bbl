@@ -21,7 +21,7 @@
   \sortlist[entry]{nyt/global/}
     \entry{bijsterveld_sonic_2019}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,hash=1dcce9f1f8a2b481ea311e93d0f0fb43}{%
+        {{hash=1dcce9f1f8a2b481ea311e93d0f0fb43}{%
            family={Bijsterveld},
            familyi={B\bibinitperiod},
            given={Karin},
@@ -63,7 +63,7 @@
     \endentry
     \entry{bornemark_det_2018}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,hash=0e966a02a6ded44e65396808f53580a1}{%
+        {{hash=0e966a02a6ded44e65396808f53580a1}{%
            family={Bornemark},
            familyi={B\bibinitperiod},
            given={Jonna},
@@ -90,6 +90,44 @@
       \field{shorttitle}{Det omätbaras renässans}
       \field{title}{Det omätbaras renässans: en uppgörelse med pedanternas världsherravälde}
       \field{year}{2018}
+    \endentry
+    \entry{mcluhan_understanding_2015}{book}{}
+      \name{author}{2}{}{%
+        {{hash=815de62ec0071f72ab07b6bffc51a626}{%
+           family={McLuhan},
+           familyi={M\bibinitperiod},
+           given={Marshall},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f0f8e86350fd3ba58aa534bd749e862e}{%
+           family={Gordon},
+           familyi={G\bibinitperiod},
+           given={W.\bibnamedelimi Terrence},
+           giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {Berkeley, Calif.}%
+      }
+      \list{publisher}{1}{%
+        {Gingko Press}%
+      }
+      \strng{namehash}{b7cfa1ef21e24dc73c51e4ec0d855c8c}
+      \strng{fullhash}{b7cfa1ef21e24dc73c51e4ec0d855c8c}
+      \strng{authornamehash}{b7cfa1ef21e24dc73c51e4ec0d855c8c}
+      \strng{authorfullhash}{b7cfa1ef21e24dc73c51e4ec0d855c8c}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A reissue of McLuhan's expose from 1964 on the state of the then emerging phenomenon of mass media}
+      \field{isbn}{978-1-58423-073-1}
+      \field{note}{OCLC: 1031984262}
+      \field{shorttitle}{Understanding media}
+      \field{title}{Understanding media: the extensions of man}
+      \field{year}{2015}
     \endentry
   \endsortlist
 \endrefsection
