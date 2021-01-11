@@ -31,9 +31,11 @@ public:
 
 private:
   ofxOscReceiver receiver;
-  std::vector<ofVec2f> *points;
+  std::vector<ofVec2f> points;
   std::vector<float> values;
   std::vector<int> times;
   bool isDataReceived = false;
-  DataThread dataThread;
+  ofVec2f theCircle, velocity; // TODO change name of this!
+  size_t counter = 0;
+  float lastTime = 0;
 };

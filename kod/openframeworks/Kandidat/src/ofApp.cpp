@@ -3,14 +3,17 @@
 //--------------------------------------------------------------
 void ofApp::setup() {
   ofSetCircleResolution(50);
-  ofSetFrameRate(100);
+  ofSetFrameRate(45);
   // previousPoint.set(theCircle);
-  points = new std::vector<ofVec2f>();
+  // points = new std::vector<ofVec2f>();
   receiver.setup(OSC_PORT);
-  points = {ofVec2f(0.0, 0.0), ofVec2f(0.0, 0.0), ofVec2f(0.0, 0.0)};
+  // points = {ofVec2f(0.0, 0.0), ofVec2f(0.0, 0.0), ofVec2f(0.0, 0.0)};
 
-  // points.push_back(theCircle);
-  // velocity.normalize();
+  theCircle.set(ofGetWidth() / 2, ofGetHeight() / 2);
+  points.push_back(theCircle);
+  velocity.set(1.f, 1.f);
+  velocity.normalize();
+  velocity.scale(10.f);
   // ofSetBackgroundAuto(false);
 }
 
@@ -32,55 +35,52 @@ void ofApp::update() {
         // dataThread.startThread();
       }
   }
-  if (isDataReceived) {
-    // dataThread.start();
+  if (isDataReceived /*&& ofGetElapsedTimef() >= lastTime + 0.1*/) {
+    // lastTime = ofGetElapsedTimef();
+    velocity = velocity.getRotated(values[counter] - 10.f);
+    theCircle += velocity;
+    counter = (counter + 1) % values.size();
+    if (theCircle.x > ofGetWidth() + 10) {
+      theCircle.x = 0;
+      // points.insert(points.begin(), theCircle);
+      // previousPoint.set(theCircle);
+
+    } else if (theCircle.x < -10) {
+      theCircle.x = ofGetWidth();
+      // points.insert(points.begin(), theCircle);
+      // previousPoint.set(theCircle);
+    }
+    if (theCircle.y > ofGetHeight() + 10) {
+      theCircle.y = 0;
+      // points.insert(points.begin(), theCircle);
+      // previousPoint.set(theCircle);
+
+    } else if (theCircle.y < -10) {
+      theCircle.y = ofGetHeight();
+      // points.insert(points.begin(), theCircle);
+      // previousPoint.set(theCircle);
+    }
+    points.insert(points.begin(), theCircle);
   }
-  // std::cout << dataThread.getPoints().size() << std::endl;
-  // velocity = velocity.getRotated(message.getArgAsFloat(0) * 10.f);
-  // theCircle += velocity;
-  // if (theCircle.x > ofGetWidth() + 10) {
-  //   theCircle.x = 0;
-  //   points.insert(points.begin(), theCircle);
-  //   // previousPoint.set(theCircle);
-
-  // } else if (theCircle.x < -10) {
-  //   theCircle.x = ofGetWidth();
-  //   points.insert(points.begin(), theCircle);
-  //   // previousPoint.set(theCircle);
-  // }
-  // if (theCircle.y > ofGetHeight() + 10) {
-  //   theCircle.y = 0;
-  //   points.insert(points.begin(), theCircle);
-  //   // previousPoint.set(theCircle);
-
-  // } else if (theCircle.y < -10) {
-  //   theCircle.y = ofGetHeight();
-  //   points.insert(points.begin(), theCircle);
-  //   // previousPoint.set(theCircle);
-  // }
 }
 
 //--------------------------------------------------------------
 void ofApp::draw() {
   ofEnableAlphaBlending();
   ofFill();
-  //&points = dataThread.getPoints();
-  // dataThread.lock();
-  for (size_t i = 0; i < points->size() - 1; i++) {
+
+  for (size_t i = 0; i < MIN(LINE_SEGMENTS, points.size() - 1); i++) {
     ofSetColor(255, 255, 255, ofMap(i, 0, LINE_SEGMENTS, 255, 0, true));
-    //   // ofVec2f currentPoint = points[i + 1], lastPoint = points[i];
-    //   // // std::cout << points[i + 1] << std::endl;
-    //   // if (currentPoint.distance(lastPoint) <
-    //   //   (MIN(ofGetWidth(), ofGetHeight()) - 50))
-    //   //   ofDrawLine(currentPoint, lastPoint);
+    ofVec2f currentPoint = points[i + 1], lastPoint = points[i];
+
+    if (currentPoint.distance(lastPoint) <
+        (MIN(ofGetWidth(), ofGetHeight()) - 50))
+      ofDrawLine(currentPoint, lastPoint);
   }
-
-  // dataThread.unlock();
-  // std::cout << (MIN(ofGetWidth(), ofGetHeight()) - 10) << std::endl;
-  // std::cout << ofGetHeight() << std::endl;
-
-  // ofDrawCircle(theCircle.x, theCircle.y, 2);
-  // ofDisableAlphaBlending();
+  while (points.size() > LINE_SEGMENTS)
+    points.pop_back();
+  // ofSetColor(255, 255, 255);
+  // ofDrawLine(ofVec2f(1.f, 2.f), ofVec2f(20.f, 22.f));
 }
 
 //--------------------------------------------------------------

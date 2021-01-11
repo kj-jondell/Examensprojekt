@@ -19,4 +19,6 @@ def send_osc_message(time_value, value):
 for time_value, value in sorted_list:
     send_osc_message(time_value, value)
 
+# skicka medelvärde (mean, mode, median), max o min, 
+
 client.send_message("/done", "")
