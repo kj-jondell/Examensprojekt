@@ -7,7 +7,7 @@
 #include <vector>
 
 #define OSC_PORT 7771
-#define LINE_SEGMENTS 200
+#define LINE_SEGMENTS 201
 
 class ofApp : public ofBaseApp {
 
