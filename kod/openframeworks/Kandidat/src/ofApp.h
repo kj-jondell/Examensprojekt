@@ -1,13 +1,12 @@
 #pragma once
 
-#include "DataThread.h"
+#include "DataPacket.h"
 #include "ofMain.h"
 #include "ofMath.h"
 #include "ofxOsc.h"
 #include <vector>
 
 #define OSC_PORT 7771
-#define LINE_SEGMENTS 201
 
 class ofApp : public ofBaseApp {
 
@@ -31,11 +30,18 @@ public:
 
 private:
   ofxOscReceiver receiver;
-  std::vector<ofVec2f> points;
-  std::vector<float> values;
-  std::vector<int> times;
-  bool isDataReceived = false;
-  ofVec2f theCircle, velocity; // TODO change name of this!
-  size_t counter = 0;
-  float lastTime = 0;
+  std::vector<DataPacket *> receivedDataPackets;
+  std::vector<ofVec2f> points; // TODO remove
+  std::vector<float> values;   // TODO remove
+  std::vector<int> times;      // TODO remove
+  ofVec2f theCircle, velocity; // TODO change name of this! //TODO remove
+  DataPacket *newPacket;
+  bool isReceivingData = false;
+
+  void updatePackets() {
+    for (DataPacket *packet : receivedDataPackets) {
+      packet->updateTailPoints();
+      packet->keepTailBounded();
+    }
+  }
 };

@@ -1,11 +1,32 @@
 obj/osx/Release/src/main.o: \
   /Volumes/school/KMH/åk3/kandidat/kod/openframeworks/Kandidat/src/main.cpp \
   /Volumes/school/KMH/åk3/kandidat/kod/openframeworks/Kandidat/src/ofApp.h \
-  /Volumes/school/KMH/åk3/kandidat/kod/openframeworks/Kandidat/src/DataThread.h \
-  /Users/kj/openFrameworks/libs/openFrameworks/ofMain.h \
+  /Volumes/school/KMH/åk3/kandidat/kod/openframeworks/Kandidat/src/DataPacket.h \
+  /Users/kj/openFrameworks/libs/openFrameworks/types/ofColor.h \
   /Users/kj/openFrameworks/libs/openFrameworks/utils/ofConstants.h \
   /Users/kj/openFrameworks/libs/glew/include/GL/glew.h \
   /Users/kj/openFrameworks/libs/tess2/include/tesselator.h \
+  /Users/kj/openFrameworks/libs/glm/include/glm/common.hpp \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/qualifier.hpp \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/setup.hpp \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/../simd/platform.h \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/_fixes.hpp \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/func_common.inl \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/../vector_relational.hpp \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/func_vector_relational.inl \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/compute_common.hpp \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec1.hpp \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec1.inl \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/./compute_vector_relational.hpp \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec2.hpp \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec2.inl \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec3.hpp \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec3.inl \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/compute_vector_relational.hpp \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec4.hpp \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec4.inl \
+  /Users/kj/openFrameworks/libs/glm/include/glm/detail/_vectorize.hpp \
+  /Users/kj/openFrameworks/libs/openFrameworks/ofMain.h \
   /Users/kj/openFrameworks/libs/openFrameworks/utils/ofFileUtils.h \
   /Users/kj/openFrameworks/libs/boost/include/boost/filesystem.hpp \
   /Users/kj/openFrameworks/libs/boost/include/boost/filesystem/config.hpp \
@@ -424,11 +445,6 @@ obj/osx/Release/src/main.o: \
   /Users/kj/openFrameworks/libs/glm/include/glm/vec2.hpp \
   /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_bool2.hpp \
   /Users/kj/openFrameworks/libs/glm/include/glm/ext/../detail/type_vec2.hpp \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/qualifier.hpp \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/setup.hpp \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/../simd/platform.h \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec2.inl \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/./compute_vector_relational.hpp \
   /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_bool2_precision.hpp \
   /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_float2.hpp \
   /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_float2_precision.hpp \
@@ -452,8 +468,6 @@ obj/osx/Release/src/main.o: \
   /Users/kj/openFrameworks/libs/glm/include/glm/vec4.hpp \
   /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_bool4.hpp \
   /Users/kj/openFrameworks/libs/glm/include/glm/ext/../detail/type_vec4.hpp \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec4.inl \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/compute_vector_relational.hpp \
   /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_bool4_precision.hpp \
   /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_float4.hpp \
   /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_float4_precision.hpp \
@@ -467,7 +481,6 @@ obj/osx/Release/src/main.o: \
   /Users/kj/openFrameworks/libs/glm/include/glm/vec3.hpp \
   /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_bool3.hpp \
   /Users/kj/openFrameworks/libs/glm/include/glm/ext/../detail/type_vec3.hpp \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec3.inl \
   /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_bool3_precision.hpp \
   /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_float3.hpp \
   /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_float3_precision.hpp \
@@ -478,19 +491,6 @@ obj/osx/Release/src/main.o: \
   /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_uint3.hpp \
   /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_uint3_precision.hpp \
   /Users/kj/openFrameworks/libs/openFrameworks/types/ofRectangle.h \
-  /Users/kj/openFrameworks/libs/openFrameworks/types/ofColor.h \
-  /Users/kj/openFrameworks/libs/glm/include/glm/common.hpp \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/_fixes.hpp \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/func_common.inl \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/../vector_relational.hpp \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/func_vector_relational.inl \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/compute_common.hpp \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec1.hpp \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec1.inl \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec2.hpp \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec3.hpp \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec4.hpp \
-  /Users/kj/openFrameworks/libs/glm/include/glm/detail/_vectorize.hpp \
   /Users/kj/openFrameworks/libs/openFrameworks/utils/ofXml.h \
   /Users/kj/openFrameworks/libs/pugixml/include/pugixml.hpp \
   /Users/kj/openFrameworks/libs/pugixml/include/pugiconfig.hpp \
@@ -889,15 +889,57 @@ obj/osx/Release/src/main.o: \
 
 /Volumes/school/KMH/åk3/kandidat/kod/openframeworks/Kandidat/src/ofApp.h:
 
-/Volumes/school/KMH/åk3/kandidat/kod/openframeworks/Kandidat/src/DataThread.h:
+/Volumes/school/KMH/åk3/kandidat/kod/openframeworks/Kandidat/src/DataPacket.h:
 
-/Users/kj/openFrameworks/libs/openFrameworks/ofMain.h:
+/Users/kj/openFrameworks/libs/openFrameworks/types/ofColor.h:
 
 /Users/kj/openFrameworks/libs/openFrameworks/utils/ofConstants.h:
 
 /Users/kj/openFrameworks/libs/glew/include/GL/glew.h:
 
 /Users/kj/openFrameworks/libs/tess2/include/tesselator.h:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/common.hpp:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/qualifier.hpp:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/setup.hpp:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/../simd/platform.h:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/_fixes.hpp:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/func_common.inl:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/../vector_relational.hpp:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/func_vector_relational.inl:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/compute_common.hpp:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec1.hpp:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec1.inl:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/./compute_vector_relational.hpp:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec2.hpp:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec2.inl:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec3.hpp:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec3.inl:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/compute_vector_relational.hpp:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec4.hpp:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec4.inl:
+
+/Users/kj/openFrameworks/libs/glm/include/glm/detail/_vectorize.hpp:
+
+/Users/kj/openFrameworks/libs/openFrameworks/ofMain.h:
 
 /Users/kj/openFrameworks/libs/openFrameworks/utils/ofFileUtils.h:
 
@@ -1735,16 +1777,6 @@ obj/osx/Release/src/main.o: \
 
 /Users/kj/openFrameworks/libs/glm/include/glm/ext/../detail/type_vec2.hpp:
 
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/qualifier.hpp:
-
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/setup.hpp:
-
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/../simd/platform.h:
-
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec2.inl:
-
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/./compute_vector_relational.hpp:
-
 /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_bool2_precision.hpp:
 
 /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_float2.hpp:
@@ -1791,10 +1823,6 @@ obj/osx/Release/src/main.o: \
 
 /Users/kj/openFrameworks/libs/glm/include/glm/ext/../detail/type_vec4.hpp:
 
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec4.inl:
-
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/compute_vector_relational.hpp:
-
 /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_bool4_precision.hpp:
 
 /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_float4.hpp:
@@ -1821,8 +1849,6 @@ obj/osx/Release/src/main.o: \
 
 /Users/kj/openFrameworks/libs/glm/include/glm/ext/../detail/type_vec3.hpp:
 
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec3.inl:
-
 /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_bool3_precision.hpp:
 
 /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_float3.hpp:
@@ -1842,32 +1868,6 @@ obj/osx/Release/src/main.o: \
 /Users/kj/openFrameworks/libs/glm/include/glm/./ext/vector_uint3_precision.hpp:
 
 /Users/kj/openFrameworks/libs/openFrameworks/types/ofRectangle.h:
-
-/Users/kj/openFrameworks/libs/openFrameworks/types/ofColor.h:
-
-/Users/kj/openFrameworks/libs/glm/include/glm/common.hpp:
-
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/_fixes.hpp:
-
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/func_common.inl:
-
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/../vector_relational.hpp:
-
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/func_vector_relational.inl:
-
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/compute_common.hpp:
-
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec1.hpp:
-
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec1.inl:
-
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec2.hpp:
-
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec3.hpp:
-
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/type_vec4.hpp:
-
-/Users/kj/openFrameworks/libs/glm/include/glm/detail/_vectorize.hpp:
 
 /Users/kj/openFrameworks/libs/openFrameworks/utils/ofXml.h:
 

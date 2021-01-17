@@ -12,12 +12,23 @@
 Kommunikation mellan Python-server och SuperCollider-patch (och openFrameworks-program) sker *antingen* i realtid via OSC **eller** asynkront via CSV-filer. 
 
 # Kommunikation ("namespace")
-Python-servern kommunicerar med SuperCollider och openFrameworks genom att skicka Osc-meddelanden och Csv-filer. När ny data finns tillgänglig så skickar Python-servern ett Osc-meddelande på formen:
+Python-servern kommunicerar med SuperCollider och openFrameworks genom att skicka Osc-meddelanden och Csv-filer. När ny data finns tillgänglig så skickar Python-servern först ett Osc-meddelande på formen:
 
-`[/newEvent, <csv-filepath>, <min>, <max>]`
+`[/newPacket, <type>]`
 
-där `csv-filepath` ger filvägen till en Csv-fil innehållandes den nya datan (som kan vara rådata eller bearbetad...)
+där `type` definierar vilken typ av data som skickas (rådata eller differentierad). Sedan skickar servern ut rådata (värden och tid) på formen:
 
+`[/value, <float>]` och `[/time, <int>]`
+
+där varje mätpunkt (och tidsvärde) skickas med ett Osc-meddelande.
+
+När servern skickat ut alla tillgängliga mätpunkter/tidsvärden kan den även skicka ut information om mätserien, t.ex. olika medelvärden, medianvärden, min- och max-värden etc. Detta skickas i ett meddelande på formen:
+
+`[/meta, [<meta-värden>]]`
+
+där `<meta-värden>` är en array med värden.
+
+Till sist skickar servern ett tomt Osc-meddelande med adressen `/done`.
 
 # Blodsockervärden
 Blodsocker mäts i mmol/L och varierar hos en icke-diabetiker mellan 4 och 6 mmol/L. Hos en diabetiker kan detta värde variera från under 1 till över 30 mmol/L, och Freestyle Libre-sensorn har ett spann på att mäta från lägst 2,2 till 27,7 mmol/L (annars visar den "*LO*" (sic) respektive "*HI*" (sic)). Freestyle Libre-sensorn mäter kontinuerligt var 15:e minut.

@@ -4,17 +4,8 @@
 void ofApp::setup() {
   ofSetCircleResolution(50);
   ofSetFrameRate(45);
-  // previousPoint.set(theCircle);
-  // points = new std::vector<ofVec2f>();
-  receiver.setup(OSC_PORT);
-  // points = {ofVec2f(0.0, 0.0), ofVec2f(0.0, 0.0), ofVec2f(0.0, 0.0)};
 
-  theCircle.set(ofGetWidth() / 2, ofGetHeight() / 2);
-  points.push_back(theCircle);
-  velocity.set(1.f, 1.f);
-  velocity.normalize();
-  velocity.scale(10.f);
-  // ofSetBackgroundAuto(false);
+  receiver.setup(OSC_PORT);
 }
 
 //--------------------------------------------------------------
@@ -23,47 +14,25 @@ void ofApp::update() {
   while (receiver.hasWaitingMessages()) {
     ofxOscMessage message;
     receiver.getNextMessage(&message);
-    if (!isDataReceived)
-
-      if (message.getAddress() == "/value")
-        values.push_back(message.getArgAsFloat(0));
-      else if (message.getAddress() == "/time")
-        times.push_back(message.getArgAsInt(0));
-      else if (message.getAddress() == "/done") {
-        isDataReceived = true;
-        // dataThread.setReceivedData(values);
-        // dataThread.startThread();
+    if (!isReceivingData) {
+      if (message.getAddress() == "/newPacket") {
+        isReceivingData = true;
+        newPacket = new DataPacket();
+        newPacket->setColor(
+            ofColor(255, ofRandom(128, 255), ofRandom(128, 255)));
       }
-  }
-  if (isDataReceived /*&& ofGetElapsedTimef() >= lastTime + 0.1*/) {
-    // lastTime = ofGetElapsedTimef();
-    velocity = velocity.getRotated(values[counter] - 10.f);
-    theCircle += velocity;
-    counter = (counter + 1) % values.size();
-    if (theCircle.x > ofGetWidth() + 10) {
-      theCircle.x = 0;
-      // points.insert(points.begin(), theCircle);
-      // previousPoint.set(theCircle);
-
-    } else if (theCircle.x < -10) {
-      theCircle.x = ofGetWidth();
-      // points.insert(points.begin(), theCircle);
-      // previousPoint.set(theCircle);
+    } else {
+      if (message.getAddress() == "/value")
+        newPacket->appendData(message.getArgAsFloat(0));
+      else if (message.getAddress() == "/done") {
+        isReceivingData = false;
+        receivedDataPackets.push_back(newPacket);
+      }
     }
-    if (theCircle.y > ofGetHeight() + 10) {
-      theCircle.y = 0;
-      // points.insert(points.begin(), theCircle);
-      // previousPoint.set(theCircle);
-
-    } else if (theCircle.y < -10) {
-      theCircle.y = ofGetHeight();
-      // points.insert(points.begin(), theCircle);
-      // previousPoint.set(theCircle);
-    }
-    points.insert(points.begin(), theCircle);
-    while (points.size() > LINE_SEGMENTS)
-      points.pop_back();
   }
+
+  if (receivedDataPackets.size() > 0)
+    updatePackets();
 }
 
 //--------------------------------------------------------------
@@ -71,12 +40,16 @@ void ofApp::draw() {
   ofEnableAlphaBlending();
   ofFill();
 
-  for (size_t i = 0; i < MIN(LINE_SEGMENTS, points.size() - 1); i++) {
-    ofSetColor(255, 255, 255, ofMap(i, 0, LINE_SEGMENTS, 255, 0, true));
-    ofVec2f currentPoint = points[i + 1], lastPoint = points[i];
-    if (currentPoint.distance(lastPoint) <
-        (MIN(ofGetWidth(), ofGetHeight()) - 50))
-      ofDrawLine(currentPoint, lastPoint);
+  for (DataPacket *packet : receivedDataPackets) {
+    for (size_t i = 0; i < MIN(LINE_SEGMENTS, packet->tailPoints.size() - 1);
+         i++) {
+      ofSetColor(packet->getColor(), ofMap(i, 0, LINE_SEGMENTS, 255, 0, true));
+      ofVec2f currentPoint = packet->tailPoints[i + 1],
+              lastPoint = packet->tailPoints[i];
+      if (currentPoint.distance(lastPoint) <
+          (MIN(ofGetWidth(), ofGetHeight()) - 50))
+        ofDrawLine(currentPoint, lastPoint);
+    }
   }
 }
 
