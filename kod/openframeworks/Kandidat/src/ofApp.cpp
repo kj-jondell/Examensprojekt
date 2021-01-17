@@ -61,6 +61,8 @@ void ofApp::update() {
       // previousPoint.set(theCircle);
     }
     points.insert(points.begin(), theCircle);
+    while (points.size() > LINE_SEGMENTS)
+      points.pop_back();
   }
 }
 
@@ -72,15 +74,10 @@ void ofApp::draw() {
   for (size_t i = 0; i < MIN(LINE_SEGMENTS, points.size() - 1); i++) {
     ofSetColor(255, 255, 255, ofMap(i, 0, LINE_SEGMENTS, 255, 0, true));
     ofVec2f currentPoint = points[i + 1], lastPoint = points[i];
-
     if (currentPoint.distance(lastPoint) <
         (MIN(ofGetWidth(), ofGetHeight()) - 50))
       ofDrawLine(currentPoint, lastPoint);
   }
-  while (points.size() > LINE_SEGMENTS)
-    points.pop_back();
-  // ofSetColor(255, 255, 255);
-  // ofDrawLine(ofVec2f(1.f, 2.f), ofVec2f(20.f, 22.f));
 }
 
 //--------------------------------------------------------------

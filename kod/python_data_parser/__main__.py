@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import numpy
 import scipy.fftpack 
 import scipy.signal
+from Calculator import Calculator 
 from cgmparser.Parser import Parser as parser
 
 def plot_interpolated_values(times, values, show_plot=False, savefig=False):
@@ -22,16 +23,6 @@ def plot_interpolated_values(times, values, show_plot=False, savefig=False):
         plt.savefig("interpolated.png")
     if show_plot:
         plt.show()
-
-"""
-Calculates differentiated list
-"""
-def get_differentiated(values):
-    diff_list = []
-    for index, value in enumerate(values):
-        if index>0:
-            diff_list.append((value-values[index-1])/(15)) #h = 15, step size...
-    return diff_list 
 
 """
 Plots differentiated list and returns
@@ -59,7 +50,8 @@ def plot_fft(values, T = 1.0/800.0):
 
     plt.plot(xf, 2.0/N * numpy.abs(yf[:N//2]))
 
-parser().parse_csv_data(filename="Karl JohannesJondell_glucose_7-12-2020.csv")
+if __name__ == "__main__":
+    parser().parse_csv_data(filename="Karl JohannesJondell_glucose_7-12-2020.csv")
 #times, values = parser().parse_data("kj@jondell.com.xls")
 #plot_interpolated_values(times[:1000], values[:1000])
 #plt.figure()

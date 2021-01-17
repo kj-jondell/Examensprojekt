@@ -1,0 +1,18 @@
+- Bestämma *musikaliska funktioner*
+  - Hur jag ser på det här.
+  - Nånting som driver en puls (en rytm)
+  - En melodi, eller "lead"
+  - Pads eller fonder
+  - Tre funktioner gör att musiken fungerar...
+  - *Mixing engineer handbook* som beskriver detta (musikaliska arrangmang)...
+	- *Foundation*: bass drums, keys, rhythmic section
+	- *Pad*: long sustaining chord
+	- *Rhythm*: any instrument playing counter to *foundation*, shaker or tambourine, rhythm guitar...
+	- *Lead*: lead vocal, song, hook or solo
+	- *Fills*: between lead lines, answer to *lead*
+	- Sen kommer analyser på låtar.
+	- *Usually no more than four elements can be played at the same time*  Sometimes, three elements can work well. Rarely, five elements can work
+  - Linjära ledden, harmonik; vad ska mappningen leda till.
+  - Försöka föreställa sig den musikaliska texturen, verbalisera den musikaliska texturen.
+  - Tendency mask.
+- Eget Gantt schema för musiken, verbalisera mål och vad jag ska ha gjort till v. 9
