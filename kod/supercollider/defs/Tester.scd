@@ -14,7 +14,7 @@
 		var wavetable, jlc, drums, radioStretch;
 		var order = [8, 28, 21, 3, 25, 13, 23, 1, 22, 29, 9, 2, 17, 5, 10, 7, 12, 4, 6, 27, 26, 19, 20, 14, 16, 24, 30, 18, 15, 11]; //TODO temporärt...
 
-		var scale = Scale.phrygian;
+		var scale = Scale.majorPentatonic;
 
 
 		if(~booted != true){
@@ -34,18 +34,23 @@
 			 });
         };
 
-		wavetable = Synth.new(\Diabetes_new, [\bufferNum, ~buffers[3].bufnum, \velocity, 120, \detuneFactor, 0.75, \freq, 110]);
+		~wavetable = Synth.new(\Diabetes_new, [\bufferNum, ~buffers[3].bufnum, \velocity, 126, \detuneFactor, 0.75, \freq, 110]);
 
-		 loop { |i|
-			drums = Synth.new(\sliceBuffer, [\bufnum, ~slices.choose.bufnum, \freq, scale.degreeToFreq(-10+20.rand, 220, 0)]);
-			[1/3, 1/4, 1/8].wchoose([3,4,5].normalizeSum).wait;
-		 };
+		loop { |i|
+			drums = Synth.new(\sliceBuffer, [\bufnum, ~slices.choose.bufnum, \freq, scale.degreeToFreq(-10+20.rand, 220, 0), \release, rrand(10,50)/75.0, \resonantAmp, rrand(0,10)/10.0, \attack, rrand(0,50)/100.0]);
+			[1/6, 1/8].wchoose([4,9].normalizeSum).wait;
+		};
 
 	});
 )
+
+~wavetable.set(\detuneFactor, 1.5)
+
+s.record;
+s.stopRecording;
 
 ~slices
 Server.default.freeAll;
 Server.default.queryAllNodes;
 
-Scale.phrygian
+Scale.directory
