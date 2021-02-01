@@ -52,27 +52,3 @@ def plot_fft(values, T = 1.0/800.0):
 
 if __name__ == "__main__":
     parser().parse_csv_data(filename="Karl JohannesJondell_glucose_7-12-2020.csv")
-#times, values = parser().parse_data("kj@jondell.com.xls")
-#plot_interpolated_values(times[:1000], values[:1000])
-#plt.figure()
-#plot_fft(values)
-#plt.figure()
-#differentiated = values
-#for ind in range(10):
-#    differentiated = get_differentiated(differentiated)
-#plot_fft(differentiated)
-#plot_interpolated_values(times[:1000], differentiated[:1000])
-#plt.show()
-
-# plot_interpolated_values(times[:100], values[:100], False, savefig=False)
-# plot up to fifth order differentiation
-# names = ["First", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh", "Eight", "Ninth", "Tenth"]
-# differentiated_values = values[:100]
-# for order in range(len(names)):
-#     differentiated_values = plot_differentiated_values(differentiated_values, False, order = order+1,  title=f"{names[order]}-order differentiated", savefig=False)
-# 
-# plt.show()
-
-# first_order = plot_differentiated_values(values[:100], False, title="First order differentiated")
-# second_order = plot_differentiated_values(first_order, False, title="Second order differentiated", order=2)
-# third_order = plot_differentiated_values(second_order, title="Third order differentiated", order=3)
