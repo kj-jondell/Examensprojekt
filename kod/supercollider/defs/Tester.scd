@@ -34,17 +34,19 @@
 			 });
         };
 
-		~wavetable = Synth.new(\Diabetes_new, [\bufferNum, ~buffers[3].bufnum, \velocity, 126, \detuneFactor, 0.75, \freq, 110]);
+		~wavetable = Synth.new(\Diabetes, [\bufferNum, ~buffers[3].bufnum, \velocity, 126, \detuneFactor, 0.5, \freq, 110]);
 
 		loop { |i|
 			drums = Synth.new(\sliceBuffer, [\bufnum, ~slices.choose.bufnum, \freq, scale.degreeToFreq(-10+20.rand, 220, 0), \release, rrand(10,50)/75.0, \resonantAmp, rrand(0,10)/10.0, \attack, rrand(0,50)/100.0]);
-			[1/6, 1/8].wchoose([4,9].normalizeSum).wait;
+			[1/6, 1/8].wchoose([1,50].normalizeSum).wait;
 		};
 
 	});
 )
 
 ~wavetable.set(\detuneFactor, 1.5)
+
+//1.5, 1.25, 1.65, 1.01
 
 s.record;
 s.stopRecording;

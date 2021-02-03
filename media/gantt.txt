@@ -12,9 +12,9 @@ gantt
 
     section SuperCollider-patch
 	Instrumentering (SynthDefar i SuperCollider)				:active, instrument, 2021-01-01, 2021-02-14
-	Skriva figurer/melodier (MIDI eller PBind, välja skalor)				:active, figur, 2021-02-01, 2021-03-14
-	Harmonik (skalor), omfång, lager :lager, after figur 1w
-	Effektkedjor, "slutsteg" :slutsteg, after lager, 1w
+	Skriva figurer/melodier (MIDI eller PBind, välja skalor)				:active, figur, 2021-02-01, 2021-02-21
+	Harmonik (skalor), omfång, lager				:lager, after figur, 1w
+	Effektkedjor, "slutsteg"						:slutsteg, after lager, 1w
 	Koppla samman med Python-server     :osc_sc, after instrument, 3d
 
     section Python-server
