@@ -1,14 +1,16 @@
-[0] Config.pm:354> INFO - This is Biber 2.7
-[0] Config.pm:357> INFO - Logfile is 'kandidat.blg'
-[60] biber-darwin:303> INFO - === Mon Dec 21, 2020, 22:00:46
-[96] Biber.pm:359> INFO - Reading 'kandidat.bcf'
-[242] Biber.pm:835> INFO - Found 3 citekeys in bib section 0
-[282] Biber.pm:3670> INFO - Processing section 0
-[315] Biber.pm:3840> INFO - Looking for bibtex format file 'bibtex/kandidatarbete.bib' for section 0
-[318] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[327] bibtex.pm:1292> INFO - Found BibTeX data source 'bibtex/kandidatarbete.bib'
-[396] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[397] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[397] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'sv-SE'
-[406] bbl.pm:608> INFO - Writing 'kandidat.bbl' with encoding 'UTF-8'
-[407] bbl.pm:712> INFO - Output to kandidat.bbl
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'kandidat.blg'
+[84] biber-darwin:322> INFO - === Tue Feb  2, 2021, 14:54:48
+[136] Biber.pm:415> INFO - Reading 'kandidat.bcf'
+[244] Biber.pm:943> INFO - Found 3 citekeys in bib section 0
+[264] Biber.pm:4256> INFO - Processing section 0
+[266] Utils.pm:75> INFO - Globbing data source 'bibtex/kandidatarbete.bib'
+[266] Utils.pm:91> INFO - Globbed data source 'bibtex/kandidatarbete.bib' to bibtex/kandidatarbete.bib
+[276] Biber.pm:4455> INFO - Looking for bibtex format file 'bibtex/kandidatarbete.bib' for section 0
+[299] bibtex.pm:1653> INFO - LaTeX decoding ...
+[313] bibtex.pm:1471> INFO - Found BibTeX data source 'bibtex/kandidatarbete.bib'
+[366] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[366] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[366] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'sv-SE'
+[374] bbl.pm:652> INFO - Writing 'kandidat.bbl' with encoding 'UTF-8'
+[375] bbl.pm:755> INFO - Output to kandidat.bbl

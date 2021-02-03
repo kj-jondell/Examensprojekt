@@ -1,0 +1,2 @@
+använd mmdc såhär: 
+mmdc -i gantt.txt -o gantt.png -C gant_style.css -s 4

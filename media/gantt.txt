@@ -1,21 +1,21 @@
 gantt
-    title Preliminär plan (2020-12-14)
+    title Plan (2021-02-03)
     dateFormat  YYYY-MM-DD
 	axisFormat %b-%d
 	todayMarker stroke-width:1px,stroke:#c00,opacity:0.5
 	%% nedan följer alla actions
 
 	section Generellt
-    Hitta server för hosting (t.ex. AWS)	:crit, c2, 2021-01-16, 18d
-	Annonsera projekt, dialog (forum)				:diab, after uppspelning, 2021-04-27
+    Hitta server för hosting (t.ex. AWS)	:crit, c2, 2021-03-01, 18d
+	Annonsera projekt, dialog (forum)				:diab, after c2, 2021-04-27
 	Konsert 									:konsert, 2021-04-27, 1d 
 
     section SuperCollider-patch
-	Bestämma mappningar				:active, mapp, 2020-11-09, 10w
-	Bestämma ljudkällor/orkestrering				:ljud, 2020-12-01, 10w
-	Färdig prototyp									:crit, prototyp, 2020-12-27, 1d 
+	%Bestämma mappningar				:active, mapp, 2020-11-09, 1s
+	%Bestämma ljudkällor/orkestrering				:ljud, 2020-12-01, 10w
+	%Färdig prototyp									:crit, prototyp, 2020-12-27, 1d 
+	Instrumentering (SynthDefar i SuperCollider)				:active, instrument, 2021-01-01, 2021-02-14
 	Koppla samman med Python-server     :osc_sc, after osc_p, 3d
-	Bestämma form, skriva musik 				:musik, after osc_sc, 2021-04-15
 	Binauralisiering 				:binaur, after stream, 2021-04-15
 
     section Python-server

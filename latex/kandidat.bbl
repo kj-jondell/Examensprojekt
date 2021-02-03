@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.8 $
+% $ biblatex bbl format version 3.1 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \sortlist[entry]{nyt/global/}
+  \datalist[entry]{nyt/global//global/global}
     \entry{bijsterveld_sonic_2019}{book}{}
       \name{author}{1}{}{%
         {{hash=1dcce9f1f8a2b481ea311e93d0f0fb43}{%
@@ -35,10 +35,13 @@
       }
       \strng{namehash}{1dcce9f1f8a2b481ea311e93d0f0fb43}
       \strng{fullhash}{1dcce9f1f8a2b481ea311e93d0f0fb43}
+      \strng{bibnamehash}{1dcce9f1f8a2b481ea311e93d0f0fb43}
+      \strng{authorbibnamehash}{1dcce9f1f8a2b481ea311e93d0f0fb43}
       \strng{authornamehash}{1dcce9f1f8a2b481ea311e93d0f0fb43}
       \strng{authorfullhash}{1dcce9f1f8a2b481ea311e93d0f0fb43}
       \field{sortinit}{B}
-      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
@@ -56,6 +59,9 @@
       \endverb
       \verb{file}
       \verb Full Text:/Users/kj/Zotero/storage/TICT8AIB/Bijsterveld - 2019 - Sonic Skills Listening for Knowledge in Science, .pdf:application/pdf;Snapshot:/Users/kj/Zotero/storage/GI6PKYK9/9781137598318.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.palgrave.com/gp/book/9781137598318
       \endverb
       \verb{url}
       \verb https://www.palgrave.com/gp/book/9781137598318
@@ -80,10 +86,13 @@
       }
       \strng{namehash}{0e966a02a6ded44e65396808f53580a1}
       \strng{fullhash}{0e966a02a6ded44e65396808f53580a1}
+      \strng{bibnamehash}{0e966a02a6ded44e65396808f53580a1}
+      \strng{authorbibnamehash}{0e966a02a6ded44e65396808f53580a1}
       \strng{authornamehash}{0e966a02a6ded44e65396808f53580a1}
       \strng{authorfullhash}{0e966a02a6ded44e65396808f53580a1}
       \field{sortinit}{B}
-      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
@@ -98,7 +107,7 @@
            familyi={M\bibinitperiod},
            given={Marshall},
            giveni={M\bibinitperiod}}}%
-        {{hash=f0f8e86350fd3ba58aa534bd749e862e}{%
+        {{hash=ab8567dfa2953eddf3a4cdab9feedd8b}{%
            family={Gordon},
            familyi={G\bibinitperiod},
            given={W.\bibnamedelimi Terrence},
@@ -113,12 +122,15 @@
       \list{publisher}{1}{%
         {Gingko Press}%
       }
-      \strng{namehash}{b7cfa1ef21e24dc73c51e4ec0d855c8c}
-      \strng{fullhash}{b7cfa1ef21e24dc73c51e4ec0d855c8c}
-      \strng{authornamehash}{b7cfa1ef21e24dc73c51e4ec0d855c8c}
-      \strng{authorfullhash}{b7cfa1ef21e24dc73c51e4ec0d855c8c}
+      \strng{namehash}{02ac20128811a163e3f92d0ac9c96947}
+      \strng{fullhash}{02ac20128811a163e3f92d0ac9c96947}
+      \strng{bibnamehash}{02ac20128811a163e3f92d0ac9c96947}
+      \strng{authorbibnamehash}{02ac20128811a163e3f92d0ac9c96947}
+      \strng{authornamehash}{02ac20128811a163e3f92d0ac9c96947}
+      \strng{authorfullhash}{02ac20128811a163e3f92d0ac9c96947}
       \field{sortinit}{M}
-      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
@@ -129,7 +141,7 @@
       \field{title}{Understanding media: the extensions of man}
       \field{year}{2015}
     \endentry
-  \endsortlist
+  \enddatalist
 \endrefsection
 \endinput
 
