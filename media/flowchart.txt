@@ -1,10 +1,10 @@
 flowchart LR
-	A["Hemsida"]
+	A["Hemsida (Flask)"]
 	B["Python-server"]
 	C["SuperCollider-patch"]
 	D["openFrameworks"]
 	E["Internetradio"]
-	A -->|REST| B
+	A -->|Celery?| B
 	B <-->|Osc/Csv| C
 	B -->|Osc/Csv| D
 	C <-->|Osc| D

@@ -3,7 +3,7 @@
 # Struktur av system
 ![Flödesdiagram av system](../media/flowchart.png)
 
-- **Hemsida** (interaktion med användarna -- dvs. uppladdning av mätdata som Excel-fil -- *och* spelar upp musiken) 
+- **Hemsida** (interaktion med användarna -- dvs. uppladdning av mätdata som Excel-fil -- *och* spelar upp musiken; uppbyggd av **Flask** och kopplas på så sätt ihop med Python-server) 
 - **Python-server** (tar emot användar-data, tolkar data och servrar) 
 - **SuperCollider** (genererar musik) 
 * **openFrameworks** (visualisering...)

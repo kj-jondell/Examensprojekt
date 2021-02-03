@@ -11,33 +11,28 @@ gantt
 	Konsert 									:konsert, 2021-04-27, 1d 
 
     section SuperCollider-patch
-	%Bestämma mappningar				:active, mapp, 2020-11-09, 1s
-	%Bestämma ljudkällor/orkestrering				:ljud, 2020-12-01, 10w
-	%Färdig prototyp									:crit, prototyp, 2020-12-27, 1d 
 	Instrumentering (SynthDefar i SuperCollider)				:active, instrument, 2021-01-01, 2021-02-14
-	Koppla samman med Python-server     :osc_sc, after osc_p, 3d
-	Binauralisiering 				:binaur, after stream, 2021-04-15
+	Skriva figurer/melodier (MIDI eller PBind)				:active, figur, 2021-02-01, 2021-03-14
+	Koppla samman med Python-server     :osc_sc, after instrument, 3d
 
     section Python-server
-	Parser (tolka indata) 		:parse, 2020-12-01, 4w
-	Synkron kommuninkation (Osc)			:osc_p, after parse, 3w
-	Asynkron kommunikation (Csv)			:csv_p, after parse, 3w
+	Parser (tolka indata) 		:done, parse, 2020-12-01, 4w
+	Synkron kommuninkation (Osc)			:osc_p, after parse, 8w
 
     section Internetradio
-	Darkice/Icecast :crit, stream, after c2, 3d
+	Darkice/Icecast :done, stream, 2021-01-01, 1d
 
     section Hemsida
-	Uppladdning av blodsockervärden		:blodsocker, 2021-01-01, 3w
-	Informationssida					:information, after blodsocker, 2w
-	Uppspelning av radio				:uppspelning, after information, 2w
+	Uppladdning av blodsockervärden		:blodsocker, 2021-03-01, 1w
+	Informationssida					:information, after blodsocker, 1w
+	Uppspelning av radio				:uppspelning, after information, 1w
 	Annan interaktion (röstmeddelanden)					:interaktion, after uppspelning, 2w
 
     section Text (rapport)
-    Samla/läsa referenser	          :active, a1, 2020-11-09, 8w
-	Skelett/skiss :active, struc, 2020-11-09, 2020-12-31
-	Preliminär plan :crit, plan, 2020-12-15, 1d
-    Skriva sammanfattning över referenser 				:sammanfattning, after a1, 1w
-	Skriva text :text, after sammanfattning, 2021-04-15
+	Skelett/skiss :done, struc, 2020-11-09, 2020-12-31
+	Preliminär plan :done, plan, 2020-12-15, 1d
+    Samla/läsa referenser	          :active, a1, 2020-11-09, 2021-03-01
+	Skriva text :text, after a1, 2021-04-15
 	Inlämning av text :crit, pdf, 2021-04-15, 1d
 	Ventilieringsseminarier :v1, 2021-05-03, 2w
 
