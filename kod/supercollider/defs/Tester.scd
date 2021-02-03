@@ -23,7 +23,6 @@
 
 			(File.getcwd +/+ "SynthDefs.sc").load(); //load Synth Defs
 
-			Server.default.sync;
 			~booted = true;
 
 			 order.do({ // TODO mirror? setting?
@@ -32,6 +31,9 @@
 				~buffers.add(Buffer.read(Server.default, path: url, numFrames: 1024)); 
 
 			 });
+
+			Server.default.sync;
+
         };
 
 		~wavetable = Synth.new(\Diabetes, [\bufferNum, ~buffers[3].bufnum, \velocity, 126, \detuneFactor, 0.5, \freq, 110]);
