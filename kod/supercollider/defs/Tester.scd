@@ -21,13 +21,13 @@
 			Buffer.freeAll(s);
 			~slices = SoundFile.collectIntoBuffers(File.getcwd +/+ "media/normalized/*",  server: Server.default);
 
-			(File.getcwd +/+ "SynthDefs.sc").load(); //load Synth Defs
+			(File.getcwd +/+ "SynthDefs.sc").load(); //ladda Synth Defs
 
 			~booted = true;
 
-			 order.do({ // TODO mirror? setting?
+			 order.do({ 
 				arg index, count;
-				var url = format(File.getcwd +/+ "media/wavetable/sample_%.wav", index); //put samples somewhere else... 
+				var url = format(File.getcwd +/+ "media/wavetable/sample_%.wav", index); 
 				~buffers.add(Buffer.read(Server.default, path: url, numFrames: 1024)); 
 
 			 });
@@ -38,7 +38,8 @@
 
 		~wavetable = Synth.new(\Diabetes, [\bufferNum, ~buffers[3].bufnum, \velocity, 126, \detuneFactor, 0.5, \freq, 110]);
 
-		loop { |i|
+		// TODO omvandla till pbind...!
+		loop { |i| 
 			drums = Synth.new(\sliceBuffer, [\bufnum, ~slices.choose.bufnum, \freq, scale.degreeToFreq(-10+20.rand, 220, 0), \release, rrand(10,50)/75.0, \resonantAmp, rrand(0,10)/10.0, \attack, rrand(0,50)/100.0]);
 			[1/6, 1/8].wchoose([1,50].normalizeSum).wait;
 		};
@@ -48,7 +49,7 @@
 
 ~wavetable.set(\detuneFactor, 1.5)
 
-//1.5, 1.25, 1.65, 1.01
+//1.5, 1.25, 1.65, 1.01 (Schysst liten serie)
 
 s.record;
 s.stopRecording;
@@ -58,3 +59,18 @@ Server.default.freeAll;
 Server.default.queryAllNodes;
 
 Scale.directory
+
+(
+
+	SynthDef.new(\JLCBass, {
+		var osc = SinOsc.ar(220, mul: 0.1);
+		Out.ar(0, osc!2);
+	}).add;
+
+	Server.default.waitForBoot({
+		var bass = Synth.new(\JLCBass);
+		1.wait;
+		bass.free;
+	});
+
+)
