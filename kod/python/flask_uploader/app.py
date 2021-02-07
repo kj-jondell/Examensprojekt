@@ -6,6 +6,9 @@ import xlrd
 
 from threading import Thread
 from pythonosc import  udp_client
+
+from cgmparser.Parser import Parser
+
 #from tasks import
 
 app = Flask(__name__)
@@ -15,8 +18,12 @@ def threaded_task(file):
 #     sheet = xlrd.open_workbook(file_contents=file.read()).sheet_by_index(1)
 #     print(sheet.nrows)
 # 
-    client = udp_client.SimpleUDPClient("192.168.0.105", 7771)
-    client.send_message('/hey', [440]) # test som skickar OSC meddelande till Supercollider (Sched.scd)
+    times, values = Parser().parse_data(user_file=file.read())
+    #values = Calculator.get_differentiated(values, 0.5) # step_size = 1, to not scale data...
+    client = udp_client.SimpleUDPClient("localhost", 7771)
+    for value in values:
+        client.send_message('/value', value) # test som skickar OSC meddelande till Supercollider (Sched.scd)
+    client.send_message('/valueDone', '') # test som skickar OSC meddelande till Supercollider (Sched.scd)
 
 @app.route('/uploader', methods=['GET', 'POST'])
 def upload_new_file():
