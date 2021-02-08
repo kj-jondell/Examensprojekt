@@ -1,13 +1,16 @@
-<html>
-    <head>
-        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/upload.css') }}">
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename = 'upload.css') }}">
+    <title>{{title}}</title>
     </head>
     <body>
         <form action="{{ url_for('upload_new_file') }}" 
             method="post"
             enctype="multipart/form-data"
         >
-        <input type="file" name="file" />
+        <input type="file" name="file" accept=".xls, .xlsx, .csv"/>
         <input type="submit" value="Skicka"/>
     </form>
     </body>
