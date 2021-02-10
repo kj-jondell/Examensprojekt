@@ -15,7 +15,6 @@ var oscFunc = {
 					val.linlin(1,20,0.75,0.125).wait;
 				});
 			};
-			// server.queryAllNodes;
 		}
 	);
 
