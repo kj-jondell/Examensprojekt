@@ -1,5 +1,4 @@
-var server ;
-var values = List.new(), dataPackets = List.new();
+var dataPackets = List.new();
 var newDataPack;
 
 var oscFunc = {
@@ -7,20 +6,21 @@ var oscFunc = {
 	arg msg, time, addr, recvPort;
 
 	switch(msg[0],
-		//'/newPackage', {newDataPack = DataPacket.new();}, 
-		'/value', {values.add(msg[1]);},
+		'/newPackage', {newDataPack = BloodGlucose.new();}, 
+		'/value', {newDataPack.addValue(msg[1]);},
+		'/meta', {
+		  newDataPack.metaData = Dictionary.newFrom(msg[1..]);
+		  newDataPack.metaData.postln;
+		},
 		'/valueDone', {
-			fork {
-				values.do({
-					arg val;
-					Synth.new(\sin, [\freq, Scale.majorPentatonic.degreeToFreq(val.clip(1,20), 220, 0)], target: server);
-					val.linlin(1,20,0.75,0.125).wait;
-				});
-			};
+		  newDataPack.createPatterns();
+		  dataPackets.add(newDataPack);
 		}
 	);
 
 };
+// ---------- SERVER SETTINGS ---------- 
+var server, serverOptions = ServerOptions.new;
 
 /* TODO ta bort hjälp-synthDef */
 SynthDef.new(\sin,  {
@@ -28,9 +28,6 @@ SynthDef.new(\sin,  {
 	var sinOsc = SinOsc.ar(freq, mul:0.1)*EnvGen.kr(Env.perc(), doneAction: Done.freeSelf);
 	Out.ar(0, sinOsc!2);
 }).add;
-
-// ---------- SERVER SETTINGS ---------- 
-var serverOptions = ServerOptions.new;
 
 serverOptions.device = "scjack:supercollider";
 serverOptions.numInputBusChannels = 0;
