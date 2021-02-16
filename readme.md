@@ -6,3 +6,4 @@ Här är lite länkar för att snabbt navigera till olika delar av projektet!
 
 ## Plan
 * [Följande](plan/plan.md) är en länk till nuvarande plan.
+* [Här](https://github.com/kj-jondell/Examensprojekt-kod) är koden till projektet!
