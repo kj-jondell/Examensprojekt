@@ -1,4 +1,4 @@
-PWD /Volumes/school/KMH/åk3/kandidat/latex
+PWD /Volumes/school/KMH/åk3/kandidat/projekt/latex
 INPUT /usr/local/texlive/2020/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -143,9 +143,6 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti9.tfm
-INPUT ../media/flowchart.png
-INPUT ../media/flowchart.png
-INPUT ../media/flowchart.png
 INPUT kandidat.aux
 INPUT kandidat.run.xml
 OUTPUT kandidat.run.xml

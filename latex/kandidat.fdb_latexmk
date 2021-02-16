@@ -1,12 +1,11 @@
 # Fdb version 3
-["biber kandidat"] 1612274083 "kandidat.bcf" "kandidat.bbl" "kandidat" 1612274097
-  "bibtex/kandidatarbete.bib" 1608584447 3434 7b2c5bbe40209193b2c1d5aae970f2b8 ""
-  "kandidat.bcf" 1612274096 102020 7ee7277d907da03bbce1f4bb860cee3c "pdflatex"
+["biber kandidat"] 1612274083 "kandidat.bcf" "kandidat.bbl" "kandidat" 1613469694
+  "bibtex/kandidatarbete.bib" 1613301248 3434 7b2c5bbe40209193b2c1d5aae970f2b8 ""
+  "kandidat.bcf" 1613469693 102020 7ee7277d907da03bbce1f4bb860cee3c "pdflatex"
   (generated)
   "kandidat.blg"
   "kandidat.bbl"
-["pdflatex"] 1612274094 "kandidat.tex" "kandidat.pdf" "kandidat" 1612274097
-  "../media/flowchart.png" 1605826946 25753 ab221d8d883db2eaa6923e6880013682 ""
+["pdflatex"] 1613469687 "kandidat.tex" "kandidat.pdf" "kandidat" 1613469694
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -93,15 +92,15 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1610542556 2432461 bebecf6269dbc57af0b94ddf0a433ed8 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "kandidat.aux" 1612274096 3238 c23b1d52919792fabdbacffd3b9ac6f9 "pdflatex"
-  "kandidat.bbl" 1612274089 6775 ae0edfb210c7d4043184c8a382f8e3a5 "biber kandidat"
-  "kandidat.run.xml" 1612274096 2386 f713c1c59f1cf615cc9948bb2896072a "pdflatex"
-  "kandidat.tex" 1608668568 5465 0f38e43c9b44f7992becc989e6bec9b3 ""
-  "kandidat.toc" 1612274096 1194 6a4b1dafce3b324992a010abe6b9ae6e "pdflatex"
+  "kandidat.aux" 1613469693 3058 b7ba8a5def6deb24e2bcb7b75dfd636d "pdflatex"
+  "kandidat.bbl" 1613301248 6775 ae0edfb210c7d4043184c8a382f8e3a5 "biber kandidat"
+  "kandidat.run.xml" 1613469693 2386 f713c1c59f1cf615cc9948bb2896072a "pdflatex"
+  "kandidat.tex" 1613469671 5759 575699ed3a34ad9a80b65ea0ab60db60 ""
+  "kandidat.toc" 1613469693 1194 5e4d18a7da158934e5f8bd71157b9e12 "pdflatex"
   (generated)
-  "kandidat.log"
   "kandidat.toc"
   "kandidat.aux"
-  "kandidat.run.xml"
   "kandidat.pdf"
+  "kandidat.log"
   "kandidat.bcf"
+  "kandidat.run.xml"
