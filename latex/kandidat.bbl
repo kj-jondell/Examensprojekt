@@ -19,6 +19,55 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{arvidson_det_2016}{article}{}
+      \name{author}{1}{}{%
+        {{hash=781042498f2bd25703f85b53c14b44ea}{%
+           family={Arvidson},
+           familyi={A\bibinitperiod},
+           given={Mats},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {sv}%
+      }
+      \strng{namehash}{781042498f2bd25703f85b53c14b44ea}
+      \strng{fullhash}{781042498f2bd25703f85b53c14b44ea}
+      \strng{bibnamehash}{781042498f2bd25703f85b53c14b44ea}
+      \strng{authorbibnamehash}{781042498f2bd25703f85b53c14b44ea}
+      \strng{authornamehash}{781042498f2bd25703f85b53c14b44ea}
+      \strng{authorfullhash}{781042498f2bd25703f85b53c14b44ea}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Att leva med en autoimmun sjukdom som typ 1-diabetes innebär att man tvingas till ställningstaganden som en frisk individ sällan eller aldrig behöver ta i beaktande. Dessa ställningstaganden kan utifrån sett tyckas vara obetydliga men är för diabetikern livsviktiga. Denna artikel är skriven utifrån ett första-personsperspektiv och lyfter fram aspekter som blir en del i en slags överlevnadsstrategi för vardagen och som relateras till samtidens alltmer accelererande livstempo där prestation sätts i fokus. Istället vill jag betona pausens betydelse för överlevnad eftersom denna bildar själva överlevnadsstrategins ramverk.}
+      \field{issn}{0037-833X}
+      \field{journaltitle}{Socialmedicinsk tidskrift}
+      \field{month}{7}
+      \field{note}{Number: 3}
+      \field{number}{3}
+      \field{title}{Det autoimmuna jaget – om att sätta gränser}
+      \field{urlday}{16}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{volume}{93}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{280\bibrangedash 287}
+      \range{pages}{8}
+      \verb{file}
+      \verb Full Text PDF:/Users/kj/Zotero/storage/PWRSC8G2/Arvidson - 2016 - Det autoimmuna jaget – om att sätta gränser.pdf:application/pdf;Snapshot:/Users/kj/Zotero/storage/XNRNXWN8/1463.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://socialmedicinsktidskrift.se/smt/index.php/smt/article/view/1463
+      \endverb
+      \verb{url}
+      \verb https://socialmedicinsktidskrift.se/smt/index.php/smt/article/view/1463
+      \endverb
+      \keyw{autoimmun sjukdom,diabetes typ-1,jaget,överlevnadsstrategi,paus,prestation,social acceleration}
+    \endentry
     \entry{bijsterveld_sonic_2019}{book}{}
       \name{author}{1}{}{%
         {{hash=1dcce9f1f8a2b481ea311e93d0f0fb43}{%
@@ -58,7 +107,7 @@
       \verb 10.1057/978-1-137-59829-5
       \endverb
       \verb{file}
-      \verb Full Text:/Users/kj/Zotero/storage/TICT8AIB/Bijsterveld - 2019 - Sonic Skills Listening for Knowledge in Science, .pdf:application/pdf;Snapshot:/Users/kj/Zotero/storage/GI6PKYK9/9781137598318.html:text/html
+      \verb Snapshot:/Users/kj/Zotero/storage/GI6PKYK9/9781137598318.html:text/html;Full Text:/Users/kj/Zotero/storage/TICT8AIB/Bijsterveld - 2019 - Sonic Skills Listening for Knowledge in Science, .pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb https://www.palgrave.com/gp/book/9781137598318
@@ -140,6 +189,26 @@
       \field{shorttitle}{Understanding media}
       \field{title}{Understanding media: the extensions of man}
       \field{year}{2015}
+    \endentry
+    \entry{noauthor_sonification_2011}{book}{}
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Logos}%
+      }
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-8325-2819-5}
+      \field{note}{OCLC: 805139776}
+      \field{title}{The sonification handbook}
+      \field{year}{2011}
     \endentry
   \enddatalist
 \endrefsection

@@ -33,8 +33,6 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/babel-swedish/swedish.ldf
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/babel-swedish/swedish.ldf
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.def
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def
-INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
-INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
@@ -143,11 +141,13 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti9.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
 INPUT kandidat.aux
 INPUT kandidat.run.xml
 OUTPUT kandidat.run.xml
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb

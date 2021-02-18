@@ -13,11 +13,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\textit {Blodsockervärden}}{2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Process}{2}%
+\contentsline {subsubsection}{\numberline {0.0.1}Förhållandet till mätandet}{2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{SuperCollider-system}{2}%
+\contentsline {subsection}{Process}{3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Musiken}{2}%
+\contentsline {subsection}{SuperCollider-system}{3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Musiken}{3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Rumslighet}{3}%
 \defcounter {refsection}{0}\relax 
