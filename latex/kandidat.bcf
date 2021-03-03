@@ -2187,10 +2187,7 @@
   <bcf:section number="0">
     <bcf:citekey order="1">bijsterveld_sonic_2019</bcf:citekey>
     <bcf:citekey order="2">noauthor_sonification_2011</bcf:citekey>
-    <bcf:citekey order="3">bornemark_det_2018</bcf:citekey>
-    <bcf:citekey order="4">bijsterveld_sonic_2019</bcf:citekey>
-    <bcf:citekey order="5">mcluhan_understanding_2015</bcf:citekey>
-    <bcf:citekey order="6">arvidson_det_2016</bcf:citekey>
+    <bcf:citekey order="3">arvidson_det_2016</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

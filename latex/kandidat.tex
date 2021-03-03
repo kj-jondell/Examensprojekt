@@ -54,11 +54,13 @@
 \addcontentsline{toc}{section}{Introduktion}
 %\kant[1]
 
-Idéen om att göra musik av mina blodsockervärden föddes samma dag som jag fick en \emph{Freestyle Libre}-mätare (i oktober 2017) vilket är en så kallad kontinuerlig blodsockermätare (en. \emph{continous glucose monitoring}, eller \emph{CGM}). Denna typ av blodsockermätare skiljer sig från tradionella mätare --- som man är tvungen att sticka sig i fingret och på så sätt mäta blodsockret med --- i att den regelbundet gör mätningar, och på så sätt ger en kontinuerlig kurva över ens blodsockervärden. Kurvorna påminde mig om ...
+Idéen om att göra musik av mina blodsockervärden föddes dagen då jag fick en \emph{Freestyle Libre}-mätare, en så kallad kontinuerlig blodsockermätare (en. \emph{continous glucose monitoring}, eller \emph{CGM}). Denna typ av blodsockermätare skiljer sig från tradionella mätare --- som man är tvungen att sticka sig i fingret och på så sätt mäta blodsockret med --- i att den regelbundet gör mätningar, och på så sätt ger en kontinuerlig kurva över ens blodsockervärden. Kurvorna påminde mig om hur ljudsignaler ofta representeras visuellt (en horisontell tidsaxel och en linjär vertikal axel) och i ett tidigt experiment gjorde jag en direkt översättning av mina blodsockerkurvor till ljudfiler: en så kallad \emph{audifiering} (en. \emph{audification}). Dessa ljud utgjorde instrumentationen i mitt stycke \emph{Värden och en vagga} (2017). %, vilken jag sökte till Musikhögskolan med.
 
-Interaktivitet (\emph{Calling out of context})...
 
-Radio (\emph{Tuning a radio}, etc...)
+
+%Interaktivitet (\emph{Calling out of context})...
+
+%Radio (\emph{Tuning a radio}, etc...)
 
 \subsection*{Bakgrund}
 \addcontentsline{toc}{subsection}{Bakgrund}
@@ -77,11 +79,11 @@ Smalley och spektromorfologin. \footnote{Olika ordningar av \emph{surrogacy},  g
 
 \emph{Audification} \footcite[302]{noauthor_sonification_2011} är en form av sonifiering där mätdatan översätts direkt till ljudkurvor... fyra grupper av data (\emph{sound recording}, \emph{general acoustic}, \emph{physical}, och \textbf{\emph{abstract}})...
 
-\subsubsection*{Det mätbara och det omätbara}
-\addcontentsline{toc}{subsubsection}{\textit{Det mätbara och det omätbara}}
-Bornemark \footcite{bornemark_det_2018}
-Bijsterveld \footcite[100-102]{bijsterveld_sonic_2019}
-McLuhan \footcite[2]{mcluhan_understanding_2015}
+% \subsubsection*{Det mätbara och det omätbara}
+% \addcontentsline{toc}{subsubsection}{\textit{Det mätbara och det omätbara}}
+% Bornemark \footcite{bornemark_det_2018}
+% Bijsterveld \footcite[100-102]{bijsterveld_sonic_2019}
+% McLuhan \footcite[2]{mcluhan_understanding_2015}
 
 \subsection*{Diabetes}
 \addcontentsline{toc}{subsection}{Diabetes}
@@ -98,7 +100,8 @@ Att s.k. \emph{mappa} denna data till musikaliska parametrar är förstås godty
 
 Det som är viktigt i denna \emph{mappning} är dock att den gestaltade datan --- dvs. musiken --- \textbf{inte} får avslöja något om den underliggande eller bakomliggande (mät)datan. Dels är det en integritetsfråga, som diskuteras vidare nedan, dels är det en förutsättning för detta projekt: det existerar inga \emph{bra} eller \emph{dåliga} värden. Själva delningen av värdena är det viktiga.
 
-\subsubsection{Förhållandet till mätandet}
+\subsubsection*{Förhållandet till mätandet}
+\addcontentsline{toc}{subsubsection}{\textit{Förhållandet till mätandet}}
 I sin text \emph{Det autoimmuna jaget --- om att sätta gränser} \footcite[286]{arvidson_det_2016} skriver Mats Arvidson om kravet som diabetiker på disciplin \emph{och} prestation.
 
 \section*{Process}
@@ -111,9 +114,19 @@ Beskrivning/dokumentation av tekniken...
 % \caption{Översiktsdiagram av system}
 % \end{figure}
 
+\begin{figure*}
+\centering
+\includegraphics[width=\textwidth]{../media/hemsida.png}
+\caption{Skärmdump av hemsida (\emph{temporär})}
+\end{figure*}
+
 \subsection*{SuperCollider-system}
 \addcontentsline{toc}{subsection}{SuperCollider-system}
 Varje instans av mätdata existerar som ett \emph{objekt} (motsvarande en ljudkälla, inte schaefferiansk) i musiken, objekten har vissa attribut (såsom register, spatiell kodning, etc). Även kodat binauralt (via \emph{Ambisonics}). Klassen har en Osc-tolkarfunktion (\textbf{eller} CSV-filläsare, om asynkron).
+
+\subsubsection*{Kösystem}
+\addcontentsline{toc}{subsubsection}{\emph{Kösystem}}
+När en deltagare laddar upp sina värden på webbplatsen   
 
 \section*{Musiken}
 \addcontentsline{toc}{section}{Musiken}
