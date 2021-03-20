@@ -1,0 +1,13 @@
+graph TD;
+	A['OSC-hanterare']
+	B[""]
+	C["SuperCollider-patch"]
+	D["openFrameworks"]
+	E["Internetradio"]
+
+	A -->|Celery?| B
+	B <-->|Osc/Csv| C
+	B -->|Osc/Csv| D
+	C <-->|Osc| D
+	C -->|Ljud| E
+	E -->|Mp3| A

@@ -1,17 +1,12 @@
 # Fdb version 3
-["biber /Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat"] 1614759919 "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.bcf" "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.bbl" "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat" 1614772105
-  "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.bcf" 1614772104 101955 a6f5201fd12386b7292812ff98b723e1 "pdflatex"
+["biber kandidat"] 1616071961 "kandidat.bcf" "kandidat.bbl" "kandidat" 1616253505
   "bibtex/kandidatarbete.bib" 1613488245 7540 71d9526499d7476b1a30efa177a817f6 ""
+  "kandidat.bcf" 1616253504 101955 a6f5201fd12386b7292812ff98b723e1 "pdflatex"
   (generated)
-  "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.bbl"
-  "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.blg"
-["pdflatex"] 1614772095 "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.tex" "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.pdf" "kandidat" 1614772105
-  "/Volumes/school/KMH/åk3/kandidat/projekt/latex/../media/hemsida.png" 1614759509 642159 56034a03f327af16ecf1528bf3f71c01 ""
-  "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.aux" 1614772104 3292 fd792c1644e8ab9a454034293acf3c80 "pdflatex"
-  "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.bbl" 1614759922 7124 4169a4afb27981703a799350269a0786 "biber /Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat"
-  "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.run.xml" 1614772104 2386 f713c1c59f1cf615cc9948bb2896072a "pdflatex"
-  "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.tex" 1614772083 7462 8b87ee3f887bda42b8bf5411d0631d7b ""
-  "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.toc" 1614772104 1281 e6bd766c14887808595477574c86618f "pdflatex"
+  "kandidat.blg"
+  "kandidat.bbl"
+["pdflatex"] 1616253498 "kandidat.tex" "kandidat.pdf" "kandidat" 1616253505
+  "../media/hemsida.png" 1614759509 642159 56034a03f327af16ecf1528bf3f71c01 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -99,10 +94,15 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1610542556 2432461 bebecf6269dbc57af0b94ddf0a433ed8 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
+  "kandidat.aux" 1616253504 4012 a7257e3342cd400120bcd2ba14bea8e9 "pdflatex"
+  "kandidat.bbl" 1616071967 7124 4169a4afb27981703a799350269a0786 "biber kandidat"
+  "kandidat.run.xml" 1616253504 2386 f713c1c59f1cf615cc9948bb2896072a "pdflatex"
+  "kandidat.tex" 1616253494 12637 c3dcf1af63270e8c4b075394d23208c0 ""
+  "kandidat.toc" 1616253504 1682 7dcd9e28af447031d4533f9074361dd5 "pdflatex"
   (generated)
-  "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.bcf"
-  "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.toc"
-  "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.aux"
-  "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.run.xml"
-  "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.log"
-  "/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.pdf"
+  "kandidat.toc"
+  "kandidat.bcf"
+  "kandidat.run.xml"
+  "kandidat.log"
+  "kandidat.aux"
+  "kandidat.pdf"

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.13)  3 MAR 2021 12:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.13)  20 MAR 2021 16:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.tex
-(/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.tex
+**kandidat.tex
+(./kandidat.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -214,7 +214,8 @@ Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count282
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
@@ -479,7 +480,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'swedish'.
- (/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.aux)
+ (./kandidat.aux)
 \openout1 = `kandidat.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -561,10 +562,10 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'kandidat.bbl' found.
- (/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.bbl)
+ (./kandidat.bbl)
 Package biblatex Info: Reference section=0 on input line 33.
 Package biblatex Info: Reference segment=0 on input line 33.
- (/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.toc
+ (./kandidat.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -579,47 +580,62 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 77.
+(Font)              <9> on input line 66.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 77.
-<../media/hemsida.png, id=10, 1557.82pt x 990.70125pt>
-File: ../media/hemsida.png Graphic file (type png)
-<use ../media/hemsida.png>
-Package pdftex.def Info: ../media/hemsida.png  used on input line 119.
-(pdftex.def)             Requested size: 426.79135pt x 271.40817pt.
+(Font)              <5> on input line 66.
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 2 might be wrong on input line 126.
+(multicol)                Footnotes on page 2 might be wrong on input line 110.
 
 [2
 
-] [3 </Volumes/school/KMH/åk3/kandidat/projekt/latex/../media/hemsida.png>]
-Overfull \hbox (11.11841pt too wide) in paragraph at lines 157--157
+]
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+[]\OT1/cmr/m/n/10.95 Prestation, ut-matt-ning (bor-ne-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+\OT1/cmr/m/n/10.95 (''jag []ar \OT1/cmr/bx/n/10.95 in-te \OT1/cmr/m/n/10.95 min di-a-be-tes, mi-na
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+\OT1/cmr/m/n/10.95 blod-soc-kerv[]arden...'', t.ex. ar-ti-kel i
+ []
+
+<../media/hemsida.png, id=18, 1557.82pt x 990.70125pt>
+File: ../media/hemsida.png Graphic file (type png)
+<use ../media/hemsida.png>
+Package pdftex.def Info: ../media/hemsida.png  used on input line 139.
+(pdftex.def)             Requested size: 426.79135pt x 271.40817pt.
+[3] [4 <../media/hemsida.png>]
+Overfull \hbox (11.11841pt too wide) in paragraph at lines 204--204
 \OT1/cmr/m/it/10.95 ci-ne and Engi-ne-e-ring (1920s-Present)\OT1/cmr/m/n/10.95 . Pal-
  []
 
-[4
+[5
 
 
-] (/Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.aux)
+] (./kandidat.aux)
 Package logreq Info: Writing requests to 'kandidat.run.xml'.
 \openout1 = `kandidat.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11586 strings out of 480608
- 210898 string characters out of 5903630
- 1060071 words of memory out of 5000000
- 27346 multiletter control sequences out of 15000+600000
+ 11593 strings out of 480608
+ 210394 string characters out of 5903630
+ 1060079 words of memory out of 5000000
+ 27354 multiletter control sequences out of 15000+600000
  538558 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,8n,61p,1648b,1709s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,8n,61p,1600b,1715s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on /Volumes/school/KMH/åk3/kandidat/projekt/latex/kandidat.pdf (4 pages, 504449 bytes).
+Output written on kandidat.pdf (5 pages, 510363 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
