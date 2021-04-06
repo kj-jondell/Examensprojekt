@@ -1,10 +1,11 @@
-\documentclass[11pt, twoside, a4paper]{article}
+\documentclass[11pt, a4paper]{article} %twoside
 \usepackage{epigraph}
 \usepackage{graphicx}
 \usepackage[swedish]{babel}
 
 \usepackage[margin=3cm]{geometry}
-\usepackage{multicol, float, blindtext, kantlipsum}
+\usepackage{float, blindtext, kantlipsum}
+%\usepackage{multicol}
 
 \usepackage[citestyle=verbose-ibid, bibstyle=authoryear, natbib=true, url=false, doi=false, isbn=false, backend=biber, labeldateparts]{biblatex}
 \AtEveryBibitem{%
@@ -48,11 +49,11 @@
 \clearpage
 
 \newpage
-\begin{multicols}{2}
+%\begin{multicols}{2}
 
 \section*{Introduktion}
 \addcontentsline{toc}{section}{Introduktion}
-Denna text kompletterar mitt examensprojekt, \emph{[jag behöver komma på ett namn]}, en interaktiv komposition/installation som generarar musik av blodsockervärden. Installationen består av ett SuperCollider-program som skapar själva musiken och en webbplats där man kan lyssna på den, läsa om projektet och ladda upp sina egna blodsockervärden. När en deltagare laddar upp sina värden slussas dessa direkt vidare till SuperCollider-programmet, som i sin tur inkluderar dem i musiken, antingen direkt eller att de blir schemalagda i en kö. Musiken strömmas till webbplatsen (och vidare till lyssnaren) via en internetradiostation. På så sätt utgör musiken ett kontinuerligt flöde som deltagare och åhörare hör samtidigt: det finns ingen början, mitten eller slut, utan endast ett \emph{nu}. Denna förhållning till \emph{temporalitet} utgör ett huvudtema i projektet, jämte med \emph{interaktivitet} (deltagande), \emph{radioteknologi}, \emph{autoimmuna sjukdomar} och \emph{sonifiering}.
+Denna text kompletterar mitt examensprojekt, \emph{Radio Diabetes}, en interaktiv komposition/installation som generarar musik av blodsockervärden. Installationen består av ett SuperCollider-program som skapar själva musiken och en webbplats där man kan lyssna på den, läsa om projektet och ladda upp sina egna blodsockervärden. När en deltagare laddar upp sina värden slussas dessa direkt vidare till SuperCollider-programmet, som i sin tur inkluderar dem i musiken, antingen direkt eller att de blir schemalagda i en kö. Musiken strömmas till webbplatsen (och vidare till lyssnaren) via en internetradiostation. På så sätt utgör musiken ett kontinuerligt flöde som deltagare och åhörare hör samtidigt: det finns ingen början, mitten eller slut, utan endast ett \emph{nu}. %Denna förhållning till \emph{temporalitet} utgör ett huvudtema i projektet, jämte med \emph{interaktivitet} (deltagande), \emph{radioteknologi}, \emph{autoimmuna sjukdomar} och \emph{sonifiering}.
 
 % TODO minska antalet "huvudteman"...?!
 % TODO "tystnad i radio"
@@ -63,46 +64,41 @@ Denna text kompletterar mitt examensprojekt, \emph{[jag behöver komma på ett n
 \addcontentsline{toc}{subsection}{Bakgrund}
 Idéen om att göra musik av blodsockervärden föddes dagen då jag fick en \emph{Freestyle Libre}-mätare, en så kallad kontinuerlig blodsockermätare (en. \emph{continous glucose monitoring}, eller \emph{CGM}). Denna typ av blodsockermätare skiljer sig från tradionella mätare --- som man är tvungen att sticka sig i fingret och på så sätt mäta blodsockret med --- i att den regelbundet gör mätningar, vilket ger en kontinuerlig kurva över ens blodsockervärden. Kurvorna påminde mig om hur ljudsignaler ofta representeras visuellt (en horisontell tidsaxel och en linjär vertikal axel) och i ett tidigt experiment gjorde jag en direkt översättning av mina blodsockerkurvor till ljudfiler: en så kallad \emph{audifiering} (en. \emph{audification}). Dessa ljud använde jag som samplingar i mitt stycke \emph{Värden och en vagga} (2017), som var ett av arbetsproverna jag sökte till Musikhögskolan med. 
 
-Jag utvecklade vidare och förbättrade mitt första program som jag hade skrivit för att översätta mina kurvor till ljudfiler, så att vem som helst skulle kunna använda programmet och översätta sina enga värden till ljud. Jag byggde också en wavetable-synth i SuperCollider som använde dessa ljudfiler som källmaterial. Detta instrument har jag använt i ett antal olika kompositioner som jag skrivit under min skoltid. Båda dessa program (översättaren och wavetable-synthen) har jag publicerat på min Github\footnote{https://github.com/kj-jondell/Diabetes-Synth}. En del av denna kod återanvände jag även i detta projekt.
+Jag utvecklade vidare och förbättrade mitt första program som jag hade skrivit för att översätta mina kurvor till ljudfiler, så att vem som helst skulle kunna använda programmet och översätta sina enga värden till ljud. Jag byggde också en wavetable-synth i SuperCollider som använde dessa ljudfiler som källmaterial. Detta instrument har jag använt i ett antal olika kompositioner som jag skrivit under min skoltid. Båda dessa program (översättaren och wavetable-synthen) har jag publicerat på min Github\footcite{jondell_kj-jondelldiabetes-synth_2021}. En del av denna kod återanvände jag även i detta projekt.
+
+\subsection*{Historia och kontext}
+\addcontentsline{toc}{subsection}{Historia och kontext}
+Det konstnärliga användandet av biologiska singaler och data har en historia som sträcker sig åtminstone till Alvin Luciers experiment med att komponera musik av hjärnvågor, \emph·{Music for Solo Performer}\footcite{straebel_alvin_2014} från 1965. I detta verk använder Lucier elektroder kopplade till interpretens huvud för att sonifiera dennes alfavågor. De sonifierade hjärnvågorna förstärks och spelas upp i 16 högtalare, som i sin tur exiterar diverse slagverk. I ett seminarium 2001 ska Lucier ha sagt: ''... I thought, 'I don't have a structure for this.' I mean, I'm a composer. I should impose some kind of structure, but then I thought, no, brain waves are a natural phenomen. They should just flow out...''. %ska jag ha detta som ett block-citat?
+
+% Protein music, DNA music...
 
 %Interaktivitet (\emph{Calling out of context})...
 
 %Radio (\emph{Tuning a radio}, etc...)
-%Projekt från ettan, diabetes-synth, radiostation, etc.
-%\kant[2-2]
 \subsection*{Radio}
 \addcontentsline{toc}{subsection}{Radio}
 En del av installationen består av en internetradiostation, som strömmar ut den genererade musiken. Just denna ...
 
 Radion som konstmedium har länge inspirerat mig, från hörspelen av bland andra Öyvind Fahlström, till John Cages radiokompositioner, till mer sentida \emph{radioqualia}... 
 
-Hot/cool media (McLuhan), interaktion, "Ring så spelar vi", 
+Hot/cool media (McLuhan), interaktion, 
+
+''Ring så spelar vi'' och ''Ring P1'' är två exempel på interaktiva radioprogram, där lyssnarna till hög grad styr och påverkar programmets innehåll. I "Ring P1", som sänds live, är interaktionen så hög att diskussioner kan uppstå lyssnare emellan, där en lyssnare replikerar en annan lyssnares inlägg eller deltagande. Men trots denna höga grad av fri interaktion behöver varje deltagare först passera en telefonsluss. 
+
 %Digital mediekonst som bygger kring internetradio, eller så kallad \emph{streaming culture}, 
 %använder sonifieringar
 
 % \emph{r a d i o q u a l i a}...
-
-
 \subsection*{Sonifiering}
 \addcontentsline{toc}{subsection}{Sonifiering}
-%\kant[3-3]
-Sonifiering (eller är det verkligen sonifiering). \footcite[2]{bijsterveld_sonic_2019}
-Smalley och spektromorfologin. \footnote{Olika ordningar av \emph{surrogacy},  gestaltandet av \emph{datan}.} Bearbetad data och orginaldata. Sensorfel.
+
+Sonifiering (eller är det verkligen sonifiering). %\footcite[2]{bijsterveld_sonic_2019}
+%Smalley och spektromorfologin. \footnote{Olika ordningar av \emph{surrogacy},  gestaltandet av \emph{datan}.} Bearbetad data och orginaldata. Sensorfel.
 
 \emph{Audification} \footcite[302]{noauthor_sonification_2011} är en form av sonifiering där mätdatan översätts direkt till ljudkurvor... fyra grupper av data (\emph{sound recording}, \emph{general acoustic}, \emph{physical}, och \textbf{\emph{abstract}})...
 
-% \subsubsection*{Det mätbara och det omätbara}
-% \addcontentsline{toc}{subsubsection}{\textit{Det mätbara och det omätbara}}
-% Bornemark \footcite{bornemark_det_2018}
-% Bijsterveld \footcite[100-102]{bijsterveld_sonic_2019}
-% McLuhan \footcite[2]{mcluhan_understanding_2015}
-
 \subsection*{Diabetes}
 \addcontentsline{toc}{subsection}{Diabetes}
-%\kant[4-4]
-
-%\subsubsection*{Communities}
-%\addcontentsline{toc}{subsubsection}{\textit{Communities}}
 
 \subsubsection*{Blodsockervärden}
 \addcontentsline{toc}{subsubsection}{\textit{Blodsockervärden}}
@@ -122,7 +118,7 @@ Ett sentiment som ofta förekommande (''jag är \textbf{inte} min diabetes, mina
 
 \subsection*{Datainsamling}
 \addcontentsline{toc}{subsection}{Datainsamling}
-Eftersom detta projekt beror av insamling av biometrisk data, som enligt \emph{Dataskyddsförordningen} (GDPR) \footnote{https://www.imy.se/lagar--regler/dataskyddsforordningen/kansliga-personuppgifter/} är en känslig personuppgift, krävs ett uttryckligt samtycke från varje deltagare att denna är införstådd i hur datan behandlas. Jag har försökt vara så transparent som möjligt i hur datan behandlas, genom att dels dela \textbf{all} källkod som jag använder, och även i den kommunikation jag lagt ut på webbplatsen och i övriga dokument berörande projektet (såsom denna text). All data som samlas in anonymiseras/avidentifieras så fort som möjligt och den är inte sparad någonstans utöver arbetsminnet som SuperCollider använder. I enlighet med "God forskningssed" \footnote{lägg till referens} är anonymitet och integritet av största vikt i detta projekt, även fast det är ett konstprojekt och inte ett forskningsprojekt. Jag har inget kommersiellt intresse i insamlingen av datan, jag delar den inte med någon extern part heller, och allt deltagande är valfritt. Min ambition är \textbf{inte} att samla data för sakens skull, utan att diabetiker ska kunna dela med sig av sina värden utan att de på något sätt bedöms eller värderas: helt enkelt, att själva delandet och deltagandet i sig står i fokus. 
+Eftersom detta projekt beror av insamling av biometrisk data, som enligt \emph{Dataskyddsförordningen} (GDPR) \footcite{noauthor_integritetsskyddsmyndigheten_nodate} är en känslig personuppgift, krävs ett uttryckligt samtycke från varje deltagare att denna är införstådd i hur datan behandlas. Jag har försökt vara så transparent som möjligt i hur datan behandlas, genom att dels dela \textbf{all} källkod som jag använder, och även i den kommunikation jag lagt ut på webbplatsen och i övriga dokument berörande projektet (såsom denna text). All data som samlas in anonymiseras/avidentifieras så fort som möjligt och den är inte sparad någonstans utöver arbetsminnet som SuperCollider använder. I enlighet med ''God forskningssed'' \footnote{lägg till referens} är anonymitet och integritet av största vikt i detta projekt, även fast det är ett konstprojekt och inte ett forskningsprojekt. Jag har inget kommersiellt intresse i insamlingen av datan, jag delar den inte med någon extern part heller, och allt deltagande är valfritt. Min ambition är \textbf{inte} att samla data för sakens skull, utan att diabetiker ska kunna dela med sig av sina värden utan att de på något sätt bedöms eller värderas: helt enkelt, att själva delandet och deltagandet i sig står i fokus. 
 
 \section*{Process}
 \addcontentsline{toc}{section}{Process}
@@ -144,16 +140,16 @@ Installationen består som tidigare nämnt av två delar: ett musikgenererande p
 \subsection*{SuperCollider-system}
 \addcontentsline{toc}{subsection}{SuperCollider-system}
 % TODO LÄGG TILL ETT BLOCKDIAGRAM SOM ILLUSTRERAR SUPERCOLLIDER SYSTEMET
-I SuperCollider-programmet representeras varje instans av mätdata av ett \emph{objekt}, som innehåller attribut som bland annat: register, skala, speltid, klangkälla/\emph{SynthDef}, tillhörande \emph{Pattern} och musikalisk funktion. Programmet innehåller också en funktion som behandlar inkommande OSC-meddelanden från Python-servern.
+När en deltagare laddare upp en fil med sina mätvärden så skickas de vidare, via Python-servern, till SuperCollider-programmet, som spelar upp en tack-hälsning för att ge en direkt återkoppling till deltagandet. Varje instans av mätdata --- det vill säga varje bidrag till, eller varje interaktion med, installationen --- gestaltas av en specifik musikalisk funktion, för att på sätt ge deltagaren en koppling och förståelse till hur dennes bidrag påverkar musiken. Till exempel kan ett uppladdat paket av data ge upphov till ett arpeggio, någon form av melodi eller en underliggande ljudmatta. I SuperCollider-programmet representeras varje sådan instans av mätdata av ett \emph{objekt}, som innehåller attribut som bland annat: register, skala, speltid, panorering, klangkälla/\emph{SynthDef}, och tillhörande \emph{Pattern}. Dessa attribut är antingen direkt bestämda av mätdatan (en så kallad \emph{mappning}) eller bestämda utifrån de andra aktiva objekten, till exempel förhåller de sig till redan ''upptagna'' register. Skapandet av dessa objekt gör programmet så fort det mottagit ett nytt paket av mätdata från Python-servern. Samtidigt avgör programmet om objektet ska spelas upp direkt, eller om det ska läggas på kö. 
 
-%Varje instans av mätdata existerar som ett \emph{objekt} (motsvarande en ljudkälla, inte schaefferiansk) i musiken, objekten har vissa attribut (såsom register, spatiell kodning, etc). 
-
-\subsubsection*{Kösystem}
-\addcontentsline{toc}{subsubsection}{\emph{Kösystem}}
-När en deltagare laddar upp sina värden på webbplatsen   
+\subsubsection*{Kösystemet}
+\addcontentsline{toc}{subsubsection}{\emph{Kösystemet}}
+Behovet av ett kösystem kommer ur scenariot att flera deltagare laddar upp värden inom en relativt kort tidsram. Om detta händer \emph{utan ett kösystem}, kan systemet reagera på två sätt: antingen spelas alla objekt upp samtidigt, med risk för att överrösta varandra och bli en kakofoni, eller så ersätter de varandra, vilket skulle leda till att ens bidrag inte skulle höras mer än en väldigt kort stund. En kompromiss är att använda ett kösystem, så att antalet samtidigt spelande objekt begränsas, och att dessa spelas \emph{minst} en given längd tid, men inte längre än en annan bestämd tid, om det står väntande deltagare på kö. Allt som allt har jag begränsat antalet samtidigt spelande objekt till \emph{tre} stycken, och när dessa är fyllda ställs antingen ett nytt bidrag på kö --- om inte de spelande objekten har varit aktiva i den givna minimumtiden --- eller så ersätter det nya bidraget det äldsta spelande objektet. Kösystemet är i tekniska termer alltså ett \emph{FIFO}-system (''först in, först ut'').
 
 \subsection*{Webbplats}
 \addcontentsline{toc}{subsection}{Webbplats}
+Webbplatsen finns i skrivande stund tillgänglig på domänen: \url{https://radiodiabetes.eu/}. I figur \ref{hemsida} på föregående sida visas en skärmdump av webbplatsen tagen den... %TODO insert date....
+
 Webbplats består av en s.k. \emph{frontend} och en \emph{backend}
 \subsubsection*{Frontend}
 \addcontentsline{toc}{subsubsection}{\emph{Frontend}}
@@ -169,6 +165,7 @@ Webbplats består av en s.k. \emph{frontend} och en \emph{backend}
 \section*{Musiken}
 \addcontentsline{toc}{section}{Musiken}
 
+
 % Lager, eller vilka SynthDefar jag har:
 % 1. GSM (drone, eller bas/fundament, eller pad...)
 % 2. Sinusvågor och elektroniska störningsljud (arpeggio, rytmiska, sextondelar, tempo)
@@ -181,9 +178,15 @@ De musikaliska funktioner jag har representerade är dels ett fundament eller gr
 
 \subsection*{Rumslighet}
 \addcontentsline{toc}{subsection}{Rumslighet}
-En \enquote{kör} av blodsockervärden, spatialiserade i nån mening för att ge en känsla av påverkan eller åverkan på musiken. 
+Varje objekt ges en unik position i stereofältet, och på så sätt en plats i rummet i musiken. 
 
-Konsertupplevelse (i Lilla salen? spela ett utdrag ur liveströmmen...)
+Presentationen av radioströmmen genom hemsidan som jag har utformat påverkar också den upplevda rumsligheten i musiken. 
+
+Ett planerat konserttillfälle kommer att ske den 20e maj i Lilla Salen i Musikhögskolan. Då spelas ett utdrag ur radioströmmen upp, som den hörs i realtid. I och med de rådande restriktionerna så kommer ingen publik kunna närvara, utan konserten strömmas vidare till en publik i etern. Själva konserttillfället blir därför en sorts manifestation av radioströmmen i tid och rum. 
+
+
+% TODO tempusformulering
+
 
 \subsection*{Temporalitet}
 \addcontentsline{toc}{subsection}{Temporalitet}
@@ -193,13 +196,21 @@ Den tidsmässiga uppfattningen av musiken. En 24/7 livestream av musiken (hur ut
 \addcontentsline{toc}{subsection}{Generativt}
 Musiken är generativ. Serialism?
 
-\section*{Sammanfattning}
-\addcontentsline{toc}{section}{Sammanfattning}
+\section*{Slutsatser}
+\addcontentsline{toc}{section}{Slutsatser}
 Lärdomar etc...
 
-\end{multicols}
+\subsection*{Utvecklingsmöjligheter}
+\addcontentsline{toc}{subsection}{Utvecklingsmöjligheter}
+För mig är detta endast startskottet på ett projekt som kan växa på alla sätt. Jag har byggt en infrastruktur till en installation som går att utveckla.
 
-\twocolumn
+- Gästbok/lämna röstmeddelanden...
+- Två strömmmar: kunna växla mellan dem för att möjliggöra enklare utveckling av SuperCollider-systemet (utan att det behöver stängas ned för underhåll).
+- Möjgliheten att spela upp binauralt
+
+%\end{multicols}
+
+%\twocolumn
 
 \printbibliography[type=book,title={Böcker}]
 \printbibliography[type=article,title={Artiklar}]

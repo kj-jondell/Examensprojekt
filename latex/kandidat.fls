@@ -39,8 +39,6 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/blindtext/blindtext.sty
@@ -145,6 +143,7 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
 INPUT ../media/hemsida.png
 INPUT ../media/hemsida.png
 INPUT ../media/hemsida.png
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT kandidat.aux
 INPUT kandidat.run.xml
 OUTPUT kandidat.run.xml
@@ -157,3 +156,4 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb

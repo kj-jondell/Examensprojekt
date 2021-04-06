@@ -1,13 +1,21 @@
 \BOOKMARK [1][-]{Doc-Start}{Introduktion}{}% 1
 \BOOKMARK [2][-]{section*.1}{Bakgrund}{Doc-Start}% 2
-\BOOKMARK [2][-]{section*.1}{Sonifiering}{Doc-Start}% 3
-\BOOKMARK [3][-]{section*.2}{Det m\344tbara och det om\344tbara}{section*.1}% 4
-\BOOKMARK [2][-]{section*.2}{Diabetes}{Doc-Start}% 5
-\BOOKMARK [3][-]{section*.3}{Blodsockerv\344rden}{section*.2}% 6
-\BOOKMARK [2][-]{section*.3}{Process}{Doc-Start}% 7
-\BOOKMARK [2][-]{figure.1}{SuperCollider-system}{Doc-Start}% 8
-\BOOKMARK [1][-]{figure.1}{Musiken}{}% 9
-\BOOKMARK [2][-]{section*.4}{Rumslighet}{figure.1}% 10
-\BOOKMARK [2][-]{section*.4}{Temporalitet}{figure.1}% 11
-\BOOKMARK [2][-]{section*.4}{Generativt}{figure.1}% 12
-\BOOKMARK [1][-]{section*.4}{Sammanfattning}{}% 13
+\BOOKMARK [2][-]{section*.1}{Historia och kontext}{Doc-Start}% 3
+\BOOKMARK [2][-]{section*.1}{Radio}{Doc-Start}% 4
+\BOOKMARK [2][-]{section*.1}{Sonifiering}{Doc-Start}% 5
+\BOOKMARK [2][-]{section*.1}{Diabetes}{Doc-Start}% 6
+\BOOKMARK [3][-]{section*.2}{Blodsockerv\344rden}{section*.1}% 7
+\BOOKMARK [3][-]{section*.2}{F\366rh\345llandet till m\344tandet}{section*.1}% 8
+\BOOKMARK [2][-]{section*.2}{Datainsamling}{Doc-Start}% 9
+\BOOKMARK [1][-]{section*.2}{Process}{}% 10
+\BOOKMARK [2][-]{figure.1}{SuperCollider-system}{section*.2}% 11
+\BOOKMARK [3][-]{section*.3}{K\366systemet}{figure.1}% 12
+\BOOKMARK [2][-]{section*.3}{Webbplats}{section*.2}% 13
+\BOOKMARK [3][-]{section*.4}{Frontend}{section*.3}% 14
+\BOOKMARK [3][-]{section*.4}{Backend}{section*.3}% 15
+\BOOKMARK [1][-]{section*.4}{Musiken}{}% 16
+\BOOKMARK [2][-]{section*.5}{Rumslighet}{section*.4}% 17
+\BOOKMARK [2][-]{section*.5}{Temporalitet}{section*.4}% 18
+\BOOKMARK [2][-]{section*.5}{Generativt}{section*.4}% 19
+\BOOKMARK [1][-]{section*.5}{Slutsatser}{}% 20
+\BOOKMARK [2][-]{section*.6}{Utvecklingsm\366jligheter}{section*.5}% 21
