@@ -27,9 +27,6 @@
            given={Mats},
            giveni={M\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {sv}%
-      }
       \strng{namehash}{781042498f2bd25703f85b53c14b44ea}
       \strng{fullhash}{781042498f2bd25703f85b53c14b44ea}
       \strng{bibnamehash}{781042498f2bd25703f85b53c14b44ea}
@@ -37,14 +34,16 @@
       \strng{authornamehash}{781042498f2bd25703f85b53c14b44ea}
       \strng{authorfullhash}{781042498f2bd25703f85b53c14b44ea}
       \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Att leva med en autoimmun sjukdom som typ 1-diabetes innebär att man tvingas till ställningstaganden som en frisk individ sällan eller aldrig behöver ta i beaktande. Dessa ställningstaganden kan utifrån sett tyckas vara obetydliga men är för diabetikern livsviktiga. Denna artikel är skriven utifrån ett första-personsperspektiv och lyfter fram aspekter som blir en del i en slags överlevnadsstrategi för vardagen och som relateras till samtidens alltmer accelererande livstempo där prestation sätts i fokus. Istället vill jag betona pausens betydelse för överlevnad eftersom denna bildar själva överlevnadsstrategins ramverk.}
+      \field{day}{9}
       \field{issn}{0037-833X}
       \field{journaltitle}{Socialmedicinsk tidskrift}
+      \field{langid}{swedish}
       \field{month}{7}
       \field{note}{Number: 3}
       \field{number}{3}
@@ -54,6 +53,7 @@
       \field{urlyear}{2021}
       \field{volume}{93}
       \field{year}{2016}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{280\bibrangedash 287}
       \range{pages}{8}
@@ -68,17 +68,28 @@
       \endverb
       \keyw{autoimmun sjukdom,diabetes typ-1,jaget,överlevnadsstrategi,paus,prestation,social acceleration}
     \endentry
-    \entry{noauthor_integritetsskyddsmyndigheten_nodate}{misc}{}
-      \list{language}{1}{%
-        {en}%
+    \entry{integritetsskyddsmyndigheten_kansliga_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1a8138bdd8fed579c04967eb17ed747f}{%
+           family={Integritetsskyddsmyndigheten},
+           familyi={I\bibinitperiod}}}%
       }
+      \strng{namehash}{1a8138bdd8fed579c04967eb17ed747f}
+      \strng{fullhash}{1a8138bdd8fed579c04967eb17ed747f}
+      \strng{bibnamehash}{1a8138bdd8fed579c04967eb17ed747f}
+      \strng{authorbibnamehash}{1a8138bdd8fed579c04967eb17ed747f}
+      \strng{authornamehash}{1a8138bdd8fed579c04967eb17ed747f}
+      \strng{authorfullhash}{1a8138bdd8fed579c04967eb17ed747f}
       \field{sortinit}{I}
-      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Vissa personuppgifter är till sin natur särskilt känsliga och har därför ett starkare skydd i dataskyddsförordningen. Utgångspunkten är att det är förbjudet att behandla sådana personuppgifter. Det finns dock flera undantag från förbudet. Även personnummer kan räknas till personuppgifter som är särskilt integritetskänsliga.}
-      \field{title}{Integritetsskyddsmyndigheten}
+      \field{langid}{english}
+      \field{title}{Känsliga personuppgifter}
+      \field{titleaddon}{Känsliga personuppgifter}
       \field{urlday}{5}
       \field{urlmonth}{4}
       \field{urlyear}{2021}
@@ -87,13 +98,13 @@
       \verb Snapshot:/Users/kj/Zotero/storage/UH8YTHPD/kansliga-personuppgifter.html:text/html
       \endverb
       \verb{urlraw}
-      \verb /lagar--regler/dataskyddsforordningen/kansliga-personuppgifter/
+      \verb https://www.imy.se/lagar--regler/dataskyddsforordningen/kansliga-personuppgifter/
       \endverb
       \verb{url}
-      \verb /lagar--regler/dataskyddsforordningen/kansliga-personuppgifter/
+      \verb https://www.imy.se/lagar--regler/dataskyddsforordningen/kansliga-personuppgifter/
       \endverb
     \endentry
-    \entry{jondell_kj-jondelldiabetes-synth_2021}{misc}{}
+    \entry{jondell_kj-jondelldiabetes-synth_2021}{online}{}
       \name{author}{1}{}{%
         {{hash=a70585efdf51d8964d83d42840c415bc}{%
            family={Jondell},
@@ -107,26 +118,67 @@
       \strng{authorbibnamehash}{a70585efdf51d8964d83d42840c415bc}
       \strng{authornamehash}{a70585efdf51d8964d83d42840c415bc}
       \strng{authorfullhash}{a70585efdf51d8964d83d42840c415bc}
+      \field{extraname}{1}
       \field{sortinit}{J}
-      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Convert your glucose levels to sound! Contribute to kj-jondell/Diabetes-Synth development by creating an account on GitHub.}
+      \field{abstract}{Convert your glucose levels to sound! Contribute to kj-jondell/Diabetes-Synth development by creating an account on {GitHub}.}
+      \field{day}{26}
       \field{month}{1}
-      \field{note}{original-date: 2018-01-14T15:54:29Z}
-      \field{title}{kj-jondell/{Diabetes}-{Synth}}
+      \field{title}{kj-jondell/Diabetes-Synth}
       \field{urlday}{5}
       \field{urlmonth}{4}
       \field{urlyear}{2021}
       \field{year}{2021}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://github.com/kj-jondell/Diabetes-Synth
       \endverb
       \verb{url}
       \verb https://github.com/kj-jondell/Diabetes-Synth
+      \endverb
+    \endentry
+    \entry{jondell_radio_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a70585efdf51d8964d83d42840c415bc}{%
+           family={Jondell},
+           familyi={J\bibinitperiod},
+           given={Karl\bibnamedelima Johannes},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{fullhash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{bibnamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{authorbibnamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{authornamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{authorfullhash}{a70585efdf51d8964d83d42840c415bc}
+      \field{extraname}{2}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Radio Diabetes}
+      \field{titleaddon}{Radio Diabetes}
+      \field{urlday}{7}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb React App:/Users/kj/Zotero/storage/UTAIHYT5/radiodiabetes.eu.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://radiodiabetes.eu/
+      \endverb
+      \verb{url}
+      \verb https://radiodiabetes.eu/
       \endverb
     \endentry
     \entry{straebel_alvin_2014}{article}{}
@@ -142,9 +194,6 @@
            given={Wilm},
            giveni={W\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{e8d9844580668414b323148c6a802933}
       \strng{fullhash}{e8d9844580668414b323148c6a802933}
       \strng{bibnamehash}{e8d9844580668414b323148c6a802933}
@@ -152,24 +201,26 @@
       \strng{authornamehash}{e8d9844580668414b323148c6a802933}
       \strng{authorfullhash}{e8d9844580668414b323148c6a802933}
       \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Alvin Lucier's Music for Solo Performer (1965), often referred to as the ‘brain wave piece’, has become a key work of experimental music. Its setup, in which the brain waves of a solo performer are made to excite percussion instruments, has given the work a central place in the discourse on artistic sonification. However, only a small number of the authors making reference to the work seem to have studied the score, and even fewer have given thought to the score's implications for performance practice and aesthetic reflection. This paper pays detailed attention to these yet overlooked aspects, drawing on accounts of early performances as well as the authors’ participation in a 2012 performance led by the composer. We also trace the history of live-electronic equipment used for Music for Solo Performer and discuss the work's reception in sonification research.}
       \field{issn}{1355-7718, 1469-8153}
       \field{journaltitle}{Organised Sound}
+      \field{langid}{english}
       \field{month}{4}
       \field{note}{Publisher: Cambridge University Press}
       \field{number}{1}
-      \field{shorttitle}{Alvin {Lucier}'s {Music} for {Solo} {Performer}}
-      \field{title}{Alvin {Lucier}'s {Music} for {Solo} {Performer}: {Experimental} music beyond sonification}
+      \field{shorttitle}{Alvin Lucier's Music for Solo Performer}
+      \field{title}{Alvin Lucier's Music for Solo Performer: Experimental music beyond sonification}
       \field{urlday}{30}
       \field{urlmonth}{3}
       \field{urlyear}{2021}
       \field{volume}{19}
       \field{year}{2014}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{17\bibrangedash 29}
       \range{pages}{13}
@@ -187,9 +238,6 @@
       \endverb
     \endentry
     \entry{noauthor_sonification_2011}{book}{}
-      \list{language}{1}{%
-        {English}%
-      }
       \list{location}{1}{%
         {Berlin}%
       }
@@ -197,14 +245,15 @@
         {Logos}%
       }
       \field{sortinit}{T}
-      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-8325-2819-5}
-      \field{note}{OCLC: 805139776}
-      \field{title}{The sonification handbook}
+      \field{note}{{OCLC}: 805139776}
+      \field{title}{The Sonification Handbook}
       \field{year}{2011}
+      \field{dateera}{ce}
     \endentry
   \enddatalist
 \endrefsection
