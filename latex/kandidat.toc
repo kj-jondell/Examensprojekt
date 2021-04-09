@@ -27,7 +27,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Webbplats}{6}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\emph {Front end}}{7}{}%
+\contentsline {subsubsection}{\emph {Front end}}{6}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\emph {Back end}}{7}{}%
 \defcounter {refsection}{0}\relax 
