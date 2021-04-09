@@ -1,4 +1,6 @@
 \documentclass[11pt, a4paper]{article} %twoside
+\usepackage{wrapfig}
+
 \usepackage{epigraph}
 \usepackage{graphicx}
 \usepackage[swedish]{babel}
@@ -42,6 +44,24 @@
 
 \makeglossaries
 \setglossarystyle{long}
+
+\newglossaryentry{frontend}
+{
+    name=Front end,
+	description={Användargränssnittet i webbutveckling.}
+}
+
+\newglossaryentry{backend}
+{
+    name=Back end,
+	description={Allt som rör sig ''under huven'', server-side programmering.}
+}
+
+\newglossaryentry{stack}
+{
+    name=Stack,
+	description={Alla delar som utgör en plattform eller ett system. Finns olika vanligt använda}
+}
 
 \newglossaryentry{audification}
 {
@@ -175,16 +195,23 @@ Eftersom detta projekt beror av insamling av biometrisk data, som enligt \emph{D
 \addcontentsline{toc}{section}{Process}
 Installationen består som tidigare nämnt av två delar: ett musikgenererande program (SuperCollider) och en webbplats (se figur \ref{hemsida} på nästa sida). Här nedan följer en teknisk beskrivning av detta system.
 
-% \begin{figure}[H]
-% \centering
-% \includegraphics[width=0.5\textwidth]{../media/flowchart.png}
-% \caption{Översiktsdiagram av system}
-% \end{figure}
+\begin{wrapfigure}{l}{0.25\textwidth}
+  \begin{center}
+	\includegraphics[width=0.23\textwidth]{../media/flowchart.png}
+  \end{center}
+  \caption{Översiktsdiagram av system}
+\end{wrapfigure}
+
+%\begin{figure}[H]
+%\centering
+%\includegraphics[width=\textwidth]{../media/flowchart.png}
+%\caption{Översiktsdiagram av system}
+%\end{figure}
 
 \subsection*{SuperCollider-system}
 \addcontentsline{toc}{subsection}{SuperCollider-system}
 % TODO LÄGG TILL ETT BLOCKDIAGRAM SOM ILLUSTRERAR SUPERCOLLIDER SYSTEMET
-När en deltagare laddare upp en fil med sina mätvärden så skickas de vidare, via Python-servern, till SuperCollider-programmet, som spelar upp en tack-hälsning för att ge en direkt återkoppling till deltagandet. Varje instans av mätdata --- det vill säga varje bidrag till, eller varje interaktion med, installationen --- gestaltas av en specifik musikalisk funktion, för att på sätt ge deltagaren en koppling och förståelse till hur dennes bidrag påverkar musiken. Till exempel kan ett uppladdat paket av data ge upphov till ett arpeggio, någon form av melodi eller en underliggande ljudmatta. I SuperCollider-programmet representeras varje sådan instans av mätdata av ett \emph{objekt}, som innehåller attribut som bland annat: register, skala, speltid, panorering, klangkälla/\emph{SynthDef}, och tillhörande \emph{Pattern}. Dessa attribut är antingen direkt bestämda av mätdatan (en så kallad \emph{mappning}) eller bestämda utifrån de andra aktiva objekten, till exempel förhåller de sig till redan ''upptagna'' register. Skapandet av dessa objekt gör programmet så fort det mottagit ett nytt paket av mätdata från Python-servern. Samtidigt avgör programmet om objektet ska spelas upp direkt, eller om det ska läggas på kö. 
+När en deltagare laddar upp en fil med sina mätvärden så skickas de vidare, via Python-servern, till SuperCollider-programmet, som spelar upp en tack-hälsning för att ge en direkt återkoppling till deltagandet. Varje instans av mätdata --- det vill säga varje bidrag till, eller varje interaktion med, installationen --- gestaltas av en specifik musikalisk funktion, för att på sätt ge deltagaren en koppling och förståelse till hur dennes bidrag påverkar musiken. Till exempel kan ett uppladdat paket av data ge upphov till ett arpeggio, någon form av melodi eller en underliggande ljudmatta. I SuperCollider-programmet representeras varje sådan instans av mätdata av ett \emph{objekt}, som innehåller attribut som bland annat: register, skala, speltid, panorering, klangkälla/\emph{SynthDef}, och tillhörande \emph{Pattern}. Dessa attribut är antingen direkt bestämda av mätdatan (en så kallad \emph{mappning}) eller bestämda utifrån de andra aktiva objekten, till exempel förhåller de sig till redan ''upptagna'' register. Skapandet av dessa objekt gör programmet så fort det mottagit ett nytt paket av mätdata från Python-servern. Samtidigt avgör programmet om objektet ska spelas upp direkt, eller om det ska läggas på kö. 
 
 \subsubsection*{Kösystemet}
 \addcontentsline{toc}{subsubsection}{\emph{Kösystemet}}
@@ -202,14 +229,14 @@ Behovet av ett kösystem kommer ur scenariot att flera deltagare laddar upp vär
 
 \nolinebreak Webbplatsen finns i skrivande stund tillgänglig på domänen: \url{https://radiodiabetes.eu/}\footcite{jondell_radio_nodate}. I figur \ref{hemsida} på föregående sida visas en skärmdump av webbplatsen tagen den... \nolinebreak %TODO insert date....
 
-Webbplats består av en s.k. \emph{frontend} och en \emph{backend}
-\subsubsection*{Frontend}
-\addcontentsline{toc}{subsubsection}{\emph{Frontend}}
+Webbplats består av en s.k. \emph{\gls{frontend}} och en \emph{\gls{backend}}. Linux (Ubuntu 20.04)/Nginx/gunicorn \gls{stack}.
+\subsubsection*{Front end}
+\addcontentsline{toc}{subsubsection}{\emph{Front end}}
 1. beskriv vad frontend är för något
 2. beskriv tekniken (react.js)
 
-\subsubsection*{Backend}
-\addcontentsline{toc}{subsubsection}{\emph{Backend}}
+\subsubsection*{Back end}
+\addcontentsline{toc}{subsubsection}{\emph{Back end}}
 1. beskriv vad backend är för något (API?)
 2. flask, darkice/icecast också kanske? 
 

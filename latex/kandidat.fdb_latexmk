@@ -1,11 +1,12 @@
 # Fdb version 3
-["biber kandidat"] 1617792084 "kandidat.bcf" "kandidat.bbl" "kandidat" 1617914140
+["biber kandidat"] 1617792084 "kandidat.bcf" "kandidat.bbl" "kandidat" 1617958698
   "bibtex/kandidatarbete.bib" 1617785056 29696 c281f4fbf9108d247669e5a4d8ed6663 ""
-  "kandidat.bcf" 1617794157 107457 3282130a8dec03c4a86612fa965b2fc1 "pdflatex"
+  "kandidat.bcf" 1617958611 107457 3282130a8dec03c4a86612fa965b2fc1 "pdflatex"
   (generated)
   "kandidat.blg"
   "kandidat.bbl"
-["pdflatex"] 1617794149 "kandidat.tex" "kandidat.pdf" "kandidat" 1617914140
+["pdflatex"] 1617958699 "kandidat.tex" "kandidat.pdf" "kandidat" 1617958698
+  "../media/flowchart.png" 1617958471 35630 cb0ed5e17afce852e69175a53762bb54 ""
   "../media/hemsida.png" 1617715011 180771 8005f0383917162aa92b18d7e6715af5 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -138,6 +139,7 @@
   "/usr/local/texlive/2021/texmf-dist/tex/latex/tracklang/tracklang.sty" 1593552491 8504 b9d587b12f65e94859f799f9349c1f96 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/translator/translator.sty" 1596662134 8765 3368c4a5a4b5466261cafb836195e916 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
+  "/usr/local/texlive/2021/texmf-dist/tex/latex/wrapfig/wrapfig.sty" 1137111090 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/xfor/xfor.sty" 1233902931 2689 44855b72da58344b1c1d9b3087bce6ca ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1605910342 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "/usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf" 1616443989 39972 3d6bb4d9d719e93193fa020b58adf5d4 ""
@@ -146,16 +148,16 @@
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
   "/usr/local/texlive/texmf-local/tex/latex/local/glossaries-swedish/glossaries-swedish.ldf" 1617789423 2638 cc014bb999cc560dc04565208f434928 ""
   "glossaries-swedish-utf8.ldf" 1617789423 2701 fdd80d6e614d94de39437fc0472acdf4 ""
-  "kandidat.aux" 1617794156 6019 4cc53bf40c434ab5ab78d9238558b820 "pdflatex"
+  "kandidat.aux" 1617958611 6209 8f8124fe92ba37d31a9fb74899aea10f "pdflatex"
   "kandidat.bbl" 1617792086 12011 4141b4d1082c6fd34a8b92e7a430bc20 "biber kandidat"
-  "kandidat.gls" 1617793897 772 68ee7816742df2cfcf70aee434aec14b ""
-  "kandidat.run.xml" 1617794157 2386 f713c1c59f1cf615cc9948bb2896072a "pdflatex"
-  "kandidat.tex" 1617914134 17953 4cc724aef831d186b82fb204f1c55dcc ""
-  "kandidat.toc" 1617794157 2248 4583da1ec8611e0ea82f1a288ea0b780 "pdflatex"
+  "kandidat.gls" 1617915687 1130 a7307d5ad6151248c291270c3f0dd1cf ""
+  "kandidat.run.xml" 1617958611 2386 8ab1409a7ca19f2b1ae38125bdc62b31 "pdflatex"
+  "kandidat.tex" 1617958697 18604 a4b1a03ec105fec5d0d9913cb8fbaae0 ""
+  "kandidat.toc" 1617958611 2250 c1a6a71ab2a907cc98ce9d40129fa149 "pdflatex"
   (generated)
-  "kandidat.log"
-  "kandidat.pdf"
   "kandidat.run.xml"
+  "kandidat.pdf"
+  "kandidat.log"
   "kandidat.glo"
   "kandidat.bcf"
   "kandidat.ist"

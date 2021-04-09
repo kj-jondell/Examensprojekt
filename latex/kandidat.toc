@@ -25,11 +25,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\emph {Kösystemet}}{5}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Webbplats}{5}{}%
+\contentsline {subsection}{Webbplats}{6}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\emph {Frontend}}{5}{}%
+\contentsline {subsubsection}{\emph {Front end}}{6}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\emph {Backend}}{6}{}%
+\contentsline {subsubsection}{\emph {Back end}}{6}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Tillvägagångssätt}{6}{}%
 \defcounter {refsection}{0}\relax 
