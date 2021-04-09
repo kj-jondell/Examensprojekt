@@ -23,30 +23,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{SuperCollider-system}{5}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\emph {Kösystemet}}{5}{}%
+\contentsline {subsubsection}{\emph {Kösystemet}}{6}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Webbplats}{6}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\emph {Front end}}{6}{}%
+\contentsline {subsubsection}{\emph {Front end}}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\emph {Back end}}{6}{}%
+\contentsline {subsubsection}{\emph {Back end}}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Tillvägagångssätt}{6}{}%
+\contentsline {subsection}{Tillvägagångssätt}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Musiken}{7}{}%
+\contentsline {section}{Musiken}{8}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Rumslighet}{7}{}%
+\contentsline {subsection}{Rumslighet}{8}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Temporalitet}{7}{}%
+\contentsline {subsection}{Temporalitet}{8}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Generativt}{7}{}%
+\contentsline {subsection}{Generativt}{8}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Slutsatser}{8}{}%
+\contentsline {section}{Slutsatser}{9}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Utvecklingsmöjligheter}{8}{}%
+\contentsline {subsection}{Utvecklingsmöjligheter}{9}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Referenser}{8}{}%
+\contentsline {section}{Referenser}{9}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Bilagor}{10}{}%
+\contentsline {section}{Bilagor}{11}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Ordlista}{10}{}%
+\contentsline {subsection}{Ordlista}{11}{}%

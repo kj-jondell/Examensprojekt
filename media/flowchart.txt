@@ -1,15 +1,24 @@
-flowchart TB
+flowchart TD
 	Y("Besökare")
-	A["Webbplats (React.js)"]
+	C["SuperCollider-program"]
+    subgraph Radio
 	E["Utsändning (Icecast)"]
 	D["Ljudkodare (Darkice)"]
+    end
+    subgraph Hemsida
+	A["Webbplats (React.js)"]
 	B["Python-mellanhand (Flask)"]
-	C["SuperCollider-program"]
+    end
     Y -.-> |Excel-fil| A
-	A -.-> |Radioström| Y
+	A -.-> |Radioström| Y
     A -->|HTTP| B
-    E -->|Mp3| A
     B -->|Osc/UDP| C
 	C -->|Ljud| D
 	D -->|Mp3| E 
+    E -->|Mp3| A
     style Y font-weight:bold,fill:#ddd,stroke:#000
+    style A fill:#91b7cf,stroke:#000
+    style C fill:#91b7cf,stroke:#000
+    style Radio color:#777,fill:#efefef,stroke:#000,stroke-dasharray:3
+    style Hemsida color:#777,fill:#efefef,stroke:#000,stroke-dasharray:3;
+

@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber kandidat"] 1617792084 "kandidat.bcf" "kandidat.bbl" "kandidat" 1617958698
+["biber kandidat"] 1617792084 "kandidat.bcf" "kandidat.bbl" "kandidat" 1617964738
   "bibtex/kandidatarbete.bib" 1617785056 29696 c281f4fbf9108d247669e5a4d8ed6663 ""
-  "kandidat.bcf" 1617958611 107457 3282130a8dec03c4a86612fa965b2fc1 "pdflatex"
+  "kandidat.bcf" 1617964709 107457 3282130a8dec03c4a86612fa965b2fc1 "pdflatex"
   (generated)
   "kandidat.blg"
   "kandidat.bbl"
-["pdflatex"] 1617958699 "kandidat.tex" "kandidat.pdf" "kandidat" 1617958698
-  "../media/flowchart.png" 1617958471 35630 cb0ed5e17afce852e69175a53762bb54 ""
+["pdflatex"] 1617964738 "kandidat.tex" "kandidat.pdf" "kandidat" 1617964738
+  "../media/flowchart.png" 1617964667 53004 048fbdc02d8f1eadec771e30e9ad51a0 ""
   "../media/hemsida.png" 1617715011 180771 8005f0383917162aa92b18d7e6715af5 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -148,18 +148,18 @@
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
   "/usr/local/texlive/texmf-local/tex/latex/local/glossaries-swedish/glossaries-swedish.ldf" 1617789423 2638 cc014bb999cc560dc04565208f434928 ""
   "glossaries-swedish-utf8.ldf" 1617789423 2701 fdd80d6e614d94de39437fc0472acdf4 ""
-  "kandidat.aux" 1617958611 6209 8f8124fe92ba37d31a9fb74899aea10f "pdflatex"
+  "kandidat.aux" 1617964709 6210 b24d8ab7d768ac60f047606ddb6e93d8 "pdflatex"
   "kandidat.bbl" 1617792086 12011 4141b4d1082c6fd34a8b92e7a430bc20 "biber kandidat"
-  "kandidat.gls" 1617915687 1130 a7307d5ad6151248c291270c3f0dd1cf ""
-  "kandidat.run.xml" 1617958611 2386 8ab1409a7ca19f2b1ae38125bdc62b31 "pdflatex"
-  "kandidat.tex" 1617958697 18604 a4b1a03ec105fec5d0d9913cb8fbaae0 ""
-  "kandidat.toc" 1617958611 2250 c1a6a71ab2a907cc98ce9d40129fa149 "pdflatex"
+  "kandidat.gls" 1617963826 1395 db8255245e3800d48858113ac59080fb ""
+  "kandidat.run.xml" 1617964709 2386 8ab1409a7ca19f2b1ae38125bdc62b31 "pdflatex"
+  "kandidat.tex" 1617964737 18577 97e7de115da2cb3c61dff9a10cb5c545 ""
+  "kandidat.toc" 1617964709 2250 134d71569639617f9b103641f02ebbdc "pdflatex"
   (generated)
-  "kandidat.run.xml"
   "kandidat.pdf"
-  "kandidat.log"
-  "kandidat.glo"
   "kandidat.bcf"
-  "kandidat.ist"
   "kandidat.toc"
   "kandidat.aux"
+  "kandidat.ist"
+  "kandidat.run.xml"
+  "kandidat.glo"
+  "kandidat.log"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.7)  9 APR 2021 10:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.7)  9 APR 2021 12:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -608,7 +608,7 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \glo@main@file=\write5
 \openout5 = `kandidat.glo'.
 
-Package glossaries Info: Writing glossary file kandidat.glo on input line 45.
+Package glossaries Info: Writing glossary file kandidat.glo on input line 39.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -616,20 +616,20 @@ Package csquotes Info: Redefining alias 'default' -> 'swedish'.
  (./kandidat.aux)
 \openout1 = `kandidat.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
  (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count455
@@ -704,8 +704,8 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'kandidat.bbl' found.
  (./kandidat.bbl)
-Package biblatex Info: Reference section=0 on input line 90.
-Package biblatex Info: Reference segment=0 on input line 90.
+Package biblatex Info: Reference section=0 on input line 96.
+Package biblatex Info: Reference segment=0 on input line 96.
  (./kandidat.toc)
 \tf@toc=\write6
 \openout6 = `kandidat.toc'.
@@ -717,13 +717,13 @@ Package biblatex Info: Reference segment=0 on input line 90.
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-./kandidat.tex:130: Package inputenc Error: Invalid UTF-8 byte sequence.
+./kandidat.tex:124: Package inputenc Error: Invalid UTF-8 byte sequence.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130 ...t komponera musik av hjärnvågor, \emph�
+l.124 ...t komponera musik av hjärnvågor, \emph�
                                                   �{Music for Solo Performer...
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -732,13 +732,13 @@ in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
 
-./kandidat.tex:130: Package inputenc Error: Invalid UTF-8 byte "B7.
+./kandidat.tex:124: Package inputenc Error: Invalid UTF-8 byte "B7.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130 ... komponera musik av hjärnvågor, \emph·
+l.124 ... komponera musik av hjärnvågor, \emph·
                                                   {Music for Solo Performer}...
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -747,7 +747,7 @@ in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
 
-Overfull \hbox (13.09508pt too wide) in paragraph at lines 130--131
+Overfull \hbox (13.09508pt too wide) in paragraph at lines 124--125
 \OT1/cmr/m/n/10.95 str[]acker sig ^^Watminstone till Al-vin Lu-ci-ers ex-pe-ri-ment med att kom-po-ne-ra mu-sik av hj[]arnv^^Wagor,
  []
 
@@ -755,86 +755,55 @@ Overfull \hbox (13.09508pt too wide) in paragraph at lines 130--131
 
 
 ]
-Overfull \hbox (29.70898pt too wide) in paragraph at lines 192--193
+Overfull \hbox (29.70898pt too wide) in paragraph at lines 186--187
 \OT1/cmr/m/n/10.95 Eftersom det-ta pro-jekt be-ror av in-sam-ling av bi-o-met-risk da-ta, som en-ligt \OT1/cmr/m/it/10.95 Data-skyddsf[]orordningen
  []
 
 [3] [4]
-<../media/flowchart.png, id=26, 275.0275pt x 567.11874pt>
+<../media/flowchart.png, id=26, 609.27625pt x 564.1075pt>
 File: ../media/flowchart.png Graphic file (type png)
 <use ../media/flowchart.png>
-Package pdftex.def Info: ../media/flowchart.png  used on input line 200.
-(pdftex.def)             Requested size: 98.16019pt x 202.40591pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
-[]\OT1/cmr/m/n/10.95 Figur 1:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
-[]\OT1/cmr/m/n/10.95 Oversiktsdiagram
- []
-
-<../media/hemsida.png, id=28, 2039.62pt x 1291.82625pt>
-File: ../media/hemsida.png Graphic file (type png)
-<use ../media/hemsida.png>
-Package pdftex.def Info: ../media/hemsida.png  used on input line 222.
-(pdftex.def)             Requested size: 426.79135pt x 270.30594pt.
-
-./kandidat.tex:230: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.230 \nolinebreak W
-                    ebbplatsen finns i skrivande stund tillgänglig på dom�...
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (8.15973pt too wide) in paragraph at lines 230--231
-\OT1/cmr/m/n/10.95 Webbplatsen finns i skri-van-de stund tillg[]anglig p^^Wa dom[]anen: $\OT1/cmtt/m/n/10.95 https :
- []
-
-[5
+Package pdftex.def Info: ../media/flowchart.png  used on input line 201.
+(pdftex.def)             Requested size: 426.79135pt x 395.1652pt.
+ [5
 
  <../media/flowchart.png>]
-Overfull \hbox (0.32475pt too wide) in paragraph at lines 240--242
-\OT1/cmr/m/n/10.95 1. be-skriv vad bac-kend []ar f[]or n^^Wagot (API?) 2. flask, dar-kice/icecast
+<../media/hemsida.png, id=32, 2039.62pt x 1291.82625pt>
+File: ../media/hemsida.png Graphic file (type png)
+<use ../media/hemsida.png>
+Package pdftex.def Info: ../media/hemsida.png  used on input line 216.
+(pdftex.def)             Requested size: 426.79135pt x 270.30594pt.
+
+Overfull \hbox (33.50333pt too wide) in paragraph at lines 226--227
+[]\OT1/cmr/m/n/10.95 Webbplats best^^War av en s.k. []\OT1/cmr/m/it/10.95 Front end \OT1/cmr/m/n/10.95 och en []\OT1/cmr/m/it/10.95 Back end\OT1/cmr/m/n/10.95 . Li-nux (Ubun-tu 20.04)/Nginx/gunicorn
  []
 
-[6 <../media/hemsida.png>] [7
-
-] [8
+[6 <../media/hemsida.png>] [7] [8
 
 ] [9
 
-] (./kandidat.gls) [10
+] [10
+
+] (./kandidat.gls) [11
 
 ] (./kandidat.aux)
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'kandidat.run.xml'.
 \openout1 = `kandidat.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18498 strings out of 478994
- 337641 string characters out of 5858185
- 1318700 words of memory out of 5000000
- 35695 multiletter control sequences out of 15000+600000
+ 18559 strings out of 478994
+ 338927 string characters out of 5858185
+ 1319425 words of memory out of 5000000
+ 35756 multiletter control sequences out of 15000+600000
  412319 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,8n,102p,1409b,1744s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,8n,102p,1409b,1740s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on kandidat.pdf (10 pages, 329379 bytes).
+Output written on kandidat.pdf (11 pages, 341453 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
