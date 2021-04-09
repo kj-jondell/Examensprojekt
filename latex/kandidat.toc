@@ -11,13 +11,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Sonifiering}{3}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Diabetes}{3}{}%
+\contentsline {subsection}{Diabetes}{4}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\textit {Blodsockervärden}}{3}{}%
+\contentsline {subsubsection}{\textit {Blodsockervärden}}{4}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\textit {Förhållandet till mätandet}}{3}{}%
+\contentsline {subsubsection}{\textit {Förhållandet till mätandet}}{4}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Datainsamling}{3}{}%
+\contentsline {subsection}{Datainsamling}{4}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Process}{5}{}%
 \defcounter {refsection}{0}\relax 
@@ -46,6 +46,14 @@
 \contentsline {subsection}{Utvecklingsmöjligheter}{9}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Referenser}{9}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Artiklar}{10}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Böcker}{10}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Hemsidor}{10}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Samlingar}{10}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Bilagor}{11}{}%
 \defcounter {refsection}{0}\relax 

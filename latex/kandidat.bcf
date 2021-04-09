@@ -2347,12 +2347,23 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibtex/kandidatarbete.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">jondell_kj-jondelldiabetes-synth_2021</bcf:citekey>
-    <bcf:citekey order="2">straebel_alvin_2014</bcf:citekey>
-    <bcf:citekey order="3">noauthor_sonification_2011</bcf:citekey>
-    <bcf:citekey order="4">arvidson_det_2016</bcf:citekey>
-    <bcf:citekey order="5">integritetsskyddsmyndigheten_kansliga_nodate</bcf:citekey>
-    <bcf:citekey order="6">jondell_radio_nodate</bcf:citekey>
+    <bcf:citekey order="1">noauthor_supercollider_nodate</bcf:citekey>
+    <bcf:citekey order="2">jondell_kj-jondelldiabetes-synth_2021</bcf:citekey>
+    <bcf:citekey order="3">lucier_music_1965</bcf:citekey>
+    <bcf:citekey order="4">straebel_alvin_2014</bcf:citekey>
+    <bcf:citekey order="5">king_pm_1996</bcf:citekey>
+    <bcf:citekey order="6">k_kawazoe_study_2001</bcf:citekey>
+    <bcf:citekey order="7">munakata_gene_1995</bcf:citekey>
+    <bcf:citekey order="8">shi_electronic_2007</bcf:citekey>
+    <bcf:citekey order="9">king_pm_1996</bcf:citekey>
+    <bcf:citekey order="10">larsen_more_2016</bcf:citekey>
+    <bcf:citekey order="11">deamer_insulin_1983</bcf:citekey>
+    <bcf:citekey order="12">munakata_hugging_2009</bcf:citekey>
+    <bcf:citekey order="13">yupanqui_sounds_2021</bcf:citekey>
+    <bcf:citekey order="14">noauthor_sonification_2011</bcf:citekey>
+    <bcf:citekey order="15">arvidson_det_2016</bcf:citekey>
+    <bcf:citekey order="16">integritetsskyddsmyndigheten_kansliga_nodate</bcf:citekey>
+    <bcf:citekey order="17">jondell_radio_nodate</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

@@ -68,6 +68,67 @@
       \endverb
       \keyw{autoimmun sjukdom,diabetes typ-1,jaget,överlevnadsstrategi,paus,prestation,social acceleration}
     \endentry
+    \entry{munakata_hugging_2009}{audio}{}
+      \name{editora}{1}{}{%
+        {{hash=b33ec9fc569d947f645b0c4a830dcdd5}{%
+           family={Munakata},
+           familyi={M\bibinitperiod},
+           given={Nobuo},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{editorabibnamehash}{b33ec9fc569d947f645b0c4a830dcdd5}
+      \strng{editoranamehash}{b33ec9fc569d947f645b0c4a830dcdd5}
+      \strng{editorafullhash}{b33ec9fc569d947f645b0c4a830dcdd5}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{editoratype}{collaborator}
+      \field{title}{Hugging Tightly: Human {RNase} Inhibitor}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=cZhAwiG81_Q&list=LL&index=13
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=cZhAwiG81_Q&list=LL&index=13
+      \endverb
+    \endentry
+    \entry{deamer_insulin_1983}{audio}{}
+      \name{editora}{1}{}{%
+        {{hash=a9cfb216529d8ca67d46d6c771c8cccf}{%
+           family={Deamer},
+           familyi={D\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {Science \& The Arts}%
+      }
+      \strng{editorabibnamehash}{a9cfb216529d8ca67d46d6c771c8cccf}
+      \strng{editoranamehash}{a9cfb216529d8ca67d46d6c771c8cccf}
+      \strng{editorafullhash}{a9cfb216529d8ca67d46d6c771c8cccf}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{editoratype}{collaborator}
+      \field{title}{Insulin A \& B Chains}
+      \field{volume}{{DNA} Music / {DNA} Suite}
+      \field{year}{1983}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.amazon.com/Insulin-a-B-Chains/dp/B00EFYDV9Y
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.com/Insulin-a-B-Chains/dp/B00EFYDV9Y
+      \endverb
+    \endentry
     \entry{integritetsskyddsmyndigheten_kansliga_nodate}{online}{}
       \name{author}{1}{}{%
         {{hash=1a8138bdd8fed579c04967eb17ed747f}{%
@@ -181,6 +242,317 @@
       \verb https://radiodiabetes.eu/
       \endverb
     \endentry
+    \entry{k_kawazoe_study_2001}{article}{}
+      \name{author}{2}{}{%
+        {{hash=43f26e3c71ba44f6c92bc9f1fd3296fd}{%
+           family={Kawazoe},
+           familyi={K\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c8986881b00e29119cb1ef8bbfc49bed}{%
+           family={Takahashi},
+           familyi={T\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{05d2bc0a2748bd8776b5a0a3a49dae2a}
+      \strng{fullhash}{05d2bc0a2748bd8776b5a0a3a49dae2a}
+      \strng{bibnamehash}{05d2bc0a2748bd8776b5a0a3a49dae2a}
+      \strng{authorbibnamehash}{05d2bc0a2748bd8776b5a0a3a49dae2a}
+      \strng{authornamehash}{05d2bc0a2748bd8776b5a0a3a49dae2a}
+      \strng{authorfullhash}{05d2bc0a2748bd8776b5a0a3a49dae2a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We have investigated the audification of molecular information. The musical note information consists of a tone, a velocity and a type of a musical note. The sequence of this musical note information forms a musical score. In the present work, we have developed a computer program for the audification of gene. The {DNA} nucleotide sequence of a gene was employed for the audification. The program assigns the musical note information to each nucleotide using the transformation algorithm and then outputs the {MIDI} sequence as the musical score for a {MIDI} device. Several transformation algorithms were investigated as follows: (1) the simple mapping method that assigns notes to the {DNA} bases. (2) The unique mapping method that assigns the note information with the base usage on the sequence. (3) The musical-theory-based mapping method that is based on the musical theory to get a better musical score. For the third method, mapping the chord to the codon to form the bass line was employed too. It was observed that it is possible to get some advanced transformation from the {DNA} sequence to the musical score using the information derived from the base array.}
+      \field{journaltitle}{Symposium on Chemical Information and Computer Sciences Symposium on Structure-Activity Relationships 24th Symposium on Chemical Information and Computer Sciences}
+      \field{title}{Study on Molecular Music: {DNA} Music}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{pages}{J17\bibrangedash J17}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.11547/ciqs2001.tokusi.0.J17.0
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/kj/Zotero/storage/L49S6ACX/康司 and 由雅 - 2001 - 分子ミュージックに関する研究：dnaミュージック.pdf:application/pdf;J-Stage - Snapshot:/Users/kj/Zotero/storage/GQLEWIKP/ja.html:text/html;översatt.pdf:/Users/kj/Zotero/storage/69HPQVRA/översatt.pdf:application/pdf
+      \endverb
+      \keyw{bioinformatics,human genome,{MIDI},molecular information processing,molecular music,バイオインフォマティクス,ヒトゲノム,分子ミュージック,分子情報処理}
+    \endentry
+    \entry{king_pm_1996}{article}{}
+      \name{author}{2}{}{%
+        {{hash=fce486b842eaeb5695e4b1fcb01e4cb3}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=11f5a051ccba94e9d9a7241861ffe1ec}{%
+           family={Angus},
+           familyi={A\bibinitperiod},
+           given={C.\bibnamedelimi G.},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{32f1ab6c7b09b7a8f1859554c4cb1c99}
+      \strng{fullhash}{32f1ab6c7b09b7a8f1859554c4cb1c99}
+      \strng{bibnamehash}{32f1ab6c7b09b7a8f1859554c4cb1c99}
+      \strng{authorbibnamehash}{32f1ab6c7b09b7a8f1859554c4cb1c99}
+      \strng{authornamehash}{32f1ab6c7b09b7a8f1859554c4cb1c99}
+      \strng{authorfullhash}{32f1ab6c7b09b7a8f1859554c4cb1c99}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present the program {PM} for the analysis of protein sequence information using audification. Audification is the technique of using the sense of hearing to analyse data (Jackson, 1993). The advantage of audification over visualisation in data analysis is that sound has the property that when different notes are played together they can still be individually heard: in vision colours blend to form new colours. This distinction can be very useful when studying multivariate data. The one dimensional structure of {DNA} maps naturally onto musical sequences (Hayashi and Munakata, 1984; Ohno and Ohno, 1986). The mapping algorithm in {PM} is designed to translate coding sequences into sound in a way that is more harmonious and more open to analysis than previous methods. The {PM} algorithm uses the {DNA} nucleotide sequence to form the musical top line, and the properties of the translated amino-acids to form the bass line. The notes are in the scale of C Major and there are three beats to the bar. Each codon corresponds to a bar of music and the notes are played on the beat in order of nucleotide sequence. The mapping of the top line to musical notes is as follows: A4 submediant E3 mediant C3 tonic G3 dominant The mapping of the bass line to notes is more complicated and is based on the designation of aminoacid physico-chemical properties of Taylor (1983). Each of the properties has a note assigned to it. The mapping is as follows: polar hydrophobic charged positive aliphatic aromatic tiny}
+      \field{journaltitle}{Bioinformatics}
+      \field{number}{3}
+      \field{title}{{PM} - protein music}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \field{pages}{251\bibrangedash 252}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/12.3.251
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/kj/Zotero/storage/PA8JHL6J/King and Angus - 1996 - PM - protein music.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{larsen_more_2016}{article}{}
+      \name{author}{1}{}{%
+        {{hash=619a647c0e1dd60f4cf48f212cfadcbd}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={Peter\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{619a647c0e1dd60f4cf48f212cfadcbd}
+      \strng{fullhash}{619a647c0e1dd60f4cf48f212cfadcbd}
+      \strng{bibnamehash}{619a647c0e1dd60f4cf48f212cfadcbd}
+      \strng{authorbibnamehash}{619a647c0e1dd60f4cf48f212cfadcbd}
+      \strng{authornamehash}{619a647c0e1dd60f4cf48f212cfadcbd}
+      \strng{authorfullhash}{619a647c0e1dd60f4cf48f212cfadcbd}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Bacteria are everywhere. Microbial ecology is emerging as a critical field for understanding the relationships between these ubiquitous bacterial communities, the environment, and human health. Next generation {DNA} sequencing technology provides us a powerful tool to indirectly observe the communities by sequencing and analyzing all of the bacterial {DNA} present in an environment. The results of the {DNA} sequencing experiments can generate gigabytes to terabytes of information, however, making it difficult for the citizen scientist to grasp and the educator to convey this data. Here, we present a method for interpreting massive amounts of microbial ecology data as musical performances, easily generated on any computer and using only commonly available or freely available software and the ‘Microbial Bebop’ algorithm. Using this approach, citizen scientists and biology educators can sonify complex data in a fun and interactive format, making it easier to communicate both the importance and the excitement of exploring the planet earth’s largest ecosystem.}
+      \field{day}{1}
+      \field{issn}{1935-7877}
+      \field{journaltitle}{Journal of Microbiology \& Biology Education}
+      \field{month}{3}
+      \field{number}{1}
+      \field{shortjournal}{J Microbiol Biol Educ}
+      \field{shorttitle}{More of an Art than a Science}
+      \field{title}{More of an Art than a Science: Using Microbial {DNA} Sequences to Compose Music}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{volume}{17}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{129\bibrangedash 132}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1128/jmbe.v17i1.1028
+      \endverb
+      \verb{file}
+      \verb PubMed Central Full Text PDF:/Users/kj/Zotero/storage/EYWPBQS9/Larsen - 2016 - More of an Art than a Science Using Microbial DNA.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4798795/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4798795/
+      \endverb
+    \endentry
+    \entry{munakata_gene_1995}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=b33ec9fc569d947f645b0c4a830dcdd5}{%
+           family={Munakata},
+           familyi={M\bibinitperiod},
+           given={Nobuo},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6739024e1992d91e8e074820e9e73276}{%
+           family={Hayashi},
+           familyi={H\bibinitperiod},
+           given={Kenshi},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{WORLD} {SCIENTIFIC}}%
+      }
+      \strng{namehash}{b8448c5a19b92bd78293b77732e2534b}
+      \strng{fullhash}{b8448c5a19b92bd78293b77732e2534b}
+      \strng{bibnamehash}{b8448c5a19b92bd78293b77732e2534b}
+      \strng{authorbibnamehash}{b8448c5a19b92bd78293b77732e2534b}
+      \strng{authornamehash}{b8448c5a19b92bd78293b77732e2534b}
+      \strng{authorfullhash}{b8448c5a19b92bd78293b77732e2534b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Visualizing Biological Information}
+      \field{day}{1}
+      \field{isbn}{978-981-02-1427-2}
+      \field{month}{12}
+      \field{shorttitle}{Gene Music}
+      \field{title}{Gene Music: Tonal Assignments of Bases and Amino Acids}
+      \field{urlday}{9}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{volumes}{0}
+      \field{year}{1995}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{72\bibrangedash 83}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1142/9789812832054_0008
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/4IAXWPWG/9789812832054_0008.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/9789812832054_0008
+      \endverb
+      \verb{url}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/9789812832054_0008
+      \endverb
+    \endentry
+    \entry{lucier_music_1965}{audio}{}
+      \name{editora}{1}{}{%
+        {{hash=16d18c64acb8e79ba4da644831507ebf}{%
+           family={Lucier},
+           familyi={L\bibinitperiod},
+           given={Alvin},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{editorabibnamehash}{16d18c64acb8e79ba4da644831507ebf}
+      \strng{editoranamehash}{16d18c64acb8e79ba4da644831507ebf}
+      \strng{editorafullhash}{16d18c64acb8e79ba4da644831507ebf}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{editoratype}{collaborator}
+      \field{title}{Music for Solo Performer}
+      \field{year}{1965}
+      \field{dateera}{ce}
+    \endentry
+    \entry{shi_electronic_2007}{article}{}
+      \name{author}{3}{}{%
+        {{hash=66d603126bf26d8f7e9e651ad45fa0a9}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={X.J.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=6b22a01f15b38dd6d3d05d653b2f11ce}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Y.Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=8f085859842ce55ebc6cc94a40ce1c61}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={C.W.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d54c81f9637c1f9676ef98ea978c139d}
+      \strng{fullhash}{d54c81f9637c1f9676ef98ea978c139d}
+      \strng{bibnamehash}{d54c81f9637c1f9676ef98ea978c139d}
+      \strng{authorbibnamehash}{d54c81f9637c1f9676ef98ea978c139d}
+      \strng{authornamehash}{d54c81f9637c1f9676ef98ea978c139d}
+      \strng{authorfullhash}{d54c81f9637c1f9676ef98ea978c139d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The authors explore protein sonification issues using Morse code theory. Short musical phrases based on protein amino acids are used to compose protein music. Rhythms and tunes familiar to teenagers are also investigated, with the aim of producing different genres of protein music. A special musical instrument, the Chinese guzheng, can be employed to play the protein music. Experiment is carried out with different proteins, including the {HIV} main protease. It is hoped that this study can help unveil the mysteries of nature and motivate students to learn biology.}
+      \field{issn}{0024-094X, 1530-9282}
+      \field{journaltitle}{Leonardo}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{shortjournal}{Leonardo}
+      \field{title}{Electronic Music for Bio-Molecules Using Short Music Phrases}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{volume}{40}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{137\bibrangedash 141}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1162/leon.2007.40.2.137
+      \endverb
+      \verb{file}
+      \verb Shi et al. - 2007 - Electronic Music for Bio-Molecules Using Short Mus.pdf:/Users/kj/Zotero/storage/PUUE6UIP/Shi et al. - 2007 - Electronic Music for Bio-Molecules Using Short Mus.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://direct.mit.edu/leon/article/40/2/137-141/45009
+      \endverb
+      \verb{url}
+      \verb https://direct.mit.edu/leon/article/40/2/137-141/45009
+      \endverb
+    \endentry
+    \entry{yupanqui_sounds_2021}{audio}{}
+      \name{editora}{1}{}{%
+        {{hash=7cf9d12e1043ef936d8b60100425978a}{%
+           family={Yupanqui},
+           familyi={Y\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {Sacred Bones Records}%
+      }
+      \strng{editorabibnamehash}{7cf9d12e1043ef936d8b60100425978a}
+      \strng{editoranamehash}{7cf9d12e1043ef936d8b60100425978a}
+      \strng{editorafullhash}{7cf9d12e1043ef936d8b60100425978a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{abstract}{View credits, reviews, tracks and shop for the 2021 Vinyl release of "Sounds Of The Unborn" on Discogs.}
+      \field{day}{2}
+      \field{editoratype}{collaborator}
+      \field{month}{4}
+      \field{title}{Sounds Of The Unborn}
+      \field{urlday}{9}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/PKIDFVZA/18039826.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.discogs.com/Luca-Yupanqui-Sounds-Of-The-Unborn/release/18039826
+      \endverb
+      \verb{url}
+      \verb https://www.discogs.com/Luca-Yupanqui-Sounds-Of-The-Unborn/release/18039826
+      \endverb
+    \endentry
     \entry{straebel_alvin_2014}{article}{}
       \name{author}{2}{}{%
         {{hash=417f8ed2b6f08ce958d2b79d74f50cf1}{%
@@ -235,6 +607,27 @@
       \endverb
       \verb{url}
       \verb https://www.cambridge.org/core/journals/organised-sound/article/alvin-luciers-music-for-solo-performer-experimental-music-beyond-sonification/A102FA39F3621D70EDE69A4686C82F01
+      \endverb
+    \endentry
+    \entry{noauthor_supercollider_nodate}{online}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{{SuperCollider}}
+      \field{urlday}{9}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb SuperCollider » SuperCollider:/Users/kj/Zotero/storage/BX4ABKKR/supercollider.github.io.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://supercollider.github.io/
+      \endverb
+      \verb{url}
+      \verb https://supercollider.github.io/
       \endverb
     \endentry
     \entry{noauthor_sonification_2011}{book}{}

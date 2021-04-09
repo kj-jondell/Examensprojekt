@@ -14,12 +14,30 @@
 \renewcommand{\appendixtocname}{Bilagor} \renewcommand{\appendixpagename}{Bilagor}
 \addto\captionsswedish{\renewcommand\appendixname{Bilagor}}
 
-
 \usepackage[citestyle=verbose-ibid, bibstyle=authoryear, natbib=true, url=false, doi=false, isbn=false, backend=biber, labeldateparts]{biblatex}
 \AtEveryBibitem{%
   \clearlist{language}%
   \clearfield{note}%
 }
+
+\DeclareBibliographyDriver{audio}{%
+  \usebibmacro{bibindex}%
+  \usebibmacro{begentry}%
+  \printfield{usera}%
+  \setunit{\labelnamepunct}\newblock
+  \usebibmacro{maintitle+title}%
+  \newunit
+  \printfield{userb}%
+  \newunit\newblock
+  \printfield{number}%
+  \newunit
+  %\usebibmacro{byeditor+others}%
+  \setunit{=\addspace}
+  \printfield{series}%
+  \setunit{\adddot\addspace}
+  \usebibmacro{publisher+location+date}%
+  \newunit\newblock
+  \usebibmacro{finentry}}
 %\usepackage{hyperref}
 \addbibresource{bibtex/kandidatarbete.bib}
 
@@ -38,6 +56,13 @@
 
 \makeglossaries
 \setglossarystyle{long}
+
+\newglossaryentry{API}
+{
+    name=API,
+	description={Application Programming Interface.}
+}
+
 
 \newglossaryentry{frontend}
 {
@@ -71,8 +96,8 @@
 
 \newglossaryentry{audification}
 {
-    name=Audification,
-	description={Att direktöversätta en dataserie till ljudkurvor}
+    name=Audifiering,
+	description={en. \emph{audification}. Att direktöversätta en dataserie till ljudkurvor}
 }
 
 \newglossaryentry{fifo}
@@ -104,7 +129,7 @@
 
 \section*{Introduktion}
 \addcontentsline{toc}{section}{Introduktion}
-Denna text kompletterar mitt examensprojekt, \emph{Radio Diabetes}, en interaktiv komposition/installation som generarar musik av blodsockervärden. Installationen består av ett SuperCollider-program som skapar själva musiken och en webbplats där man kan lyssna på den, läsa om projektet och ladda upp sina egna blodsockervärden. När en deltagare laddar upp sina värden slussas dessa direkt vidare till SuperCollider-programmet, som i sin tur inkluderar dem i musiken, antingen direkt eller att de blir schemalagda i en kö. Musiken strömmas till webbplatsen (och vidare till lyssnaren) via en internetradiostation. På så sätt utgör musiken ett kontinuerligt flöde som deltagare och åhörare hör samtidigt: det finns ingen början, mitten eller slut, utan endast ett \emph{nu}. %Denna förhållning till \emph{temporalitet} utgör ett huvudtema i projektet, jämte med \emph{interaktivitet} (deltagande), \emph{radioteknologi}, \emph{autoimmuna sjukdomar} och \emph{sonifiering}.
+Denna text kompletterar mitt examensprojekt, \emph{Radio Diabetes}, en interaktiv komposition/installation som generarar musik av blodsockervärden. Installationen består av ett SuperCollider\footcite{noauthor_supercollider_nodate}-program som skapar själva musiken och en webbplats där man kan lyssna på den, läsa om projektet och ladda upp sina egna blodsockervärden. När en deltagare laddar upp sina värden slussas dessa direkt vidare till SuperCollider-programmet, som i sin tur inkluderar dem i musiken, antingen direkt eller att de blir schemalagda i en kö. Musiken strömmas till webbplatsen (och vidare till lyssnaren) via en internetradiostation. På så sätt utgör musiken ett kontinuerligt flöde som deltagare och åhörare hör samtidigt: det finns ingen början, mitten eller slut, utan endast ett \emph{nu}. %Denna förhållning till \emph{temporalitet} utgör ett huvudtema i projektet, jämte med \emph{interaktivitet} (deltagande), \emph{radioteknologi}, \emph{autoimmuna sjukdomar} och \emph{sonifiering}.
 
 % TODO minska antalet "huvudteman"...?!
 % TODO "tystnad i radio"
@@ -119,18 +144,19 @@ Jag utvecklade vidare och förbättrade mitt första program som jag hade skrivi
 
 \subsection*{Några tidigare exempel, historiska och nutida}
 \addcontentsline{toc}{subsection}{Några tidigare exempel, historiska och nutida}
-Här har jag valt ut tre exempel ...
+Här har jag valt ut ett par exempel av musik och ljudinstallationer komponerad utifrån biologiska signaler och mätvärden för att ge ett historiskt perspektiv och nutida sammanhang.
 
-Det konstnärliga användandet av biologiska singaler och data har en historia som sträcker sig åtminstone till Alvin Luciers experiment med att komponera musik av hjärnvågor, \emph·{Music for Solo Performer}\footcite{straebel_alvin_2014} från 1965. I detta verk använder Lucier elektroder kopplade till interpretens huvud för att sonifiera dennes alfavågor. De sonifierade hjärnvågorna förstärks och spelas upp i 16 högtalare, som i sin tur exiterar diverse slagverk. I ett seminarium 2001 ska Lucier ha sagt: 
+Alvin Lucier bör anses som en pionjär inom detta fält, då han redan 1965 skrev stycket \emph{Music for Solo Performer}\footcite{lucier_music_1965}. I detta verk låter han uppmäta alfavågor med elektroder kopplade till huvudet av interpreten/utövaren. Dessa vågor förstärks sedan och spelas upp i 16 högtalare, som i sin tur exiterar diverse slagverk. Lucier kommenterade om stycket, i ett seminarium 2001 citerat av Straebel och Thoben\footcite{straebel_alvin_2014}:
 
 \begin{quote}
   I thought, 'I don't have a structure for this.' I mean, I'm a composer. I should impose some kind of structure, but then I thought, no, brain waves are a natural phenomen. They should just flow out ... %ska jag ha detta som ett block-citat?
 \end{quote}
 
+Detta belyser Luciers generativa förhållande till formen, och den direkta kopplingen mellan den uppmätta signalen och ljudvågorna är ett tidigt exempel på \emph{audifiering}.
 
-% \usepackage{epigraph}
-% \epigraph{}{(B.Parmegiani) \cite{editionsmego}}
-% Protein music, DNA music...
+På senare tid har ett antal genrer eller rörelser uppkommit med utgångspunkt i sonifieringen av biologisk data, med namn som \emph{protein music}\footcite{king_pm_1996}, \emph{DNA music}\footcite{k_kawazoe_study_2001} och \emph{gene music}\footcite{munakata_gene_1995}. Dessa genrer utgår samtliga från att låta musiken styras av dataset bestående av DNA-sekvenser, protein eller gener, till exempel mappningen av kvävebaser till tonhöjd\footcite{shi_electronic_2007}. Det finns ett visst vetenskapligt anspråk i de texter som skrivs om dessa olika typer av musik, att sonifieringen kan ge en typ av insikt i de dataset som används som en visualisering \emph{inte} skulle ge\footcite{king_pm_1996}. Detta anspråk har dock nyanserats och kritiserats på senare tid, av till exempel forskaren och kompositören Peter E. Larsen\footcite{larsen_more_2016} som menar att sonifieringen knappast leder till någon djupare insikt än ett vanligt stapeldiagram. Jag vill lyfta Dr. David Deamers \emph{Insulin A \& B Chains} (1983)\footcite{deamer_insulin_1983} och Dr. Nobuo Munakatas \emph{Hugging Tightly: Human RNase Inhibitor} (2009)\footcite{munakata_hugging_2009} som två nämnvärda exempel av \emph{DNA}, eller \emph{protein music}.
+
+Den 2 april 2021 släpptes Luca Yupanquis album \emph{Sounds of the Unborn}\footcite{yupanqui_sounds_2021}, som spelades in redan innan hon var född. 
 
 %Interaktivitet (\emph{Calling out of context})...
 
@@ -165,6 +191,9 @@ Sonifiering (eller är det verkligen sonifiering). %\footcite[2]{bijsterveld_son
 \subsection*{Diabetes}
 \addcontentsline{toc}{subsection}{Diabetes}
 
+Diabetes mellitus är en auto-immun sjukdom som huvudsakligen finns i två olika varianter: typ-1 diabetes och typ-2 diabetes. Insulinproduktion/insulinresistens. I Sverige finns x antal typ 1-diabetiker, och i världen (siffra). Jag debuterade (en? två? tre?) veckor efter jag hade börjat ettan i grundskolan, hösten 2001. Sedan dess har jag dagligen tagit insulininjektioner och mätt mitt blodsocker, inför varje måltid och däremellan. Jag har haft otaliga episoder av lågt och högt blodsocker (hypo- och hypoglycemi). Som diabetiker kan j Sjukdomen är kronisk.
+
+
 \subsubsection*{Blodsockervärden}
 \addcontentsline{toc}{subsubsection}{\textit{Blodsockervärden}}
 Blodsocker mäts i mmol/L och varierar hos en icke-diabetiker mellan 4 och 6 mmol/L [källa]. Hos en diabetiker kan detta värde variera från under 1 till över 30 mmol/L, och Freestyle Libre-sensorn har ett spann på att mäta från lägst 2,2 till 27,7 mmol/L (annars visar den \emph{LO} respektive \emph{HI}). Freestyle Libre-sensorn mäter kontinuerligt var 15:e minut.
@@ -189,18 +218,12 @@ Eftersom detta projekt beror av insamling av biometrisk data, som enligt \emph{D
 \addcontentsline{toc}{section}{Process}
 Installationen består som tidigare nämnt av två delar: ett musikgenererande program (SuperCollider) och en webbplats (se figur \ref{hemsida} på nästa sida). Här nedan följer en teknisk beskrivning av detta system.
 
-%\begin{wrapfigure}{l}{0.25\textwidth}
-%  \begin{center}
-%	\includegraphics[width=0.23\textwidth]{../media/flowchart.png}
-%  \end{center}
-%  \caption{Översiktsdiagram av system}
-%\end{wrapfigure}
-
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{../media/flowchart.png}
+\includegraphics[width=0.5\textwidth]{../media/flowchart2.png}
 \caption{Översiktsdiagram av system}
 \end{figure}
+
 
 \subsection*{SuperCollider-system}
 \addcontentsline{toc}{subsection}{SuperCollider-system}
@@ -221,7 +244,7 @@ Behovet av ett kösystem kommer ur scenariot att flera deltagare laddar upp vär
 \subsection*{Webbplats}
 \addcontentsline{toc}{subsection}{Webbplats}
 
-Webbplatsen finns i skrivande stund tillgänglig på domänen: \url{https://radiodiabetes.eu/}\footcite{jondell_radio_nodate}. I figur \ref{hemsida} på föregående sida visas en skärmdump av webbplatsen tagen den... %TODO insert date....
+Webbplatsen finns tillgänglig på domänen: \url{https://radiodiabetes.eu/} \footcite{jondell_radio_nodate}. I figur \ref{hemsida} ovan visas en skärmdump av webbplatsen tagen den... %TODO insert date....
 
 Webbplats består av en s.k. \emph{\gls{frontend}} och en \emph{\gls{backend}}. Linux (Ubuntu 20.04)/Nginx/gunicorn \gls{stack}.
 \subsubsection*{Front end}
@@ -287,14 +310,15 @@ För mig är detta endast startskottet på ett projekt som kan växa på alla s�
 
 %\end{multicols}
 
-
 %\twocolumn
 %\clearpage
 \addcontentsline{toc}{section}{Referenser}
 \printbibheading
-\printbibliography[type=book,title={Böcker},heading=subbibliography]
-\printbibliography[type=article,title={Artiklar},heading=subbibliography]
-\printbibliography[type=online,title={Hemsidor},heading=subbibliography]
+\printbibliography[type=article,title={Artiklar},heading=subbibintoc]
+\printbibliography[type=book,title={Böcker},heading=subbibintoc]
+\printbibliography[type=online,title={Hemsidor},heading=subbibintoc]
+\printbibliography[type=music,title={Musik},heading=subbibintoc]
+\printbibliography[type=incollection,title={Samlingar},heading=subbibintoc]
 
 \clearpage
 \begin{appendices}
