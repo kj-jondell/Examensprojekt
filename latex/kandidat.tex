@@ -10,16 +10,45 @@
 %\usepackage{multicol}
 
 \usepackage[toc,page]{appendix}
-\usepackage[section=subsection, toc]{glossaries}
+\usepackage[section=subsection, toc, acronym, nonumberlist]{glossaries}
 \renewcommand{\appendixtocname}{Bilagor} \renewcommand{\appendixpagename}{Bilagor}
 \addto\captionsswedish{\renewcommand\appendixname{Bilagor}}
+
+%\renewcommand{\thefootnote}{\alph{footnote}}
+
+\newcommand{\symfootnote}[1]{%
+\let\oldthefootnote=\thefootnote%
+\stepcounter{mpfootnote}%
+\addtocounter{footnote}{-1}%
+\renewcommand{\thefootnote}{$\dagger$}%
+\footnote{#1}%
+\let\thefootnote=\oldthefootnote%
+}
 
 \usepackage[citestyle=verbose-ibid, bibstyle=authoryear, natbib=true, url=false, doi=false, isbn=false, backend=biber, labeldateparts]{biblatex}
 \AtEveryBibitem{%
   \clearlist{language}%
   \clearfield{note}%
 }
-
+%\DeclareBibliographyDriver{misc}{%
+%  \usebibmacro{bibindex}%
+%  \usebibmacro{begentry}%
+%  \printfield{author}%
+%  \setunit{\labelnamepunct}\newblock
+%  \usebibmacro{maintitle+title}%
+%  \newunit
+%  \usebibmacro{date}%
+%  \newunit\newblock
+%  \printfield{number}%
+%  \newunit
+%  %\usebibmacro{byeditor+others}%
+%  \setunit{=\addspace}
+%  \printfield{series}%
+%  \setunit{\adddot\addspace}
+%  \usebibmacro{publisher+location+date}%
+%  \newunit\newblock
+%  \usebibmacro{finentry}}
+%
 \DeclareBibliographyDriver{audio}{%
   \usebibmacro{bibindex}%
   \usebibmacro{begentry}%
@@ -27,7 +56,7 @@
   \setunit{\labelnamepunct}\newblock
   \usebibmacro{maintitle+title}%
   \newunit
-  \printfield{userb}%
+  \usebibmacro{date}%
   \newunit\newblock
   \printfield{number}%
   \newunit
@@ -55,31 +84,37 @@
   %\titlerule[0.8pt]
 
 \makeglossaries
+
+\newacronym{api}{API}{Application Programming Interface}
+\newacronym{cgm}{CGM}{Continuous Glucose Monitor}
+\newacronym{fgm}{FGM}{Flash Glucose Monitor}
+\newacronym{fifo}{FIFO}{First In, First Out}
+
 \setglossarystyle{long}
 
-\newglossaryentry{API}
-{
-    name=API,
-	description={Application Programming Interface.}
-}
+%\newglossaryentry{API}
+%{
+%    name=API,
+%	description={Application Programming Interface.}
+%}
 
 
 \newglossaryentry{frontend}
 {
     name=Front end,
-	description={Användargränssnittet i webbutveckling.}
+	description={Användargränssnittet i webbutveckling}
 }
 
 \newglossaryentry{backend}
 {
     name=Back end,
-	description={Allt som rör sig ''under huven'', server-side programmering.}
+	description={Allt som rör sig ''under huven'', server-side programmering}
 }
 
 \newglossaryentry{supercollider}
 {
     name=SuperCollider,
-	description={Ett programmeringsspråk och plattform för syntes av ljud, och musikalisk programmering.}
+	description={Ett programmeringsspråk och plattform för syntes av ljud, och musikalisk programmering}
 }
 
 \newglossaryentry{pattern}
@@ -100,11 +135,11 @@
 	description={en. \emph{audification}. Att direktöversätta en dataserie till ljudkurvor}
 }
 
-\newglossaryentry{fifo}
-{
-    name=FIFO-system,
-	description={First in, First out. En typ av kösystem}
-}
+%\newglossaryentry{fifo}
+%{
+%    name=FIFO-system,
+%	description={First in, First out. En typ av kösystem}
+%}
 
 \newglossaryentry{sonification}
 {
@@ -115,17 +150,22 @@
 \newglossaryentry{mappning}
 {
     name=Mappning,
-	description={en. \emph{mapping}. Ihopkopplingen av ett datavärde till en parameter. Olika typer av mappningar finns, till exempel \emph{one-to-one} och \emph{one-to-many}}
+	description={eller \emph{avbildning}. Ihopparningen av ett element (invariabel) till en annan (utvariabel). Olika typer av mappningar finns, till exempel \emph{injektiv} eller \emph{one-to-one}}
 }
 
 \begin{document}
 
-\tableofcontents
 \clearpage
 
 
 \newpage
 %\begin{multicols}{2}
+
+\renewcommand{\abstractname}{Tack}
+\begin{abstract}
+  Stort tack till min texthandledare Kim Hedås och lärare Erik Peters för alla kloka råd och vägledning! Även stort tack till Herman Wikner\symfootnote{Hermans GitHub finns tillgänglig på: \url{https://github.com/hermanwikner} (hämtad \today).} som hjälpt mig bygga användargränssnittet i React! 
+\end{abstract}
+\tableofcontents
 
 \section*{Introduktion}
 \addcontentsline{toc}{section}{Introduktion}
@@ -138,7 +178,7 @@ Denna text kompletterar mitt examensprojekt, \emph{Radio Diabetes}, en interakti
 
 \subsection*{Bakgrund}
 \addcontentsline{toc}{subsection}{Bakgrund}
-Idéen om att göra musik av blodsockervärden föddes dagen då jag fick en \emph{Freestyle Libre}-mätare, en så kallad kontinuerlig blodsockermätare (en. \emph{continous glucose monitoring}, eller \emph{CGM}). Denna typ av blodsockermätare skiljer sig från tradionella mätare --- som man är tvungen att sticka sig i fingret och på så sätt mäta blodsockret med --- i att den regelbundet gör mätningar, vilket ger en kontinuerlig kurva över ens blodsockervärden. Kurvorna påminde mig om hur ljudsignaler ofta representeras visuellt (en horisontell tidsaxel och en linjär vertikal axel) och i ett tidigt experiment gjorde jag en direkt översättning av mina blodsockerkurvor till ljudfiler: en så kallad \emph{audifiering} (en. \emph{audification}). Dessa ljud använde jag som samplingar i mitt stycke \emph{Värden och en vagga} (2017), som var ett av arbetsproverna jag sökte till Musikhögskolan med. 
+Idéen om att göra musik av blodsockervärden föddes dagen då jag fick en \emph{Freestyle Libre}-mätare, en så kallad kontinuerlig blodsockermätare, eller \gls{cgm}. Denna typ av blodsockermätare skiljer sig från tradionella mätare --- som man är tvungen att sticka sig i fingret och på så sätt mäta blodsockret med --- i att den regelbundet gör mätningar, vilket ger en kontinuerlig kurva över ens blodsockervärden. Kurvorna påminde mig om hur ljudsignaler ofta representeras visuellt (en horisontell tidsaxel och en linjär vertikal axel) och i ett tidigt experiment gjorde jag en direkt översättning av mina blodsockerkurvor till ljudfiler: en så kallad \emph{audifiering}. Dessa ljud använde jag som samplingar i mitt stycke \emph{Värden och en vagga} (2017), som var ett av arbetsproverna jag sökte till Musikhögskolan med. 
 
 Jag utvecklade vidare och förbättrade mitt första program som jag hade skrivit för att översätta mina kurvor till ljudfiler, så att vem som helst skulle kunna använda programmet och översätta sina enga värden till ljud. Jag byggde också en wavetable-synth i SuperCollider som använde dessa ljudfiler som källmaterial. Detta instrument har jag använt i ett antal olika kompositioner som jag skrivit under min skoltid. Båda dessa program (översättaren och wavetable-synthen) har jag publicerat på min Github\footcite{jondell_kj-jondelldiabetes-synth_2021}. En del av denna kod återanvände jag även i detta projekt.
 
@@ -149,27 +189,32 @@ Här har jag valt ut ett par exempel av musik och ljudinstallationer komponerad 
 Alvin Lucier bör anses som en pionjär inom detta fält, då han redan 1965 skrev stycket \emph{Music for Solo Performer}\footcite{lucier_music_1965}. I detta verk låter han uppmäta alfavågor med elektroder kopplade till huvudet av interpreten/utövaren. Dessa vågor förstärks sedan och spelas upp i 16 högtalare, som i sin tur exiterar diverse slagverk. Lucier kommenterade om stycket, i ett seminarium 2001 citerat av Straebel och Thoben\footcite{straebel_alvin_2014}:
 
 \begin{quote}
-  I thought, 'I don't have a structure for this.' I mean, I'm a composer. I should impose some kind of structure, but then I thought, no, brain waves are a natural phenomen. They should just flow out ... %ska jag ha detta som ett block-citat?
+  I thought, 'I don't have a structure for this.' I mean, I'm a composer. I should impose some kind of structure, but then I thought, no, brain waves are a natural phenomen. They should just flow out ... 
 \end{quote}
 
 Detta belyser Luciers generativa förhållande till formen, och den direkta kopplingen mellan den uppmätta signalen och ljudvågorna är ett tidigt exempel på \emph{audifiering}.
 
 På senare tid har ett antal genrer eller rörelser uppkommit med utgångspunkt i sonifieringen av biologisk data, med namn som \emph{protein music}\footcite{king_pm_1996}, \emph{DNA music}\footcite{k_kawazoe_study_2001} och \emph{gene music}\footcite{munakata_gene_1995}. Dessa genrer utgår samtliga från att låta musiken styras av dataset bestående av DNA-sekvenser, protein eller gener, till exempel mappningen av kvävebaser till tonhöjd\footcite{shi_electronic_2007}. Det finns ett visst vetenskapligt anspråk i de texter som skrivs om dessa olika typer av musik, att sonifieringen kan ge en typ av insikt i de dataset som används som en visualisering \emph{inte} skulle ge\footcite{king_pm_1996}. Detta anspråk har dock nyanserats och kritiserats på senare tid, av till exempel forskaren och kompositören Peter E. Larsen\footcite{larsen_more_2016} som menar att sonifieringen knappast leder till någon djupare insikt än ett vanligt stapeldiagram. Jag vill lyfta Dr. David Deamers \emph{Insulin A \& B Chains} (1983)\footcite{deamer_insulin_1983} och Dr. Nobuo Munakatas \emph{Hugging Tightly: Human RNase Inhibitor} (2009)\footcite{munakata_hugging_2009} som två nämnvärda exempel av \emph{DNA}, eller \emph{protein music}.
 
-Den 2 april 2021 släpptes Luca Yupanquis album \emph{Sounds of the Unborn}\footcite{yupanqui_sounds_2021}, som spelades in redan innan hon var född. 
+Den 2 april 2021 släpptes Luca Yupanquis album \emph{Sounds of the Unborn}\footcite{yupanqui_sounds_2021}, som spelades in redan innan hon var född. Yupanquis föräldrar --- musikerna Elizabeth Hart och Iván Diaz Mathé --- hade med hjälp av elektroder kopplade till Harts kropp spelat in deras ofödda barns \emph{in utero}-rörelser och sedan låtit sonifiera dessa inspelade signaler med ett system utvecklat av Sam Cusumano och hans företag \emph{Electricity for progress}\footcite{noauthor_electricity_nodate}. Elizabeth Hart berättar i en intervju i \emph{Kulturnytt i P1}\footcite{eklund_duo_2021} hur musiken kommit till av ett rent experimenterande, att föräldrarna till en början inte hade haft en tanke att ge ut det som ett album. Hart berättar vidare att hon \textbf{inte} tror att musiken säger något speciellt om de ofödda, att det inte varit föräldrarnas avsikt, och avfärdar frågan om huruvida processen endast varit ett PR-trick med att säga: ''... for us, I think it is a pretty great album. Musically, I am proud of what was achieved, musically.'' Skivbolaget \emph{Sacred Bones Records}, som släppt albumet, säljer systemet som Hart och Diaz Mathé använt under namnet \emph{MIDI Biodata Sonification Device}\footcite{noauthor_midi_nodate} och Cusumano, som utvecklat systemet, driver ett forum\footcite{noauthor_biodata_nodate} där användare av detta system uppmuntras dela med sig av olika sonifieringar de gjort. 
+
 
 %Interaktivitet (\emph{Calling out of context})...
+
 
 %Radio (\emph{Tuning a radio}, etc...)
 \subsection*{Radio}
 \addcontentsline{toc}{subsection}{Radio}
-En del av installationen består av en internetradiostation, som strömmar ut den genererade musiken. Just denna ...
+En del av installationen består av en internetradiostation, som strömmar ut den genererade musiken. Radion som medium påverkar i hög grad själva innehållet, det vill säga musiken, i olika avseenden, till exempel dess temporalitet och interaktivitet. 
+Marshall McLuhan beskriver i sin bok \emph{Understanding media: the extensions of man}\footcite{mcluhan_understanding_2003} radion som ett \emph{hot medium}\footcite[39]{mcluhan_understanding_2003}, något han menar är ett medium som ''...extends one single sense in '\emph{high definition}'... the state of being well filled with data.'', men som följdaktligen inte ger mycket utrymme för deltagande. McLuhan kontrasterar detta med exempel av \emph{cool media} som telefonen, där innehållet skapas helt av deltagarna (\emph{high} och \emph{low definition} ska alltså inte blandas ihop med ljudkvalitet i detta fall). Den första utgåvan av \emph{Understanding media} kom 1964, en tid då dessa medier kanske var mer kategoriskt \emph{hot} eller \emph{cool}. I Jonas Anghammars C-uppsats \emph{Nya medier möter gamla radion: publikmedverkan i public service-radion nu och då}\footcite{anghammar_nya_2010} från 2010 går det att läsa om hur graden av interaktion i Svergies Radios programutbud ökat markant bara sedan 90-talet, något som kopplas samman med den snabba digitaliseringen som skett. Anghammars skriver i ett citat av Nils Enlund från 2008 att ''...publiken nu själva skapar stor del av medieinnehållet eftersom den tillåts göra det.'' Kanske undergår radion, som medium, en nedkylning. En del i utvecklingen av förgörelsen av tid och rum som McLuhan menar elektrifieringen av vår värld har påkallat: ''With instant electric technology, the globe itself can never again be more than a village...''\footcite[454]{mcluhan_understanding_2003}.
 
-Radion som konstmedium har länge inspirerat mig, från hörspelen av bland andra Öyvind Fahlström, till John Cages radiokompositioner, till mer sentida \emph{radioqualia}... 
+%Jämförelsevis så är \emph{Ring så spelar vi}, \emph{Karlavagnen} och \emph{Ring P1} exempel på program i traditionell marksänd rundradio som består av en hög grad av deltagande, eller interaktivitet. Dessa bygger i princip helt på att lyssnare ringer in och innehållet skapas av lyssnardeltagandet. 
 
-Hot/cool media (McLuhan), interaktion, 
+%Radion som konstmedium har länge inspirerat mig, från hörspelen av bland andra Öyvind Fahlström, till John Cages radiokompositioner, till mer sentida \emph{radioqualia}... 
 
-''Ring så spelar vi'' och ''Ring P1'' är två exempel på interaktiva radioprogram, där lyssnarna till hög grad styr och påverkar programmets innehåll. I "Ring P1", som sänds live, är interaktionen så hög att diskussioner kan uppstå lyssnare emellan, där en lyssnare replikerar en annan lyssnares inlägg eller deltagande. Men trots denna höga grad av fri interaktion behöver varje deltagare först passera en telefonsluss. 
+%Hot/cool media (McLuhan), interaktion, 
+
+%''Ring så spelar vi'' och ''Ring P1'' är två exempel på interaktiva radioprogram, där lyssnarna till hög grad styr och påverkar programmets innehåll. I "Ring P1", som sänds live, är interaktionen så hög att diskussioner kan uppstå lyssnare emellan, där en lyssnare replikerar en annan lyssnares inlägg eller deltagande. Men trots denna höga grad av fri interaktion behöver varje deltagare först passera en telefonsluss. 
 
 %Digital mediekonst som bygger kring internetradio, eller så kallad \emph{streaming culture}, 
 %använder sonifieringar
@@ -186,7 +231,8 @@ Sonifiering (eller är det verkligen sonifiering). %\footcite[2]{bijsterveld_son
 
 \gls{mappning}
 
-\gls{audification} \footcite[302]{noauthor_sonification_2011} är en form av sonifiering där mätdatan översätts direkt till ljudkurvor... fyra grupper av data (\emph{sound recording}, \emph{general acoustic}, \emph{physical}, och \textbf{\emph{abstract}})...
+\gls{audification} \footcite[302]{hermann_audification_2011} är en form av sonifiering där mätdatan översätts direkt till ljudkurvor... fyra grupper av data (\emph{sound recording}, \emph{general acoustic}, \emph{physical}, och \textbf{\emph{abstract}})...
+
 
 \subsection*{Diabetes}
 \addcontentsline{toc}{subsection}{Diabetes}
@@ -212,7 +258,7 @@ Ett sentiment som ofta förekommande (''jag är \textbf{inte} min diabetes, mina
 
 \subsection*{Datainsamling}
 \addcontentsline{toc}{subsection}{Datainsamling}
-Eftersom detta projekt beror av insamling av biometrisk data, som enligt \emph{Dataskyddsförordningen} (GDPR) \footcite{integritetsskyddsmyndigheten_kansliga_nodate} är en känslig personuppgift, krävs ett uttryckligt samtycke från varje deltagare att denna är införstådd i hur datan behandlas. Jag har försökt vara så transparent som möjligt i hur datan behandlas, genom att dels dela \textbf{all} källkod som jag använder, och även i den kommunikation jag lagt ut på webbplatsen och i övriga dokument berörande projektet (såsom denna text). All data som samlas in anonymiseras/avidentifieras så fort som möjligt och den är inte sparad någonstans utöver arbetsminnet som SuperCollider använder. I enlighet med ''God forskningssed'' \footnote{lägg till referens} är anonymitet och integritet av största vikt i detta projekt, även fast det är ett konstprojekt och inte ett forskningsprojekt. Jag har inget kommersiellt intresse i insamlingen av datan, jag delar den inte med någon extern part heller, och allt deltagande är valfritt. Min ambition är \textbf{inte} att samla data för sakens skull, utan att diabetiker ska kunna dela med sig av sina värden utan att de på något sätt bedöms eller värderas: helt enkelt, att själva delandet och deltagandet i sig står i fokus. 
+Eftersom detta projekt beror av insamling av biometrisk data, som enligt \emph{Dataskyddsförordningen} (GDPR) \footcite{integritetsskyddsmyndigheten_kansliga_nodate} är en känslig personuppgift, krävs ett uttryckligt samtycke från varje deltagare att denna är införstådd i hur datan behandlas. Jag har försökt vara så transparent som möjligt i hur datan behandlas, genom att dels dela \textbf{all} källkod som jag använder, och även i den kommunikation jag lagt ut på webbplatsen och i övriga dokument berörande projektet (såsom denna text). All data som samlas in anonymiseras/avidentifieras så fort som möjligt och den är inte sparad någonstans utöver arbetsminnet som SuperCollider använder. I enlighet med Vetenskapsrådets text \emph{God forskningssed} \footcite[s. 40-41]{vetenskapsradet_god_2017} är sekretess, anonymitet och integritet av största vikt i detta projekt, även fast det är ett konstprojekt och inte ett forskningsprojekt. Jag har inget kommersiellt intresse i insamlingen av datan, jag delar den inte med någon extern part heller, och allt deltagande är valfritt. Min ambition är \textbf{inte} att samla data för sakens skull, utan att diabetiker ska kunna dela med sig av sina värden utan att de på något sätt bedöms eller värderas: helt enkelt, att själva delandet och deltagandet i sig står i fokus. 
 
 \section*{Process}
 \addcontentsline{toc}{section}{Process}
@@ -220,7 +266,7 @@ Installationen består som tidigare nämnt av två delar: ett musikgenererande p
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{../media/flowchart.png}
+\includegraphics[width=0.5\textwidth]{../media/flowchart.png}
 \caption{Översiktsdiagram av system}
 \end{figure}
 
@@ -232,7 +278,7 @@ När en deltagare laddar upp en fil med sina mätvärden så skickas de vidare, 
 
 \subsubsection*{Kösystemet}
 \addcontentsline{toc}{subsubsection}{\emph{Kösystemet}}
-Behovet av ett kösystem kommer ur scenariot att flera deltagare laddar upp värden inom en relativt kort tidsram. Om detta händer \emph{utan ett kösystem}, kan systemet reagera på två sätt: antingen spelas alla objekt upp samtidigt, med risk för att överrösta varandra och bli en kakofoni, eller så ersätter de varandra, vilket skulle leda till att ens bidrag inte skulle höras mer än en väldigt kort stund. En kompromiss är att använda ett kösystem, så att antalet samtidigt spelande objekt begränsas, och att dessa spelas \emph{minst} en given längd tid, men inte längre än en annan bestämd tid, om det står väntande deltagare på kö. Allt som allt har jag begränsat antalet samtidigt spelande objekt till \emph{tre} stycken, och när dessa är fyllda ställs antingen ett nytt bidrag på kö --- om inte de spelande objekten har varit aktiva i den givna minimumtiden --- eller så ersätter det nya bidraget det äldsta spelande objektet. Kösystemet är i tekniska termer alltså ett \gls{fifo}.
+Behovet av ett kösystem kommer ur scenariot att flera deltagare laddar upp värden inom en relativt kort tidsram. Om detta händer \emph{utan ett kösystem}, kan systemet reagera på två sätt: antingen spelas alla objekt upp samtidigt, med risk för att överrösta varandra och bli en kakofoni, eller så ersätter de varandra, vilket skulle leda till att ens bidrag inte skulle höras mer än en väldigt kort stund. En kompromiss är att använda ett kösystem, så att antalet samtidigt spelande objekt begränsas, och att dessa spelas \emph{minst} en given längd tid, men inte längre än en annan bestämd tid, om det står väntande deltagare på kö. Allt som allt har jag begränsat antalet samtidigt spelande objekt till \emph{tre} stycken, och när dessa är fyllda ställs antingen ett nytt bidrag på kö --- om inte de spelande objekten har varit aktiva i den givna minimumtiden --- eller så ersätter det nya bidraget det äldsta spelande objektet. Kösystemet är i tekniska termer alltså ett \gls{fifo}-system.
 
 \begin{figure*}[ht!]
 \centering
@@ -244,7 +290,7 @@ Behovet av ett kösystem kommer ur scenariot att flera deltagare laddar upp vär
 \subsection*{Webbplats}
 \addcontentsline{toc}{subsection}{Webbplats}
 
-Webbplatsen finns tillgänglig på domänen: \url{https://radiodiabetes.eu/} \footcite{jondell_radio_nodate}. I figur \ref{hemsida} ovan visas en skärmdump av webbplatsen tagen den... %TODO insert date....
+Webbplatsen finns tillgänglig på domänen\footcite{jondell_radio_nodate}: \url{https://radiodiabetes.eu/}. I figur \ref{hemsida} ovan visas en skärmdump av webbplatsen tagen den... %TODO insert date....
 
 Webbplats består av en s.k. \emph{\gls{frontend}} och en \emph{\gls{backend}}. Linux (Ubuntu 20.04)/Nginx/gunicorn \gls{stack}.
 \subsubsection*{Front end}
@@ -254,7 +300,7 @@ Webbplats består av en s.k. \emph{\gls{frontend}} och en \emph{\gls{backend}}. 
 
 \subsubsection*{Back end}
 \addcontentsline{toc}{subsubsection}{\emph{Back end}}
-1. beskriv vad backend är för något (API?)
+1. beskriv vad backend är för något (API?) \gls{api}
 2. flask, darkice/icecast också kanske? 
 
 \subsection*{Tillvägagångssätt}
@@ -308,6 +354,7 @@ För mig är detta endast startskottet på ett projekt som kan växa på alla s�
 - Möjligheten att spela upp binauralt
 - Internationellaisera (översätt hemsida etc...)
 
+
 %\end{multicols}
 
 %\twocolumn
@@ -317,12 +364,13 @@ För mig är detta endast startskottet på ett projekt som kan växa på alla s�
 \printbibliography[type=article,title={Artiklar},heading=subbibintoc]
 \printbibliography[type=book,title={Böcker},heading=subbibintoc]
 \printbibliography[type=online,title={Hemsidor},heading=subbibintoc]
-\printbibliography[type=music,title={Musik},heading=subbibintoc]
+\printbibliography[type=audio,title={Musik},heading=subbibintoc]
+\printbibliography[type=misc,title={Radio},heading=subbibintoc]
 \printbibliography[type=incollection,title={Samlingar},heading=subbibintoc]
 
 \clearpage
 \begin{appendices}
-\printglossary[nonumberlist]
+\printglossaries
 \end{appendices}
 
 \end{document}

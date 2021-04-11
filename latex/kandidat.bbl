@@ -19,6 +19,35 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{anghammar_nya_2010}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cd269d28dcb2ec6084e6895c0bdbf141}{%
+           family={Anghammar},
+           familyi={A\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd269d28dcb2ec6084e6895c0bdbf141}
+      \strng{fullhash}{cd269d28dcb2ec6084e6895c0bdbf141}
+      \strng{bibnamehash}{cd269d28dcb2ec6084e6895c0bdbf141}
+      \strng{authorbibnamehash}{cd269d28dcb2ec6084e6895c0bdbf141}
+      \strng{authornamehash}{cd269d28dcb2ec6084e6895c0bdbf141}
+      \strng{authorfullhash}{cd269d28dcb2ec6084e6895c0bdbf141}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Purpose: The purpose of this study is to examine how public contribution in public service radio has changed as a consequence of the digitalization. Public contribution is studied from several aspects, but with a particular focus on new media types.}
+      \field{langid}{swedish}
+      \field{title}{Nya medier möter gamla radion}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Anghammar - 2010 - Nya medier möter gamla radion.pdf:/Users/kj/Zotero/storage/MKUWV4SA/Anghammar - 2010 - Nya medier möter gamla radion.pdf:application/pdf
+      \endverb
+    \endentry
     \entry{arvidson_det_2016}{article}{}
       \name{author}{1}{}{%
         {{hash=781042498f2bd25703f85b53c14b44ea}{%
@@ -67,6 +96,149 @@
       \verb https://socialmedicinsktidskrift.se/smt/index.php/smt/article/view/1463
       \endverb
       \keyw{autoimmun sjukdom,diabetes typ-1,jaget,överlevnadsstrategi,paus,prestation,social acceleration}
+    \endentry
+    \entry{noauthor_biodata_nodate}{online}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Biodata Forum}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Biodata Forum - Index:/Users/kj/Zotero/storage/NEX7RJ4R/Forum.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://electricityforprogress.com/Forum/
+      \endverb
+      \verb{url}
+      \verb https://electricityforprogress.com/Forum/
+      \endverb
+    \endentry
+    \entry{hermann_audification_2011}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=760470747a7de5d56fc8e4fbf8f454d2}{%
+           family={Dombois},
+           familyi={D\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2aacfcf479c4af42a627ab21f91d711f}{%
+           family={Eckel},
+           familyi={E\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=79155237002af2f8304b79df34c26010}{%
+           family={Hermann},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b81f678a6f8b5b5dea330a3b3de62ef4}{%
+           family={Hunt},
+           familyi={H\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cd850e2e81add81b74b67279400b66da}{%
+           family={Neuhoff},
+           familyi={N\bibinitperiod},
+           given={John\bibnamedelima G},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Logos}%
+      }
+      \strng{namehash}{d37042856cbb7e102db4e17b05e6f13c}
+      \strng{fullhash}{d37042856cbb7e102db4e17b05e6f13c}
+      \strng{bibnamehash}{d37042856cbb7e102db4e17b05e6f13c}
+      \strng{authorbibnamehash}{d37042856cbb7e102db4e17b05e6f13c}
+      \strng{authornamehash}{d37042856cbb7e102db4e17b05e6f13c}
+      \strng{authorfullhash}{d37042856cbb7e102db4e17b05e6f13c}
+      \strng{editorbibnamehash}{0c25358bf30b20572eadd842a29432b5}
+      \strng{editornamehash}{0c25358bf30b20572eadd842a29432b5}
+      \strng{editorfullhash}{0c25358bf30b20572eadd842a29432b5}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Sonification Handbook}
+      \field{title}{Audification}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{301\bibrangedash 321}
+      \range{pages}{21}
+    \endentry
+    \entry{eklund_duo_2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a592560025dc0a4753cb51fe10e207ec}{%
+           family={Eklund},
+           familyi={E\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Stockholm}%
+      }
+      \list{publisher}{1}{%
+        {Sveriges Radio}%
+      }
+      \strng{namehash}{a592560025dc0a4753cb51fe10e207ec}
+      \strng{fullhash}{a592560025dc0a4753cb51fe10e207ec}
+      \strng{bibnamehash}{a592560025dc0a4753cb51fe10e207ec}
+      \strng{authorbibnamehash}{a592560025dc0a4753cb51fe10e207ec}
+      \strng{authornamehash}{a592560025dc0a4753cb51fe10e207ec}
+      \strng{authorfullhash}{a592560025dc0a4753cb51fe10e207ec}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Små hjärtslag vid ultraljudsundersökningen, det är ungefär vad föräldrar brukar ha hört från sitt barn innan det är fött}
+      \field{day}{29}
+      \field{month}{3}
+      \field{title}{Duo gjorde album med sitt ofödda barn}
+      \field{titleaddon}{Kulturnytt i P1}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://sverigesradio.se/artikel/duo-gjorde-album-med-sitt-ofodda-barn
+      \endverb
+      \verb{url}
+      \verb https://sverigesradio.se/artikel/duo-gjorde-album-med-sitt-ofodda-barn
+      \endverb
+    \endentry
+    \entry{noauthor_electricity_nodate}{online}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Electronics, Education, and Music}
+      \field{langid}{american}
+      \field{title}{Electricity for Progress}
+      \field{titleaddon}{Electricity for Progress}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/MAVQQCKC/electricityforprogress.com.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://electricityforprogress.com/
+      \endverb
+      \verb{url}
+      \verb https://electricityforprogress.com/
+      \endverb
     \endentry
     \entry{munakata_hugging_2009}{audio}{}
       \name{editora}{1}{}{%
@@ -373,6 +545,71 @@
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4798795/
       \endverb
     \endentry
+    \entry{mcluhan_understanding_2003}{book}{}
+      \name{author}{2}{}{%
+        {{hash=815de62ec0071f72ab07b6bffc51a626}{%
+           family={{McLuhan}},
+           familyi={M\bibinitperiod},
+           given={Marshall},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ab8567dfa2953eddf3a4cdab9feedd8b}{%
+           family={Gordon},
+           familyi={G\bibinitperiod},
+           given={W.\bibnamedelimi Terrence},
+           giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Corte Madera, {CA}}%
+      }
+      \list{publisher}{1}{%
+        {Gingko Press}%
+      }
+      \strng{namehash}{02ac20128811a163e3f92d0ac9c96947}
+      \strng{fullhash}{02ac20128811a163e3f92d0ac9c96947}
+      \strng{bibnamehash}{02ac20128811a163e3f92d0ac9c96947}
+      \strng{authorbibnamehash}{02ac20128811a163e3f92d0ac9c96947}
+      \strng{authornamehash}{02ac20128811a163e3f92d0ac9c96947}
+      \strng{authorfullhash}{02ac20128811a163e3f92d0ac9c96947}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{When first published, Marshall {McLuhan}'s Understanding Media made history with its radical view of the effects of electronic communications upon man and life in the twentieth century.This edition of {McLuhan}'s best-known book both enhances its accessibility to a general audience and provides the full critical apparatus necessary for scholars. This critical edition makes available for the first time the core of the research project that spawned the book.In Terrence Gordon’s own words, “{McLuhan} is in full flight already in the introduction, challenging us to plunge with him into what he calls ‘the creative process of knowing.’” Much to the chagrin of his contemporary critics {McLuhan}’s preference was for a prose style that explored rather than explained. Probes, or aphorisms, were an indispensable tool with which he sought to prompt and prod the reader into an “understanding of how media operate” and to provoke reflection.In the 1960s, {McLuhan}’s theories aroused both wrath and admiration. It is intriguing to speculate what he might have to say 40 years later on subjects to which he devoted whole chapters such as Television, The Telephone, Weapons, Housing and Money. Today few would dispute that mass media has indeed decentralized modern living and turned the world into a global village.This critical edition features an appendix that makes available for the first time the core of the research project that spawned the book and individual chapter notes are supported by a glossary of terms, indices of subjects, names, and works cited. There is also a complete bibliography of {McLuhan}’s published works.}
+      \field{day}{1}
+      \field{edition}{Critical edition}
+      \field{isbn}{978-1-58423-073-1}
+      \field{month}{11}
+      \field{shorttitle}{Understanding Media}
+      \field{title}{Understanding Media: The Extensions of Man}
+      \field{year}{2003}
+      \field{dateera}{ce}
+    \endentry
+    \entry{noauthor_midi_nodate}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This is a preorder. It will ship in Spring 2021. Own the same device used by Luca Yupanqui, Elizabeth Hart, and Iván Diaz Mathé in the creation of Sounds of the Unborn. Listen to any living thing and create your own music together with them and your {MIDI} Biodata Sonification System.  By attaching electrodes to the leav}
+      \field{langid}{english}
+      \field{title}{{MIDI} Biodata Sonication Device}
+      \field{titleaddon}{Sacred Bones Records}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/VJNI4P9A/midi-biodata-sonication-device.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sacredbonesrecords.com/products/midi-biodata-sonication-device
+      \endverb
+      \verb{url}
+      \verb https://www.sacredbonesrecords.com/products/midi-biodata-sonication-device
+      \endverb
+    \endentry
     \entry{munakata_gene_1995}{incollection}{}
       \name{author}{2}{}{%
         {{hash=b33ec9fc569d947f645b0c4a830dcdd5}{%
@@ -387,7 +624,7 @@
            giveni={K\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {{WORLD} {SCIENTIFIC}}%
+        {World Scientific}%
       }
       \strng{namehash}{b8448c5a19b92bd78293b77732e2534b}
       \strng{fullhash}{b8448c5a19b92bd78293b77732e2534b}
@@ -410,7 +647,6 @@
       \field{urlday}{9}
       \field{urlmonth}{4}
       \field{urlyear}{2021}
-      \field{volumes}{0}
       \field{year}{1995}
       \field{dateera}{ce}
       \field{urldateera}{ce}
@@ -630,23 +866,38 @@
       \verb https://supercollider.github.io/
       \endverb
     \endentry
-    \entry{noauthor_sonification_2011}{book}{}
+    \entry{vetenskapsradet_god_2017}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2d51044db17774d5de40a92ecd76eada}{%
+           family={{Vetenskapsrådet}},
+           familyi={V\bibinitperiod}}}%
+      }
       \list{location}{1}{%
-        {Berlin}%
+        {Stockholm}%
       }
       \list{publisher}{1}{%
-        {Logos}%
+        {Vetenskapsrådet}%
       }
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \strng{namehash}{2d51044db17774d5de40a92ecd76eada}
+      \strng{fullhash}{2d51044db17774d5de40a92ecd76eada}
+      \strng{bibnamehash}{2d51044db17774d5de40a92ecd76eada}
+      \strng{authorbibnamehash}{2d51044db17774d5de40a92ecd76eada}
+      \strng{authornamehash}{2d51044db17774d5de40a92ecd76eada}
+      \strng{authorfullhash}{2d51044db17774d5de40a92ecd76eada}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{978-3-8325-2819-5}
-      \field{note}{{OCLC}: 805139776}
-      \field{title}{The Sonification Handbook}
-      \field{year}{2011}
+      \field{isbn}{978-91-7307-352-3}
+      \field{langid}{swedish}
+      \field{title}{God forskningssed}
+      \field{year}{2017}
       \field{dateera}{ce}
+      \verb{file}
+      \verb Vetenskapsrådet - 2017 - God forskningssed.pdf:/Users/kj/Zotero/storage/9A6DU4ZD/Vetenskapsrådet - 2017 - God forskningssed.pdf:application/pdf
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
