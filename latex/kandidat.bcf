@@ -2364,15 +2364,19 @@
     <bcf:citekey order="15">eklund_duo_2021</bcf:citekey>
     <bcf:citekey order="16">noauthor_midi_nodate</bcf:citekey>
     <bcf:citekey order="17">noauthor_biodata_nodate</bcf:citekey>
-    <bcf:citekey order="18">mcluhan_understanding_2003</bcf:citekey>
-    <bcf:citekey order="19">mcluhan_understanding_2003</bcf:citekey>
-    <bcf:citekey order="20">anghammar_nya_2010</bcf:citekey>
-    <bcf:citekey order="21">mcluhan_understanding_2003</bcf:citekey>
-    <bcf:citekey order="22">hermann_audification_2011</bcf:citekey>
-    <bcf:citekey order="23">arvidson_det_2016</bcf:citekey>
-    <bcf:citekey order="24">integritetsskyddsmyndigheten_kansliga_nodate</bcf:citekey>
-    <bcf:citekey order="25">vetenskapsradet_god_2017</bcf:citekey>
-    <bcf:citekey order="26">jondell_radio_nodate</bcf:citekey>
+    <bcf:citekey order="18">noauthor_r_nodate</bcf:citekey>
+    <bcf:citekey order="19">r_a_d_i_o_q_u_a_l_i_a_free_2002</bcf:citekey>
+    <bcf:citekey order="20">perron_radioqualia_2003</bcf:citekey>
+    <bcf:citekey order="21">brecht_radio_nodate</bcf:citekey>
+    <bcf:citekey order="22">mcluhan_understanding_2003</bcf:citekey>
+    <bcf:citekey order="23">mcluhan_understanding_2003</bcf:citekey>
+    <bcf:citekey order="24">anghammar_nya_2010</bcf:citekey>
+    <bcf:citekey order="25">mcluhan_understanding_2003</bcf:citekey>
+    <bcf:citekey order="26">hermann_theory_2011</bcf:citekey>
+    <bcf:citekey order="27">arvidson_det_2016</bcf:citekey>
+    <bcf:citekey order="28">integritetsskyddsmyndigheten_kansliga_nodate</bcf:citekey>
+    <bcf:citekey order="29">vetenskapsradet_god_2017</bcf:citekey>
+    <bcf:citekey order="30">jondell_radio_nodate</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

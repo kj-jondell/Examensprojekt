@@ -118,63 +118,41 @@
       \verb https://electricityforprogress.com/Forum/
       \endverb
     \endentry
-    \entry{hermann_audification_2011}{incollection}{}
-      \name{author}{2}{}{%
-        {{hash=760470747a7de5d56fc8e4fbf8f454d2}{%
-           family={Dombois},
-           familyi={D\bibinitperiod},
-           given={Florian},
-           giveni={F\bibinitperiod}}}%
-        {{hash=2aacfcf479c4af42a627ab21f91d711f}{%
-           family={Eckel},
-           familyi={E\bibinitperiod},
-           given={Gerhard},
-           giveni={G\bibinitperiod}}}%
+    \entry{brecht_radio_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7383a641aba3c0cef1525fed0b6effd0}{%
+           family={Brecht},
+           familyi={B\bibinitperiod},
+           given={Bertolt},
+           giveni={B\bibinitperiod}}}%
       }
-      \name{editor}{3}{}{%
-        {{hash=79155237002af2f8304b79df34c26010}{%
-           family={Hermann},
-           familyi={H\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod}}}%
-        {{hash=b81f678a6f8b5b5dea330a3b3de62ef4}{%
-           family={Hunt},
-           familyi={H\bibinitperiod},
-           given={Andy},
-           giveni={A\bibinitperiod}}}%
-        {{hash=cd850e2e81add81b74b67279400b66da}{%
-           family={Neuhoff},
-           familyi={N\bibinitperiod},
-           given={John\bibnamedelima G},
-           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Berlin}%
-      }
-      \list{publisher}{1}{%
-        {Logos}%
-      }
-      \strng{namehash}{d37042856cbb7e102db4e17b05e6f13c}
-      \strng{fullhash}{d37042856cbb7e102db4e17b05e6f13c}
-      \strng{bibnamehash}{d37042856cbb7e102db4e17b05e6f13c}
-      \strng{authorbibnamehash}{d37042856cbb7e102db4e17b05e6f13c}
-      \strng{authornamehash}{d37042856cbb7e102db4e17b05e6f13c}
-      \strng{authorfullhash}{d37042856cbb7e102db4e17b05e6f13c}
-      \strng{editorbibnamehash}{0c25358bf30b20572eadd842a29432b5}
-      \strng{editornamehash}{0c25358bf30b20572eadd842a29432b5}
-      \strng{editorfullhash}{0c25358bf30b20572eadd842a29432b5}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \strng{namehash}{7383a641aba3c0cef1525fed0b6effd0}
+      \strng{fullhash}{7383a641aba3c0cef1525fed0b6effd0}
+      \strng{bibnamehash}{7383a641aba3c0cef1525fed0b6effd0}
+      \strng{authorbibnamehash}{7383a641aba3c0cef1525fed0b6effd0}
+      \strng{authornamehash}{7383a641aba3c0cef1525fed0b6effd0}
+      \strng{authorfullhash}{7383a641aba3c0cef1525fed0b6effd0}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{url}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{The Sonification Handbook}
-      \field{title}{Audification}
-      \field{year}{2011}
-      \field{dateera}{ce}
-      \field{pages}{301\bibrangedash 321}
-      \range{pages}{21}
+      \field{title}{The Radio as an Apparatus of Communication [Excerpt]}
+      \field{titleaddon}{Medien Kunst Netz}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Media Art Net | Source Text:/Users/kj/Zotero/storage/4JR7ANIP/8.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://www.medienkunstnetz.de/source-text/8/
+      \endverb
+      \verb{url}
+      \verb http://www.medienkunstnetz.de/source-text/8/
+      \endverb
     \endentry
     \entry{eklund_duo_2021}{misc}{}
       \name{author}{1}{}{%
@@ -268,12 +246,17 @@
       \endverb
     \endentry
     \entry{deamer_insulin_1983}{audio}{}
-      \name{editora}{1}{}{%
+      \name{editora}{2}{}{%
         {{hash=a9cfb216529d8ca67d46d6c771c8cccf}{%
            family={Deamer},
            familyi={D\bibinitperiod},
            given={David},
            giveni={D\bibinitperiod}}}%
+        {{hash=dc02877314390d3a190fec553a5d737c}{%
+           family={{McLaughlin}},
+           familyi={M\bibinitperiod},
+           given={Riley},
+           giveni={R\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {USA}%
@@ -281,9 +264,9 @@
       \list{publisher}{1}{%
         {Science \& The Arts}%
       }
-      \strng{editorabibnamehash}{a9cfb216529d8ca67d46d6c771c8cccf}
-      \strng{editoranamehash}{a9cfb216529d8ca67d46d6c771c8cccf}
-      \strng{editorafullhash}{a9cfb216529d8ca67d46d6c771c8cccf}
+      \strng{editorabibnamehash}{e2682cb3639455c7e708bdbf2a3c0c7f}
+      \strng{editoranamehash}{e2682cb3639455c7e708bdbf2a3c0c7f}
+      \strng{editorafullhash}{e2682cb3639455c7e708bdbf2a3c0c7f}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
@@ -686,6 +669,66 @@
       \field{year}{1965}
       \field{dateera}{ce}
     \endentry
+    \entry{perron_radioqualia_2003}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0a07fd12731e84d16fb14afd32f779ec}{%
+           family={Perron},
+           familyi={P\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a07fd12731e84d16fb14afd32f779ec}
+      \strng{fullhash}{0a07fd12731e84d16fb14afd32f779ec}
+      \strng{bibnamehash}{0a07fd12731e84d16fb14afd32f779ec}
+      \strng{authorbibnamehash}{0a07fd12731e84d16fb14afd32f779ec}
+      \strng{authornamehash}{0a07fd12731e84d16fb14afd32f779ec}
+      \strng{authorfullhash}{0a07fd12731e84d16fb14afd32f779ec}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{radioqualia : Radio Astronomy}
+      \field{titleaddon}{Daniel Langlois Foundation}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb radioqualia \: Radio Astronomy:/Users/kj/Zotero/storage/K3EBJF6D/page.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.fondation-langlois.org/html/e/page.php?NumPage=383
+      \endverb
+      \verb{url}
+      \verb https://www.fondation-langlois.org/html/e/page.php?NumPage=383
+      \endverb
+    \endentry
+    \entry{noauthor_r_nodate}{online}{}
+      \field{sortinit}{r}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{r a d i o q u a l i a}
+      \field{titleaddon}{Kunstradio / Radiokunst}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb r a d i o q u a l i a:/Users/kj/Zotero/storage/LYY4Y9R9/radioqualia.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://www.kunstradio.at/BIOS/radioqualia.html
+      \endverb
+      \verb{url}
+      \verb http://www.kunstradio.at/BIOS/radioqualia.html
+      \endverb
+    \endentry
     \entry{shi_electronic_2007}{article}{}
       \name{author}{3}{}{%
         {{hash=66d603126bf26d8f7e9e651ad45fa0a9}{%
@@ -866,6 +909,64 @@
       \verb https://supercollider.github.io/
       \endverb
     \endentry
+    \entry{hermann_theory_2011}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=4ca2bb3060cb3ad9d7a8e84a79545e3f}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Bruce\bibnamedelima N.},
+           giveni={B\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=4ff02bbc6ce22e583cfff992c2697d71}{%
+           family={Nees},
+           familyi={N\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=79155237002af2f8304b79df34c26010}{%
+           family={Hermann},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b81f678a6f8b5b5dea330a3b3de62ef4}{%
+           family={Hunt},
+           familyi={H\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cd850e2e81add81b74b67279400b66da}{%
+           family={Neuhoff},
+           familyi={N\bibinitperiod},
+           given={John\bibnamedelima G},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Logos}%
+      }
+      \strng{namehash}{ee3978c68e844e8e6d3207a2f693bcf7}
+      \strng{fullhash}{ee3978c68e844e8e6d3207a2f693bcf7}
+      \strng{bibnamehash}{ee3978c68e844e8e6d3207a2f693bcf7}
+      \strng{authorbibnamehash}{ee3978c68e844e8e6d3207a2f693bcf7}
+      \strng{authornamehash}{ee3978c68e844e8e6d3207a2f693bcf7}
+      \strng{authorfullhash}{ee3978c68e844e8e6d3207a2f693bcf7}
+      \strng{editorbibnamehash}{0c25358bf30b20572eadd842a29432b5}
+      \strng{editornamehash}{0c25358bf30b20572eadd842a29432b5}
+      \strng{editorfullhash}{0c25358bf30b20572eadd842a29432b5}
+      \field{sortinit}{W}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Sonification Handbook}
+      \field{title}{Theory of Sonification}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{9\bibrangedash 39}
+      \range{pages}{31}
+    \endentry
     \entry{vetenskapsradet_god_2017}{book}{}
       \name{author}{1}{}{%
         {{hash=2d51044db17774d5de40a92ecd76eada}{%
@@ -900,6 +1001,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{r_a_d_i_o_q_u_a_l_i_a_free_2002}
 \endrefsection
 \endinput
 

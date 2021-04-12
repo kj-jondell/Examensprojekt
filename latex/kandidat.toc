@@ -9,58 +9,58 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Radio}{5}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Sonifiering}{5}{}%
+\contentsline {subsection}{Sonifiering}{6}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Diabetes}{5}{}%
+\contentsline {subsection}{Diabetes}{6}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\textit {Blodsockervärden}}{5}{}%
+\contentsline {subsubsection}{\textit {Blodsockervärden}}{6}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\textit {Förhållandet till mätandet}}{6}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Datainsamling}{6}{}%
+\contentsline {subsection}{Datainsamling}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Process}{7}{}%
+\contentsline {section}{Process}{8}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{SuperCollider-system}{7}{}%
+\contentsline {subsection}{SuperCollider-system}{8}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\emph {Kösystemet}}{8}{}%
+\contentsline {subsubsection}{\emph {Kösystemet}}{9}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Webbplats}{8}{}%
+\contentsline {subsection}{Webbplats}{9}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\emph {Front end}}{9}{}%
+\contentsline {subsubsection}{\emph {Front end}}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\emph {Back end}}{9}{}%
+\contentsline {subsubsection}{\emph {Back end}}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Tillvägagångssätt}{9}{}%
+\contentsline {subsection}{Tillvägagångssätt}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Musiken}{10}{}%
+\contentsline {section}{Musiken}{11}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Rumslighet}{10}{}%
+\contentsline {subsection}{Rumslighet}{11}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Temporalitet}{10}{}%
+\contentsline {subsection}{Temporalitet}{11}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Generativt}{10}{}%
+\contentsline {subsection}{Generativt}{11}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Slutsatser}{11}{}%
+\contentsline {section}{Slutsatser}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Utvecklingsmöjligheter}{11}{}%
+\contentsline {subsection}{Utvecklingsmöjligheter}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Referenser}{11}{}%
+\contentsline {section}{Referenser}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Artiklar}{12}{}%
+\contentsline {subsection}{Artiklar}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Böcker}{12}{}%
+\contentsline {subsection}{Böcker}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Hemsidor}{12}{}%
+\contentsline {subsection}{Hemsidor}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Musik}{12}{}%
+\contentsline {subsection}{Musik}{14}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Radio}{13}{}%
+\contentsline {subsection}{Radio}{14}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Samlingar}{13}{}%
+\contentsline {subsection}{Samlingar}{14}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Bilagor}{14}{}%
+\contentsline {section}{Bilagor}{15}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Ordlista}{14}{}%
+\contentsline {subsection}{Ordlista}{15}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Förkortningar}{14}{}%
+\contentsline {subsection}{Förkortningar}{15}{}%
