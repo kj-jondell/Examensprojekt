@@ -5,9 +5,13 @@
 \usepackage{graphicx}
 \usepackage[swedish]{babel}
 
+\usepackage{setspace}
+\onehalfspacing
+
+
 \usepackage[margin=3cm]{geometry}
 \usepackage{float, blindtext, kantlipsum}
-%\usepackage{multicol}
+\usepackage{multicol}
 
 \usepackage[toc,page]{appendix}
 \usepackage[section=subsection, toc, acronym, nonumberlist]{glossaries}
@@ -165,14 +169,15 @@
 
 
 \newpage
-%\begin{multicols}{2}
 
 \renewcommand{\abstractname}{Tack}
 \begin{abstract}
   Stort tack till min texthandledare Kim Hedås och lärare Erik Peters för alla kloka råd och vägledning! Även stort tack till Herman Wikner\symfootnote{Hermans GitHub finns tillgänglig på: \url{https://github.com/hermanwikner} (hämtad \today).} som hjälpt mig bygga användargränssnittet i React! 
 \end{abstract}
 \tableofcontents
+\clearpage
 
+%\begin{multicols}{2}
 \section*{Introduktion}
 \addcontentsline{toc}{section}{Introduktion}
 Denna text kompletterar mitt examensprojekt, \emph{Radio Diabetes}, en interaktiv komposition/installation som generarar musik av blodsockervärden. Installationen består av ett SuperCollider\footcite{noauthor_supercollider_nodate}-program som skapar själva musiken och en webbplats där man kan lyssna på den, läsa om projektet och ladda upp sina egna blodsockervärden. När en deltagare laddar upp sina värden slussas dessa direkt vidare till SuperCollider-programmet, som i sin tur inkluderar dem i musiken, antingen direkt eller att de blir schemalagda i en kö. Musiken strömmas till webbplatsen (och vidare till lyssnaren) via en internetradiostation. På så sätt utgör musiken ett kontinuerligt flöde som deltagare och åhörare hör samtidigt: det finns ingen början, mitten eller slut, utan endast ett \emph{nu}. %Denna förhållning till \emph{temporalitet} utgör ett huvudtema i projektet, jämte med \emph{interaktivitet} (deltagande), \emph{radioteknologi}, \emph{autoimmuna sjukdomar} och \emph{sonifiering}.
@@ -205,7 +210,7 @@ På senare tid har ett antal genrer eller rörelser uppkommit med utgångspunkt 
 Den 2 april 2021 släpptes Luca Yupanquis album \emph{Sounds of the Unborn}\footcite{yupanqui_sounds_2021}, som spelades in redan innan hon var född. Yupanquis föräldrar --- musikerna Elizabeth Hart och Iván Diaz Mathé --- hade med hjälp av elektroder kopplade till Harts kropp spelat in deras ofödda barns \emph{in utero}-rörelser och sedan låtit sonifiera dessa inspelade signaler med ett system utvecklat av Sam Cusumano och hans företag \emph{Electricity for progress}\footcite{noauthor_electricity_nodate}. Elizabeth Hart berättar i en intervju i \emph{Kulturnytt i P1}\footcite{eklund_duo_2021} hur musiken kommit till av ett rent experimenterande, att föräldrarna till en början inte hade haft en tanke att ge ut det som ett album. Hart berättar vidare att hon \textbf{inte} tror att musiken säger något speciellt om de ofödda, att det inte varit föräldrarnas avsikt, och avfärdar frågan om huruvida processen endast varit ett PR-trick med att säga: ''... for us, I think it is a pretty great album. Musically, I am proud of what was achieved, musically.'' Skivbolaget \emph{Sacred Bones Records}, som släppt albumet, säljer systemet som Hart och Diaz Mathé använt under namnet \emph{MIDI Biodata Sonification Device}\footcite{noauthor_midi_nodate} och Cusumano, som utvecklat systemet, driver ett forum\footcite{noauthor_biodata_nodate} där användare av detta system uppmuntras dela med sig av olika sonifieringar de gjort. 
 
 
-\emph{r a d i o q u a l i a} är ett kollektiv bestående av de två nya zeeländska konstnärerna Honor Hargar och Adam Hyde som utforskar användandet av radio och internetradio som konstmedium\footcite{noauthor_r_nodate}. Hargar och Hyde startade samarbetet 1998 och har gjort projekt som bland annat \emph{Free Radio Linux}\footcite{r_a_d_i_o_q_u_a_l_i_a_free_2002} --- en radioutsänd  (både marksänd och via internetradio) datoriserad uppläsning av de fyra miljoner rader kod som Linux operativsystemskärna då bestod av, med start den 3e februari 2002 --- och \emph{Radio Astronomy}, en sonifiering/audifiering av signaler uppmätta med ett radioteleskop, som i realtid utsänds dels via AM, FM och kortvågsradio, dels via konstnärernas hemsida. I en text\footcite{perron_radioqualia_2003} av Jacques Perron som behandlar just \emph{Radio Astronomy} citeras den tyska dramatikern Berolt Brecht, som i sin text \emph{The Radio as an Apparatus of Communication}\footcite{brecht_radio_nodate} från 1927 skrev:
+\emph{r a d i o q u a l i a} är ett kollektiv bestående av de två nya zeeländska konstnärerna Honor Hargar och Adam Hyde som utforskar användandet av radio och internetradio som konstmedium\footcite{noauthor_r_nodate}. Hargar och Hyde startade samarbetet 1998 och har gjort projekt som bland annat \emph{Free Radio Linux}\footcite{noauthor_free_2002} --- en radioutsänd  (både marksänd och via internetradio) datoriserad uppläsning av de fyra miljoner rader kod som Linux operativsystemskärna då bestod av, med start den 3e februari 2002 --- och \emph{Radio Astronomy}, en sonifiering/audifiering av signaler uppmätta med ett radioteleskop, som i realtid utsänds dels via AM, FM och kortvågsradio, dels via konstnärernas hemsida. I en text\footcite{perron_radioqualia_2003} av Jacques Perron som behandlar just \emph{Radio Astronomy} citeras den tyska dramatikern Berolt Brecht, som i sin text \emph{The Radio as an Apparatus of Communication}\footcite{brecht_radio_nodate} från 1927 skrev:
 \begin{quote}
   Radio is one sided when it should be two. It is purely an apparatus for distribution, for mere sharing out. So here is a positive suggestion: change this apparatus over from distribution to communication. The radio would be the finest possible communication apparatus in public life, a vast network of pipes. That is to say, it would be if it knew how to receive as well as transmit, how to let the listener speak as well as hear, how to bring him into a relationship instead of isolating him. On this principle the radio should step out of the supply business and organise its listeners as suppliers.
 \end{quote}
@@ -216,7 +221,7 @@ Den 2 april 2021 släpptes Luca Yupanquis album \emph{Sounds of the Unborn}\foot
 \subsection*{Radio}
 \addcontentsline{toc}{subsection}{Radio}
 En del av installationen består av en internetradiostation, som strömmar ut den genererade musiken. Radion som medium påverkar i hög grad själva innehållet, det vill säga musiken, i olika avseenden, till exempel dess temporalitet och interaktivitet. 
-Marshall McLuhan beskriver i sin bok \emph{Understanding media: the extensions of man}\footcite{mcluhan_understanding_2003} radion som ett \emph{hot medium}\footcite[39]{mcluhan_understanding_2003}, något han menar är ett medium som ''...extends one single sense in '\emph{high definition}'... the state of being well filled with data.'', men som följdaktligen inte ger mycket utrymme för deltagande. McLuhan kontrasterar detta med exempel av \emph{cool media} som telefonen, där innehållet skapas helt av deltagarna (\emph{high} och \emph{low definition} ska alltså inte blandas ihop med ljudkvalitet i detta fall). Den första utgåvan av \emph{Understanding media} kom 1964, en tid då dessa medier kanske var mer kategoriskt \emph{hot} eller \emph{cool}. I Jonas Anghammars C-uppsats \emph{Nya medier möter gamla radion: publikmedverkan i public service-radion nu och då}\footcite{anghammar_nya_2010} från 2010 går det att läsa om hur graden av interaktion i Svergies Radios programutbud ökat markant bara sedan 90-talet, något som kopplas samman med den snabba digitaliseringen som skett. Anghammars skriver i ett citat av Nils Enlund från 2008 att ''...publiken nu själva skapar stor del av medieinnehållet eftersom den tillåts göra det.'' Kanske undergår radion, som medium, en nedkylning. En del i utvecklingen av förgörelsen av tid och rum som McLuhan menar elektrifieringen av vår värld har påkallat: ''With instant electric technology, the globe itself can never again be more than a village...''\footcite[454]{mcluhan_understanding_2003}.
+Marshall McLuhan beskriver i sin bok \emph{Understanding media: the extensions of man}\footcite{mcluhan_understanding_2003} radion som ett \emph{hot medium}\footcite[39]{mcluhan_understanding_2003}, något han menar är ett medium som ''...extends one single sense in '\emph{high definition}'... the state of being well filled with data.'', men som följdaktligen inte ger mycket utrymme för deltagande. McLuhan kontrasterar detta med exempel av \emph{cool media} som telefonen, där innehållet skapas helt av deltagarna (\emph{high} och \emph{low definition} ska alltså inte blandas ihop med ljudkvalitet i detta fall). Den första utgåvan av \emph{Understanding media} kom 1964, en tid då dessa medier kanske var mer kategoriskt \emph{hot} eller \emph{cool}. I Jonas Anghammars C-uppsats \emph{Nya medier möter gamla radion: publikmedverkan i public service-radion nu och då}\footcite{anghammar_nya_2010} från 2010 går det att läsa om hur graden av interaktion i Svergies Radios programutbud ökat markant bara sedan 90-talet, något som kopplas samman med den snabba digitaliseringen som skett. Anghammars skriver i ett citat av Nils Enlund från 2008 att ''...publiken nu själva skapar stor del av medieinnehållet eftersom den tillåts göra det.'' Kanske undergår radion, som medium, en nedkylning, en del i utvecklingen av förgörelsen av tid och rum som McLuhan menar elektrifieringen av vår värld har påkallat: ''With instant electric technology, the globe itself can never again be more than a village...''\footcite[454]{mcluhan_understanding_2003}.
 
 %Jämförelsevis så är \emph{Ring så spelar vi}, \emph{Karlavagnen} och \emph{Ring P1} exempel på program i traditionell marksänd rundradio som består av en hög grad av deltagande, eller interaktivitet. Dessa bygger i princip helt på att lyssnare ringer in och innehållet skapas av lyssnardeltagandet. 
 
@@ -230,13 +235,16 @@ Marshall McLuhan beskriver i sin bok \emph{Understanding media: the extensions o
 %använder sonifieringar
 
 % \emph{r a d i o q u a l i a}...
-\subsection*{Sonifiering}
+\subsection*{\gls{sonification}}
 \addcontentsline{toc}{subsection}{Sonifiering}
 
-I det andra kapitlet av antalogin \emph{The Sonification Handbook}, skrivet av Walker och Nees\footcite[9]{hermann_theory_2011}, ges en möjlig definition av  \gls{sonification} som användandet av icke-tal ljud för att presentera/representera information, eller mer specifikt översättningen av förhållanden i information till ljud som gör dessa förståeliga för oss, tack vare våra hörsystem. Som tidigare nämnt görs ofta ett vetenskapligt anspråk i användandet av sonifiering något med potential att ge åhörare i allmänhet, och forskare i synnerhet, en insikt\footnote{\emph{Insikt} som ord är något ironiskt ett bra exempel på hur invand användningen av visuell representation är för \emph{förståelsen}.} som en annan representation av informationen inte hade gett, eller kunnat ge.  
+I det andra kapitlet av antalogin \emph{The Sonification Handbook}, skrivet av Walker och Nees\footcite[9]{hermann_theory_2011}, ges en möjlig definition av sonifiering som användandet av icke-tal ljud för att presentera/representera information, eller mer specifikt översättningen av förhållanden i information till ljud som gör dessa förståeliga för oss, tack vare våra hörsystem. Som tidigare nämnt görs ofta ett vetenskapligt anspråk i användandet av sonifiering något med potential att ge åhörare i allmänhet, och forskare i synnerhet, en insikt\footnote{Ordet \emph{insikt} är (något ironiskt) ett bra exempel på hur invand användningen av visuell representation är för \emph{förståelsen}.} som en annan representation av informationen inte hade gett, eller kunnat ge.  
 
-I detta projekt tar jag avstånd från idéen om att användandet av \emph{sonifiering} på något sätt ska skänka insikt till datan som jag låter gestalta i musiken: tvärtom hoppas jag att den musikaliska gestaltningen \emph{inte} kommer avslöja något om de bakomliggande mätvärdena. Jag kommer trots det göra en kortare sammanfattning av olika \emph{sonifieringstekniker- } och \emph{kategorier} som redogörs i \emph{The Sonification Handbook}, för att sätta ord på det jag har gjort i detta projekt.% (fastän ändamålet inte varit detsamma som föreslås i antalogin). % och som senare tillåter en tydligare diskussion av resultaten.
+I detta projekt tar jag avstånd från idéen om att användandet av \emph{sonifiering} på något sätt ska skänka insikt till datan som jag låter gestalta i musiken; tvärtom hoppas jag att den musikaliska gestaltningen \emph{inte} kommer avslöja något om de bakomliggande mätvärdena. Jag kommer trots det göra en kortare sammanfattning av olika \emph{sonifieringstekniker- } och \emph{kategorier} som redogörs i \emph{The Sonification Handbook}, för att sätta ord på det jag har gjort i detta projekt.% (fastän ändamålet inte varit detsamma som föreslås i antalogin). % och som senare tillåter en tydligare diskussion av resultaten.
 
+Den vanligaste formen av sonifiering, skriver Hermann, Hunt och Neuhoff i introduktionen\footcite[5]{hermann_introduction_2011} till antalogin, är troligtvis den så kallade \gls{pmson}, som använts nästan synonymt med begreppet \gls{sonification}. \gls{pmson} är användandet av en \emph{mappningsfunktion} för att sammankoppla ett datavärde eller -attribut till en eller flera akustiska parametrar.
+
+\gls{audification}\footcite[302]{hermann_audification_2011}.
 
 
 

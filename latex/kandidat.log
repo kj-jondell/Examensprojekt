@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.7)  12 APR 2021 15:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.7)  13 APR 2021 11:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -70,59 +70,4 @@ File: babel.def 2021/03/24 3.56 Babel common definitions
  (/usr/local/texlive/2021/texmf-dist/tex/generic/babel-swedish/swedish.ldf
 Language: swedish 2021/02/06 v2.3e Swedish support from the babel system
 Package babel Info: Making " an active character on input line 90.
-)) (/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
- (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-))
-\Gm@cnth=\count190
-\Gm@cntv=\count191
-\c@Gm@tempcnt=\count192
-\Gm@bindingoffset=\dimen144
-\Gm@wd@mp=\dimen145
-\Gm@odd@mp=\dimen146
-\Gm@even@mp=\dimen147
-\Gm@layoutwidth=\dimen148
-\Gm@layoutheight=\dimen149
-\Gm@layouthoffset=\dimen150
-\Gm@layoutvoffset=\dimen151
-\Gm@dimlist=\toks17
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count193
-\float@exts=\toks18
-\float@box=\box48
-\@float@everytoks=\toks19
-\@floatcapt=\box49
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/blindtext/blindtext.sty
-Package: blindtext 2012/01/06 V2.0 blindtext-Package
- (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
-\c@blindtext=\count194
-\c@Blindtext=\count195
-\c@blind@countparstart=\count196
-\blind@countxx=\count197
-\blindtext@numBlindtext=\count198
-\blind@countyy=\count199
-\c@blindlist=\count266
-\c@blindlistlevel=\count267
-\c@blindlist@level=\count268
-\blind@listitem=\count269
-\c@blind@listcount=\count270
-\c@blind@levelcount=\count271
-\blind@mathformula=\count272
-\blind@Mathformula=\count273
-\c@blind@randomcount=\count274
-\c@blind@randommax=\count275
-\c@blind@pangramcount=\count276
-\c@blind@pangrammax=\count277
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/kantlipsum/kantlipsum.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-02-18 L3 programming layer (loader) 
- (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count278
-\l__pdf_internal_box=\box50
-)) (/usr/local/texlive/2021/texmf-dist/tex/latex/
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/setspace/setspace.sty

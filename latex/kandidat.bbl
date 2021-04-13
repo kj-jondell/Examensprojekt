@@ -154,6 +154,64 @@
       \verb http://www.medienkunstnetz.de/source-text/8/
       \endverb
     \endentry
+    \entry{hermann_audification_2011}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=760470747a7de5d56fc8e4fbf8f454d2}{%
+           family={Dombois},
+           familyi={D\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2aacfcf479c4af42a627ab21f91d711f}{%
+           family={Eckel},
+           familyi={E\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=79155237002af2f8304b79df34c26010}{%
+           family={Hermann},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b81f678a6f8b5b5dea330a3b3de62ef4}{%
+           family={Hunt},
+           familyi={H\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cd850e2e81add81b74b67279400b66da}{%
+           family={Neuhoff},
+           familyi={N\bibinitperiod},
+           given={John\bibnamedelima G},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Logos}%
+      }
+      \strng{namehash}{d37042856cbb7e102db4e17b05e6f13c}
+      \strng{fullhash}{d37042856cbb7e102db4e17b05e6f13c}
+      \strng{bibnamehash}{d37042856cbb7e102db4e17b05e6f13c}
+      \strng{authorbibnamehash}{d37042856cbb7e102db4e17b05e6f13c}
+      \strng{authornamehash}{d37042856cbb7e102db4e17b05e6f13c}
+      \strng{authorfullhash}{d37042856cbb7e102db4e17b05e6f13c}
+      \strng{editorbibnamehash}{0c25358bf30b20572eadd842a29432b5}
+      \strng{editornamehash}{0c25358bf30b20572eadd842a29432b5}
+      \strng{editorfullhash}{0c25358bf30b20572eadd842a29432b5}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Sonification Handbook}
+      \field{title}{Audification}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{301\bibrangedash 321}
+      \range{pages}{21}
+    \endentry
     \entry{eklund_duo_2021}{misc}{}
       \name{author}{1}{}{%
         {{hash=a592560025dc0a4753cb51fe10e207ec}{%
@@ -216,6 +274,24 @@
       \endverb
       \verb{url}
       \verb https://electricityforprogress.com/
+      \endverb
+    \endentry
+    \entry{noauthor_free_2002}{online}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{3}
+      \field{month}{2}
+      \field{title}{Free Radio Linux}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://netartcommons.walkerart.org/articleb524.html?sid=02/04/10/0548240
+      \endverb
+      \verb{url}
+      \verb http://netartcommons.walkerart.org/articleb524.html?sid=02/04/10/0548240
       \endverb
     \endentry
     \entry{munakata_hugging_2009}{audio}{}
@@ -1001,7 +1077,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{r_a_d_i_o_q_u_a_l_i_a_free_2002}
 \endrefsection
 \endinput
 
