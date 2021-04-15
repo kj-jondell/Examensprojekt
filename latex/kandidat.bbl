@@ -161,6 +161,78 @@
       \verb http://www.medienkunstnetz.de/source-text/8/
       \endverb
     \endentry
+    \entry{jondell_calling_2019}{audio}{}
+      \name{editora}{1}{}{%
+        {{hash=a70585efdf51d8964d83d42840c415bc}{%
+           family={Jondell},
+           familyi={J\bibinitperiod},
+           given={Karl\bibnamedelima Johannes},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Sveriges}%
+      }
+      \strng{editorabibnamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{editoranamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{editorafullhash}{a70585efdf51d8964d83d42840c415bc}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{editoratype}{collaborator}
+      \field{title}{Calling out of context}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://soundcloud.com/k-j-jondell/calling-out-of-context-binaural
+      \endverb
+      \verb{url}
+      \verb https://soundcloud.com/k-j-jondell/calling-out-of-context-binaural
+      \endverb
+    \endentry
+    \entry{noauthor_darkice_nodate}{online}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{{DarkIce}}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb DarkIce live audio streamer:/Users/kj/Zotero/storage/AU7SMUJE/www.darkice.org.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://www.darkice.org/
+      \endverb
+      \verb{url}
+      \verb http://www.darkice.org/
+      \endverb
+    \endentry
+    \entry{noauthor_diasendcom_nodate}{online}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Diasend.com}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Diasend.com | Home:/Users/kj/Zotero/storage/ZQBQHF9Y/diasend.com.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://diasend.com/
+      \endverb
+      \verb{url}
+      \verb https://diasend.com/
+      \endverb
+    \endentry
     \entry{collins_defining_2014}{incollection}{}
       \name{author}{1}{}{%
         {{hash=af12ef08fb48ee12ca3a6a5f479cf67d}{%
@@ -341,6 +413,30 @@
       \verb https://electricityforprogress.com/
       \endverb
     \endentry
+    \entry{noauthor_enterprise_nodate}{online}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ubuntu is the modern, open source operating system on Linux for the enterprise server, desktop, cloud, and {IoT}.}
+      \field{langid}{english}
+      \field{title}{Enterprise Open Source and Linux}
+      \field{titleaddon}{Ubuntu}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/GMEJDGG4/ubuntu.com.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://ubuntu.com/
+      \endverb
+      \verb{url}
+      \verb https://ubuntu.com/
+      \endverb
+    \endentry
     \entry{noauthor_free_2002}{online}{}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
@@ -438,6 +534,27 @@
       \field{pages}{364\bibrangedash 392}
       \range{pages}{29}
     \endentry
+    \entry{noauthor_gunicorn_nodate}{online}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Gunicorn}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Gunicorn - Python WSGI HTTP Server for UNIX:/Users/kj/Zotero/storage/TTE9D9LC/gunicorn.org.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://gunicorn.org/
+      \endverb
+      \verb{url}
+      \verb https://gunicorn.org/
+      \endverb
+    \endentry
     \entry{hermann_introduction_2011}{incollection}{}
       \name{author}{3}{}{%
         {{hash=79155237002af2f8304b79df34c26010}{%
@@ -506,6 +623,27 @@
       \endverb
       \verb{url}
       \verb https://www.youtube.com/watch?v=cZhAwiG81_Q&list=LL&index=13
+      \endverb
+    \endentry
+    \entry{noauthor_icecast_nodate}{online}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Icecast}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Icecast:/Users/kj/Zotero/storage/B9GCWFX7/icecast.org.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://icecast.org/
+      \endverb
+      \verb{url}
+      \verb https://icecast.org/
       \endverb
     \endentry
     \entry{deamer_insulin_1983}{audio}{}
@@ -896,6 +1034,27 @@
       \field{year}{1965}
       \field{dateera}{ce}
     \endentry
+    \entry{noauthor_nginx_nodate}{online}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{{NGINX}}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb NGINX | High Performance Load Balancer, Web Server, & Reverse Proxy:/Users/kj/Zotero/storage/JU55TW4D/www.nginx.com.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nginx.com/
+      \endverb
+      \verb{url}
+      \verb https://www.nginx.com/
+      \endverb
+    \endentry
     \entry{perron_radioqualia_2003}{online}{}
       \name{author}{1}{}{%
         {{hash=0a07fd12731e84d16fb14afd32f779ec}{%
@@ -954,6 +1113,29 @@
       \endverb
       \verb{url}
       \verb http://www.kunstradio.at/BIOS/radioqualia.html
+      \endverb
+    \endentry
+    \entry{noauthor_react_nodate}{online}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A {JavaScript} library for building user interfaces}
+      \field{langid}{english}
+      \field{title}{React}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/H2G4FHUT/reactjs.org.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://reactjs.org/
+      \endverb
+      \verb{url}
+      \verb https://reactjs.org/
       \endverb
     \endentry
     \entry{roads_microsound_2004}{book}{}
@@ -1227,6 +1409,27 @@
       \field{dateera}{ce}
       \field{pages}{9\bibrangedash 39}
       \range{pages}{31}
+    \endentry
+    \entry{noauthor_welcome_nodate}{online}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Welcome to Flask}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Welcome to Flask — Flask Documentation (1.1.x):/Users/kj/Zotero/storage/H9ZNS7NQ/1.1.x.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://flask.palletsprojects.com/en/1.1.x/
+      \endverb
+      \verb{url}
+      \verb https://flask.palletsprojects.com/en/1.1.x/
+      \endverb
     \endentry
     \entry{vetenskapsradet_god_2017}{book}{}
       \name{author}{1}{}{%

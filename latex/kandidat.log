@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.7)  15 APR 2021 10:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.7)  15 APR 2021 11:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -779,26 +779,26 @@ Package pdftex.def Info: ../media/hemsida.png  used on input line 340.
 ] [14] [15] [16
 
 ]
-Overfull \hbox (35.9416pt too wide) in paragraph at lines 466--466
+Overfull \hbox (35.9416pt too wide) in paragraph at lines 464--464
 [][]\OT1/cmr/m/it/10.95 Electricity for Pro-gress \OT1/cmr/m/n/10.95 (2021). Electri-ci-ty for Pro-gress. \OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : $\OT1/cmtt/m/n/10.95 https : / / electricityforprogress .
  []
 
 
-Overfull \hbox (19.8212pt too wide) in paragraph at lines 466--466
+Overfull \hbox (19.8212pt too wide) in paragraph at lines 464--464
 [][]\OT1/cmr/m/it/10.95 Free Ra-dio Li-nux \OT1/cmr/m/n/10.95 (3 febr. 2002). \OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : $\OT1/cmtt/m/n/10.95 http : / / netartcommons . walkerart . org / articleb524 .
  []
 
 
-Overfull \hbox (15.296pt too wide) in paragraph at lines 466--466
+Overfull \hbox (15.296pt too wide) in paragraph at lines 464--464
 [][]\OT1/cmr/m/it/10.95 Glukos[]overvakningssystem - Fre-e-Sty-le Li-b-re | Ab-bott \OT1/cmr/m/n/10.95 (2021). \OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : $\OT1/cmtt/m/n/10.95 https : / / www . freestyle .
  []
 
 [17
 
-] [18]
+] [18] [19]
 No file kandidat.gls.
 No file kandidat.acr.
-[19
+[20
 
 ] (./kandidat.aux)
 Package logreq Info: Writing requests to 'kandidat.run.xml'.
@@ -806,18 +806,18 @@ Package logreq Info: Writing requests to 'kandidat.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20350 strings out of 478994
- 374426 string characters out of 5858185
- 1346728 words of memory out of 5000000
- 37530 multiletter control sequences out of 15000+600000
+ 20387 strings out of 478994
+ 375654 string characters out of 5858185
+ 1347489 words of memory out of 5000000
+ 37567 multiletter control sequences out of 15000+600000
  413200 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,10n,102p,1939b,1972s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,10n,102p,2258b,1972s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on kandidat.pdf (20 pages, 540910 bytes).
+Output written on kandidat.pdf (21 pages, 543675 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 137 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

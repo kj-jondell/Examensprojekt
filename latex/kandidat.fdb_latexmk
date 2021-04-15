@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber kandidat"] 1618476874 "kandidat.bcf" "kandidat.bbl" "kandidat" 1618477186
-  "bibtex/kandidatarbete.bib" 1618475823 49063 bc5bf5608e42d8766a127044f5880e95 ""
-  "kandidat.bcf" 1618477186 109543 624848eaecd93258d6fe60e7f7a573b4 "pdflatex"
+["biber kandidat"] 1618479334 "kandidat.bcf" "kandidat.bbl" "kandidat" 1618479434
+  "bibtex/kandidatarbete.bib" 1618478327 48842 a71049773d64ca53cf8c846ce76fea65 ""
+  "kandidat.bcf" 1618479434 110206 4cd3309b917e4832996e394523274a5b "pdflatex"
   (generated)
   "kandidat.blg"
   "kandidat.bbl"
-["pdflatex"] 1618477172 "kandidat.tex" "kandidat.pdf" "kandidat" 1618477186
+["pdflatex"] 1618479421 "kandidat.tex" "kandidat.pdf" "kandidat" 1618479434
   "../media/flowchart.png" 1618134288 178069 f33f5385f2781e5a66dd40bf276b106f ""
   "../media/hemsida.png" 1617715011 180771 8005f0383917162aa92b18d7e6715af5 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -157,19 +157,19 @@
   "/usr/local/texlive/texmf-local/tex/latex/local/glossaries-swedish/glossaries-swedish.ldf" 1617789423 2638 cc014bb999cc560dc04565208f434928 ""
   "glossaries-swedish-utf8.ldf" 1617789423 2701 fdd80d6e614d94de39437fc0472acdf4 ""
   "kandidat.acr" 0 -1 0 ""
-  "kandidat.aux" 1618477186 13094 32bffcec11982d0a6854f85fde942020 "pdflatex"
-  "kandidat.bbl" 1618476876 60316 590b0c28f6f9d6e36fb3f852c2e17706 "biber kandidat"
+  "kandidat.aux" 1618479434 15107 4b6bb390ac914b14e5cd19a249231e05 "pdflatex"
+  "kandidat.bbl" 1618479336 67176 037b3161ce4182fac08870a88341f3e2 "biber kandidat"
   "kandidat.gls" 0 -1 0 ""
-  "kandidat.run.xml" 1618477186 2386 f713c1c59f1cf615cc9948bb2896072a "pdflatex"
-  "kandidat.tex" 1618477172 46663 5bf75794cbb743889abecf42ebfaac5b ""
-  "kandidat.toc" 1618477186 2687 e16bbbeb7724fdb96710285fb2ddc78e "pdflatex"
+  "kandidat.run.xml" 1618479434 2386 f713c1c59f1cf615cc9948bb2896072a "pdflatex"
+  "kandidat.tex" 1618479420 47229 374183bed64ff2701660e3c35111e774 ""
+  "kandidat.toc" 1618479434 2687 745c85e295dfae71175b33980b61dedd "pdflatex"
   (generated)
-  "kandidat.log"
-  "kandidat.pdf"
-  "kandidat.toc"
-  "kandidat.run.xml"
-  "kandidat.ist"
-  "kandidat.acn"
-  "kandidat.aux"
   "kandidat.bcf"
   "kandidat.glo"
+  "kandidat.acn"
+  "kandidat.aux"
+  "kandidat.pdf"
+  "kandidat.toc"
+  "kandidat.ist"
+  "kandidat.run.xml"
+  "kandidat.log"
