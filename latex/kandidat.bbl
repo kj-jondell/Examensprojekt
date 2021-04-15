@@ -38,6 +38,25 @@
       \verb https://supercollider.github.io/
       \endverb
     \endentry
+    \entry{noauthor_freestyle_nodate}{online}{}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{{FreeStyle} Libre {|} Abbott}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Glukosövervakningssystem - FreeStyle Libre | Abbott:/Users/kj/Zotero/storage/YFQWDRN8/home.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.freestyle.abbott/se-sv/home.html
+      \endverb
+      \verb{url}
+      \verb https://www.freestyle.abbott/se-sv/home.html
+      \endverb
+    \endentry
     \entry{jondell_kj-jondelldiabetes-synth_2021}{online}{}
       \name{author}{1}{}{%
         {{hash=a70585efdf51d8964d83d42840c415bc}{%
@@ -860,6 +879,25 @@
       \field{pages}{301\bibrangedash 321}
       \range{pages}{21}
     \endentry
+    \entry{noauthor_diasend_nodate}{online}{}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Diasend}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Diasend.com | Home:/Users/kj/Zotero/storage/ZQBQHF9Y/diasend.com.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://diasend.com/
+      \endverb
+      \verb{url}
+      \verb https://diasend.com/
+      \endverb
+    \endentry
     \entry{arvidson_det_2016}{article}{}
       \name{author}{1}{}{%
         {{hash=781042498f2bd25703f85b53c14b44ea}{%
@@ -1591,6 +1629,27 @@
       \verb http://www.darkice.org/
       \endverb
     \endentry
+    \entry{noauthor_diasend_nodate}{online}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Diasend}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Diasend.com | Home:/Users/kj/Zotero/storage/ZQBQHF9Y/diasend.com.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://diasend.com/
+      \endverb
+      \verb{url}
+      \verb https://diasend.com/
+      \endverb
+    \endentry
     \entry{collins_defining_2014}{incollection}{}
       \name{author}{1}{}{%
         {{hash=af12ef08fb48ee12ca3a6a5f479cf67d}{%
@@ -1817,6 +1876,27 @@
       \endverb
       \verb{url}
       \verb http://netartcommons.walkerart.org/articleb524.html?sid=02/04/10/0548240
+      \endverb
+    \endentry
+    \entry{noauthor_freestyle_nodate}{online}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{{FreeStyle} Libre {|} Abbott}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Glukosövervakningssystem - FreeStyle Libre | Abbott:/Users/kj/Zotero/storage/YFQWDRN8/home.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.freestyle.abbott/se-sv/home.html
+      \endverb
+      \verb{url}
+      \verb https://www.freestyle.abbott/se-sv/home.html
       \endverb
     \endentry
     \entry{hermann_parameter_2011}{incollection}{}
@@ -2844,8 +2924,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{noauthor_diasendcom_nodate}
-  \missing{noauthor_glukosovervakningssystem_nodate}
 \endrefsection
 \endinput
 
