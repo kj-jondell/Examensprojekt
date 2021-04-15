@@ -1,8 +1,5 @@
 \documentclass[11pt, a4paper]{article} %twoside
 \usepackage{wrapfig}
-\usepackage{listings}
-
-
 \usepackage{epigraph}
 \usepackage{graphicx}
 \usepackage[swedish]{babel}
@@ -112,6 +109,7 @@
 \newacronym{fifo}{FIFO}{First In, First Out}
 \newacronym{vps}{VPS}{Virtual Private Server}
 \newacronym{ux}{UX}{User Experience}
+\newacronym{gdpr}{GDPR}{General Data Protection Regulation}
 
 \setglossarystyle{long}
 
@@ -140,9 +138,21 @@
 	description={Ett programmeringsspråk och plattform för syntes av ljud, och musikalisk programmering}
 }
 
+\newglossaryentry{ugen}
+{
+    name=\texttt{UGen},
+	description={...}
+}
+
+\newglossaryentry{synthdef}
+{
+    name=\texttt{SynthDef},
+	description={...}
+}
+
 \newglossaryentry{pattern}
 {
-    name=Pattern,
+    name=\texttt{Pattern},
 	description={Ett verktyg i SuperCollider för att generera ...}
 }
 
@@ -219,9 +229,9 @@ Denna text kompletterar mitt självständiga arbete, \emph{Radio Diabetes}, en i
 
 \subsection*{Bakgrund}
 \addcontentsline{toc}{subsection}{Bakgrund}
-Idéen om att göra musik av blodsockervärden föddes dagen då jag fick en \emph{Freestyle Libre}-mätare\footcite{abbott_glukosovervakningssystem_nodate}, en så kallad kontinuerlig blodsockermätare, eller \gls{cgm}. Denna typ av blodsockermätare skiljer sig från tradionella mätare --- som man är tvungen att sticka sig i fingret och på så sätt mäta blodsockret med --- i att den regelbundet gör mätningar, vilket ger en kontinuerlig kurva över ens blodsockervärden.  Kurvorna påminde mig om hur ljudsignaler ofta representeras visuellt\footnote{Bestående av en horisontell tidsaxel och en linjär vertikal axel} och i ett tidigt experiment gjorde jag en direkt översättning av mina blodsockerkurvor till ljudfiler: en så kallad \emph{audifiering}. Dessa ljud använde jag som samplingar i mitt stycke \emph{Värden och en vagga}\footcite{jondell_varden_2017}, som var ett av arbetsproverna jag sökte till Kungliga Musikhögskolan med. 
+Idéen om att göra musik av blodsockervärden föddes dagen då jag fick en \emph{Freestyle Libre}-mätare\footcite{noauthor_glukosovervakningssystem_nodate}, en så kallad kontinuerlig blodsockermätare, eller \gls{cgm}. Denna typ av blodsockermätare skiljer sig från tradionella mätare --- som man är tvungen att sticka sig i fingret och på så sätt mäta blodsockret med --- i att den regelbundet gör mätningar, vilket ger en kontinuerlig kurva över ens blodsockervärden.  Kurvorna påminde mig om hur ljudsignaler ofta representeras visuellt\footnote{Bestående av en horisontell tidsaxel och en linjär vertikal axel} och i ett tidigt experiment gjorde jag en direkt översättning av mina blodsockerkurvor till ljudfiler: en så kallad \emph{audifiering}. Dessa ljud använde jag som samplingar i mitt stycke \emph{Värden och en vagga}\footcite{jondell_varden_2017}, som var ett av arbetsproverna jag sökte till Kungliga Musikhögskolan med. 
 
-Jag utvecklade vidare och förbättrade mitt första program som jag hade skrivit för att översätta mina kurvor till ljudfiler, så att vem som helst skulle kunna använda programmet och översätta sina egna värden till ljud. Jag byggde också en wavetable-synth i SuperCollider som använde dessa ljudfiler som källmaterial. Detta instrument har jag använt i ett antal olika kompositioner som jag skrivit under min skoltid. Båda dessa program (översättaren och wavetable-synthen) har jag publicerat på min Github\footcite{jondell_kj-jondelldiabetes-synth_2021}. En del av denna kod återanvände jag även i detta projekt.
+Jag utvecklade vidare och förbättrade mitt första program som jag hade skrivit för att översätta mina kurvor till ljudfiler, så att vem som helst skulle kunna använda programmet och översätta sina egna värden till ljud. Jag byggde också en wavetable-synth i SuperCollider som använde dessa ljudfiler som källmaterial. Detta instrument har jag använt i ett antal olika kompositioner som jag skrivit under min skoltid. Båda dessa program (översättaren och wavetable-synthen) har jag publicerat på min GitHub\footcite{jondell_kj-jondelldiabetes-synth_2021}. En del av denna kod återanvände jag även i detta projekt.
 
 \subsection*{Några tidigare exempel, historiska och nutida}
 \addcontentsline{toc}{subsection}{Några tidigare exempel, historiska och nutida}
@@ -235,7 +245,7 @@ Alvin Lucier ses som en pionjär inom detta fält, då han redan 1965 skrev styc
 
 Detta belyser Luciers generativa förhållande till formen, och den direkta kopplingen mellan den uppmätta signalen och ljudvågorna är ett tidigt exempel på audifiering.
 
-På senare tid har ett antal genrer eller rörelser uppkommit med utgångspunkt i sonifieringen av biologisk data, med namn som \emph{protein music}\footcite{king_pm_1996}, \emph{DNA music}\footcite{k_kawazoe_study_2001} och \emph{gene music}\footcite{munakata_gene_1995}. Dessa genrer utgår samtliga från att låta musiken styras av dataset bestående av proteinveckning, DNA-sekvenser eller gener, till exempel mappningen av kvävebaser till tonhöjd\footcite{shi_electronic_2007}. Det finns ett visst vetenskapligt anspråk i de texter som skrivs om dessa olika typer av musik, att sonifieringen kan ge en typ av insikt i de dataset som används som en visualisering \emph{inte} skulle ge\footcite{king_pm_1996}. Detta anspråk har dock nyanserats och kritiserats på senare tid, av till exempel forskaren och kompositören Peter E. Larsen\footcite{larsen_more_2016} som menar att sonifieringen knappast leder till någon djupare insikt än ett vanligt stapeldiagram. Jag vill lyfta Dr. David Deamers och Riley McLaughlins \emph{Insulin A \& B Chains} (1983)\footcite{deamer_insulin_1983} och Dr. Nobuo Munakatas \emph{Hugging Tightly: Human RNase Inhibitor} (2009)\footcite{munakata_hugging_2009} som två exempel av \emph{DNA}, eller \emph{protein music}, som jag inspirerats av rent estetiskt.
+På senare tid har ett antal genrer eller rörelser uppkommit med utgångspunkt i sonifieringen av biologisk data, med namn som \emph{protein music}\footcite{king_pm_1996}, \emph{DNA music}\footcite{k_kawazoe_study_2001} och \emph{gene music}\footcite{munakata_gene_1995}. Dessa genrer utgår samtliga från att låta musiken styras av dataset bestående av proteinveckning, DNA-sekvenser eller gener, till exempel mappningen av kvävebaser till tonhöjd\footcite{shi_electronic_2007}. Det finns ett visst vetenskapligt anspråk i de texter som skrivs om dessa olika typer av musik, att sonifieringen kan ge en typ av insikt i de dataset som används som en visualisering \emph{inte} skulle ge\footcite{king_pm_1996}. Detta anspråk har dock nyanserats och kritiserats på senare tid, av till exempel forskaren och kompositören Peter E. Larsen\footcite{larsen_more_2016} som menar att sonifieringen knappast leder till någon djupare insikt än ett vanligt stapeldiagram. Jag vill lyfta Dr. David Deamers och Riley McLaughlins \emph{Insulin A \& B Chains} (1983)\footcite{deamer_insulin_1983} och Dr. Nobuo Munakatas \emph{Hugging Tightly: Human RNase Inhibitor} (2009)\footcite{munakata_hugging_2009} som två exempel av \emph{DNA}, eller \emph{protein music}, som jag inspirerats av rent estetiskt.
 
 Den 2 april 2021 släpptes Luca Yupanquis album \emph{Sounds of the Unborn}\footcite{yupanqui_sounds_2021}, som spelades in redan innan hon var född. Yupanquis föräldrar --- musikerna Elizabeth Hart och Iván Diaz Mathé --- hade med hjälp av elektroder kopplade till Harts kropp spelat in deras ofödda barns \emph{in utero}-rörelser och sedan låtit sonifiera dessa inspelade signaler med ett system utvecklat av Sam Cusumano och hans företag \emph{Electricity for progress}\footcite{noauthor_electricity_nodate}. Elizabeth Hart berättar i en intervju i \emph{Kulturnytt i P1}\footcite{eklund_duo_2021} hur musiken kommit till av ett rent experimenterande, att föräldrarna till en början inte hade haft en tanke att ge ut det som ett album. Hart berättar vidare att hon \emph{inte} tror att musiken säger något speciellt om de ofödda, att det inte varit föräldrarnas avsikt, och avfärdar frågan om huruvida processen endast varit ett PR-trick med att säga: \say{... for us, I think it is a pretty great album. Musically, I am proud of what was achieved, musically.} Skivbolaget \emph{Sacred Bones Records}, som släppt albumet, säljer systemet som Hart och Diaz Mathé använt under namnet \emph{MIDI Biodata Sonification Device}\footcite{noauthor_midi_nodate} och Cusumano, som utvecklat systemet, driver ett forum\footcite{noauthor_biodata_nodate} där användare av detta system uppmuntras dela med sig av olika sonifieringar de gjort. 
 
@@ -291,7 +301,7 @@ Diabetes mellitus är en auto-immun sjukdom som huvudsakligen finns i två olika
 \addcontentsline{toc}{subsubsection}{\textit{Blodsockervärden}}
 Blodsocker mäts i de flesta delar av världen i mmol/L, men enheten mg/dL existerar också. Varierationen i blodsocker hos en icke-diabetiker är mellan 4 och 6 mmol/L [källa]. Hos en diabetiker kan detta värde variera från under 1 till över 30 mmol/L. I Sverige används huvudsakligen två olika \gls{cgm}: dels Freestyle Libre-sensorn, dels Dexcom G6-sensorn. Freestyle Libre-sensorn har ett spann på att mäta från lägst 2,2 till 27,7 mmol/L (annars visar den \emph{LO} respektive \emph{HI}). Freestyle Libre-sensorn mäter kontinuerligt var 15:e minut, och sensorn byts varannan vecka.
 
-Blodsockervärden som mäts med dessa två sensorer går att ladda upp, både automatiskt och manuellt, till en plattform som heter \emph{Diasend}\footcite{}. Via \emph{Diasend} går det att exportera sina värden, begränsat till en valfri period --- men åtminstone två veckor lång --- till en Excel-fil. Det är denna Excel-fil som man sedan kan ladda upp till \emph{Radio Diabetes}. Tack vare \emph{Diasend}-plattformen går det att exportera värden på ett format som är oberoende av vilken sensor man använder.
+Blodsockervärden som mäts med dessa två sensorer går att ladda upp, både automatiskt och manuellt, till en plattform som heter \emph{Diasend}. Via \emph{Diasend} går det att exportera sina värden, begränsat till en valfri period --- men åtminstone två veckor lång --- till en Excel-fil. Det är denna Excel-fil som man sedan kan ladda upp till \emph{Radio Diabetes}. Tack vare \emph{Diasend}-plattformen går det att exportera värden på ett format som är oberoende av vilken sensor man använder.
 
 %Att s.k. \emph{mappa} denna data till musikaliska parametrar är förstås godtyckligt --- värdena i sig har ingen musikalisk mening --- och bör så vara: det är helt enkelt mina konstnärliga val som bestämmer hur de förhåller sig till varandra. Även en bearbetad signal går att använda för att styra musiken: interpolation (mellan de diskreta mätpunkterna), variation (FFT, derivator, etc.), stokastiska egenskaper (auto-korrelation etc), statistiska egenskaper (median, medel, etc.). ''\emph{Tid i målområdet}'' och liknande värden kan också vara intressanta att använda, och har medicinsk betydelse.
 
@@ -307,7 +317,7 @@ Ett sentiment som ofta förekommande (''jag är \textbf{inte} min diabetes, mina
 
 \subsection*{Datainsamling}
 \addcontentsline{toc}{subsection}{Datainsamling}
-Enligt \emph{Dataskyddsförordningen} (GDPR) är biometrisk data en känslig personuppgift, och därför kräver insamlingen av den ett uttryckligt samtycke från varje deltagare att denna är införstådd i hur datan behandlas. Jag har försökt vara så transparent som möjligt i hur datan behandlas, genom att dels dela \textbf{all} källkod som jag använder, och även i den kommunikation jag lagt ut på webbplatsen och i övriga dokument berörande projektet (såsom denna text). All data som samlas in anonymiseras/avidentifieras så fort som möjligt och den är inte sparad någonstans utöver arbetsminnet som SuperCollider använder. I enlighet med Vetenskapsrådets text \emph{God forskningssed} \footcite[s. 40-41]{vetenskapsradet_god_2017} är sekretess, anonymitet och integritet av största vikt i detta projekt, även fast det är ett konstprojekt och inte ett forskningsprojekt. Jag har inget kommersiellt intresse i insamlingen av datan, jag delar den inte med någon extern part heller, och allt deltagande är valfritt. Min ambition är \textbf{inte} att samla data för sakens skull, utan att diabetiker ska kunna dela med sig av sina värden utan att de på något sätt bedöms eller värderas: helt enkelt, att själva delandet och deltagandet i sig står i fokus. 
+Enligt \emph{Dataskyddsförordningen}, eller \gls{gdpr}, är biometrisk data en känslig personuppgift, och därför kräver insamlingen av den ett uttryckligt samtycke från varje deltagare att denna är införstådd i hur datan behandlas. Jag har försökt vara så transparent som möjligt i hur datan behandlas, genom att dels dela all källkod som jag använder, och även i den kommunikation jag lagt ut på webbplatsen och i övriga dokument berörande projektet (såsom denna text). All data som samlas in anonymiseras/avidentifieras så fort som möjligt och den är inte sparad någonstans utöver arbetsminnet som SuperCollider använder. I enlighet med Vetenskapsrådets text \emph{God forskningssed} \footcite[s. 40-41]{vetenskapsradet_god_2017} är sekretess, anonymitet och integritet av största vikt i detta projekt, trots att det är ett konstprojekt och inte ett forskningsprojekt. Jag har inget kommersiellt intresse i insamlingen av datan, jag delar den inte med någon extern part heller, och allt deltagande är valfritt. Min ambition är inte att samla data för sakens skull, utan att diabetiker ska kunna dela med sig av sina värden utan att de på något sätt bedöms eller värderas: helt enkelt, att själva delandet och deltagandet i sig står i fokus. 
 
 \section*{Process}
 \addcontentsline{toc}{section}{Process}
@@ -322,7 +332,7 @@ Enligt \emph{Dataskyddsförordningen} (GDPR) är biometrisk data en känslig per
 
 \subsection*{Stack}
 \addcontentsline{toc}{subsection}{\emph{\gls{stack}}}
-För att driftsätta systemet valde jag att hyra en så kallad \gls{vps}, som tillåter mig att hyfast obegränsat installera, konfigurera och köra de program som jag behöver. Som operativsystem valde jag Ubuntu 20.04, eftersom det är det jag har installerat på min hemmaserver, som jag använt under utvecklingsfasen av projektet. Som server till användargränssnittet använder jag Nginx och till Flask-API:et använder jag Gunicorn. SuperCollider, Darkice --- som kodar ljudströmmen till ett sändningbart MPEG-format --- och Icecast har jag valt att köra samtliga som så kallade \emph{services}, vilket underlättar vid uppstart och omstart, utifall systemet eller någon del av det skulle krascha. Att de körs som \emph{services} underlättar också loggning, till exempel kan jag låta SuperCollider skriva ut viktiga händelser, som tidpunkten när ett nytt datapaket mottagits av programmet. Dessa utskrifter har jag senare åtkomst till via kommandot journalctl.
+För att driftsätta systemet valde jag att hyra en så kallad \gls{vps}, som tillåter mig att hyfast obegränsat installera, konfigurera och köra de program som jag behöver. Som operativsystem valde jag Ubuntu 20.04, eftersom det är det jag har installerat på min hemmaserver, som jag använt under utvecklingsfasen av projektet. Som server till användargränssnittet använder jag Nginx och till Flask-API:et använder jag Gunicorn. SuperCollider, Darkice --- som kodar ljudströmmen till ett sändningbart MPEG-format --- och Icecast har jag valt att köra samtliga som så kallade \emph{services}, vilket underlättar vid uppstart och omstart, utifall systemet eller någon del av det skulle krascha. Att de körs som \emph{services} underlättar också loggning, till exempel kan jag låta SuperCollider skriva ut viktiga händelser som tidpunkten när ett nytt datapaket mottagits av programmet. Dessa utskrifter har jag senare åtkomst till via kommandot \texttt{journalctl}.
 
 
 \begin{figure}[H]
@@ -343,7 +353,7 @@ Många webbplatser är uppdelade i en \emph{front end} och en \emph{back end}, o
 \addcontentsline{toc}{subsubsection}{\emph{Front end}}
 För att bygga webbplatsens \emph{front end} använde jag ett JavaScript-bibliotek/verktyg som heter React.js, som jag fick hjälp av min vän Herman Wikner att koda. Webbplatsen består huvudsakligen av tre undersidor med information, en plats för att ladda upp filerna, och en kontrollmeny till radion, där besökaren kan spela och pausa musiken. Jag ville att musiken skulle spelas oavbrutet när en besökare navigerar på webbplatsen, och det var en av huvudanledningarna till att jag valde att använda React.js istället för endast HTML och CSS. Överlag ville jag ha en så smärtfri så kallad \emph{\gls{ux}} som möjligt, för att göra deltagandet så enkelt som möjligt och för att göra installationen så tillgänglig som möjligt. I slutändan är det musiken som ska stå i fokus.
 
-Kommunikationen till Flask-API:et sker via HTTP-metoderna POST och GET, där React.js skickar filinnehållet till Flask-API:et via POST-metoden, och får tillbaka ett svar om filen överförts utan problem eller inte.
+Kommunikationen till Flask-API:et sker via HTTP-metoderna \texttt{POST} och \texttt{GET}, där React.js skickar filinnehållet till Flask-API:et via \texttt{POST}-metoden, och får tillbaka ett svar om filen överförts utan problem eller inte.
 
 %Själva gränssnittet är egentligen inte särskilt avancerat --- egentligen består det bara av tre olika sidor med mestadels text, en plats för att ladda upp filerna, och en radiospelare --- men eftersom jag ville ha 
 
@@ -351,9 +361,9 @@ Kommunikationen till Flask-API:et sker via HTTP-metoderna POST och GET, där Rea
 
 \subsubsection*{\gls{backend}}
 \addcontentsline{toc}{subsubsection}{\emph{Back end}}
-Behovet av ett så kallat \gls{api} kommer av att jag behövde en mellanhand för att överföra informationen från de uppladdade filerna till mitt SuperCollider-prpgram. Från tidigare experiment med mina blodsockervärden hade jag redan skrivit Python-kod för att extrahera mätvärden från de Excel-filer som man kan exportera från \emph{Diasend}. Därför återanvände jag en del av denna kod, och omstrukturerade denna för att kunna köras som ett \gls{flask}-program\footnote{Flask är ett webbramverk för Python, det går alltså att använda Python-kod i Flask.}. När \gls{api}:et tar emot filinnehållet från användargränssnittet via POST-metoden så skapar den direkt två listor bestående av inlästa tidsvärden och blodsockervärden från filen. Filen sparas alltså aldrig på servern. \gls{api}:et gör också en del felhantering genom att försäkra att datavärdena är formaterade på ett korrekt sätt och att de är inom det möjliga intervallet. Sedan skickar det vidare listorna med värden till SuperCollider-programmet, via Osc. 
+Behovet av ett så kallat \gls{api} kommer av att jag behövde en mellanhand för att överföra informationen från de uppladdade filerna till mitt SuperCollider-prpgram. Från tidigare experiment med mina blodsockervärden hade jag redan skrivit Python-kod för att extrahera mätvärden från de Excel-filer som man kan exportera från \emph{Diasend}. Därför återanvände jag en del av denna kod, och omstrukturerade denna för att kunna köras som ett \gls{flask}-program\footnote{Flask är ett webbramverk för Python, det går alltså att använda Python-kod i Flask.}. När \gls{api}:et tar emot filinnehållet från användargränssnittet via \texttt{POST}-metoden så skapar den direkt två listor bestående av inlästa tidsvärden och blodsockervärden från filen. Filen sparas alltså aldrig på servern. \gls{api}:et gör också en del felhantering genom att försäkra att datavärdena är formaterade på ett korrekt sätt och att de är inom det möjliga intervallet. Sedan skickar det vidare listorna med värden till SuperCollider-programmet, via Osc. 
 
-Sammanfattningsvis har alltså \gls{api}:et tre huvudsakliga funktioner: att \emph{parsa} (eller tolka) de delade filerna, felhantera korrupta filer eller korrupt data, och upprätta en Osc-kommunikation med SuperCollider.
+Sammanfattningsvis har alltså \gls{api}:et tre huvudsakliga funktioner: att tolka\footnote{I den mening som en \emph{parser} tolkar.} de delade filerna, felhantera korrupta filer eller korrupt data, och upprätta en Osc-kommunikation med SuperCollider.
 %\begin{figure*}[H]
 %\centering
 %\includegraphics[width=\textwidth]{../media/hemsida.png}
@@ -367,7 +377,7 @@ Sammanfattningsvis har alltså \gls{api}:et tre huvudsakliga funktioner: att \em
 % TODO LÄGG TILL ETT BLOCKDIAGRAM SOM ILLUSTRERAR SUPERCOLLIDER SYSTEMET
 När en deltagare laddar upp en fil med sina mätvärden så skickas de vidare, via Flask-API:et, till \gls{supercollider}-programmet, som spelar upp en tack-hälsning för att ge en direkt återkoppling till deltagandet. Varje instans av mätdata --- det vill säga varje bidrag till, eller varje interaktion med, installationen --- gestaltas av en specifik musikalisk funktion, för att på sätt ge deltagaren en koppling och förståelse till hur dennes bidrag påverkar musiken. 
 %Till exempel kan ett uppladdat paket av data ge upphov till ett arpeggio, någon form av melodi eller en underliggande ljudmatta.
-I SuperCollider-programmet representeras varje sådan instans av mätdata av ett \emph{objekt}, som innehåller attribut som bland annat: register, skala, speltid, panorering, klangkälla/\emph{SynthDef}, och tillhörande \emph{\gls{pattern}}. Dessa attribut är antingen direkt bestämda av mätdatan (en så kallad \emph{mappning}) eller bestämda utifrån de andra aktiva objekten, till exempel förhåller de sig till redan ``upptagna'' register. Skapandet av dessa objekt gör programmet så fort det mottagit ett nytt paket av mätdata från Python-servern. Samtidigt avgör programmet om objektet ska spelas upp direkt, eller om det ska läggas på kö. 
+I SuperCollider-programmet representeras varje sådan instans av mätdata av ett \emph{objekt}, som innehåller attribut som bland annat: register, skala, speltid, panorering, klangkälla/\gls{synthdef}, och tillhörande {\gls{pattern}}. Dessa attribut är antingen direkt bestämda av mätdatan (en så kallad \emph{mappning}) eller bestämda utifrån de andra aktiva objekten, till exempel förhåller de sig till redan ``upptagna'' register. Skapandet av dessa objekt gör programmet så fort det mottagit ett nytt paket av mätdata från Flask-API:et. Samtidigt avgör programmet om objektet ska spelas upp direkt, eller om det ska läggas på kö. 
 
 \subsubsection*{Kösystemet}
 \addcontentsline{toc}{subsubsection}{\emph{Kösystemet}}
@@ -402,7 +412,7 @@ Alla instrument som spelar arpeggion, det vill säga 2 och 4 i tabellen ovan, sp
 
 Ljudmaterialet i de samplingsbaserade instrumenten har jag tagit från diverse inspelningar som jag har gjort genom åren: jag ville att de skulle ha en personlig koppling till mig. Den GSM-avkodade ljudfilen som utgör ``kören'' skapade jag av \emph{misstag} genom att läsa in en annan ljudfil som om den vore GSM-kodad i programmet Audacity. Effekten är en hård och övertonsrik klang, som jag låter passera genom ett formant-filter för att skapa ett \emph{människolikt} ljud. Denna spelar en följd av fyra ackord, som upprepas utan variation. Däremot varieras andra attribut av detta instrument. De andra samplingarna jag använt är utklipp av elektroniska störningsljud --- återvunna från mitt förstaårsprojekt \emph{Calling out of context}, men i ny tappning --- och en inspelning av min induktionshäll. Samtliga inspelningar jag använt har en viss \emph{elektrisk} karaktäristik, vilket kommit att utgöra min ljudpalett. 
 
-Wavetable-padden, det vill säga punkt nummer 3 i tabellen, är en sorts audifiering av de inkommande mätvärdena: dessa omvandlas till så kallade \emph{wavetables} som används av en Wavetable-UGen i SuperCollider. På så sätt kan jag kontrollera tonhöjd men att själva klangfärgen bestäms helt av mätvärdena. Detta är en SynthDef som jag utvecklat under en längre tid, men som jag anpassat till \emph{Radio Diabetes} för att direkt omvandla mätvärdena till wavetables. Tidigare har jag använt ett annat program för att göra själva omvandlingen, men det var inte möjligt för detta projekt, då det hade krävt att jag sparat ned värdena som ljudfiler. Detta var jag som sagt tvungen att undvika, av säkerhet- och integritetssjäl.
+Wavetable-synthen, det vill säga punkt nummer 3 i tabellen, är en sorts audifiering av de inkommande mätvärdena: dessa omvandlas till så kallade \emph{wavetables} som används av en \gls{ugen}\footnote{Som heter \texttt{VOsc3}.} i SuperCollider. På så sätt kan jag kontrollera tonhöjd men att själva klangfärgen bestäms helt av mätvärdena. Detta är en SynthDef som jag utvecklat under en längre tid, men som jag anpassat till \emph{Radio Diabetes} för att direkt omvandla mätvärdena till wavetables. Tidigare har jag använt ett annat program för att göra själva omvandlingen, men det var inte möjligt för detta projekt, då det hade krävt att jag sparat ned värdena som ljudfiler. Detta var jag som sagt tvungen att undvika, av säkerhet- och integritetssjäl.
 
 \subsection*{Rumslighet}
 \addcontentsline{toc}{subsection}{Rumslighet}
@@ -468,4 +478,3 @@ En av de främsta slutsatser jag dragit av att arbeta med detta projekt är att 
 Ett inspelat utdragfrån själva radioströmmen, detsamma som spelades upp i Lilla Salen, är bifogat med denna text.Inspelningen skedde den 20 maj 2021.
 
 \end{document}
-

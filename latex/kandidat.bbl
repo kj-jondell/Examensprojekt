@@ -1,0 +1,1297 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{anghammar_nya_2010}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=cd269d28dcb2ec6084e6895c0bdbf141}{%
+           family={Anghammar},
+           familyi={A\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Karlstads Universitet}%
+      }
+      \list{location}{1}{%
+        {Karlstad}%
+      }
+      \strng{namehash}{cd269d28dcb2ec6084e6895c0bdbf141}
+      \strng{fullhash}{cd269d28dcb2ec6084e6895c0bdbf141}
+      \strng{bibnamehash}{cd269d28dcb2ec6084e6895c0bdbf141}
+      \strng{authorbibnamehash}{cd269d28dcb2ec6084e6895c0bdbf141}
+      \strng{authornamehash}{cd269d28dcb2ec6084e6895c0bdbf141}
+      \strng{authorfullhash}{cd269d28dcb2ec6084e6895c0bdbf141}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Purpose: The purpose of this study is to examine how public contribution in public service radio has changed as a consequence of the digitalization. Public contribution is studied from several aspects, but with a particular focus on new media types.}
+      \field{langid}{swedish}
+      \field{title}{Nya medier möter gamla radion}
+      \field{type}{C-uppsats}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Anghammar - 2010 - Nya medier möter gamla radion.pdf:/Users/kj/Zotero/storage/MKUWV4SA/Anghammar - 2010 - Nya medier möter gamla radion.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{arvidson_det_2016}{article}{}
+      \name{author}{1}{}{%
+        {{hash=781042498f2bd25703f85b53c14b44ea}{%
+           family={Arvidson},
+           familyi={A\bibinitperiod},
+           given={Mats},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{781042498f2bd25703f85b53c14b44ea}
+      \strng{fullhash}{781042498f2bd25703f85b53c14b44ea}
+      \strng{bibnamehash}{781042498f2bd25703f85b53c14b44ea}
+      \strng{authorbibnamehash}{781042498f2bd25703f85b53c14b44ea}
+      \strng{authornamehash}{781042498f2bd25703f85b53c14b44ea}
+      \strng{authorfullhash}{781042498f2bd25703f85b53c14b44ea}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Att leva med en autoimmun sjukdom som typ 1-diabetes innebär att man tvingas till ställningstaganden som en frisk individ sällan eller aldrig behöver ta i beaktande. Dessa ställningstaganden kan utifrån sett tyckas vara obetydliga men är för diabetikern livsviktiga. Denna artikel är skriven utifrån ett första-personsperspektiv och lyfter fram aspekter som blir en del i en slags överlevnadsstrategi för vardagen och som relateras till samtidens alltmer accelererande livstempo där prestation sätts i fokus. Istället vill jag betona pausens betydelse för överlevnad eftersom denna bildar själva överlevnadsstrategins ramverk.}
+      \field{day}{9}
+      \field{issn}{0037-833X}
+      \field{journaltitle}{Socialmedicinsk tidskrift}
+      \field{langid}{swedish}
+      \field{month}{7}
+      \field{note}{Number: 3}
+      \field{number}{3}
+      \field{title}{Det autoimmuna jaget – om att sätta gränser}
+      \field{urlday}{16}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{volume}{93}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{280\bibrangedash 287}
+      \range{pages}{8}
+      \verb{file}
+      \verb Full Text PDF:/Users/kj/Zotero/storage/PWRSC8G2/Arvidson - 2016 - Det autoimmuna jaget – om att sätta gränser.pdf:application/pdf;Snapshot:/Users/kj/Zotero/storage/XNRNXWN8/1463.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://socialmedicinsktidskrift.se/smt/index.php/smt/article/view/1463
+      \endverb
+      \verb{url}
+      \verb https://socialmedicinsktidskrift.se/smt/index.php/smt/article/view/1463
+      \endverb
+      \keyw{autoimmun sjukdom,diabetes typ-1,jaget,överlevnadsstrategi,paus,prestation,social acceleration}
+    \endentry
+    \entry{noauthor_biodata_nodate}{online}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Biodata Forum}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Biodata Forum - Index:/Users/kj/Zotero/storage/NEX7RJ4R/Forum.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://electricityforprogress.com/Forum/
+      \endverb
+      \verb{url}
+      \verb https://electricityforprogress.com/Forum/
+      \endverb
+    \endentry
+    \entry{brecht_radio_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7383a641aba3c0cef1525fed0b6effd0}{%
+           family={Brecht},
+           familyi={B\bibinitperiod},
+           given={Bertolt},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{7383a641aba3c0cef1525fed0b6effd0}
+      \strng{fullhash}{7383a641aba3c0cef1525fed0b6effd0}
+      \strng{bibnamehash}{7383a641aba3c0cef1525fed0b6effd0}
+      \strng{authorbibnamehash}{7383a641aba3c0cef1525fed0b6effd0}
+      \strng{authornamehash}{7383a641aba3c0cef1525fed0b6effd0}
+      \strng{authorfullhash}{7383a641aba3c0cef1525fed0b6effd0}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Radio as an Apparatus of Communication [Excerpt]}
+      \field{titleaddon}{Medien Kunst Netz}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Media Art Net | Source Text:/Users/kj/Zotero/storage/4JR7ANIP/8.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://www.medienkunstnetz.de/source-text/8/
+      \endverb
+      \verb{url}
+      \verb http://www.medienkunstnetz.de/source-text/8/
+      \endverb
+    \endentry
+    \entry{collins_defining_2014}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=af12ef08fb48ee12ca3a6a5f479cf67d}{%
+           family={Dolphin},
+           familyi={D\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=ca6e87439aa907b1461fa573bc598a67}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c61b8c58b09a911013d44abb624c4925}{%
+           family={Kapralos},
+           familyi={K\bibinitperiod},
+           given={Bill},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a24670e8670bd7883fcdebdd69827329}{%
+           family={Tessler},
+           familyi={T\bibinitperiod},
+           given={Holly},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{af12ef08fb48ee12ca3a6a5f479cf67d}
+      \strng{fullhash}{af12ef08fb48ee12ca3a6a5f479cf67d}
+      \strng{bibnamehash}{af12ef08fb48ee12ca3a6a5f479cf67d}
+      \strng{authorbibnamehash}{af12ef08fb48ee12ca3a6a5f479cf67d}
+      \strng{authornamehash}{af12ef08fb48ee12ca3a6a5f479cf67d}
+      \strng{authorfullhash}{af12ef08fb48ee12ca3a6a5f479cf67d}
+      \strng{editorbibnamehash}{c1c2468c49a16f5accb7d64e68675061}
+      \strng{editornamehash}{c1c2468c49a16f5accb7d64e68675061}
+      \strng{editorfullhash}{c1c2468c49a16f5accb7d64e68675061}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As audiences are increasingly no longer solely listeners but also active producer-consumers, and as video games and other interactive systems increasingly permeate our daily lives, understanding interactivity and its impact on the audience has never been more important. A collection of newly commissioned chapters on interactivity in music and sound edited by preeminent scholars in the field, this book marks the beginning of a journey into understanding the ways in which we interact with sound, and offers a new set of analytical tools for the growing field of interactive audio. What does it mean to interact with sound? How does interactivity alter our experience as creators and listeners? What makes interactive audio different from non-interactive audio? Where does interacting with audio fit into our understanding of sound and music? What does the future hold for interactive media when it comes to our musical and sonic experiences? And how do we begin to approach interactive audio from a theoretical perspective? The Oxford Handbook of Interactive Audio answers these questions by exploring the full range of interactive audio in video games, performance, education, environmental design, toys, and artistic practice. Examining these questions from a range of approaches -- technological, emotional, psychological, and physical -- the book provides a thorough overview of the fascinating experience of interactive sound.}
+      \field{booktitle}{The Oxford Handbook of Interactive Audio}
+      \field{day}{2}
+      \field{edition}{Illustrated edition}
+      \field{isbn}{978-0-19-979722-6}
+      \field{month}{5}
+      \field{title}{Defining Sound Toys: Play as Composition}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{45\bibrangedash 61}
+      \range{pages}{17}
+    \endentry
+    \entry{hermann_audification_2011}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=760470747a7de5d56fc8e4fbf8f454d2}{%
+           family={Dombois},
+           familyi={D\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2aacfcf479c4af42a627ab21f91d711f}{%
+           family={Eckel},
+           familyi={E\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=79155237002af2f8304b79df34c26010}{%
+           family={Hermann},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b81f678a6f8b5b5dea330a3b3de62ef4}{%
+           family={Hunt},
+           familyi={H\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cd850e2e81add81b74b67279400b66da}{%
+           family={Neuhoff},
+           familyi={N\bibinitperiod},
+           given={John\bibnamedelima G},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Logos}%
+      }
+      \strng{namehash}{d37042856cbb7e102db4e17b05e6f13c}
+      \strng{fullhash}{d37042856cbb7e102db4e17b05e6f13c}
+      \strng{bibnamehash}{d37042856cbb7e102db4e17b05e6f13c}
+      \strng{authorbibnamehash}{d37042856cbb7e102db4e17b05e6f13c}
+      \strng{authornamehash}{d37042856cbb7e102db4e17b05e6f13c}
+      \strng{authorfullhash}{d37042856cbb7e102db4e17b05e6f13c}
+      \strng{editorbibnamehash}{0c25358bf30b20572eadd842a29432b5}
+      \strng{editornamehash}{0c25358bf30b20572eadd842a29432b5}
+      \strng{editorfullhash}{0c25358bf30b20572eadd842a29432b5}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Sonification Handbook}
+      \field{title}{Audification}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{301\bibrangedash 321}
+      \range{pages}{21}
+    \endentry
+    \entry{eklund_duo_2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a592560025dc0a4753cb51fe10e207ec}{%
+           family={Eklund},
+           familyi={E\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Stockholm}%
+      }
+      \list{publisher}{1}{%
+        {Sveriges Radio}%
+      }
+      \strng{namehash}{a592560025dc0a4753cb51fe10e207ec}
+      \strng{fullhash}{a592560025dc0a4753cb51fe10e207ec}
+      \strng{bibnamehash}{a592560025dc0a4753cb51fe10e207ec}
+      \strng{authorbibnamehash}{a592560025dc0a4753cb51fe10e207ec}
+      \strng{authornamehash}{a592560025dc0a4753cb51fe10e207ec}
+      \strng{authorfullhash}{a592560025dc0a4753cb51fe10e207ec}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Små hjärtslag vid ultraljudsundersökningen, det är ungefär vad föräldrar brukar ha hört från sitt barn innan det är fött}
+      \field{day}{29}
+      \field{month}{3}
+      \field{title}{Duo gjorde album med sitt ofödda barn}
+      \field{titleaddon}{Kulturnytt i P1}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://sverigesradio.se/artikel/duo-gjorde-album-med-sitt-ofodda-barn
+      \endverb
+      \verb{url}
+      \verb https://sverigesradio.se/artikel/duo-gjorde-album-med-sitt-ofodda-barn
+      \endverb
+    \endentry
+    \entry{noauthor_electricity_nodate}{online}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Electronics, Education, and Music}
+      \field{langid}{american}
+      \field{title}{Electricity for Progress}
+      \field{titleaddon}{Electricity for Progress}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/MAVQQCKC/electricityforprogress.com.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://electricityforprogress.com/
+      \endverb
+      \verb{url}
+      \verb https://electricityforprogress.com/
+      \endverb
+    \endentry
+    \entry{noauthor_free_2002}{online}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{3}
+      \field{month}{2}
+      \field{title}{Free Radio Linux}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://netartcommons.walkerart.org/articleb524.html?sid=02/04/10/0548240
+      \endverb
+      \verb{url}
+      \verb http://netartcommons.walkerart.org/articleb524.html?sid=02/04/10/0548240
+      \endverb
+    \endentry
+    \entry{noauthor_glukosovervakningssystem_nodate}{online}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Glukosövervakningssystem - {FreeStyle} Libre {|} Abbott}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Glukosövervakningssystem - FreeStyle Libre | Abbott:/Users/kj/Zotero/storage/YFQWDRN8/home.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.freestyle.abbott/se-sv/home.html
+      \endverb
+      \verb{url}
+      \verb https://www.freestyle.abbott/se-sv/home.html
+      \endverb
+    \endentry
+    \entry{hermann_parameter_2011}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=7e32a865fbbed50c8f3ff4a02d98d3fb}{%
+           family={Grond},
+           familyi={G\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2e3da9ae1c620565d45aa215f6f8af4b}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=79155237002af2f8304b79df34c26010}{%
+           family={Hermann},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b81f678a6f8b5b5dea330a3b3de62ef4}{%
+           family={Hunt},
+           familyi={H\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cd850e2e81add81b74b67279400b66da}{%
+           family={Neuhoff},
+           familyi={N\bibinitperiod},
+           given={John\bibnamedelima G},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Logos}%
+      }
+      \strng{namehash}{ff32be3f0f9542343c84ed5028aa03bb}
+      \strng{fullhash}{ff32be3f0f9542343c84ed5028aa03bb}
+      \strng{bibnamehash}{ff32be3f0f9542343c84ed5028aa03bb}
+      \strng{authorbibnamehash}{ff32be3f0f9542343c84ed5028aa03bb}
+      \strng{authornamehash}{ff32be3f0f9542343c84ed5028aa03bb}
+      \strng{authorfullhash}{ff32be3f0f9542343c84ed5028aa03bb}
+      \strng{editorbibnamehash}{0c25358bf30b20572eadd842a29432b5}
+      \strng{editornamehash}{0c25358bf30b20572eadd842a29432b5}
+      \strng{editorfullhash}{0c25358bf30b20572eadd842a29432b5}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Sonification Handbook}
+      \field{title}{Parameter Mapping Sonification}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{364\bibrangedash 392}
+      \range{pages}{29}
+    \endentry
+    \entry{hermann_introduction_2011}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=79155237002af2f8304b79df34c26010}{%
+           family={Hermann},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b81f678a6f8b5b5dea330a3b3de62ef4}{%
+           family={Hunt},
+           familyi={H\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cd850e2e81add81b74b67279400b66da}{%
+           family={Neuhoff},
+           familyi={N\bibinitperiod},
+           given={John\bibnamedelima G},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Logos}%
+      }
+      \strng{namehash}{0c25358bf30b20572eadd842a29432b5}
+      \strng{fullhash}{0c25358bf30b20572eadd842a29432b5}
+      \strng{bibnamehash}{0c25358bf30b20572eadd842a29432b5}
+      \strng{authorbibnamehash}{0c25358bf30b20572eadd842a29432b5}
+      \strng{authornamehash}{0c25358bf30b20572eadd842a29432b5}
+      \strng{authorfullhash}{0c25358bf30b20572eadd842a29432b5}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Sonification Handbook}
+      \field{title}{Introduction}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+    \entry{munakata_hugging_2009}{audio}{}
+      \name{editora}{1}{}{%
+        {{hash=b33ec9fc569d947f645b0c4a830dcdd5}{%
+           family={Munakata},
+           familyi={M\bibinitperiod},
+           given={Nobuo},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{editorabibnamehash}{b33ec9fc569d947f645b0c4a830dcdd5}
+      \strng{editoranamehash}{b33ec9fc569d947f645b0c4a830dcdd5}
+      \strng{editorafullhash}{b33ec9fc569d947f645b0c4a830dcdd5}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{editoratype}{collaborator}
+      \field{title}{Hugging Tightly: Human {RNase} Inhibitor}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=cZhAwiG81_Q&list=LL&index=13
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=cZhAwiG81_Q&list=LL&index=13
+      \endverb
+    \endentry
+    \entry{deamer_insulin_1983}{audio}{}
+      \name{editora}{2}{}{%
+        {{hash=a9cfb216529d8ca67d46d6c771c8cccf}{%
+           family={Deamer},
+           familyi={D\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dc02877314390d3a190fec553a5d737c}{%
+           family={{McLaughlin}},
+           familyi={M\bibinitperiod},
+           given={Riley},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {Science \& The Arts}%
+      }
+      \strng{editorabibnamehash}{e2682cb3639455c7e708bdbf2a3c0c7f}
+      \strng{editoranamehash}{e2682cb3639455c7e708bdbf2a3c0c7f}
+      \strng{editorafullhash}{e2682cb3639455c7e708bdbf2a3c0c7f}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{editoratype}{collaborator}
+      \field{title}{Insulin A \& B Chains}
+      \field{volume}{{DNA} Music / {DNA} Suite}
+      \field{year}{1983}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.amazon.com/Insulin-a-B-Chains/dp/B00EFYDV9Y
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.com/Insulin-a-B-Chains/dp/B00EFYDV9Y
+      \endverb
+    \endentry
+    \entry{jondell_kj-jondelldiabetes-synth_2021}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a70585efdf51d8964d83d42840c415bc}{%
+           family={Jondell},
+           familyi={J\bibinitperiod},
+           given={Karl\bibnamedelima Johannes},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{fullhash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{bibnamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{authorbibnamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{authornamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{authorfullhash}{a70585efdf51d8964d83d42840c415bc}
+      \field{extraname}{1}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Convert your glucose levels to sound! Contribute to kj-jondell/Diabetes-Synth development by creating an account on {GitHub}.}
+      \field{day}{26}
+      \field{month}{1}
+      \field{title}{kj-jondell/Diabetes-Synth}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/kj-jondell/Diabetes-Synth
+      \endverb
+      \verb{url}
+      \verb https://github.com/kj-jondell/Diabetes-Synth
+      \endverb
+    \endentry
+    \entry{jondell_radio_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a70585efdf51d8964d83d42840c415bc}{%
+           family={Jondell},
+           familyi={J\bibinitperiod},
+           given={Karl\bibnamedelima Johannes},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{fullhash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{bibnamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{authorbibnamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{authornamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{authorfullhash}{a70585efdf51d8964d83d42840c415bc}
+      \field{extraname}{2}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Radio Diabetes}
+      \field{titleaddon}{Radio Diabetes}
+      \field{urlday}{7}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb React App:/Users/kj/Zotero/storage/UTAIHYT5/radiodiabetes.eu.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://radiodiabetes.eu/
+      \endverb
+      \verb{url}
+      \verb https://radiodiabetes.eu/
+      \endverb
+    \endentry
+    \entry{k_kawazoe_study_2001}{article}{}
+      \name{author}{2}{}{%
+        {{hash=43f26e3c71ba44f6c92bc9f1fd3296fd}{%
+           family={Kawazoe},
+           familyi={K\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c8986881b00e29119cb1ef8bbfc49bed}{%
+           family={Takahashi},
+           familyi={T\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{05d2bc0a2748bd8776b5a0a3a49dae2a}
+      \strng{fullhash}{05d2bc0a2748bd8776b5a0a3a49dae2a}
+      \strng{bibnamehash}{05d2bc0a2748bd8776b5a0a3a49dae2a}
+      \strng{authorbibnamehash}{05d2bc0a2748bd8776b5a0a3a49dae2a}
+      \strng{authornamehash}{05d2bc0a2748bd8776b5a0a3a49dae2a}
+      \strng{authorfullhash}{05d2bc0a2748bd8776b5a0a3a49dae2a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We have investigated the audification of molecular information. The musical note information consists of a tone, a velocity and a type of a musical note. The sequence of this musical note information forms a musical score. In the present work, we have developed a computer program for the audification of gene. The {DNA} nucleotide sequence of a gene was employed for the audification. The program assigns the musical note information to each nucleotide using the transformation algorithm and then outputs the {MIDI} sequence as the musical score for a {MIDI} device. Several transformation algorithms were investigated as follows: (1) the simple mapping method that assigns notes to the {DNA} bases. (2) The unique mapping method that assigns the note information with the base usage on the sequence. (3) The musical-theory-based mapping method that is based on the musical theory to get a better musical score. For the third method, mapping the chord to the codon to form the bass line was employed too. It was observed that it is possible to get some advanced transformation from the {DNA} sequence to the musical score using the information derived from the base array.}
+      \field{journaltitle}{Symposium on Chemical Information and Computer Sciences Symposium on Structure-Activity Relationships 24th Symposium on Chemical Information and Computer Sciences}
+      \field{title}{Study on Molecular Music: {DNA} Music}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{pages}{J17\bibrangedash J17}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.11547/ciqs2001.tokusi.0.J17.0
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/kj/Zotero/storage/L49S6ACX/康司 and 由雅 - 2001 - 分子ミュージックに関する研究：dnaミュージック.pdf:application/pdf;J-Stage - Snapshot:/Users/kj/Zotero/storage/GQLEWIKP/ja.html:text/html;översatt.pdf:/Users/kj/Zotero/storage/69HPQVRA/översatt.pdf:application/pdf
+      \endverb
+      \keyw{bioinformatics,human genome,{MIDI},molecular information processing,molecular music,バイオインフォマティクス,ヒトゲノム,分子ミュージック,分子情報処理}
+    \endentry
+    \entry{king_pm_1996}{article}{}
+      \name{author}{2}{}{%
+        {{hash=fce486b842eaeb5695e4b1fcb01e4cb3}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=11f5a051ccba94e9d9a7241861ffe1ec}{%
+           family={Angus},
+           familyi={A\bibinitperiod},
+           given={C.\bibnamedelimi G.},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{32f1ab6c7b09b7a8f1859554c4cb1c99}
+      \strng{fullhash}{32f1ab6c7b09b7a8f1859554c4cb1c99}
+      \strng{bibnamehash}{32f1ab6c7b09b7a8f1859554c4cb1c99}
+      \strng{authorbibnamehash}{32f1ab6c7b09b7a8f1859554c4cb1c99}
+      \strng{authornamehash}{32f1ab6c7b09b7a8f1859554c4cb1c99}
+      \strng{authorfullhash}{32f1ab6c7b09b7a8f1859554c4cb1c99}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present the program {PM} for the analysis of protein sequence information using audification. Audification is the technique of using the sense of hearing to analyse data (Jackson, 1993). The advantage of audification over visualisation in data analysis is that sound has the property that when different notes are played together they can still be individually heard: in vision colours blend to form new colours. This distinction can be very useful when studying multivariate data. The one dimensional structure of {DNA} maps naturally onto musical sequences (Hayashi and Munakata, 1984; Ohno and Ohno, 1986). The mapping algorithm in {PM} is designed to translate coding sequences into sound in a way that is more harmonious and more open to analysis than previous methods. The {PM} algorithm uses the {DNA} nucleotide sequence to form the musical top line, and the properties of the translated amino-acids to form the bass line. The notes are in the scale of C Major and there are three beats to the bar. Each codon corresponds to a bar of music and the notes are played on the beat in order of nucleotide sequence. The mapping of the top line to musical notes is as follows: A4 submediant E3 mediant C3 tonic G3 dominant The mapping of the bass line to notes is more complicated and is based on the designation of aminoacid physico-chemical properties of Taylor (1983). Each of the properties has a note assigned to it. The mapping is as follows: polar hydrophobic charged positive aliphatic aromatic tiny}
+      \field{journaltitle}{Bioinformatics}
+      \field{number}{3}
+      \field{title}{{PM} - protein music}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \field{pages}{251\bibrangedash 252}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/12.3.251
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/kj/Zotero/storage/PA8JHL6J/King and Angus - 1996 - PM - protein music.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{larsen_more_2016}{article}{}
+      \name{author}{1}{}{%
+        {{hash=619a647c0e1dd60f4cf48f212cfadcbd}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={Peter\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{619a647c0e1dd60f4cf48f212cfadcbd}
+      \strng{fullhash}{619a647c0e1dd60f4cf48f212cfadcbd}
+      \strng{bibnamehash}{619a647c0e1dd60f4cf48f212cfadcbd}
+      \strng{authorbibnamehash}{619a647c0e1dd60f4cf48f212cfadcbd}
+      \strng{authornamehash}{619a647c0e1dd60f4cf48f212cfadcbd}
+      \strng{authorfullhash}{619a647c0e1dd60f4cf48f212cfadcbd}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Bacteria are everywhere. Microbial ecology is emerging as a critical field for understanding the relationships between these ubiquitous bacterial communities, the environment, and human health. Next generation {DNA} sequencing technology provides us a powerful tool to indirectly observe the communities by sequencing and analyzing all of the bacterial {DNA} present in an environment. The results of the {DNA} sequencing experiments can generate gigabytes to terabytes of information, however, making it difficult for the citizen scientist to grasp and the educator to convey this data. Here, we present a method for interpreting massive amounts of microbial ecology data as musical performances, easily generated on any computer and using only commonly available or freely available software and the ‘Microbial Bebop’ algorithm. Using this approach, citizen scientists and biology educators can sonify complex data in a fun and interactive format, making it easier to communicate both the importance and the excitement of exploring the planet earth’s largest ecosystem.}
+      \field{day}{1}
+      \field{issn}{1935-7877}
+      \field{journaltitle}{Journal of Microbiology \& Biology Education}
+      \field{month}{3}
+      \field{number}{1}
+      \field{shortjournal}{J Microbiol Biol Educ}
+      \field{shorttitle}{More of an Art than a Science}
+      \field{title}{More of an Art than a Science: Using Microbial {DNA} Sequences to Compose Music}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{volume}{17}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{129\bibrangedash 132}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1128/jmbe.v17i1.1028
+      \endverb
+      \verb{file}
+      \verb PubMed Central Full Text PDF:/Users/kj/Zotero/storage/EYWPBQS9/Larsen - 2016 - More of an Art than a Science Using Microbial DNA.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4798795/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4798795/
+      \endverb
+    \endentry
+    \entry{mcluhan_understanding_2003}{book}{}
+      \name{author}{2}{}{%
+        {{hash=815de62ec0071f72ab07b6bffc51a626}{%
+           family={{McLuhan}},
+           familyi={M\bibinitperiod},
+           given={Marshall},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ab8567dfa2953eddf3a4cdab9feedd8b}{%
+           family={Gordon},
+           familyi={G\bibinitperiod},
+           given={W.\bibnamedelimi Terrence},
+           giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Corte Madera, {CA}}%
+      }
+      \list{publisher}{1}{%
+        {Gingko Press}%
+      }
+      \strng{namehash}{02ac20128811a163e3f92d0ac9c96947}
+      \strng{fullhash}{02ac20128811a163e3f92d0ac9c96947}
+      \strng{bibnamehash}{02ac20128811a163e3f92d0ac9c96947}
+      \strng{authorbibnamehash}{02ac20128811a163e3f92d0ac9c96947}
+      \strng{authornamehash}{02ac20128811a163e3f92d0ac9c96947}
+      \strng{authorfullhash}{02ac20128811a163e3f92d0ac9c96947}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{When first published, Marshall {McLuhan}'s Understanding Media made history with its radical view of the effects of electronic communications upon man and life in the twentieth century.This edition of {McLuhan}'s best-known book both enhances its accessibility to a general audience and provides the full critical apparatus necessary for scholars. This critical edition makes available for the first time the core of the research project that spawned the book.In Terrence Gordon’s own words, “{McLuhan} is in full flight already in the introduction, challenging us to plunge with him into what he calls ‘the creative process of knowing.’” Much to the chagrin of his contemporary critics {McLuhan}’s preference was for a prose style that explored rather than explained. Probes, or aphorisms, were an indispensable tool with which he sought to prompt and prod the reader into an “understanding of how media operate” and to provoke reflection.In the 1960s, {McLuhan}’s theories aroused both wrath and admiration. It is intriguing to speculate what he might have to say 40 years later on subjects to which he devoted whole chapters such as Television, The Telephone, Weapons, Housing and Money. Today few would dispute that mass media has indeed decentralized modern living and turned the world into a global village.This critical edition features an appendix that makes available for the first time the core of the research project that spawned the book and individual chapter notes are supported by a glossary of terms, indices of subjects, names, and works cited. There is also a complete bibliography of {McLuhan}’s published works.}
+      \field{day}{1}
+      \field{edition}{Critical edition}
+      \field{isbn}{978-1-58423-073-1}
+      \field{month}{11}
+      \field{shorttitle}{Understanding Media}
+      \field{title}{Understanding Media: The Extensions of Man}
+      \field{year}{2003}
+      \field{dateera}{ce}
+    \endentry
+    \entry{noauthor_midi_nodate}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This is a preorder. It will ship in Spring 2021. Own the same device used by Luca Yupanqui, Elizabeth Hart, and Iván Diaz Mathé in the creation of Sounds of the Unborn. Listen to any living thing and create your own music together with them and your {MIDI} Biodata Sonification System.  By attaching electrodes to the leav}
+      \field{langid}{english}
+      \field{title}{{MIDI} Biodata Sonication Device}
+      \field{titleaddon}{Sacred Bones Records}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/VJNI4P9A/midi-biodata-sonication-device.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sacredbonesrecords.com/products/midi-biodata-sonication-device
+      \endverb
+      \verb{url}
+      \verb https://www.sacredbonesrecords.com/products/midi-biodata-sonication-device
+      \endverb
+    \endentry
+    \entry{munakata_gene_1995}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=b33ec9fc569d947f645b0c4a830dcdd5}{%
+           family={Munakata},
+           familyi={M\bibinitperiod},
+           given={Nobuo},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6739024e1992d91e8e074820e9e73276}{%
+           family={Hayashi},
+           familyi={H\bibinitperiod},
+           given={Kenshi},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Scientific}%
+      }
+      \strng{namehash}{b8448c5a19b92bd78293b77732e2534b}
+      \strng{fullhash}{b8448c5a19b92bd78293b77732e2534b}
+      \strng{bibnamehash}{b8448c5a19b92bd78293b77732e2534b}
+      \strng{authorbibnamehash}{b8448c5a19b92bd78293b77732e2534b}
+      \strng{authornamehash}{b8448c5a19b92bd78293b77732e2534b}
+      \strng{authorfullhash}{b8448c5a19b92bd78293b77732e2534b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Visualizing Biological Information}
+      \field{day}{1}
+      \field{isbn}{978-981-02-1427-2}
+      \field{month}{12}
+      \field{shorttitle}{Gene Music}
+      \field{title}{Gene Music: Tonal Assignments of Bases and Amino Acids}
+      \field{urlday}{9}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{1995}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{72\bibrangedash 83}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1142/9789812832054_0008
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/4IAXWPWG/9789812832054_0008.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/9789812832054_0008
+      \endverb
+      \verb{url}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/9789812832054_0008
+      \endverb
+    \endentry
+    \entry{lucier_music_1965}{audio}{}
+      \name{editora}{1}{}{%
+        {{hash=16d18c64acb8e79ba4da644831507ebf}{%
+           family={Lucier},
+           familyi={L\bibinitperiod},
+           given={Alvin},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{editorabibnamehash}{16d18c64acb8e79ba4da644831507ebf}
+      \strng{editoranamehash}{16d18c64acb8e79ba4da644831507ebf}
+      \strng{editorafullhash}{16d18c64acb8e79ba4da644831507ebf}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{editoratype}{collaborator}
+      \field{title}{Music for Solo Performer}
+      \field{year}{1965}
+      \field{dateera}{ce}
+    \endentry
+    \entry{perron_radioqualia_2003}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0a07fd12731e84d16fb14afd32f779ec}{%
+           family={Perron},
+           familyi={P\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a07fd12731e84d16fb14afd32f779ec}
+      \strng{fullhash}{0a07fd12731e84d16fb14afd32f779ec}
+      \strng{bibnamehash}{0a07fd12731e84d16fb14afd32f779ec}
+      \strng{authorbibnamehash}{0a07fd12731e84d16fb14afd32f779ec}
+      \strng{authornamehash}{0a07fd12731e84d16fb14afd32f779ec}
+      \strng{authorfullhash}{0a07fd12731e84d16fb14afd32f779ec}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{radioqualia : Radio Astronomy}
+      \field{titleaddon}{Daniel Langlois Foundation}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb radioqualia \: Radio Astronomy:/Users/kj/Zotero/storage/K3EBJF6D/page.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.fondation-langlois.org/html/e/page.php?NumPage=383
+      \endverb
+      \verb{url}
+      \verb https://www.fondation-langlois.org/html/e/page.php?NumPage=383
+      \endverb
+    \endentry
+    \entry{noauthor_r_nodate}{online}{}
+      \field{sortinit}{r}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{r a d i o q u a l i a}
+      \field{titleaddon}{Kunstradio / Radiokunst}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb r a d i o q u a l i a:/Users/kj/Zotero/storage/LYY4Y9R9/radioqualia.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://www.kunstradio.at/BIOS/radioqualia.html
+      \endverb
+      \verb{url}
+      \verb http://www.kunstradio.at/BIOS/radioqualia.html
+      \endverb
+    \endentry
+    \entry{roads_microsound_2004}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1e18cc477a875880153630c6ee6f2f93}{%
+           family={Roads},
+           familyi={R\bibinitperiod},
+           given={Curtis},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, Massachusetts}%
+      }
+      \list{publisher}{1}{%
+        {The {MIT} Press}%
+      }
+      \strng{namehash}{1e18cc477a875880153630c6ee6f2f93}
+      \strng{fullhash}{1e18cc477a875880153630c6ee6f2f93}
+      \strng{bibnamehash}{1e18cc477a875880153630c6ee6f2f93}
+      \strng{authorbibnamehash}{1e18cc477a875880153630c6ee6f2f93}
+      \strng{authornamehash}{1e18cc477a875880153630c6ee6f2f93}
+      \strng{authorfullhash}{1e18cc477a875880153630c6ee6f2f93}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Below the level of the musical note lies the realm of microsound, of sound particles lasting less than one-tenth of a second. Recent technological advances allow us to probe and manipulate these pinpoints of sound, dissolving the traditional building blocks of music—notes and their intervals—into a more fluid and supple medium. The sensations of point, pulse (series of points), line (tone), and surface (texture) emerge as particle density increases. Sounds coalesce, evaporate, and mutate into other sounds. Composers have used theories of microsound in computer music since the 1950s. Distinguished practitioners include Karlheinz Stockhausen and Iannis Xenakis. Today, with the increased interest in computer and electronic music, many young composers and software synthesis developers are exploring its advantages. Covering all aspects of composition with sound particles, Microsound offers composition theory, historical accounts, technical overviews, acoustical experiments, descriptions of musical works, and aesthetic reflections. The book is accompanied by an audio {CD} of examples.}
+      \field{day}{20}
+      \field{isbn}{978-0-262-68154-4}
+      \field{month}{8}
+      \field{title}{Microsound}
+      \field{year}{2004}
+      \field{dateera}{ce}
+    \endentry
+    \entry{shi_electronic_2007}{article}{}
+      \name{author}{3}{}{%
+        {{hash=66d603126bf26d8f7e9e651ad45fa0a9}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={X.J.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=6b22a01f15b38dd6d3d05d653b2f11ce}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Y.Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=8f085859842ce55ebc6cc94a40ce1c61}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={C.W.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d54c81f9637c1f9676ef98ea978c139d}
+      \strng{fullhash}{d54c81f9637c1f9676ef98ea978c139d}
+      \strng{bibnamehash}{d54c81f9637c1f9676ef98ea978c139d}
+      \strng{authorbibnamehash}{d54c81f9637c1f9676ef98ea978c139d}
+      \strng{authornamehash}{d54c81f9637c1f9676ef98ea978c139d}
+      \strng{authorfullhash}{d54c81f9637c1f9676ef98ea978c139d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The authors explore protein sonification issues using Morse code theory. Short musical phrases based on protein amino acids are used to compose protein music. Rhythms and tunes familiar to teenagers are also investigated, with the aim of producing different genres of protein music. A special musical instrument, the Chinese guzheng, can be employed to play the protein music. Experiment is carried out with different proteins, including the {HIV} main protease. It is hoped that this study can help unveil the mysteries of nature and motivate students to learn biology.}
+      \field{issn}{0024-094X, 1530-9282}
+      \field{journaltitle}{Leonardo}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{shortjournal}{Leonardo}
+      \field{title}{Electronic Music for Bio-Molecules Using Short Music Phrases}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{volume}{40}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{137\bibrangedash 141}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1162/leon.2007.40.2.137
+      \endverb
+      \verb{file}
+      \verb Shi et al. - 2007 - Electronic Music for Bio-Molecules Using Short Mus.pdf:/Users/kj/Zotero/storage/PUUE6UIP/Shi et al. - 2007 - Electronic Music for Bio-Molecules Using Short Mus.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://direct.mit.edu/leon/article/40/2/137-141/45009
+      \endverb
+      \verb{url}
+      \verb https://direct.mit.edu/leon/article/40/2/137-141/45009
+      \endverb
+    \endentry
+    \entry{yupanqui_sounds_2021}{audio}{}
+      \name{editora}{1}{}{%
+        {{hash=7cf9d12e1043ef936d8b60100425978a}{%
+           family={Yupanqui},
+           familyi={Y\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {Sacred Bones Records}%
+      }
+      \strng{editorabibnamehash}{7cf9d12e1043ef936d8b60100425978a}
+      \strng{editoranamehash}{7cf9d12e1043ef936d8b60100425978a}
+      \strng{editorafullhash}{7cf9d12e1043ef936d8b60100425978a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{abstract}{View credits, reviews, tracks and shop for the 2021 Vinyl release of "Sounds Of The Unborn" on Discogs.}
+      \field{day}{2}
+      \field{editoratype}{collaborator}
+      \field{month}{4}
+      \field{title}{Sounds Of The Unborn}
+      \field{urlday}{9}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/PKIDFVZA/18039826.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.discogs.com/Luca-Yupanqui-Sounds-Of-The-Unborn/release/18039826
+      \endverb
+      \verb{url}
+      \verb https://www.discogs.com/Luca-Yupanqui-Sounds-Of-The-Unborn/release/18039826
+      \endverb
+    \endentry
+    \entry{straebel_alvin_2014}{article}{}
+      \name{author}{2}{}{%
+        {{hash=417f8ed2b6f08ce958d2b79d74f50cf1}{%
+           family={Straebel},
+           familyi={S\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+        {{hash=b78f0e7f0cde31690e615780234927de}{%
+           family={Thoben},
+           familyi={T\bibinitperiod},
+           given={Wilm},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{e8d9844580668414b323148c6a802933}
+      \strng{fullhash}{e8d9844580668414b323148c6a802933}
+      \strng{bibnamehash}{e8d9844580668414b323148c6a802933}
+      \strng{authorbibnamehash}{e8d9844580668414b323148c6a802933}
+      \strng{authornamehash}{e8d9844580668414b323148c6a802933}
+      \strng{authorfullhash}{e8d9844580668414b323148c6a802933}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Alvin Lucier's Music for Solo Performer (1965), often referred to as the ‘brain wave piece’, has become a key work of experimental music. Its setup, in which the brain waves of a solo performer are made to excite percussion instruments, has given the work a central place in the discourse on artistic sonification. However, only a small number of the authors making reference to the work seem to have studied the score, and even fewer have given thought to the score's implications for performance practice and aesthetic reflection. This paper pays detailed attention to these yet overlooked aspects, drawing on accounts of early performances as well as the authors’ participation in a 2012 performance led by the composer. We also trace the history of live-electronic equipment used for Music for Solo Performer and discuss the work's reception in sonification research.}
+      \field{issn}{1355-7718, 1469-8153}
+      \field{journaltitle}{Organised Sound}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{note}{Publisher: Cambridge University Press}
+      \field{number}{1}
+      \field{shorttitle}{Alvin Lucier's Music for Solo Performer}
+      \field{title}{Alvin Lucier's Music for Solo Performer: Experimental music beyond sonification}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{volume}{19}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{17\bibrangedash 29}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1017/S135577181300037X
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/kj/Zotero/storage/HW5ZTICA/Straebel and Thoben - 2014 - Alvin Lucier's Music for Solo Performer Experimen.pdf:application/pdf;Snapshot:/Users/kj/Zotero/storage/SW4KMVXA/A102FA39F3621D70EDE69A4686C82F01.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/journals/organised-sound/article/alvin-luciers-music-for-solo-performer-experimental-music-beyond-sonification/A102FA39F3621D70EDE69A4686C82F01
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/journals/organised-sound/article/alvin-luciers-music-for-solo-performer-experimental-music-beyond-sonification/A102FA39F3621D70EDE69A4686C82F01
+      \endverb
+    \endentry
+    \entry{noauthor_supercollider_nodate}{online}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{{SuperCollider}}
+      \field{urlday}{9}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb SuperCollider » SuperCollider:/Users/kj/Zotero/storage/BX4ABKKR/supercollider.github.io.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://supercollider.github.io/
+      \endverb
+      \verb{url}
+      \verb https://supercollider.github.io/
+      \endverb
+    \endentry
+    \entry{hermann_theory_2011}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=4ca2bb3060cb3ad9d7a8e84a79545e3f}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Bruce\bibnamedelima N.},
+           giveni={B\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=4ff02bbc6ce22e583cfff992c2697d71}{%
+           family={Nees},
+           familyi={N\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=79155237002af2f8304b79df34c26010}{%
+           family={Hermann},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b81f678a6f8b5b5dea330a3b3de62ef4}{%
+           family={Hunt},
+           familyi={H\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cd850e2e81add81b74b67279400b66da}{%
+           family={Neuhoff},
+           familyi={N\bibinitperiod},
+           given={John\bibnamedelima G},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Logos}%
+      }
+      \strng{namehash}{ee3978c68e844e8e6d3207a2f693bcf7}
+      \strng{fullhash}{ee3978c68e844e8e6d3207a2f693bcf7}
+      \strng{bibnamehash}{ee3978c68e844e8e6d3207a2f693bcf7}
+      \strng{authorbibnamehash}{ee3978c68e844e8e6d3207a2f693bcf7}
+      \strng{authornamehash}{ee3978c68e844e8e6d3207a2f693bcf7}
+      \strng{authorfullhash}{ee3978c68e844e8e6d3207a2f693bcf7}
+      \strng{editorbibnamehash}{0c25358bf30b20572eadd842a29432b5}
+      \strng{editornamehash}{0c25358bf30b20572eadd842a29432b5}
+      \strng{editorfullhash}{0c25358bf30b20572eadd842a29432b5}
+      \field{sortinit}{W}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Sonification Handbook}
+      \field{title}{Theory of Sonification}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{9\bibrangedash 39}
+      \range{pages}{31}
+    \endentry
+    \entry{vetenskapsradet_god_2017}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2d51044db17774d5de40a92ecd76eada}{%
+           family={{Vetenskapsrådet}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Stockholm}%
+      }
+      \list{publisher}{1}{%
+        {Vetenskapsrådet}%
+      }
+      \strng{namehash}{2d51044db17774d5de40a92ecd76eada}
+      \strng{fullhash}{2d51044db17774d5de40a92ecd76eada}
+      \strng{bibnamehash}{2d51044db17774d5de40a92ecd76eada}
+      \strng{authorbibnamehash}{2d51044db17774d5de40a92ecd76eada}
+      \strng{authornamehash}{2d51044db17774d5de40a92ecd76eada}
+      \strng{authorfullhash}{2d51044db17774d5de40a92ecd76eada}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-91-7307-352-3}
+      \field{langid}{swedish}
+      \field{title}{God forskningssed}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Vetenskapsrådet - 2017 - God forskningssed.pdf:/Users/kj/Zotero/storage/9A6DU4ZD/Vetenskapsrådet - 2017 - God forskningssed.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{jondell_varden_2017}{audio}{}
+      \name{editora}{1}{}{%
+        {{hash=a70585efdf51d8964d83d42840c415bc}{%
+           family={Jondell},
+           familyi={J\bibinitperiod},
+           given={Karl\bibnamedelima Johannes},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Sveriges}%
+      }
+      \strng{editorabibnamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{editoranamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{editorafullhash}{a70585efdf51d8964d83d42840c415bc}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{editoratype}{collaborator}
+      \field{title}{Värden och en vagga}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://soundcloud.com/k-j-jondell/va-rden-och-en-vagga/s-LVawj
+      \endverb
+      \verb{url}
+      \verb https://soundcloud.com/k-j-jondell/va-rden-och-en-vagga/s-LVawj
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
