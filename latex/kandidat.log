@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.7)  13 APR 2021 11:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.7)  15 APR 2021 10:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -29,7 +29,32 @@ File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \WF@box=\box47
 \WF@everypar=\toks15
 Package: wrapfig 2003/01/31  v 3.6
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/epigraph/epigraph.sty
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+\lst@mode=\count188
+\lst@gtempboxa=\box48
+\lst@token=\toks17
+\lst@length=\count189
+\lst@currlwidth=\dimen141
+\lst@column=\count190
+\lst@pos=\count191
+\lst@lostspace=\dimen142
+\lst@width=\dimen143
+\lst@newlines=\count192
+\lst@lineno=\count193
+\lst@maxwidth=\dimen144
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count194
+\lst@skipnumbers=\count195
+\lst@framebox=\box49
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/epigraph/epigraph.sty
 Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
  (/usr/local/texlive/2021/texmf-dist/tex/latex/nextpage/nextpage.sty
 Package: nextpage 2009/09/03 v1.1a additional page commands
@@ -40,10 +65,7 @@ Package: nextpage 2009/09/03 v1.1a additional page commands
 \epigraphrule=\skip52
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -54,20 +76,917 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen141
-\Gin@req@width=\dimen142
+\Gin@req@height=\dimen145
+\Gin@req@width=\dimen146
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2021/03/24 3.56 The Babel package
  (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2021/03/24 3.56 Babel common definitions
-\babel@savecnt=\count188
-\U@D=\dimen143
+\babel@savecnt=\count196
+\U@D=\dimen147
 \l@babelnohyphens=\language87
  (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count189
+\bbl@dirlevel=\count197
  (/usr/local/texlive/2021/texmf-dist/tex/generic/babel-swedish/swedish.ldf
 Language: swedish 2021/02/06 v2.3e Swedish support from the babel system
 Package babel Info: Making " an active character on input line 90.
 )) (/usr/local/texlive/2021/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen148
+\captionmargin@=\dimen149
+\captionwidth=\dimen150
+\caption@tempdima=\dimen151
+\caption@indent=\dimen152
+\caption@parindent=\dimen153
+\caption@hangindent=\dimen154
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count198
+\c@continuedfloat=\count199
+Package caption Info: listings package is loaded.
+Package caption Info: wrapfig package is loaded.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count266
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
+Package: dirtytalk 2010/11/21 A package making "quoting" easier
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@dirtytalk@qdepth=\count267
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count268
+\Gm@cntv=\count269
+\c@Gm@tempcnt=\count270
+\Gm@bindingoffset=\dimen155
+\Gm@wd@mp=\dimen156
+\Gm@odd@mp=\dimen157
+\Gm@even@mp=\dimen158
+\Gm@layoutwidth=\dimen159
+\Gm@layoutheight=\dimen160
+\Gm@layouthoffset=\dimen161
+\Gm@layoutvoffset=\dimen162
+\Gm@dimlist=\toks18
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count271
+\float@exts=\toks19
+\float@box=\box50
+\@float@everytoks=\toks20
+\@floatcapt=\box51
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count272
+\c@Blindtext=\count273
+\c@blind@countparstart=\count274
+\blind@countxx=\count275
+\blindtext@numBlindtext=\count276
+\blind@countyy=\count277
+\c@blindlist=\count278
+\c@blindlistlevel=\count279
+\c@blindlist@level=\count280
+\blind@listitem=\count281
+\c@blind@listcount=\count282
+\c@blind@levelcount=\count283
+\blind@mathformula=\count284
+\blind@Mathformula=\count285
+\c@blind@randomcount=\count286
+\c@blind@randommax=\count287
+\c@blind@pangramcount=\count288
+\c@blind@pangrammax=\count289
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/kantlipsum/kantlipsum.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count290
+\l__pdf_internal_box=\box52
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
+Package: kantlipsum 2019/07/23 v0.8 Generate text in Kantian style
+\l__kgl_start_int=\count291
+\l__kgl_end_int=\count292
+
+Package kantlipsum Info: The package provides paragraphs 1 to 164. Values
+(kantlipsum)             outside this range will be ignored.
+
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count293
+\c@@ppsavesec=\count294
+\c@@ppsaveapp=\count295
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2020/03/19 v4.46 (NLCT)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks21
+\XKV@tempa@toks=\toks22
+)
+\XKV@depth=\count296
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+\@glsmfirst=\toks23
+\@glsmrest=\toks24
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen163
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen164
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count297
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count298
+\leftroot@=\count299
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count300
+\DOTSCASE@=\count301
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+\big@size=\dimen165
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count302
+\c@MaxMatrixCols=\count303
+\dotsspace@=\muskip16
+\c@parentequation=\count304
+\dspbrk@lvl=\count305
+\tag@help=\toks26
+\row@=\count306
+\column@=\count307
+\maxfields@=\count308
+\andhelp@=\toks27
+\eqnshift@=\dimen166
+\alignsep@=\dimen167
+\tagshift@=\dimen168
+\tagwidth@=\dimen169
+\totwidth@=\dimen170
+\lineht@=\dimen171
+\@envbody=\toks28
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count309
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+ `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count310
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count311
+\FP@xia=\count312
+\FP@xib=\count313
+\FP@xfa=\count314
+\FP@xfb=\count315
+\FP@rega=\count316
+\FP@regb=\count317
+\FP@regs=\count318
+\FP@times=\count319
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count320
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks30
+\@dtl@tmpcount=\count321
+\dtl@tmplength=\skip56
+\dtl@sortresult=\count322
+\@dtl@numgrpsepcount=\count323
+\@dtl@datatype=\count324
+\dtl@codeA=\count325
+\dtl@codeB=\count326
+\@dtl@foreach@level=\count327
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
+Package: glossaries-compatible-307 2020/03/19 v4.46 (NLCT)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2020/06/30 v1.5 (NLCT) Track Languages
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/tracklang/tracklang.tex)) (/usr/local/texlive/2021/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
+) (/usr/local/texlive/texmf-local/tex/latex/local/glossaries-swedish/glossaries-swedish.ldf
+File: glossaries-swedish.ldf 2016/03/05 v1.0
+ (./glossaries-swedish-utf8.ldf))
+\gls@level=\count328
+\@gls@tmpb=\toks31
+\gls@tmplen=\skip57
+\glskeylisttok=\toks32
+\glslabeltok=\toks33
+\glsshorttok=\toks34
+\glslongtok=\toks35
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
+Package: glossary-hypernav 2020/03/19 v4.46 (NLCT)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+Package: glossary-list 2020/03/19 v4.46 (NLCT)
+\glslistdottedwidth=\skip58
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+Package: glossary-long 2020/03/19 v4.46 (NLCT)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip59
+\LTright=\skip60
+\LTpre=\skip61
+\LTpost=\skip62
+\LTchunksize=\count329
+\LTcapwidth=\dimen172
+\LT@head=\box55
+\LT@firsthead=\box56
+\LT@foot=\box57
+\LT@lastfoot=\box58
+\LT@cols=\count330
+\LT@rows=\count331
+\c@LT@tables=\count332
+\c@LT@chunks=\count333
+\LT@p@ftn=\toks36
+)
+\glsdescwidth=\skip63
+\glspagelistwidth=\skip64
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
+Package: glossary-super 2020/03/19 v4.46 (NLCT)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count334
+\ST@wd=\dimen173
+\ST@rightskip=\skip65
+\ST@leftskip=\skip66
+\ST@parfillskip=\skip67
+\ST@pageleft=\dimen174
+\ST@headht=\dimen175
+\ST@tailht=\dimen176
+\ST@pagesofar=\dimen177
+\ST@pboxht=\dimen178
+\ST@lineht=\dimen179
+\ST@prevht=\dimen180
+\ST@toadd=\dimen181
+\ST@dimen=\dimen182
+\ST@pbox=\box59
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+Package: glossary-tree 2020/03/19 v4.46 (NLCT)
+\glstreeindent=\skip68
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count335
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count336
+\c@listtotal=\count337
+\c@listcount=\count338
+\c@liststart=\count339
+\c@liststop=\count340
+\c@citecount=\count341
+\c@citetotal=\count342
+\c@multicitecount=\count343
+\c@multicitetotal=\count344
+\c@instcount=\count345
+\c@maxnames=\count346
+\c@minnames=\count347
+\c@maxitems=\count348
+\c@minitems=\count349
+\c@citecounter=\count350
+\c@maxcitecounter=\count351
+\c@savedcitecounter=\count352
+\c@uniquelist=\count353
+\c@uniquename=\count354
+\c@refsection=\count355
+\c@refsegment=\count356
+\c@maxextratitle=\count357
+\c@maxextratitleyear=\count358
+\c@maxextraname=\count359
+\c@maxextradate=\count360
+\c@maxextraalpha=\count361
+\c@abbrvpenalty=\count362
+\c@highnamepenalty=\count363
+\c@lownamepenalty=\count364
+\c@maxparens=\count365
+\c@parenlevel=\count366
+\blx@tempcnta=\count367
+\blx@tempcntb=\count368
+\blx@tempcntc=\count369
+\blx@maxsection=\count370
+\blx@maxsegment@0=\count371
+\blx@notetype=\count372
+\blx@parenlevel@text=\count373
+\blx@parenlevel@foot=\count374
+\blx@sectionciteorder@0=\count375
+\blx@entrysetcounter=\count376
+\blx@biblioinstance=\count377
+\labelnumberwidth=\skip69
+\labelalphawidth=\skip70
+\biblabelsep=\skip71
+\bibitemsep=\skip72
+\bibnamesep=\skip73
+\bibinitsep=\skip74
+\bibparsep=\skip75
+\bibhang=\skip76
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language88
+\c@mincomprange=\count378
+\c@maxcomprange=\count379
+\c@mincompwidth=\count380
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex citestyle data model...
+Package biblatex Info: ... file 'verbose-ibid.dbx' not found.
+Package biblatex Info: Trying to load biblatex bibstyle data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count381
+\c@savedafterword=\count382
+\c@annotator=\count383
+\c@savedannotator=\count384
+\c@author=\count385
+\c@savedauthor=\count386
+\c@bookauthor=\count387
+\c@savedbookauthor=\count388
+\c@commentator=\count389
+\c@savedcommentator=\count390
+\c@editor=\count391
+\c@savededitor=\count392
+\c@editora=\count393
+\c@savededitora=\count394
+\c@editorb=\count395
+\c@savededitorb=\count396
+\c@editorc=\count397
+\c@savededitorc=\count398
+\c@foreword=\count399
+\c@savedforeword=\count400
+\c@holder=\count401
+\c@savedholder=\count402
+\c@introduction=\count403
+\c@savedintroduction=\count404
+\c@namea=\count405
+\c@savednamea=\count406
+\c@nameb=\count407
+\c@savednameb=\count408
+\c@namec=\count409
+\c@savednamec=\count410
+\c@translator=\count411
+\c@savedtranslator=\count412
+\c@shortauthor=\count413
+\c@savedshortauthor=\count414
+\c@shorteditor=\count415
+\c@savedshorteditor=\count416
+\c@labelname=\count417
+\c@savedlabelname=\count418
+\c@institution=\count419
+\c@savedinstitution=\count420
+\c@lista=\count421
+\c@savedlista=\count422
+\c@listb=\count423
+\c@savedlistb=\count424
+\c@listc=\count425
+\c@savedlistc=\count426
+\c@listd=\count427
+\c@savedlistd=\count428
+\c@liste=\count429
+\c@savedliste=\count430
+\c@listf=\count431
+\c@savedlistf=\count432
+\c@location=\count433
+\c@savedlocation=\count434
+\c@organization=\count435
+\c@savedorganization=\count436
+\c@origlocation=\count437
+\c@savedoriglocation=\count438
+\c@origpublisher=\count439
+\c@savedorigpublisher=\count440
+\c@publisher=\count441
+\c@savedpublisher=\count442
+\c@language=\count443
+\c@savedlanguage=\count444
+\c@origlanguage=\count445
+\c@savedoriglanguage=\count446
+\c@pageref=\count447
+\c@savedpageref=\count448
+\shorthandwidth=\skip77
+\shortjournalwidth=\skip78
+\shortserieswidth=\skip79
+\shorttitlewidth=\skip80
+\shortauthorwidth=\skip81
+\shorteditorwidth=\skip82
+\locallabelnumberwidth=\skip83
+\locallabelalphawidth=\skip84
+\localshorthandwidth=\skip85
+\localshortjournalwidth=\skip86
+\localshortserieswidth=\skip87
+\localshorttitlewidth=\skip88
+\localshortauthorwidth=\skip89
+\localshorteditorwidth=\skip90
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count449
+\c@textcitetotal=\count450
+\c@textcitemaxnames=\count451
+\c@biburlbigbreakpenalty=\count452
+\c@biburlbreakpenalty=\count453
+\c@biburlnumpenalty=\count454
+\c@biburlucpenalty=\count455
+\c@biburllcpenalty=\count456
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count457
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+File: authoryear.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count458
+\c@bbx:relatedtotal=\count459
+))
+Package biblatex Info: Trying to load citation style 'verbose-ibid'...
+Package biblatex Info: ... file 'verbose-ibid.cbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/cbx/verbose-ibid.cbx
+File: verbose-ibid.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
+\csq@reset=\count460
+\csq@gtype=\count461
+\csq@glevel=\count462
+\csq@qlevel=\count463
+\csq@maxlvl=\count464
+\csq@tshold=\count465
+\csq@ltx@everypar=\toks37
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styles
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box60
+\beforetitleunit=\skip91
+\aftertitleunit=\skip92
+\ttl@plus=\dimen183
+\ttl@minus=\dimen184
+\ttl@toksa=\toks38
+\titlewidth=\dimen185
+\titlewidthlast=\dimen186
+\titlewidthfirst=\dimen187
+)
+\glswrite=\write4
+\glo@main@file=\write5
+\openout5 = `kandidat.glo'.
+
+Package glossaries Info: Writing glossary file kandidat.glo on input line 106.
+\glo@acronym@file=\write6
+\openout6 = `kandidat.acn'.
+
+Package glossaries Info: Writing glossary file kandidat.acn on input line 106.
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'swedish'.
+ (./kandidat.aux)
+\openout1 = `kandidat.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+\c@lstlisting=\count466
+ (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count467
+\scratchdimen=\dimen188
+\scratchbox=\box61
+\nofMPsegments=\count468
+\nofMParguments=\count469
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count470
+\MPscratchDim=\dimen189
+\MPnumerator=\count471
+\makeMPintoPDFobject=\count472
+\everyMPtoPDFconversion=\toks40
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package biblatex Info: Trying to load language 'swedish'...
+Package biblatex Info: ... file 'swedish.lbx' found.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/swedish.lbx
+File: swedish.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2021-02-18 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout3 = `kandidat.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'kandidat.bbl' found.
+ (./kandidat.bbl)
+Package biblatex Info: Reference section=0 on input line 190.
+Package biblatex Info: Reference segment=0 on input line 190.
+ [1
+
+\openout4 = `kandidat.ist'.
+
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+No file kandidat.toc.
+\tf@toc=\write7
+\openout7 = `kandidat.toc'.
+
+[1
+
+
+]
+
+LaTeX Warning: Citation 'noauthor_supercollider_nodate' on page 2 undefined on input line 215.
+
+
+LaTeX Warning: Citation 'abbott_glukosovervakningssystem_nodate' on page 2 undefined on input line 222.
+
+
+LaTeX Warning: Citation 'jondell_varden_2017' on page 2 undefined on input line 222.
+
+
+LaTeX Warning: Citation 'jondell_kj-jondelldiabetes-synth_2021' on page 2 undefined on input line 224.
+
+
+LaTeX Warning: Citation 'lucier_music_1965' on page 2 undefined on input line 230.
+
+[2
+
+
+]
+
+LaTeX Warning: Citation 'straebel_alvin_2014' on page 3 undefined on input line 233.
+
+
+LaTeX Warning: Citation 'king_pm_1996' on page 3 undefined on input line 238.
+
+
+LaTeX Warning: Citation 'k_kawazoe_study_2001' on page 3 undefined on input line 238.
+
+
+LaTeX Warning: Citation 'munakata_gene_1995' on page 3 undefined on input line 238.
+
+
+LaTeX Warning: Citation 'shi_electronic_2007' on page 3 undefined on input line 238.
+
+
+LaTeX Warning: Citation 'king_pm_1996' on page 3 undefined on input line 238.
+
+
+LaTeX Warning: Citation 'larsen_more_2016' on page 3 undefined on input line 238.
+
+
+LaTeX Warning: Citation 'deamer_insulin_1983' on page 3 undefined on input line 238.
+
+
+LaTeX Warning: Citation 'munakata_hugging_2009' on page 3 undefined on input line 238.
+
+
+LaTeX Warning: Citation 'yupanqui_sounds_2021' on page 3 undefined on input line 240.
+
+
+LaTeX Warning: Citation 'noauthor_electricity_nodate' on page 3 undefined on input line 240.
+
+
+LaTeX Warning: Citation 'eklund_duo_2021' on page 3 undefined on input line 240.
+
+
+LaTeX Warning: Citation 'noauthor_midi_nodate' on page 3 undefined on input line 240.
+
+
+LaTeX Warning: Citation 'noauthor_biodata_nodate' on page 3 undefined on input line 240.
+
+[3]
+
+LaTeX Warning: Citation 'noauthor_r_nodate' on page 4 undefined on input line 242.
+
+
+LaTeX Warning: Citation 'noauthor_free_2002' on page 4 undefined on input line 242.
+
+
+LaTeX Warning: Citation 'perron_radioqualia_2003' on page 4 undefined on input line 242.
+
+
+LaTeX Warning: Citation 'brecht_radio_nodate' on page 4 undefined on input line 244.
+
+
+LaTeX Warning: Citation 'mcluhan_understanding_2003' on page 4 undefined on input line 251.
+
+
+LaTeX Warning: Citation 'mcluhan_understanding_2003' on page 4 undefined on input line 251.
+
+
+LaTeX Warning: Citation 'anghammar_nya_2010' on page 4 undefined on input line 251.
+
+
+LaTeX Warning: Citation 'mcluhan_understanding_2003' on page 4 undefined on input line 251.
+
+[4]
+
+LaTeX Warning: Citation 'hermann_theory_2011' on page 5 undefined on input line 269.
+
+
+LaTeX Warning: Citation 'hermann_introduction_2011' on page 5 undefined on input line 275.
+
+
+LaTeX Warning: Citation 'hermann_parameter_2011' on page 5 undefined on input line 275.
+
+
+LaTeX Warning: Citation 'hermann_audification_2011' on page 5 undefined on input line 277.
+
+[5]
+
+LaTeX Warning: Citation 'arvidson_det_2016' on page 6 undefined on input line 302.
+
+
+LaTeX Warning: Citation 'vetenskapsradet_god_2017' on page 6 undefined on input line 310.
+
+[6] [7]
+
+LaTeX Warning: Reference `system' on page 8 undefined on input line 314.
+
+<../media/flowchart.png, id=41, 776.9025pt x 1315.91624pt>
+File: ../media/flowchart.png Graphic file (type png)
+<use ../media/flowchart.png>
+Package pdftex.def Info: ../media/flowchart.png  used on input line 318.
+(pdftex.def)             Requested size: 213.39568pt x 361.44638pt.
+[8
+
+ <../media/flowchart.png>]
+<../media/hemsida.png, id=47, 2039.62pt x 1291.82625pt>
+File: ../media/hemsida.png Graphic file (type png)
+<use ../media/hemsida.png>
+Package pdftex.def Info: ../media/hemsida.png  used on input line 330.
+(pdftex.def)             Requested size: 426.79135pt x 270.30594pt.
+
+
+LaTeX Warning: Citation 'jondell_radio_nodate' on page 9 undefined on input line 338.
+
+
+LaTeX Warning: Reference `hemsida' on page 9 undefined on input line 338.
+
+[9 <../media/hemsida.png>] [10]
+
+LaTeX Warning: Reference `system' on page 11 undefined on input line 381.
+
+[11] [12] [13
+
+]
+
+LaTeX Warning: Citation 'roads_microsound_2004' on page 14 undefined on input line 420.
+
+
+LaTeX Warning: Citation 'roads_microsound_2004' on page 14 undefined on input line 420.
+
+
+LaTeX Warning: Citation 'roads_microsound_2004' on page 14 undefined on input line 422.
+
+
+LaTeX Warning: Citation 'collins_defining_2014' on page 14 undefined on input line 426.
+
+
+LaTeX Warning: Citation 'collins_defining_2014' on page 14 undefined on input line 426.
+
+[14] [15] [16
+
+]
+
+Package biblatex Warning: Type 'online' not found on input line 456.
+
+
+LaTeX Warning: Empty bibliography on input line 456.
+
+
+LaTeX Warning: Empty bibliography on input line 457.
+
+
+Package biblatex Warning: Type 'audio' not found on input line 458.
+
+
+LaTeX Warning: Empty bibliography on input line 458.
+
+
+Package biblatex Warning: Type 'misc' not found on input line 459.
+
+
+LaTeX Warning: Empty bibliography on input line 459.
+
+[17
+
+] (./kandidat.gls) (./kandidat.acr) [18
+
+] (./kandidat.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                kandidat
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'kandidat.run.xml'.
+\openout1 = `kandidat.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 21405 strings out of 478994
+ 386378 string characters out of 5858185
+ 1360419 words of memory out of 5000000
+ 38571 multiletter control sequences out of 15000+600000
+ 412906 words of font info for 60 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 102i,10n,102p,1939b,1692s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on kandidat.pdf (19 pages, 508759 bytes).
+PDF statistics:
+ 131 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

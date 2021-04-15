@@ -1,5 +1,7 @@
 \documentclass[11pt, a4paper]{article} %twoside
 \usepackage{wrapfig}
+\usepackage{listings}
+
 
 \usepackage{epigraph}
 \usepackage{graphicx}
@@ -8,10 +10,15 @@
 \usepackage{setspace}
 \onehalfspacing
 
+\usepackage[font={small,it}]{caption}
+
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\small}
+
+\usepackage{dirtytalk}
 
 \usepackage[margin=3cm]{geometry}
 \usepackage{float, blindtext, kantlipsum}
-\usepackage{multicol}
 
 \usepackage[toc,page]{appendix}
 \usepackage[section=subsection, toc, acronym, nonumberlist]{glossaries}
@@ -24,7 +31,7 @@
 \let\oldthefootnote=\thefootnote%
 \stepcounter{mpfootnote}%
 \addtocounter{footnote}{-1}%
-\renewcommand{\thefootnote}{$\dagger$}%
+\renewcommand{\thefootnote}{$\star$}%
 \footnote{#1}%
 \let\thefootnote=\oldthefootnote%
 }
@@ -34,6 +41,15 @@
   \clearlist{language}%
   \clearfield{note}%
 }
+\renewbibmacro{in:}{}
+\renewbibmacro{in:}{%
+  \ifboolexpr{%
+     test {\ifentrytype{article}}%
+     or
+     test {\ifentrytype{incollection}}%
+  }{}{\printtext{\bibstring{in}\intitlepunct}}%
+}
+
 %\DeclareBibliographyDriver{misc}{%
 %  \usebibmacro{bibindex}%
 %  \usebibmacro{begentry}%
@@ -94,6 +110,8 @@
 \newacronym{fgm}{FGM}{Flash Glucose Monitor}
 \newacronym{pmson}{PMSon}{Parameter Mapping Sonification}
 \newacronym{fifo}{FIFO}{First In, First Out}
+\newacronym{vps}{VPS}{Virtual Private Server}
+\newacronym{ux}{UX}{User Experience}
 
 \setglossarystyle{long}
 
@@ -134,6 +152,12 @@
 	description={Alla delar som utgör en plattform eller ett system. Finns olika vanligt använda}
 }
 
+\newglossaryentry{flask}
+{
+  name=Flask,
+description={Flask är ett Python-ramverk som är framtaget för att underlätta webbutveckling.}
+}
+
 \newglossaryentry{audification}
 {
     name=Audifiering,
@@ -155,7 +179,7 @@
 \newglossaryentry{mappning}
 {
     name=Mappning,
-	description={eller \emph{avbildning}. Ihopparningen av ett element (invariabel) till en annan (utvariabel). Olika typer av mappningar finns, till exempel \emph{injektiv} eller \emph{one-to-one}}
+	description={Ihopparningen av ett element (invariabel) till en annan (utvariabel)}
 }
 
 \newglossaryentry{parametermapping}
@@ -172,56 +196,59 @@
 
 \renewcommand{\abstractname}{Tack}
 \begin{abstract}
-  Stort tack till min texthandledare Kim Hedås och lärare Erik Peters för alla kloka råd och vägledning! Även stort tack till Herman Wikner\symfootnote{Hermans GitHub finns tillgänglig på: \url{https://github.com/hermanwikner} (hämtad \today).} som hjälpt mig bygga användargränssnittet i React! 
+  \noindent
+Stort tack till min texthandledare Kim Hedås och lärare Erik Peters för alla kloka råd och vägledning! Även stort tack till Herman Wikner\symfootnote{Hermans GitHub finns tillgänglig på: \url{https://github.com/hermanwikner} (hämtad \today).} som hjälpt mig bygga användargränssnittet i React.js! 
 \end{abstract}
-\tableofcontents
+\thispagestyle{empty}
 \clearpage
 
-%\begin{multicols}{2}
+\pagenumbering{arabic}
+
+\begin{singlespace}
+  \tableofcontents
+\end{singlespace}
+
+\clearpage
+
 \section*{Introduktion}
 \addcontentsline{toc}{section}{Introduktion}
-Denna text kompletterar mitt examensprojekt, \emph{Radio Diabetes}, en interaktiv komposition/installation som generarar musik av blodsockervärden. Installationen består av ett SuperCollider\footcite{noauthor_supercollider_nodate}-program som skapar själva musiken och en webbplats där man kan lyssna på den, läsa om projektet och ladda upp sina egna blodsockervärden. När en deltagare laddar upp sina värden slussas dessa direkt vidare till SuperCollider-programmet, som i sin tur inkluderar dem i musiken, antingen direkt eller att de blir schemalagda i en kö. Musiken strömmas till webbplatsen (och vidare till lyssnaren) via en internetradiostation. På så sätt utgör musiken ett kontinuerligt flöde som deltagare och åhörare hör samtidigt: det finns ingen början, mitten eller slut, utan endast ett \emph{nu}. %Denna förhållning till \emph{temporalitet} utgör ett huvudtema i projektet, jämte med \emph{interaktivitet} (deltagande), \emph{radioteknologi}, \emph{autoimmuna sjukdomar} och \emph{sonifiering}.
+Denna text kompletterar mitt självständiga arbete, \emph{Radio Diabetes}, en interaktiv komposition/installation som genererar musik av blodsockervärden. Jag har byggt ett SuperCollider\footcite{noauthor_supercollider_nodate}-program som skapar själva musiken och en webbplats där man kan lyssna på den, läsa om projektet och ladda upp sina egna blodsockervärden. När en deltagare laddar upp sina värden slussas dessa direkt vidare till SuperCollider-programmet, som i sin tur inkluderar dem i musiken, antingen direkt eller att de blir schemalagda i en kö. Musiken strömmas till webbplatsen (och vidare till lyssnaren) via en internetradiostation. På så sätt utgör musiken ett kontinuerligt flöde som deltagare och åhörare hör samtidigt: det finns ingen början, mitten eller slut, utan endast ett \emph{nu}. %Denna förhållning till \emph{temporalitet} utgör ett huvudtema i projektet, jämte med \emph{interaktivitet} (deltagande), \emph{radioteknologi}, \emph{autoimmuna sjukdomar} och \emph{sonifiering}.
 
-% TODO minska antalet "huvudteman"...?!
 % TODO "tystnad i radio"
 %\emph{(I skrivande stund är installationen inte helt färdig.)}
 
-
 \subsection*{Bakgrund}
 \addcontentsline{toc}{subsection}{Bakgrund}
-Idéen om att göra musik av blodsockervärden föddes dagen då jag fick en \emph{Freestyle Libre}-mätare, en så kallad kontinuerlig blodsockermätare, eller \gls{cgm}. Denna typ av blodsockermätare skiljer sig från tradionella mätare --- som man är tvungen att sticka sig i fingret och på så sätt mäta blodsockret med --- i att den regelbundet gör mätningar, vilket ger en kontinuerlig kurva över ens blodsockervärden. Kurvorna påminde mig om hur ljudsignaler ofta representeras visuellt (en horisontell tidsaxel och en linjär vertikal axel) och i ett tidigt experiment gjorde jag en direkt översättning av mina blodsockerkurvor till ljudfiler: en så kallad \emph{audifiering}. Dessa ljud använde jag som samplingar i mitt stycke \emph{Värden och en vagga} (2017), som var ett av arbetsproverna jag sökte till Musikhögskolan med. 
+Idéen om att göra musik av blodsockervärden föddes dagen då jag fick en \emph{Freestyle Libre}-mätare\footcite{abbott_glukosovervakningssystem_nodate}, en så kallad kontinuerlig blodsockermätare, eller \gls{cgm}. Denna typ av blodsockermätare skiljer sig från tradionella mätare --- som man är tvungen att sticka sig i fingret och på så sätt mäta blodsockret med --- i att den regelbundet gör mätningar, vilket ger en kontinuerlig kurva över ens blodsockervärden.  Kurvorna påminde mig om hur ljudsignaler ofta representeras visuellt\footnote{Bestående av en horisontell tidsaxel och en linjär vertikal axel} och i ett tidigt experiment gjorde jag en direkt översättning av mina blodsockerkurvor till ljudfiler: en så kallad \emph{audifiering}. Dessa ljud använde jag som samplingar i mitt stycke \emph{Värden och en vagga}\footcite{jondell_varden_2017}, som var ett av arbetsproverna jag sökte till Kungliga Musikhögskolan med. 
 
-Jag utvecklade vidare och förbättrade mitt första program som jag hade skrivit för att översätta mina kurvor till ljudfiler, så att vem som helst skulle kunna använda programmet och översätta sina enga värden till ljud. Jag byggde också en wavetable-synth i SuperCollider som använde dessa ljudfiler som källmaterial. Detta instrument har jag använt i ett antal olika kompositioner som jag skrivit under min skoltid. Båda dessa program (översättaren och wavetable-synthen) har jag publicerat på min Github\footcite{jondell_kj-jondelldiabetes-synth_2021}. En del av denna kod återanvände jag även i detta projekt.
+Jag utvecklade vidare och förbättrade mitt första program som jag hade skrivit för att översätta mina kurvor till ljudfiler, så att vem som helst skulle kunna använda programmet och översätta sina egna värden till ljud. Jag byggde också en wavetable-synth i SuperCollider som använde dessa ljudfiler som källmaterial. Detta instrument har jag använt i ett antal olika kompositioner som jag skrivit under min skoltid. Båda dessa program (översättaren och wavetable-synthen) har jag publicerat på min Github\footcite{jondell_kj-jondelldiabetes-synth_2021}. En del av denna kod återanvände jag även i detta projekt.
 
 \subsection*{Några tidigare exempel, historiska och nutida}
 \addcontentsline{toc}{subsection}{Några tidigare exempel, historiska och nutida}
-Här har jag valt ut ett par exempel av musik och ljudinstallationer komponerad utifrån biologiska signaler och mätvärden för att ge ett historiskt perspektiv och nutida sammanhang.
+Här har jag valt ut ett par exempel med musik och ljudinstallationer komponerad utifrån biologiska signaler och mätvärden för att ge ett historiskt perspektiv och nutida sammanhang.
 
-Alvin Lucier bör anses som en pionjär inom detta fält, då han redan 1965 skrev stycket \emph{Music for Solo Performer}\footcite{lucier_music_1965}. I detta verk låter han uppmäta alfavågor med elektroder kopplade till huvudet av interpreten/utövaren. Dessa vågor förstärks sedan och spelas upp i 16 högtalare, som i sin tur exiterar diverse slagverk. Lucier kommenterade om stycket, i ett seminarium 2001 citerat av Straebel och Thoben\footcite{straebel_alvin_2014}:
+Alvin Lucier ses som en pionjär inom detta fält, då han redan 1965 skrev stycket \emph{Music for Solo Performer}\footcite{lucier_music_1965}. I detta verk låter han uppmäta alfavågor med elektroder kopplade till huvudet av interpreten/utövaren. Dessa vågor förstärks sedan och spelas upp i 16 högtalare, som i sin tur exiterar diverse slagverk. Lucier kommenterade om stycket, i ett seminarium 2001 citerat av Straebel och Thoben:
 
 \begin{quote}
-  I thought, 'I don't have a structure for this.' I mean, I'm a composer. I should impose some kind of structure, but then I thought, no, brain waves are a natural phenomen. They should just flow out ... 
+  I thought, \say{I don't have a structure for this.} I mean, I'm a composer. I should impose some kind of structure, but then I thought, no, brain waves are a natural phenomen. They should just flow out ... \footcite{straebel_alvin_2014}
 \end{quote}
 
-Detta belyser Luciers generativa förhållande till formen, och den direkta kopplingen mellan den uppmätta signalen och ljudvågorna är ett tidigt exempel på \emph{audifiering}.
+Detta belyser Luciers generativa förhållande till formen, och den direkta kopplingen mellan den uppmätta signalen och ljudvågorna är ett tidigt exempel på audifiering.
 
-På senare tid har ett antal genrer eller rörelser uppkommit med utgångspunkt i sonifieringen av biologisk data, med namn som \emph{protein music}\footcite{king_pm_1996}, \emph{DNA music}\footcite{k_kawazoe_study_2001} och \emph{gene music}\footcite{munakata_gene_1995}. Dessa genrer utgår samtliga från att låta musiken styras av dataset bestående av DNA-sekvenser, protein eller gener, till exempel mappningen av kvävebaser till tonhöjd\footcite{shi_electronic_2007}. Det finns ett visst vetenskapligt anspråk i de texter som skrivs om dessa olika typer av musik, att sonifieringen kan ge en typ av insikt i de dataset som används som en visualisering \emph{inte} skulle ge\footcite{king_pm_1996}. Detta anspråk har dock nyanserats och kritiserats på senare tid, av till exempel forskaren och kompositören Peter E. Larsen\footcite{larsen_more_2016} som menar att sonifieringen knappast leder till någon djupare insikt än ett vanligt stapeldiagram. Jag vill lyfta Dr. David Deamers och Riley McLaughlins \emph{Insulin A \& B Chains} (1983)\footcite{deamer_insulin_1983} och Dr. Nobuo Munakatas \emph{Hugging Tightly: Human RNase Inhibitor} (2009)\footcite{munakata_hugging_2009} som två nämnvärda exempel av \emph{DNA}, eller \emph{protein music}, som jag inspirerats av rent estetiskt.
+På senare tid har ett antal genrer eller rörelser uppkommit med utgångspunkt i sonifieringen av biologisk data, med namn som \emph{protein music}\footcite{king_pm_1996}, \emph{DNA music}\footcite{k_kawazoe_study_2001} och \emph{gene music}\footcite{munakata_gene_1995}. Dessa genrer utgår samtliga från att låta musiken styras av dataset bestående av proteinveckning, DNA-sekvenser eller gener, till exempel mappningen av kvävebaser till tonhöjd\footcite{shi_electronic_2007}. Det finns ett visst vetenskapligt anspråk i de texter som skrivs om dessa olika typer av musik, att sonifieringen kan ge en typ av insikt i de dataset som används som en visualisering \emph{inte} skulle ge\footcite{king_pm_1996}. Detta anspråk har dock nyanserats och kritiserats på senare tid, av till exempel forskaren och kompositören Peter E. Larsen\footcite{larsen_more_2016} som menar att sonifieringen knappast leder till någon djupare insikt än ett vanligt stapeldiagram. Jag vill lyfta Dr. David Deamers och Riley McLaughlins \emph{Insulin A \& B Chains} (1983)\footcite{deamer_insulin_1983} och Dr. Nobuo Munakatas \emph{Hugging Tightly: Human RNase Inhibitor} (2009)\footcite{munakata_hugging_2009} som två exempel av \emph{DNA}, eller \emph{protein music}, som jag inspirerats av rent estetiskt.
 
-Den 2 april 2021 släpptes Luca Yupanquis album \emph{Sounds of the Unborn}\footcite{yupanqui_sounds_2021}, som spelades in redan innan hon var född. Yupanquis föräldrar --- musikerna Elizabeth Hart och Iván Diaz Mathé --- hade med hjälp av elektroder kopplade till Harts kropp spelat in deras ofödda barns \emph{in utero}-rörelser och sedan låtit sonifiera dessa inspelade signaler med ett system utvecklat av Sam Cusumano och hans företag \emph{Electricity for progress}\footcite{noauthor_electricity_nodate}. Elizabeth Hart berättar i en intervju i \emph{Kulturnytt i P1}\footcite{eklund_duo_2021} hur musiken kommit till av ett rent experimenterande, att föräldrarna till en början inte hade haft en tanke att ge ut det som ett album. Hart berättar vidare att hon \textbf{inte} tror att musiken säger något speciellt om de ofödda, att det inte varit föräldrarnas avsikt, och avfärdar frågan om huruvida processen endast varit ett PR-trick med att säga: ''... for us, I think it is a pretty great album. Musically, I am proud of what was achieved, musically.'' Skivbolaget \emph{Sacred Bones Records}, som släppt albumet, säljer systemet som Hart och Diaz Mathé använt under namnet \emph{MIDI Biodata Sonification Device}\footcite{noauthor_midi_nodate} och Cusumano, som utvecklat systemet, driver ett forum\footcite{noauthor_biodata_nodate} där användare av detta system uppmuntras dela med sig av olika sonifieringar de gjort. 
+Den 2 april 2021 släpptes Luca Yupanquis album \emph{Sounds of the Unborn}\footcite{yupanqui_sounds_2021}, som spelades in redan innan hon var född. Yupanquis föräldrar --- musikerna Elizabeth Hart och Iván Diaz Mathé --- hade med hjälp av elektroder kopplade till Harts kropp spelat in deras ofödda barns \emph{in utero}-rörelser och sedan låtit sonifiera dessa inspelade signaler med ett system utvecklat av Sam Cusumano och hans företag \emph{Electricity for progress}\footcite{noauthor_electricity_nodate}. Elizabeth Hart berättar i en intervju i \emph{Kulturnytt i P1}\footcite{eklund_duo_2021} hur musiken kommit till av ett rent experimenterande, att föräldrarna till en början inte hade haft en tanke att ge ut det som ett album. Hart berättar vidare att hon \emph{inte} tror att musiken säger något speciellt om de ofödda, att det inte varit föräldrarnas avsikt, och avfärdar frågan om huruvida processen endast varit ett PR-trick med att säga: \say{... for us, I think it is a pretty great album. Musically, I am proud of what was achieved, musically.} Skivbolaget \emph{Sacred Bones Records}, som släppt albumet, säljer systemet som Hart och Diaz Mathé använt under namnet \emph{MIDI Biodata Sonification Device}\footcite{noauthor_midi_nodate} och Cusumano, som utvecklat systemet, driver ett forum\footcite{noauthor_biodata_nodate} där användare av detta system uppmuntras dela med sig av olika sonifieringar de gjort. 
 
-
-\emph{r a d i o q u a l i a} är ett kollektiv bestående av de två nya zeeländska konstnärerna Honor Hargar och Adam Hyde som utforskar användandet av radio och internetradio som konstmedium\footcite{noauthor_r_nodate}. Hargar och Hyde startade samarbetet 1998 och har gjort projekt som bland annat \emph{Free Radio Linux}\footcite{noauthor_free_2002} --- en radioutsänd  (både marksänd och via internetradio) datoriserad uppläsning av de fyra miljoner rader kod som Linux operativsystemskärna då bestod av, med start den 3e februari 2002 --- och \emph{Radio Astronomy}, en sonifiering/audifiering av signaler uppmätta med ett radioteleskop, som i realtid utsänds dels via AM, FM och kortvågsradio, dels via konstnärernas hemsida. I en text\footcite{perron_radioqualia_2003} av Jacques Perron som behandlar just \emph{Radio Astronomy} citeras den tyska dramatikern Berolt Brecht, som i sin text \emph{The Radio as an Apparatus of Communication}\footcite{brecht_radio_nodate} från 1927 skrev:
+\emph{r a d i o q u a l i a} är ett kollektiv bestående av de två nya zeeländska konstnärerna Honor Hargar och Adam Hyde som utforskar användandet av radio och internetradio som konstmedium\footcite{noauthor_r_nodate}. Hargar och Hyde startade samarbetet 1998 och har gjort projekt som bland annat \emph{Free Radio Linux}\footcite{noauthor_free_2002} --- en radioutsänd \footnote{Både rundradio- och internetradiosändning.} datoriserad uppläsning av de fyra miljoner rader kod som Linux operativsystemskärna då bestod av, med start den 3e februari 2002 --- och \emph{Radio Astronomy}, en sonifiering/audifiering av signaler uppmätta med ett radioteleskop, som i realtid utsänds dels via AM, FM och kortvågsradio, dels via konstnärernas hemsida. I en text\footcite{perron_radioqualia_2003} av Jacques Perron som behandlar just \emph{Radio Astronomy} citeras den tyska dramatikern Bertolt Brecht, som i sin text \emph{The Radio as an Apparatus of Communication} från 1927 skrev:
 \begin{quote}
-  Radio is one sided when it should be two. It is purely an apparatus for distribution, for mere sharing out. So here is a positive suggestion: change this apparatus over from distribution to communication. The radio would be the finest possible communication apparatus in public life, a vast network of pipes. That is to say, it would be if it knew how to receive as well as transmit, how to let the listener speak as well as hear, how to bring him into a relationship instead of isolating him. On this principle the radio should step out of the supply business and organise its listeners as suppliers.
+  Radio is one sided when it should be two. It is purely an apparatus for distribution, for mere sharing out. So here is a positive suggestion: change this apparatus over from distribution to communication. The radio would be the finest possible communication apparatus in public life, a vast network of pipes. That is to say, it would be if it knew how to receive as well as transmit, how to let the listener speak as well as hear, how to bring him into a relationship instead of isolating him. On this principle the radio should step out of the supply business and organise its listeners as suppliers.\footcite{brecht_radio_nodate}
 \end{quote}
 %Interaktivitet (\emph{Calling out of context})...
-
 
 %Radio (\emph{Tuning a radio}, etc...)
 \subsection*{Radio}
 \addcontentsline{toc}{subsection}{Radio}
-En del av installationen består av en internetradiostation, som strömmar ut den genererade musiken. Radion som medium påverkar i hög grad själva innehållet, det vill säga musiken, i olika avseenden, till exempel dess temporalitet och interaktivitet. 
-Marshall McLuhan beskriver i sin bok \emph{Understanding media: the extensions of man}\footcite{mcluhan_understanding_2003} radion som ett \emph{hot medium}\footcite[39]{mcluhan_understanding_2003}, något han menar är ett medium som ''...extends one single sense in '\emph{high definition}'... the state of being well filled with data.'', men som följdaktligen inte ger mycket utrymme för deltagande. McLuhan kontrasterar detta med exempel av \emph{cool media} som telefonen, där innehållet skapas helt av deltagarna (\emph{high} och \emph{low definition} ska alltså inte blandas ihop med ljudkvalitet i detta fall). Den första utgåvan av \emph{Understanding media} kom 1964, en tid då dessa medier kanske var mer kategoriskt \emph{hot} eller \emph{cool}. I Jonas Anghammars C-uppsats \emph{Nya medier möter gamla radion: publikmedverkan i public service-radion nu och då}\footcite{anghammar_nya_2010} från 2010 går det att läsa om hur graden av interaktion i Svergies Radios programutbud ökat markant bara sedan 90-talet, något som kopplas samman med den snabba digitaliseringen som skett. Anghammars skriver i ett citat av Nils Enlund från 2008 att ''...publiken nu själva skapar stor del av medieinnehållet eftersom den tillåts göra det.'' Kanske undergår radion, som medium, en nedkylning, en del i utvecklingen av förgörelsen av tid och rum som McLuhan menar elektrifieringen av vår värld har påkallat: ''With instant electric technology, the globe itself can never again be more than a village...''\footcite[454]{mcluhan_understanding_2003}.
+En del av \emph{Radio Diabetes} består av, som namnet antyder, en internetradiostation, som strömmar ut den genererade musiken. Just radion som medium påverkar själva innehållet, det vill säga musiken, i olika avseenden, till exempel dess temporalitet och interaktivitet. Marshall McLuhan beskriver i sin bok \emph{Understanding media: the extensions of man}\footcite{mcluhan_understanding_2003} radion som ett \emph{hot medium}, något han menar är ett medium som \say{...extends one single sense in \emph{high definition}... the state of being well filled with data.}\footcite[39]{mcluhan_understanding_2003}, men som följdaktligen inte ger mycket utrymme för deltagande. McLuhan kontrasterar detta med exempel av \emph{cool media} som telefonen, där innehållet skapas helt av deltagarna (\emph{high} och \emph{low definition} ska alltså inte blandas ihop med ljudkvalitet i detta fall). Den första utgåvan av \emph{Understanding media} kom 1964, en tid då dessa medier kanske var mer kategoriskt \emph{hot} eller \emph{cool}. I Jonas Anghammars C-uppsats \emph{Nya medier möter gamla radion: publikmedverkan i public service-radion nu och då}\footcite{anghammar_nya_2010} från 2010 går det att läsa om hur graden av interaktion i Sveriges Radios programutbud ökat markant bara sedan 90-talet, något som kopplas samman med den snabba digitaliseringen som skett. Anghammar skriver i ett citat av Nils Enlund från 2008 att \say{...publiken nu själva skapar stor del av medieinnehållet eftersom den tillåts göra det.} Kanske undergår radion, som medium, en nedkylning, en del i utvecklingen av förgörelsen av tid och rum som McLuhan menar att elektrifieringen av vår värld har påkallat. \say{With instant electric technology, the globe itself can never again be more than a village...}\footcite[454]{mcluhan_understanding_2003}.
 
 %Jämförelsevis så är \emph{Ring så spelar vi}, \emph{Karlavagnen} och \emph{Ring P1} exempel på program i traditionell marksänd rundradio som består av en hög grad av deltagande, eller interaktivitet. Dessa bygger i princip helt på att lyssnare ringer in och innehållet skapas av lyssnardeltagandet. 
 
@@ -238,34 +265,33 @@ Marshall McLuhan beskriver i sin bok \emph{Understanding media: the extensions o
 \subsection*{\gls{sonification}}
 \addcontentsline{toc}{subsection}{Sonifiering}
 
-I det andra kapitlet av antalogin \emph{The Sonification Handbook}, skrivet av Walker och Nees\footcite[9]{hermann_theory_2011}, ges en möjlig definition av sonifiering som användandet av icke-tal ljud för att presentera/representera information, eller mer specifikt översättningen av förhållanden i information till ljud som gör dessa förståeliga för oss, tack vare våra hörsystem. Som tidigare nämnt görs ofta ett vetenskapligt anspråk i användandet av sonifiering något med potential att ge åhörare i allmänhet, och forskare i synnerhet, en insikt\footnote{Ordet \emph{insikt} är (något ironiskt) ett bra exempel på hur invand användningen av visuell representation är för \emph{förståelsen}.} som en annan representation av informationen inte hade gett, eller kunnat ge.  
+I det andra kapitlet av antalogin \emph{The Sonification Handbook}, skrivet av Walker och Nees, ges en möjlig definition av sonifiering som: 
+\say{... a subtype of auditory displays that use non-speech audio to represent information. [...] \say{the transformation of data relations into perceived relations in an acoustic signal for the purposes of facilitating communication or interpretation.}}\footcite[9]{hermann_theory_2011}
+%användandet av icke-tal ljud för att presentera/representera information, eller mer specifikt översättningen av förhållanden i information till ljud som gör dessa förståeliga för oss, tack vare våra hörsystem. 
+Som tidigare nämnt görs ofta ett vetenskapligt anspråk om användandet av sonifiering som något med potential att ge åhörare i allmänhet, och forskare i synnerhet, en insikt\footnote{Ordet \emph{insikt} är (något ironiskt) ett bra exempel på hur invand användningen av visuell representation är för \emph{förståelsen}.} som en annan representation av informationen inte hade gett, eller kunnat ge.  
 
-I detta projekt tar jag avstånd från idéen om att användandet av \emph{sonifiering} på något sätt ska skänka insikt till datan som jag låter gestalta i musiken; tvärtom hoppas jag att den musikaliska gestaltningen \emph{inte} kommer avslöja något om de bakomliggande mätvärdena. Jag kommer trots det göra en kortare sammanfattning av olika \emph{sonifieringstekniker- } och \emph{kategorier} som redogörs i \emph{The Sonification Handbook}, för att sätta ord på det jag har gjort i detta projekt.% (fastän ändamålet inte varit detsamma som föreslås i antalogin). % och som senare tillåter en tydligare diskussion av resultaten.
+I mitt projekt tar jag avstånd från idéen om att användandet av sonifiering på något sätt ska skänka insikt till datan som jag låter gestalta i musiken; tvärtom hoppas jag att den musikaliska gestaltningen \emph{inte} kommer avslöja något om de bakomliggande mätvärdena. Jag kommer ändå göra en kortare sammanfattning av olika \emph{sonifieringstekniker- } och \emph{kategorier} som redogörs i \emph{The Sonification Handbook}, för att sätta ord på det jag har gjort i detta projekt.% (fastän ändamålet inte varit detsamma som föreslås i antalogin). % och som senare tillåter en tydligare diskussion av resultaten.
 
-Den vanligaste formen av sonifiering, skriver Hermann, Hunt och Neuhoff i introduktionen\footcite[5]{hermann_introduction_2011} till antalogin, är troligtvis den så kallade \gls{pmson}, som använts nästan synonymt med begreppet \gls{sonification}. \gls{pmson} är användandet av en \emph{mappningsfunktion} för att sammankoppla ett datavärde eller -attribut till en eller flera akustiska parametrar.
+Den vanligaste formen av sonifiering, skriver Hermann, Hunt och Neuhoff i introduktionen\footcite[5]{hermann_introduction_2011} till antalogin, är troligtvis den så kallade \gls{pmson}, som använts nästan synonymt med begreppet \emph{sonifiering}. \gls{pmson} är användandet av en \emph{mappningsfunktion} (eller kort och gott \emph{mappningar}) för att sammankoppla ett datavärde eller -attribut till en eller flera akustiska parametrar. I det femtonde kapitlet i antalogin, \emph{Parameter Mapping Sonification}\footcite{hermann_parameter_2011}, beskriver Grond och Berger de tre olika topologierna av mappningar som är möjliga: \emph{en-till-en}, \emph{en-till-flera} (divergent) och \emph{flera-till-en} (konvergent). Grond och Berger redogör också för de olika användningarna av \gls{pmson}, där de slutligen namnger den rent konstnärliga tillämpningen som \emph{musifieringen} (en. \emph{musification}) av datavärden.
 
 \gls{audification}\footcite[302]{hermann_audification_2011}.
 
+I \emph{Radio Diabetes} har jag till största del använt en blandning av \emph{en-till-en} och \emph{en-till-flera} topologier av \gls{pmson}, men även inslag av \emph{audifiering}.
 
-
-%Sonifiering (eller är det verkligen sonifiering). %\footcite[2]{bijsterveld_sonic_2019}
-%Smalley och spektromorfologin. \footnote{Olika ordningar av \emph{surrogacy},  gestaltandet av \emph{datan}.} Bearbetad data och orginaldata. Sensorfel.
-
-%Parameter Mapping Sonification (PMSon)
-%\gls{mappning}
-%
-%\gls{audification} \footcite[302]{hermann_audification_2011} är en form av sonifiering där mätdatan översätts direkt till ljudkurvor... fyra grupper av data (\emph{sound recording}, \emph{general acoustic}, \emph{physical}, och \textbf{\emph{abstract}})...
-%
+%Slutligen vill jag också nämna 
 
 \subsection*{Diabetes}
 \addcontentsline{toc}{subsection}{Diabetes}
 
-Diabetes mellitus är en auto-immun sjukdom som huvudsakligen finns i två olika varianter: typ-1 diabetes och typ-2 diabetes. Insulinproduktion/insulinresistens. I Sverige finns x antal typ 1-diabetiker, och i världen (siffra). Jag debuterade (en? två? tre?) veckor efter jag hade börjat ettan i grundskolan, hösten 2001. Sedan dess har jag dagligen tagit insulininjektioner och mätt mitt blodsocker, inför varje måltid och däremellan. Jag har haft otaliga episoder av lågt och högt blodsocker (hypo- och hypoglycemi). Som diabetiker kan j Sjukdomen är kronisk.
+Diabetes mellitus är en auto-immun sjukdom som huvudsakligen finns i två olika varianter: typ 1-diabetes och typ 2-diabetes. Insulinproduktion/insulinresistens, insulinbehandlad. Detta projekt riktar sig främst till typ 1-diabetiker, då vi  I Sverige finns x antal typ 1-diabetiker, och i världen (siffra). Jag debuterade med typ-1 diabetes sista veckan i augusti 2001, precis efter att jag hade börjat första klass i grundskolan. Sedan dess har jag dagligen tagit insulininjektioner och mätt mitt blodsocker, inför varje måltid och däremellan. Jag har haft otaliga episoder av lågt och högt blodsocker (hypo- och hypoglycemi). Som diabetiker kan j Sjukdomen är kronisk, överdödlighet, komplikationer
 
+%TODO NÄMN DIASEND, VIKTIGT!!!
 
 \subsubsection*{Blodsockervärden}
 \addcontentsline{toc}{subsubsection}{\textit{Blodsockervärden}}
-Blodsocker mäts i mmol/L och varierar hos en icke-diabetiker mellan 4 och 6 mmol/L [källa]. Hos en diabetiker kan detta värde variera från under 1 till över 30 mmol/L, och Freestyle Libre-sensorn har ett spann på att mäta från lägst 2,2 till 27,7 mmol/L (annars visar den \emph{LO} respektive \emph{HI}). Freestyle Libre-sensorn mäter kontinuerligt var 15:e minut.
+Blodsocker mäts i de flesta delar av världen i mmol/L, men enheten mg/dL existerar också. Varierationen i blodsocker hos en icke-diabetiker är mellan 4 och 6 mmol/L [källa]. Hos en diabetiker kan detta värde variera från under 1 till över 30 mmol/L. I Sverige används huvudsakligen två olika \gls{cgm}: dels Freestyle Libre-sensorn, dels Dexcom G6-sensorn. Freestyle Libre-sensorn har ett spann på att mäta från lägst 2,2 till 27,7 mmol/L (annars visar den \emph{LO} respektive \emph{HI}). Freestyle Libre-sensorn mäter kontinuerligt var 15:e minut, och sensorn byts varannan vecka.
+
+Blodsockervärden som mäts med dessa två sensorer går att ladda upp, både automatiskt och manuellt, till en plattform som heter \emph{Diasend}\footcite{}. Via \emph{Diasend} går det att exportera sina värden, begränsat till en valfri period --- men åtminstone två veckor lång --- till en Excel-fil. Det är denna Excel-fil som man sedan kan ladda upp till \emph{Radio Diabetes}. Tack vare \emph{Diasend}-plattformen går det att exportera värden på ett format som är oberoende av vilken sensor man använder.
 
 %Att s.k. \emph{mappa} denna data till musikaliska parametrar är förstås godtyckligt --- värdena i sig har ingen musikalisk mening --- och bör så vara: det är helt enkelt mina konstnärliga val som bestämmer hur de förhåller sig till varandra. Även en bearbetad signal går att använda för att styra musiken: interpolation (mellan de diskreta mätpunkterna), variation (FFT, derivator, etc.), stokastiska egenskaper (auto-korrelation etc), statistiska egenskaper (median, medel, etc.). ''\emph{Tid i målområdet}'' och liknande värden kan också vara intressanta att använda, och har medicinsk betydelse.
 
@@ -281,68 +307,102 @@ Ett sentiment som ofta förekommande (''jag är \textbf{inte} min diabetes, mina
 
 \subsection*{Datainsamling}
 \addcontentsline{toc}{subsection}{Datainsamling}
-Eftersom detta projekt beror av insamling av biometrisk data, som enligt \emph{Dataskyddsförordningen} (GDPR) \footcite{integritetsskyddsmyndigheten_kansliga_nodate} är en känslig personuppgift, krävs ett uttryckligt samtycke från varje deltagare att denna är införstådd i hur datan behandlas. Jag har försökt vara så transparent som möjligt i hur datan behandlas, genom att dels dela \textbf{all} källkod som jag använder, och även i den kommunikation jag lagt ut på webbplatsen och i övriga dokument berörande projektet (såsom denna text). All data som samlas in anonymiseras/avidentifieras så fort som möjligt och den är inte sparad någonstans utöver arbetsminnet som SuperCollider använder. I enlighet med Vetenskapsrådets text \emph{God forskningssed} \footcite[s. 40-41]{vetenskapsradet_god_2017} är sekretess, anonymitet och integritet av största vikt i detta projekt, även fast det är ett konstprojekt och inte ett forskningsprojekt. Jag har inget kommersiellt intresse i insamlingen av datan, jag delar den inte med någon extern part heller, och allt deltagande är valfritt. Min ambition är \textbf{inte} att samla data för sakens skull, utan att diabetiker ska kunna dela med sig av sina värden utan att de på något sätt bedöms eller värderas: helt enkelt, att själva delandet och deltagandet i sig står i fokus. 
+Enligt \emph{Dataskyddsförordningen} (GDPR) är biometrisk data en känslig personuppgift, och därför kräver insamlingen av den ett uttryckligt samtycke från varje deltagare att denna är införstådd i hur datan behandlas. Jag har försökt vara så transparent som möjligt i hur datan behandlas, genom att dels dela \textbf{all} källkod som jag använder, och även i den kommunikation jag lagt ut på webbplatsen och i övriga dokument berörande projektet (såsom denna text). All data som samlas in anonymiseras/avidentifieras så fort som möjligt och den är inte sparad någonstans utöver arbetsminnet som SuperCollider använder. I enlighet med Vetenskapsrådets text \emph{God forskningssed} \footcite[s. 40-41]{vetenskapsradet_god_2017} är sekretess, anonymitet och integritet av största vikt i detta projekt, även fast det är ett konstprojekt och inte ett forskningsprojekt. Jag har inget kommersiellt intresse i insamlingen av datan, jag delar den inte med någon extern part heller, och allt deltagande är valfritt. Min ambition är \textbf{inte} att samla data för sakens skull, utan att diabetiker ska kunna dela med sig av sina värden utan att de på något sätt bedöms eller värderas: helt enkelt, att själva delandet och deltagandet i sig står i fokus. 
 
 \section*{Process}
 \addcontentsline{toc}{section}{Process}
-Installationen består som tidigare nämnt av två delar: ett musikgenererande program (SuperCollider) och en webbplats (se figur \ref{hemsida} på nästa sida). Här nedan följer en teknisk beskrivning av detta system.
+\emph{Radio Diabetes} består som tidigare nämnt av två delar: ett musikgenererande program (SuperCollider) och en webbplats (se skärmdump på nästa sida). Här följer en teknisk beskrivning av detta system, som illustreras i figur \ref{system} nedan.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\textwidth]{../media/flowchart.png}
 \caption{Översiktsdiagram av system}
+\label{system}
 \end{figure}
+
+\subsection*{Stack}
+\addcontentsline{toc}{subsection}{\emph{\gls{stack}}}
+För att driftsätta systemet valde jag att hyra en så kallad \gls{vps}, som tillåter mig att hyfast obegränsat installera, konfigurera och köra de program som jag behöver. Som operativsystem valde jag Ubuntu 20.04, eftersom det är det jag har installerat på min hemmaserver, som jag använt under utvecklingsfasen av projektet. Som server till användargränssnittet använder jag Nginx och till Flask-API:et använder jag Gunicorn. SuperCollider, Darkice --- som kodar ljudströmmen till ett sändningbart MPEG-format --- och Icecast har jag valt att köra samtliga som så kallade \emph{services}, vilket underlättar vid uppstart och omstart, utifall systemet eller någon del av det skulle krascha. Att de körs som \emph{services} underlättar också loggning, till exempel kan jag låta SuperCollider skriva ut viktiga händelser, som tidpunkten när ett nytt datapaket mottagits av programmet. Dessa utskrifter har jag senare åtkomst till via kommandot journalctl.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{../media/hemsida.png}
+\caption{Skärmdump av hemsida (\emph{temporär})}
+\label{hemsida}
+\end{figure}
+
+
+\subsection*{Webbplats}
+\addcontentsline{toc}{subsection}{Webbplats}
+Webbplatsen finns tillgänglig på domänen\footcite{jondell_radio_nodate}: \url{https://radiodiabetes.eu/}. I figur \ref{hemsida} ovan visas en skärmdump av webbplatsen tagen den 13 april 2021.
+
+Många webbplatser är uppdelade i en \emph{front end} och en \emph{back end}, och nedan följer en redogörelse av hur jag implementerat dessa för \emph{Radio Diabetes}. 
+
+\subsubsection*{\gls{frontend}}
+\addcontentsline{toc}{subsubsection}{\emph{Front end}}
+För att bygga webbplatsens \emph{front end} använde jag ett JavaScript-bibliotek/verktyg som heter React.js, som jag fick hjälp av min vän Herman Wikner att koda. Webbplatsen består huvudsakligen av tre undersidor med information, en plats för att ladda upp filerna, och en kontrollmeny till radion, där besökaren kan spela och pausa musiken. Jag ville att musiken skulle spelas oavbrutet när en besökare navigerar på webbplatsen, och det var en av huvudanledningarna till att jag valde att använda React.js istället för endast HTML och CSS. Överlag ville jag ha en så smärtfri så kallad \emph{\gls{ux}} som möjligt, för att göra deltagandet så enkelt som möjligt och för att göra installationen så tillgänglig som möjligt. I slutändan är det musiken som ska stå i fokus.
+
+Kommunikationen till Flask-API:et sker via HTTP-metoderna POST och GET, där React.js skickar filinnehållet till Flask-API:et via POST-metoden, och får tillbaka ett svar om filen överförts utan problem eller inte.
+
+%Själva gränssnittet är egentligen inte särskilt avancerat --- egentligen består det bara av tre olika sidor med mestadels text, en plats för att ladda upp filerna, och en radiospelare --- men eftersom jag ville ha 
+
+% TODO få med "jag ville göra en så smärtfri ux som möjligt, för att göra deltagandet så enkelt som möjligt, tillgänglighet. musiken i fokus.
+
+\subsubsection*{\gls{backend}}
+\addcontentsline{toc}{subsubsection}{\emph{Back end}}
+Behovet av ett så kallat \gls{api} kommer av att jag behövde en mellanhand för att överföra informationen från de uppladdade filerna till mitt SuperCollider-prpgram. Från tidigare experiment med mina blodsockervärden hade jag redan skrivit Python-kod för att extrahera mätvärden från de Excel-filer som man kan exportera från \emph{Diasend}. Därför återanvände jag en del av denna kod, och omstrukturerade denna för att kunna köras som ett \gls{flask}-program\footnote{Flask är ett webbramverk för Python, det går alltså att använda Python-kod i Flask.}. När \gls{api}:et tar emot filinnehållet från användargränssnittet via POST-metoden så skapar den direkt två listor bestående av inlästa tidsvärden och blodsockervärden från filen. Filen sparas alltså aldrig på servern. \gls{api}:et gör också en del felhantering genom att försäkra att datavärdena är formaterade på ett korrekt sätt och att de är inom det möjliga intervallet. Sedan skickar det vidare listorna med värden till SuperCollider-programmet, via Osc. 
+
+Sammanfattningsvis har alltså \gls{api}:et tre huvudsakliga funktioner: att \emph{parsa} (eller tolka) de delade filerna, felhantera korrupta filer eller korrupt data, och upprätta en Osc-kommunikation med SuperCollider.
+%\begin{figure*}[H]
+%\centering
+%\includegraphics[width=\textwidth]{../media/hemsida.png}
+%\caption{Skärmdump av hemsida (\emph{temporär})}
+%\label{hemsida}
+%\end{figure*}
 
 
 \subsection*{SuperCollider-system}
 \addcontentsline{toc}{subsection}{SuperCollider-system}
 % TODO LÄGG TILL ETT BLOCKDIAGRAM SOM ILLUSTRERAR SUPERCOLLIDER SYSTEMET
-När en deltagare laddar upp en fil med sina mätvärden så skickas de vidare, via Python-servern, till \gls{supercollider}-programmet, som spelar upp en tack-hälsning för att ge en direkt återkoppling till deltagandet. Varje instans av mätdata --- det vill säga varje bidrag till, eller varje interaktion med, installationen --- gestaltas av en specifik musikalisk funktion, för att på sätt ge deltagaren en koppling och förståelse till hur dennes bidrag påverkar musiken. Till exempel kan ett uppladdat paket av data ge upphov till ett arpeggio, någon form av melodi eller en underliggande ljudmatta. I SuperCollider-programmet representeras varje sådan instans av mätdata av ett \emph{objekt}, som innehåller attribut som bland annat: register, skala, speltid, panorering, klangkälla/\emph{SynthDef}, och tillhörande \emph{\gls{pattern}}. Dessa attribut är antingen direkt bestämda av mätdatan (en så kallad \emph{mappning}) eller bestämda utifrån de andra aktiva objekten, till exempel förhåller de sig till redan ''upptagna'' register. Skapandet av dessa objekt gör programmet så fort det mottagit ett nytt paket av mätdata från Python-servern. Samtidigt avgör programmet om objektet ska spelas upp direkt, eller om det ska läggas på kö. 
+När en deltagare laddar upp en fil med sina mätvärden så skickas de vidare, via Flask-API:et, till \gls{supercollider}-programmet, som spelar upp en tack-hälsning för att ge en direkt återkoppling till deltagandet. Varje instans av mätdata --- det vill säga varje bidrag till, eller varje interaktion med, installationen --- gestaltas av en specifik musikalisk funktion, för att på sätt ge deltagaren en koppling och förståelse till hur dennes bidrag påverkar musiken. 
+%Till exempel kan ett uppladdat paket av data ge upphov till ett arpeggio, någon form av melodi eller en underliggande ljudmatta.
+I SuperCollider-programmet representeras varje sådan instans av mätdata av ett \emph{objekt}, som innehåller attribut som bland annat: register, skala, speltid, panorering, klangkälla/\emph{SynthDef}, och tillhörande \emph{\gls{pattern}}. Dessa attribut är antingen direkt bestämda av mätdatan (en så kallad \emph{mappning}) eller bestämda utifrån de andra aktiva objekten, till exempel förhåller de sig till redan ``upptagna'' register. Skapandet av dessa objekt gör programmet så fort det mottagit ett nytt paket av mätdata från Python-servern. Samtidigt avgör programmet om objektet ska spelas upp direkt, eller om det ska läggas på kö. 
 
 \subsubsection*{Kösystemet}
 \addcontentsline{toc}{subsubsection}{\emph{Kösystemet}}
 Behovet av ett kösystem kommer ur scenariot att flera deltagare laddar upp värden inom en relativt kort tidsram. Om detta händer \emph{utan ett kösystem}, kan systemet reagera på två sätt: antingen spelas alla objekt upp samtidigt, med risk för att överrösta varandra och bli en kakofoni, eller så ersätter de varandra, vilket skulle leda till att ens bidrag inte skulle höras mer än en väldigt kort stund. En kompromiss är att använda ett kösystem, så att antalet samtidigt spelande objekt begränsas, och att dessa spelas \emph{minst} en given längd tid, men inte längre än en annan bestämd tid, om det står väntande deltagare på kö. Allt som allt har jag begränsat antalet samtidigt spelande objekt till \emph{tre} stycken, och när dessa är fyllda ställs antingen ett nytt bidrag på kö --- om inte de spelande objekten har varit aktiva i den givna minimumtiden --- eller så ersätter det nya bidraget det äldsta spelande objektet. Kösystemet är i tekniska termer alltså ett \gls{fifo}-system.
 
-\begin{figure*}[ht!]
-\centering
-\includegraphics[width=\textwidth]{../media/hemsida.png}
-\caption{Skärmdump av hemsida (\emph{temporär})}
-\label{hemsida}
-\end{figure*}
-
-\subsection*{Webbplats}
-\addcontentsline{toc}{subsection}{Webbplats}
-
-Webbplatsen finns tillgänglig på domänen\footcite{jondell_radio_nodate}: \url{https://radiodiabetes.eu/}. I figur \ref{hemsida} ovan visas en skärmdump av webbplatsen tagen den... %TODO insert date....
-
-Webbplats består av en s.k. \emph{\gls{frontend}} och en \emph{\gls{backend}}. Linux (Ubuntu 20.04)/Nginx/gunicorn \gls{stack}.
-\subsubsection*{Front end}
-\addcontentsline{toc}{subsubsection}{\emph{Front end}}
-1. beskriv vad frontend är för något
-2. beskriv tekniken (react.js)
-
-\subsubsection*{Back end}
-\addcontentsline{toc}{subsubsection}{\emph{Back end}}
-1. beskriv vad backend är för något (API?) \gls{api}
-2. flask, darkice/icecast också kanske? 
 
 \subsection*{Tillvägagångssätt}
 \addcontentsline{toc}{subsection}{Tillvägagångssätt}
-Hur jag gjort/reflektioner/vad jag ändrat
+Eftersom jag har byggt ett hyfsat komplext system, med många av varandra beroende delsystem, har jag stött på en del oförutsägbarheter under resans gång, något jag vill reflektera över här.
+
+En förutsättning till att jag skulle få allt att fungera var att utveckla systemet modulärt, det vill säga att de olika beståndsdelarna (se diagram i i figur \ref{system} för referens) är fristående, med in- och utdata som passerar genom dem. För mig har själva SuperCollider-programmet alltid varit en central och prioriterad del av hela systemet, då det är den som faktiskt genererar musiken som jag har komponerat, och därför började jag med att bygga det. Till en början lät jag programmet använda en hårdkodad lista med mätvärden som indata, då jag inte hade byggt färdigt webbplatsen och API:et. Detta påverkade mina konstnärliga val i SuperCollider, då jag hade ganska lite variation i mätvärdena. Något problematiskt hade jag inte heller bestämt några begränsningar i vad mitt SuperCollider-program skulle generera för musik, dessutom var frihetsgraden väldigt hög, så det var svårt att veta hur mycket tid jag skulle lägga på den delen, och svårt att känna mig nöjd. I slutändan bestämde jag mig för att utveckla delarna parallellt istället för sekvensiellt.
+
+Just utvecklingen av webbplatsen och programmeringen i React.js och Flask blev kanske den största flaskhalsen i projektet, och det mycket på grund av att jag aldrig byggt en dynamisk webbapplikation tidigare. I planeringsfasen hade jag lite svårt att bestämma mig för vilken sorts arkitektur jag skulle använda mig av --- en enklare sida med endast Flask, CSS och HTML, eller React.js och Flask --- och det var ett ganska sent beslut som jag tog att faktiskt använda React.js, som medförde många fördelar med \gls{ux} i åtanke, men krävde mer tid. Just planeringsmässigt tror jag att projektet lidit av att jag dels haft väldigt svårt att avgöra hur lång tid saker skulle ta, att jag inte heller vetat hur många timmar jag haft till förfogande, att jag inte haft tydliga milstolpar och mål, att jag kanske varit för ambitiös. Genomföringsmässigt har det också lidit av mitt vacklande självförtroende och en gnutta utmattning. Eftersom det är ett konstnärligt projekt så tror jag det kanske är omöjligt att formulera tydligare mål och milstolpar än de jag haft, men jag har haft en groende känsla att jag fastnat lite i detaljerna. 
+
+En liten motstridig erfarenhet som jag hade med utvecklingen av SuperCollider -programmet var att jag hade en ganska stark idé om att inte göra ``enkla'' \emph{en-till-en} mappningar av mätvärdena till tonhöjd. Det var en väldigt kontraproduktiv idé, rotad i ambitionen av att musiken inte skulle bli transparent och avslöjande om de bakomliggande värdena. När jag väl provade att göra den mappningen så var effekten väldigt annorlunda: jag tyckte inte alls att det var för transparent, eller ens tråkigt, jag gillade hur det lät. Utan att bli allt för efterklok och självkritisk så önskar jag ändå att jag inte hade haft så många förutfattade meningar om hur musiken i slutändan skulle låta.
+
+Sammanfattningsvis vill jag dra slutsatsen att jag kunde planerat in striktare deadlines för vissa tekniska aspekter --- som att bli klar med webbplatsen vid ett visst datum --- men mindre planerande kring det estetiska utfallet, att kanske tro mer på min process.
 
 \section*{Musiken}
 \addcontentsline{toc}{section}{Musiken}
 
+Musiken genereras av SuperCollider-programmet som jag har skrivit. Jag har fyra olika lager, instrument eller musikaliska funktioner tillgängliga:
 
-% Lager, eller vilka SynthDefar jag har:
-% 1. GSM (drone, eller bas/fundament, eller pad...)
-% 2. Sinusvågor och elektroniska störningsljud (arpeggio, rytmiska, sextondelar, tempo)
-% 3. Wavetable (pad)
-% 4. JLC bas? resonator hum ? andra ljud ? ?? ? ? 
+  \begin{enumerate}
+	\item Ett fundament bestående av en GSM-avkodad formant-filtrerad ``kör''.
+	\item Sinusvågor och elektroniska störningsljud som spelar rytmiska arpeggion.
+	\item En wavetable-pad
+	\item Ett samplings-baserat slagverksliknande instrument.
+  \end{enumerate}
 
-De musikaliska funktioner jag har representerade är dels ett fundament eller grund som utgörs av ett 
+Alla instrument som spelar arpeggion, det vill säga 2 och 4 i tabellen ovan, spelar i en pentatonisk durskala, där skalstegen bestäms av de inkommande mätvärdena. När de skapas tilldelas en transponering som bestämmer vilket omfång/register de ska spela i, samt en panorering i stereofältet. Viss variation i envelop och duration har jag skapat med en stokastisk variabel, i andra ord en slumpgenerator, men annars bestäms alla parametrar av mätvärdena. Att jag valde just att låta dem spela i en pentatonisk skala var för att jag ville ha en förhållandevis enkel harmonik och melodik, kontrasterat med vissa av de mer komplexa, hårda klangerna. 
 
-%Den konstnärliga friheten. Hur pass mycket kontroll som överlåtes till \enquote{serien} (i detta fall blodsockervärdet). Behöver musiken gestalta, spegla, estetisera erfarenheten som diabetiker? Eller vara intresseväckande, tillgänglig, \enquote{relaterbar}? 
+Ljudmaterialet i de samplingsbaserade instrumenten har jag tagit från diverse inspelningar som jag har gjort genom åren: jag ville att de skulle ha en personlig koppling till mig. Den GSM-avkodade ljudfilen som utgör ``kören'' skapade jag av \emph{misstag} genom att läsa in en annan ljudfil som om den vore GSM-kodad i programmet Audacity. Effekten är en hård och övertonsrik klang, som jag låter passera genom ett formant-filter för att skapa ett \emph{människolikt} ljud. Denna spelar en följd av fyra ackord, som upprepas utan variation. Däremot varieras andra attribut av detta instrument. De andra samplingarna jag använt är utklipp av elektroniska störningsljud --- återvunna från mitt förstaårsprojekt \emph{Calling out of context}, men i ny tappning --- och en inspelning av min induktionshäll. Samtliga inspelningar jag använt har en viss \emph{elektrisk} karaktäristik, vilket kommit att utgöra min ljudpalett. 
+
+Wavetable-padden, det vill säga punkt nummer 3 i tabellen, är en sorts audifiering av de inkommande mätvärdena: dessa omvandlas till så kallade \emph{wavetables} som används av en Wavetable-UGen i SuperCollider. På så sätt kan jag kontrollera tonhöjd men att själva klangfärgen bestäms helt av mätvärdena. Detta är en SynthDef som jag utvecklat under en längre tid, men som jag anpassat till \emph{Radio Diabetes} för att direkt omvandla mätvärdena till wavetables. Tidigare har jag använt ett annat program för att göra själva omvandlingen, men det var inte möjligt för detta projekt, då det hade krävt att jag sparat ned värdena som ljudfiler. Detta var jag som sagt tvungen att undvika, av säkerhet- och integritetssjäl.
 
 \subsection*{Rumslighet}
 \addcontentsline{toc}{subsection}{Rumslighet}
@@ -350,51 +410,62 @@ Varje objekt ges en unik position i stereofältet, och på så sätt en plats i 
 
 Presentationen av radioströmmen genom hemsidan som jag har utformat påverkar också den upplevda rumsligheten i musiken. 
 
-Ett planerat konserttillfälle kommer att ske den 20e maj i Lilla Salen i Musikhögskolan. Då spelas ett utdrag ur radioströmmen upp, som den hörs i realtid. I och med de rådande restriktionerna så kommer ingen publik kunna närvara, utan konserten strömmas vidare till en publik i etern. Själva konserttillfället blir därför en sorts manifestation av radioströmmen i tid och rum. 
-
+Ett planerat konserttillfälle kommer att ske den 20 maj i Lilla Salen på Kungliga Musikhögskolan. Då spelas ett utdrag ur radioströmmen upp, som den hörs i realtid. I och med de rådande restriktionerna så kommer ingen publik kunna närvara, utan konserten strömmas vidare till en publik i etern. Själva konserttillfället blir därför en sorts manifestation av radioströmmen i tid och rum. 
 
 % TODO tempusformulering
 
 
 \subsection*{Temporalitet}
 \addcontentsline{toc}{subsection}{Temporalitet}
-Den tidsmässiga uppfattningen av musiken. En 24/7 livestream av musiken (hur utgörs lyssnadet? formen? \emph{Slow as possible}, \emph{Longplayer} och liknande...)
+\emph{Radio Diabetes} utspelar sig --- i sin helhet --- någonstans mellan de tidsskalor som Curtis Roads i sin bok \emph{Microsound}\footcite{roads_microsound_2004} benämner \emph{infinite} och \emph{supra}, den senare definierar Roads som: \say{A time scale beyond that of an individual composition and extending into months, years, decades and centuries}\footcite[3]{roads_microsound_2004}. Eftersom min installation spelas upp i en radiosänding, undviker jag \emph{radiotystnad}, och ett konstnant flöde av musik strömmas därför ut. Utan tystnaden som markör för en början eller slut blir lyssnandet fokuserat på skeenden i \emph{nuet}. Varje lyssnare börjar \emph{in media res} i musiken, och har en unik lyssningsupplevelse då det är väldigt osannolikt att två besökare börjar och slutar lyssnandet samtidigt. En deltagare kommer ha ytterligare en annan tidsuppfattning, då denne kanske väntar på att höra sitt bidrag: som antingen spelas upp direkt eller ställs i kö.
 
-\subsection*{Generativt}
-\addcontentsline{toc}{subsection}{Generativt}
-Musiken är generativ. Serialism?
+Roads beskriver\footcite[13]{roads_microsound_2004} hur \emph{macroform} kan uppstå på två sätt, det ena kallar han \emph{top-down} och det andra \emph{bottom-up}. I \emph{Radio Diabetes} bestäms denna form av de underliggande processer som utgör musiken, och därför är den ett exempel av \emph{bottom-up}. En ambition jag haft har varit att tidsbestämma olika möjliga skeenden. Med andra ord, att musiken påverkas av tiden på dygnet, till exempel att visa instrument spelas endast under vissa timmar, eller dagar. Då skulle jag möjligtvis behöva förhålla mig till en \emph{top-down}-metod, att planera ut när vissa saker skulle hända, eller i vilken ordning. Men detta är än så länge bara en framtida eventualitet.
+
+\subsection*{Generativitet}
+\addcontentsline{toc}{subsection}{Generativitet}
+I texten \emph{Defining Sound Toys: Play as Composition}\footcite{collins_defining_2014} beskriver Dolphin en form av interaktivt, audiovisuellt kompositionssystem som han kallar \emph{sound toys}. \emph{Sound toys} bjuder in till en högre grad av lekfullhet och fritt interagerande och reagerande än vad jag gör i \emph{Radio Diabetes} --- och därför kanske inte min installation klassificeras som en sådan --- men mycket av det Dolphin nämner i sin text är högst relevant för detta projekt. Dolphin refererar bland annat till Umberto Ecos text \emph{The Poeitcs of the Open Work}, och hur det han kallar \emph{sound toys} faller in någonstans i gränslandet\footcite[53]{collins_defining_2014} mellan \emph{open work}, \emph{kompositionsverktyg} och \emph{instrument}. På många sätt är mitt \emph{Radio Diabetes} också en blanding av dessa tre kategorier, där \emph{instrument} möjligtvis går att byta ut mot \emph{en samling instrument} eller \emph{orkester}. 
 
 \section*{Slutsatser}
 \addcontentsline{toc}{section}{Slutsatser}
-Lärdomar etc...
+En av de främsta slutsatser jag dragit av att arbeta med detta projekt är att \emph{saker tar längre tid än vad jag hade tänkt}\footnote{Även känt som \emph{Hofstadters lag}.}. I planeringsfasen hade jag många idéer, och en stark motivation och ambition, som under projektets gång tyvärr dalat. Jag hade en vision om hur saker skulle låta, och hur de skulle fungera, men av många anledningar --- kanske främst att \emph{saker inte blir som man tror/tänkt} --- så har jag varit tvungen att omforma stora delar av projektet. Men jag vill understryka att även om jag kanske varit ``för'' ambitiös eller ivrig, så är jag väldigt nöjd med att ha byggt en infrastruktur och arkitektur, en grund till plattformen, som jag i framtiden kan fylla med flera av mina musikaliska idéer. Nedan följer en redogörelse för de utvecklingsmöjligheter jag anser finnas.
 
 \subsection*{Utvecklingsmöjligheter}
 \addcontentsline{toc}{subsection}{Utvecklingsmöjligheter}
-För mig är detta endast startskottet på ett projekt som kan växa på alla sätt. Jag har byggt en infrastruktur till en installation som går att utveckla.
+  \begin{enumerate}
+	\item Jag hade en tanke om att göra det möjligt för deltagare att lämna meddelanden, antingen i formen av en gästbok på webbplatsen eller att sätta upp ett telefonnummer dit man kunde ringa och lämna meddelanden som spelas upp i radion. I det senare fallet ville jag uppmuntra delandet av upplevelser kring att leva med diabetes.
+	\item En teknisk ambition jag har är att sätta upp två parallella radioströmmar, som jag kan växla mellan när jag vill underhålla och/eller utveckla SuperCollider-systemet. Som systemet fungerar nu måste jag stänga av radion för att göra förändringar i SuperCollider, något som skapar \emph{radiotystnad}. Med två parallella strömmar kan jag slussa lyssnarna till den ena medan jag jobbar på den andra.
+	\item Rent rumsligt hade jag också en idé om att på något sätt binauralisera musiken --- kanske med hjälp av en generaliserad HRTF --- vilket skulle försätta lyssnaren i ett gemensamt akustiskt virutellt rum. Likt föregående punkt hade det kunnat möjliggöras genom att använda två strömmar, där den ena är binauraliserad och den andra vanlig stereo.
+	\item Jag vill internationalisera webbplatsen genom att erbjuda en engelsk översättning av all text och bjuda in diabetiker från hela världen att delta. I praktiken är det redan idag möjligt för diabetiker utanför Sverige att delta, så länge deras sjukvårdsystem använder \emph{Diasend}. Men ett möjligt problem är att vissa länder inte använder mmol/L som mätenhet, och då skulle jag behöva konvertera från mg/dL som används på vissa platser och som har ett helt annat omfång och storlek. 
+	\item Jag påbörjade ett försök att också visualisera delade mätvärden, med ett program som jag skrev i \emph{openFrameworks}. Själva programmet blev jag klar med, men att inkludera \emph{openFrameworks}-programmet i den infrastruktur jag byggde upp blev för tidskrävande och därför sköt jag upp den idéen. 
+  \end{enumerate}
 
-- Gästbok/lämna röstmeddelanden...
-- Två strömmmar: kunna växla mellan dem för att möjliggöra enklare utveckling av SuperCollider-systemet (utan att det behöver stängas ned för underhåll).
-- Möjligheten att spela upp binauralt
-- Internationellaisera (översätt hemsida etc...)
-
-
-%\end{multicols}
-
-%\twocolumn
 %\clearpage
+%\defbibfilter{internet}{
+%  type=online or
+%  type=misc
+%}
+\defbibfilter{litteratur}{
+  type=book or
+  type=incollection or
+  type=article or
+  type=thesis
+}
+
 \addcontentsline{toc}{section}{Referenser}
 \printbibheading
-\printbibliography[type=article,title={Artiklar},heading=subbibintoc]
-\printbibliography[type=book,title={Böcker},heading=subbibintoc]
-\printbibliography[type=online,title={Hemsidor},heading=subbibintoc]
+\printbibliography[type=online,title={Internet},heading=subbibintoc]
+\printbibliography[filter=litteratur,title={Litteratur},heading=subbibintoc]
 \printbibliography[type=audio,title={Musik},heading=subbibintoc]
 \printbibliography[type=misc,title={Radio},heading=subbibintoc]
-\printbibliography[type=incollection,title={Samlingar},heading=subbibintoc]
 
 \clearpage
 \begin{appendices}
 \printglossaries
 \end{appendices}
+
+\subsection*{\emph{Radio Diabetes} (2021)}
+\addcontentsline{toc}{subsection}{\emph{Radio Diabetes} (2021)}
+Ett inspelat utdragfrån själva radioströmmen, detsamma som spelades upp i Lilla Salen, är bifogat med denna text.Inspelningen skedde den 20 maj 2021.
 
 \end{document}
 

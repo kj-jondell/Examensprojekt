@@ -2,16 +2,20 @@
 
 1. Surfa in på [https://diasend.com/](https://diasend.com/) och logga in: 
 
-![Inloggningsvy](nr_1.png)
+![](nr_1.png)
 
-2. Klicka på 
+2. Klicka på fältet *"Dela data"*:
 
-![Inloggningsvy](nr_2.png)
+![](nr_2.png)
 
-3. 
+3. Klicka sedan på "*Exportera data*":
 
-![Inloggningsvy](nr_3.png)
+![](nr_3.png)
 
 4. Skriv in koden i fältet "Ange koden nedan", och klicka sedan på "Exportera till Excel"
 
-![Inloggningsvy](nr_4.png)
+![](nr_4.png)
+
+5. Till sist laddar du upp ".xls" filen genom att klicka "*Välj fil*":
+
+![](nr_5.png)

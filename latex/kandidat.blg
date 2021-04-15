@@ -1,14 +1,50 @@
-[0] Config.pm:311> INFO - This is Biber 2.16
-[0] Config.pm:314> INFO - Logfile is 'kandidat.blg'
-[95] biber-darwin:340> INFO - === Tue Apr 13, 2021, 11:12:05
-[158] Biber.pm:415> INFO - Reading 'kandidat.bcf'
-[272] Biber.pm:952> INFO - Found 28 citekeys in bib section 0
-[295] Biber.pm:4340> INFO - Processing section 0
-[307] Biber.pm:4531> INFO - Looking for bibtex format file 'bibtex/kandidatarbete.bib' for section 0
-[322] bibtex.pm:1689> INFO - LaTeX decoding ...
-[404] bibtex.pm:1494> INFO - Found BibTeX data source 'bibtex/kandidatarbete.bib'
-[601] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[601] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[602] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'sv-SE'
-[639] bbl.pm:654> INFO - Writing 'kandidat.bbl' with encoding 'UTF-8'
-[654] bbl.pm:757> INFO - Output to kandidat.bbl
+[1] Config.pm:311> INFO - This is Biber 2.16
+[1] Config.pm:314> INFO - Logfile is 'kandidat.blg'
+[87] biber-darwin:340> INFO - === Thu Apr 15, 2021, 10:14:31
+[146] Biber.pm:415> INFO - Reading 'kandidat.bcf'
+[253] Biber.pm:952> INFO - Found 33 citekeys in bib section 0
+[281] Biber.pm:4340> INFO - Processing section 0
+[292] Biber.pm:4531> INFO - Looking for bibtex format file 'bibtex/kandidatarbete.bib' for section 0
+[328] bibtex.pm:1689> INFO - LaTeX decoding ...
+[399] bibtex.pm:1494> INFO - Found BibTeX data source 'bibtex/kandidatarbete.bib'
+[435] Utils.pm:395> WARN - Entry 'noauthor_supercollider_nodate' (bibtex/kandidatarbete.bib): Invalid format '2021-04-09' of date field 'urldate' - ignoring
+[440] Utils.pm:395> WARN - Entry 'jondell_kj-jondelldiabetes-synth_2021' (bibtex/kandidatarbete.bib): Invalid format '2021-04-05' of date field 'urldate' - ignoring
+[440] Utils.pm:395> WARN - Entry 'jondell_kj-jondelldiabetes-synth_2021' (bibtex/kandidatarbete.bib): Invalid format '2021-01-26' of date field 'date' - ignoring
+[443] Utils.pm:395> WARN - Entry 'lucier_music_1965' (bibtex/kandidatarbete.bib): Invalid format '1965' of date field 'date' - ignoring
+[447] Utils.pm:395> WARN - Entry 'straebel_alvin_2014' (bibtex/kandidatarbete.bib): Invalid format '2021-03-30' of date field 'urldate' - ignoring
+[448] Utils.pm:395> WARN - Entry 'straebel_alvin_2014' (bibtex/kandidatarbete.bib): Invalid format '2014-04' of date field 'date' - ignoring
+[452] Utils.pm:395> WARN - Entry 'king_pm_1996' (bibtex/kandidatarbete.bib): Invalid format '1996' of date field 'date' - ignoring
+[455] Utils.pm:395> WARN - Entry 'k_kawazoe_study_2001' (bibtex/kandidatarbete.bib): Invalid format '2001' of date field 'date' - ignoring
+[472] Utils.pm:395> WARN - Entry 'munakata_gene_1995' (bibtex/kandidatarbete.bib): Invalid format '2021-04-09' of date field 'urldate' - ignoring
+[473] Utils.pm:395> WARN - Entry 'munakata_gene_1995' (bibtex/kandidatarbete.bib): Invalid format '1995-12-01' of date field 'date' - ignoring
+[479] Utils.pm:395> WARN - Entry 'shi_electronic_2007' (bibtex/kandidatarbete.bib): Invalid format '2021-03-30' of date field 'urldate' - ignoring
+[479] Utils.pm:395> WARN - Entry 'shi_electronic_2007' (bibtex/kandidatarbete.bib): Invalid format '2007-04' of date field 'date' - ignoring
+[483] Utils.pm:395> WARN - Entry 'larsen_more_2016' (bibtex/kandidatarbete.bib): Invalid format '2021-03-29' of date field 'urldate' - ignoring
+[483] Utils.pm:395> WARN - Entry 'larsen_more_2016' (bibtex/kandidatarbete.bib): Invalid format '2016-03-01' of date field 'date' - ignoring
+[487] Utils.pm:395> WARN - Entry 'deamer_insulin_1983' (bibtex/kandidatarbete.bib): Invalid format '1983' of date field 'date' - ignoring
+[489] Utils.pm:395> WARN - Entry 'munakata_hugging_2009' (bibtex/kandidatarbete.bib): Invalid format '2009' of date field 'date' - ignoring
+[492] Utils.pm:395> WARN - Entry 'yupanqui_sounds_2021' (bibtex/kandidatarbete.bib): Invalid format '2021-04-09' of date field 'urldate' - ignoring
+[493] Utils.pm:395> WARN - Entry 'yupanqui_sounds_2021' (bibtex/kandidatarbete.bib): Invalid format '2021-04-02' of date field 'date' - ignoring
+[493] Utils.pm:395> WARN - Entry 'noauthor_electricity_nodate' (bibtex/kandidatarbete.bib): Invalid format '2021-04-11' of date field 'urldate' - ignoring
+[497] Utils.pm:395> WARN - Entry 'eklund_duo_2021' (bibtex/kandidatarbete.bib): Invalid format '2021-03-29' of date field 'date' - ignoring
+[497] Utils.pm:395> WARN - Entry 'noauthor_midi_nodate' (bibtex/kandidatarbete.bib): Invalid format '2021-04-11' of date field 'urldate' - ignoring
+[498] Utils.pm:395> WARN - Entry 'noauthor_biodata_nodate' (bibtex/kandidatarbete.bib): Invalid format '2021-04-11' of date field 'urldate' - ignoring
+[499] Utils.pm:395> WARN - Entry 'noauthor_r_nodate' (bibtex/kandidatarbete.bib): Invalid format '2021-04-12' of date field 'urldate' - ignoring
+[499] Utils.pm:395> WARN - Entry 'noauthor_free_2002' (bibtex/kandidatarbete.bib): Invalid format '2002-02-03' of date field 'date' - ignoring
+[502] Utils.pm:395> WARN - Entry 'perron_radioqualia_2003' (bibtex/kandidatarbete.bib): Invalid format '2021-04-12' of date field 'urldate' - ignoring
+[503] Utils.pm:395> WARN - Entry 'perron_radioqualia_2003' (bibtex/kandidatarbete.bib): Invalid format '2003' of date field 'date' - ignoring
+[505] Utils.pm:395> WARN - Entry 'brecht_radio_nodate' (bibtex/kandidatarbete.bib): Invalid format '2021-04-12' of date field 'urldate' - ignoring
+[510] Utils.pm:395> WARN - Entry 'mcluhan_understanding_2003' (bibtex/kandidatarbete.bib): Invalid format '2003-11-01' of date field 'date' - ignoring
+[513] Utils.pm:395> WARN - Entry 'anghammar_nya_2010' (bibtex/kandidatarbete.bib): Invalid format '2010' of date field 'date' - ignoring
+[521] Utils.pm:395> WARN - Entry 'hermann_theory_2011' (bibtex/kandidatarbete.bib): Invalid format '2011' of date field 'date' - ignoring
+[529] Utils.pm:395> WARN - Entry 'hermann_introduction_2011' (bibtex/kandidatarbete.bib): Invalid format '2011' of date field 'date' - ignoring
+[538] Utils.pm:395> WARN - Entry 'hermann_audification_2011' (bibtex/kandidatarbete.bib): Invalid format '2011' of date field 'date' - ignoring
+[542] Utils.pm:395> WARN - Entry 'arvidson_det_2016' (bibtex/kandidatarbete.bib): Invalid format '2021-02-16' of date field 'urldate' - ignoring
+[542] Utils.pm:395> WARN - Entry 'arvidson_det_2016' (bibtex/kandidatarbete.bib): Invalid format '2016-07-09' of date field 'date' - ignoring
+[545] Utils.pm:395> WARN - Entry 'vetenskapsradet_god_2017' (bibtex/kandidatarbete.bib): Invalid format '2017' of date field 'date' - ignoring
+[548] Utils.pm:395> WARN - Entry 'jondell_radio_nodate' (bibtex/kandidatarbete.bib): Invalid format '2021-04-07' of date field 'urldate' - ignoring
+[549] Utils.pm:395> WARN - I didn't find a database entry for 'abbott_glukosovervakningssystem_nodate' (section 0)
+[549] Utils.pm:395> WARN - I didn't find a database entry for 'jondell_varden_2017' (section 0)
+[549] Utils.pm:395> WARN - I didn't find a database entry for 'hermann_parameter_2011' (section 0)
+[549] Utils.pm:395> WARN - I didn't find a database entry for 'roads_microsound_2004' (section 0)
+[549] Utils.pm:395> WARN - I didn't find a database entry for 'collins_defining_2014' (section 0)
