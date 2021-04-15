@@ -37,7 +37,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Musiken}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Rumslighet}{14}{}%
+\contentsline {subsection}{Rumslighet}{13}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Temporalitet}{14}{}%
 \defcounter {refsection}{0}\relax 
@@ -51,7 +51,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Internet}{17}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Litteratur}{18}{}%
+\contentsline {subsection}{Litteratur}{17}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Musik}{18}{}%
 \defcounter {refsection}{0}\relax 
@@ -59,4 +59,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Bilagor}{20}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\emph {Radio Diabetes} (2021)}{20}{}%
+\contentsline {subsection}{Ordlista}{20}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Förkortningar}{20}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\emph {Radio Diabetes} (2021)}{21}{}%

@@ -3,6 +3,8 @@
 \usepackage{epigraph}
 \usepackage{graphicx}
 \usepackage[swedish]{babel}
+\usepackage{enumitem}
+
 
 \usepackage{setspace}
 \onehalfspacing
@@ -38,6 +40,13 @@
   \clearlist{language}%
   \clearfield{note}%
 }
+
+\DeclareSortingScheme{mysort}{
+  \sort{
+	\field{editora}
+  }
+}
+
 \renewbibmacro{in:}{}
 \renewbibmacro{in:}{%
   \ifboolexpr{%
@@ -47,33 +56,15 @@
   }{}{\printtext{\bibstring{in}\intitlepunct}}%
 }
 
-%\DeclareBibliographyDriver{misc}{%
-%  \usebibmacro{bibindex}%
-%  \usebibmacro{begentry}%
-%  \printfield{author}%
-%  \setunit{\labelnamepunct}\newblock
-%  \usebibmacro{maintitle+title}%
-%  \newunit
-%  \usebibmacro{date}%
-%  \newunit\newblock
-%  \printfield{number}%
-%  \newunit
-%  %\usebibmacro{byeditor+others}%
-%  \setunit{=\addspace}
-%  \printfield{series}%
-%  \setunit{\adddot\addspace}
-%  \usebibmacro{publisher+location+date}%
-%  \newunit\newblock
-%  \usebibmacro{finentry}}
-%
-\DeclareBibliographyDriver{audio}{%
+\DeclareBibliographyDriver{misc}{%
   \usebibmacro{bibindex}%
   \usebibmacro{begentry}%
-  \printfield{usera}%
+  \usebibmacro{author}%
   \setunit{\labelnamepunct}\newblock
   \usebibmacro{maintitle+title}%
   \newunit
   \usebibmacro{date}%
+  \usebibmacro{url+urldate}%
   \newunit\newblock
   \printfield{number}%
   \newunit
@@ -83,8 +74,40 @@
   \setunit{\adddot\addspace}
   \usebibmacro{publisher+location+date}%
   \newunit\newblock
-  \usebibmacro{finentry}}
-%\usepackage{hyperref}
+  \usebibmacro{finentry}
+}
+
+\usepackage{xpatch}
+\xpatchbibmacro{byeditor+othersstrg}{\printtext}{\printtext[parens]}{}{}
+
+
+\renewbibmacro*{byeditor+others}{%
+  \ifnameundef{editor}
+    {}
+    {\printnames[byeditor]{editor}%
+     \setunit{\addspace}%
+     \usebibmacro{byeditor+othersstrg}%
+     \clearname{editor}%
+     \newunit}%
+  \usebibmacro{byeditorx}%
+  \usebibmacro{bytranslator+others}
+}
+
+\DefineBibliographyStrings{swedish}{%
+    byeditor = {red\adddot},%
+}
+
+\DeclareBibliographyDriver{audio}{%
+  \printnames{editora}%
+  \newunit 
+  \printfield[parens]{year}%
+  \newunit\newblock
+  \printfield{title}%
+    \newunit\newblock
+  \usebibmacro{publisher+location+date}%
+  \finentry
+}
+
 \addbibresource{bibtex/kandidatarbete.bib}
 
 \usepackage{csquotes}
@@ -197,6 +220,7 @@ description={Flask är ett Python-ramverk som är framtaget för att underlätta
     name=Parameter Mapping Sonification,
 	description={}
 }
+
 \begin{document}
 
 \clearpage
@@ -222,7 +246,7 @@ Stort tack till min texthandledare Kim Hedås och lärare Erik Peters för alla 
 
 \section*{Introduktion}
 \addcontentsline{toc}{section}{Introduktion}
-Denna text kompletterar mitt självständiga arbete, \emph{Radio Diabetes}, en interaktiv komposition/installation som genererar musik av blodsockervärden. Jag har byggt ett SuperCollider\footcite{noauthor_supercollider_nodate}-program som skapar själva musiken och en webbplats där man kan lyssna på den, läsa om projektet och ladda upp sina egna blodsockervärden. När en deltagare laddar upp sina värden slussas dessa direkt vidare till SuperCollider-programmet, som i sin tur inkluderar dem i musiken, antingen direkt eller att de blir schemalagda i en kö. Musiken strömmas till webbplatsen (och vidare till lyssnaren) via en internetradiostation. På så sätt utgör musiken ett kontinuerligt flöde som deltagare och åhörare hör samtidigt: det finns ingen början, mitten eller slut, utan endast ett \emph{nu}. %Denna förhållning till \emph{temporalitet} utgör ett huvudtema i projektet, jämte med \emph{interaktivitet} (deltagande), \emph{radioteknologi}, \emph{autoimmuna sjukdomar} och \emph{sonifiering}.
+Denna text kompletterar mitt självständiga arbete, \emph{Radio Diabetes}, en interaktiv komposition/installation som genererar musik av blodsockervärden. Jag har byggt ett SuperCollider\footcite{noauthor_supercollider_nodate}-program som skapar själva musiken och en webbplats där man kan lyssna på den, läsa om projektet och ladda upp sina egna blodsockervärden. När en deltagare laddar upp sina värden slussas dessa direkt vidare till SuperCollider-programmet, som i sin tur inkluderar dem i musiken, antingen direkt eller att de blir schemalagda i en kö. Musiken strömmas till webbplatsen --- och vidare till lyssnaren --- via en internetradiostation. På så sätt utgör musiken ett kontinuerligt flöde som deltagare och åhörare hör samtidigt: det finns ingen början, mitten eller slut, utan endast ett \emph{nu}. %Denna förhållning till \emph{temporalitet} utgör ett huvudtema i projektet, jämte med \emph{interaktivitet} (deltagande), \emph{radioteknologi}, \emph{autoimmuna sjukdomar} och \emph{sonifiering}.
 
 % TODO "tystnad i radio"
 %\emph{(I skrivande stund är installationen inte helt färdig.)}
@@ -231,7 +255,7 @@ Denna text kompletterar mitt självständiga arbete, \emph{Radio Diabetes}, en i
 \addcontentsline{toc}{subsection}{Bakgrund}
 Idéen om att göra musik av blodsockervärden föddes dagen då jag fick en \emph{Freestyle Libre}-mätare\footcite{noauthor_glukosovervakningssystem_nodate}, en så kallad kontinuerlig blodsockermätare, eller \gls{cgm}. Denna typ av blodsockermätare skiljer sig från tradionella mätare --- som man är tvungen att sticka sig i fingret och på så sätt mäta blodsockret med --- i att den regelbundet gör mätningar, vilket ger en kontinuerlig kurva över ens blodsockervärden.  Kurvorna påminde mig om hur ljudsignaler ofta representeras visuellt\footnote{Bestående av en horisontell tidsaxel och en linjär vertikal axel} och i ett tidigt experiment gjorde jag en direkt översättning av mina blodsockerkurvor till ljudfiler: en så kallad \emph{audifiering}. Dessa ljud använde jag som samplingar i mitt stycke \emph{Värden och en vagga}\footcite{jondell_varden_2017}, som var ett av arbetsproverna jag sökte till Kungliga Musikhögskolan med. 
 
-Jag utvecklade vidare och förbättrade mitt första program som jag hade skrivit för att översätta mina kurvor till ljudfiler, så att vem som helst skulle kunna använda programmet och översätta sina egna värden till ljud. Jag byggde också en wavetable-synth i SuperCollider som använde dessa ljudfiler som källmaterial. Detta instrument har jag använt i ett antal olika kompositioner som jag skrivit under min skoltid. Båda dessa program (översättaren och wavetable-synthen) har jag publicerat på min GitHub\footcite{jondell_kj-jondelldiabetes-synth_2021}. En del av denna kod återanvände jag även i detta projekt.
+Jag utvecklade vidare och förbättrade mitt första program som jag hade skrivit för att översätta mina kurvor till ljudfiler, så att vem som helst skulle kunna använda programmet och översätta sina egna värden till ljud. Jag byggde också en wavetable-synth i SuperCollider som använde dessa ljudfiler som källmaterial. Detta instrument har jag använt i ett antal olika kompositioner som jag skrivit under min skoltid. Båda dessa program --- översättaren och wavetable-synthen --- har jag publicerat på min GitHub\footcite{jondell_kj-jondelldiabetes-synth_2021}. En del av denna kod återanvände jag även i detta projekt.
 
 \subsection*{Några tidigare exempel, historiska och nutida}
 \addcontentsline{toc}{subsection}{Några tidigare exempel, historiska och nutida}
@@ -399,7 +423,8 @@ En mot detta motstridig erfarenhet som jag hade med utvecklingen av SuperCollide
 
 Musiken genereras av SuperCollider-programmet som jag har skrivit. Jag har fyra olika instrument, eller musikaliska funktioner, tillgängliga:
 
-  \begin{enumerate}
+  %\setlist{nolistsep}
+  \begin{enumerate}[noitemsep]
 	\item Ett fundament bestående av en GSM-avkodad formant-filtrerad ``kör''.
 	\item Sinusvågor och elektroniska störningsljud som spelar rytmiska arpeggion.
 	\item En wavetable-synth.
@@ -435,7 +460,7 @@ I texten \emph{Defining Sound Toys: Play as Composition}\footcite{collins_defini
 
 \section*{Slutsatser}
 \addcontentsline{toc}{section}{Slutsatser}
-En av de främsta slutsatser jag dragit av att arbeta med detta projekt är att \emph{saker tar längre tid än vad jag hade tänkt}\footnote{Även känt som \emph{Hofstadters lag}.}. I planeringsfasen hade jag många idéer, och en stark motivation och ambition, som under projektets gång tyvärr dalat. Jag hade en vision om hur saker skulle låta, och hur de skulle fungera, men av många anledningar --- kanske främst att \emph{saker inte blir som man tror/tänkt} --- så har jag varit tvungen att omforma stora delar av projektet. Men jag vill understryka att även om jag kanske varit ``för'' ambitiös eller ivrig, så är jag väldigt nöjd med att ha byggt en infrastruktur och arkitektur, en grund till plattformen, som jag i framtiden kan fylla med flera av mina musikaliska idéer. Nedan följer en redogörelse för de utvecklingsmöjligheter jag anser finnas.
+En av de främsta slutsatser jag dragit av att arbeta med detta projekt är att \emph{saker tar längre tid än vad jag hade tänkt}\footnote{Även känt som \emph{Hofstadters lag}.}. I planeringsfasen hade jag många idéer, och en stark motivation och ambition, som under projektets gång tyvärr dalat. Jag hade en vision om hur saker skulle låta, och hur de skulle fungera, men av många anledningar --- kanske främst att \emph{saker inte blir som man tänkt} --- så har jag varit tvungen att omforma stora delar av projektet. Men jag vill understryka att även om jag kanske varit ``för'' ambitiös eller ivrig, så är jag väldigt nöjd med att ha byggt en infrastruktur och arkitektur, en grund till plattformen, som jag i framtiden kan fylla med flera av mina musikaliska idéer. Nedan följer en redogörelse av vad jag hoppas kunna lägga till i framtiden till projektet.
 
 \subsection*{Utvecklingsmöjligheter}
 \addcontentsline{toc}{subsection}{Utvecklingsmöjligheter}
@@ -463,7 +488,9 @@ En av de främsta slutsatser jag dragit av att arbeta med detta projekt är att 
 \printbibheading
 \printbibliography[type=online,title={Internet},heading=subbibintoc]
 \printbibliography[filter=litteratur,title={Litteratur},heading=subbibintoc]
-\printbibliography[type=audio,title={Musik},heading=subbibintoc]
+\begin{refcontext}[sorting=mysort]
+  \printbibliography[type=audio,title={Musik},heading=subbibintoc]
+\end{refcontext}
 \printbibliography[type=misc,title={Radio},heading=subbibintoc]
 
 \clearpage
@@ -473,6 +500,6 @@ En av de främsta slutsatser jag dragit av att arbeta med detta projekt är att 
 
 \subsection*{\emph{Radio Diabetes} (2021)}
 \addcontentsline{toc}{subsection}{\emph{Radio Diabetes} (2021)}
-Ett inspelat utdragfrån själva radioströmmen, detsamma som spelades upp i Lilla Salen, är bifogat med denna text.Inspelningen skedde den 20 maj 2021.
+Ett inspelat utdrag från själva radioströmmen, detsamma som spelades upp i Lilla Salen, är bifogat med denna text. Inspelningen skedde den 20 maj 2021.
 
 \end{document}

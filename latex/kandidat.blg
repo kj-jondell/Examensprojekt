@@ -1,14 +1,20 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [1] Config.pm:314> INFO - Logfile is 'kandidat.blg'
-[89] biber-darwin:340> INFO - === Thu Apr 15, 2021, 11:35:35
-[137] Biber.pm:415> INFO - Reading 'kandidat.bcf'
-[252] Biber.pm:952> INFO - Found 42 citekeys in bib section 0
-[279] Biber.pm:4340> INFO - Processing section 0
-[290] Biber.pm:4531> INFO - Looking for bibtex format file 'bibtex/kandidatarbete.bib' for section 0
-[312] bibtex.pm:1689> INFO - LaTeX decoding ...
-[415] bibtex.pm:1494> INFO - Found BibTeX data source 'bibtex/kandidatarbete.bib'
-[643] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[643] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[643] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'sv-SE'
-[683] bbl.pm:654> INFO - Writing 'kandidat.bbl' with encoding 'UTF-8'
-[701] bbl.pm:757> INFO - Output to kandidat.bbl
+[86] biber-darwin:340> INFO - === Thu Apr 15, 2021, 14:44:28
+[135] Biber.pm:415> INFO - Reading 'kandidat.bcf'
+[245] Biber.pm:952> INFO - Found 42 citekeys in bib section 0
+[277] Biber.pm:4340> INFO - Processing section 0
+[287] Biber.pm:4531> INFO - Looking for bibtex format file 'bibtex/kandidatarbete.bib' for section 0
+[306] bibtex.pm:1689> INFO - LaTeX decoding ...
+[396] bibtex.pm:1494> INFO - Found BibTeX data source 'bibtex/kandidatarbete.bib'
+[572] Utils.pm:395> WARN - I didn't find a database entry for 'noauthor_glukosovervakningssystem_nodate' (section 0)
+[572] Utils.pm:395> WARN - I didn't find a database entry for 'noauthor_diasendcom_nodate' (section 0)
+[621] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[621] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[621] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'sv-SE'
+[667] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[667] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[667] Biber.pm:4168> INFO - Sorting list 'mysort/global//global/global' of type 'entry' with template 'mysort' and locale 'sv-SE'
+[702] bbl.pm:654> INFO - Writing 'kandidat.bbl' with encoding 'UTF-8'
+[735] bbl.pm:757> INFO - Output to kandidat.bbl
+[764] Biber.pm:128> INFO - WARNINGS: 2
