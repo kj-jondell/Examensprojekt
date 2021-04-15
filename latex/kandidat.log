@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.7)  15 APR 2021 16:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.7)  15 APR 2021 23:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -745,11 +745,59 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \glo@main@file=\write5
 \openout5 = `kandidat.glo'.
 
-Package glossaries Info: Writing glossary file kandidat.glo on input line 129.
+Package glossaries Info: Writing glossary file kandidat.glo on input line 131.
 \glo@acronym@file=\write6
 \openout6 = `kandidat.acn'.
 
-Package glossaries Info: Writing glossary file kandidat.acn on input line 129.
+Package glossaries Info: Writing glossary file kandidat.acn on input line 131.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2020/01/30 v3.07
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count470
+))
+\c@padzeroesN=\count471
+\fc@tmpcatcode=\count472
+\@DT@modctr=\count473
+\@ordinalctr=\count474
+\@orgargctr=\count475
+\@strctr=\count476
+\@tmpstrctr=\count477
+\@DT@loopN=\count478
+\@DT@X=\count479
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count480
+\@month=\count481
+\@year=\count482
+\c@HOUR=\count483
+\c@HOURXII=\count484
+\c@MINUTE=\count485
+\c@TOHOUR=\count486
+\c@TOMINUTE=\count487
+\c@SECOND=\count488
+\currenthour=\count489
+\currentminute=\count490
+\currentsecond=\count491
+Package datetime Info: No datetime.cfg file found, using default settings on input line 308.
+\@dtctr=\count492
+\dayofyear=\count493
+\dayofweek=\count494
+LaTeX Info: Redefining \today on input line 736.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/datetime/dt-swedish.def
+File: dt-swedish.def 2013/09/10
+LaTeX Info: Redefining \dateswedish on input line 63.
+LaTeX Info: Redefining \datesymd on input line 68.
+LaTeX Info: Redefining \datesdmy on input line 74.
+)
+\dt@a=\toks39
+\dt@b=\toks40
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -757,44 +805,50 @@ Package csquotes Info: Redefining alias 'default' -> 'swedish'.
  (./kandidat.aux)
 \openout1 = `kandidat.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 234.
+LaTeX Font Info:    ... okay on input line 234.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 234.
+LaTeX Font Info:    ... okay on input line 234.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 234.
+LaTeX Font Info:    ... okay on input line 234.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 234.
+LaTeX Font Info:    ... okay on input line 234.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 234.
+LaTeX Font Info:    ... okay on input line 234.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 234.
+LaTeX Font Info:    ... okay on input line 234.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 234.
+LaTeX Font Info:    ... okay on input line 234.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 234.
+LaTeX Font Info:    ... okay on input line 234.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 234.
+LaTeX Font Info:    ... okay on input line 234.
  (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count470
+\scratchcounter=\count495
 \scratchdimen=\dimen189
 \scratchbox=\box60
-\nofMPsegments=\count471
-\nofMParguments=\count472
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count473
+\nofMPsegments=\count496
+\nofMParguments=\count497
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count498
 \MPscratchDim=\dimen190
-\MPnumerator=\count474
-\makeMPintoPDFobject=\count475
-\everyMPtoPDFconversion=\toks40
+\MPnumerator=\count499
+\makeMPintoPDFobject=\count500
+\everyMPtoPDFconversion=\toks42
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 227.
+Package hyperref Info: Link coloring OFF on input line 234.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -802,11 +856,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count476
+\c@section@level=\count501
 )
-LaTeX Info: Redefining \ref on input line 227.
-LaTeX Info: Redefining \pageref on input line 227.
-LaTeX Info: Redefining \nameref on input line 227.
+LaTeX Info: Redefining \ref on input line 234.
+LaTeX Info: Redefining \pageref on input line 234.
+LaTeX Info: Redefining \nameref on input line 234.
  (./kandidat.out) (./kandidat.out)
 \@outlinefile=\write7
 \openout7 = `kandidat.out'.
@@ -875,8 +929,8 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'kandidat.bbl' found.
  (./kandidat.bbl)
-Package biblatex Info: Reference section=0 on input line 227.
-Package biblatex Info: Reference segment=0 on input line 227.
+Package biblatex Info: Reference section=0 on input line 234.
+Package biblatex Info: Reference segment=0 on input line 234.
  [1
 
 \openout4 = `kandidat.ist'.
@@ -889,95 +943,172 @@ Package biblatex Info: Reference segment=0 on input line 227.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.248 \clearpage
+l.255 \clearpage
                  [1
 
 
 ]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 258.
+(hyperref)                be the same. Added a new anchor on input line 262.
 
 [2
 
 
 ]
-Underfull \hbox (badness 3679) in paragraph at lines 277--277
+Underfull \hbox (badness 3679) in paragraph at lines 281--281
 [][][][]\OT1/cmr/m/it/9 MIDI Bio-da-ta So-ni-ca-tion De-vice \OT1/cmr/m/n/9 (2021). Sacred Bo-nes Re-cords. \OT1/cmr/m/sc/9 url\OT1/cmr/m/n/9 : []$\OT1/cmtt/m/n/9 https : / / www .
  []
 
-[3] [4] [5]
+[3] [4] [5] [6]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 330.
+(hyperref)                be the same. Added a new anchor on input line 319.
 
-[6] [7]
-<../media/flowchart.png, id=338, 776.9025pt x 1315.91624pt>
+[7] [8]
+Underfull \hbox (badness 1917) in paragraph at lines 334--334
+[][][][]\OT1/cmr/m/n/9 Sofia Se-gers-son (9 mars 2021). \OT1/cmr/m/it/9 Per-son f[]ore pa-ti-ent\OT1/cmr/m/n/9 . H[]alsoportalen. \OT1/cmr/m/sc/9 url\OT1/cmr/m/n/9 : []$\OT1/cmtt/m/n/9 https : / / www .
+ []
+
+[9]
+Underfull \hbox (badness 5847) in paragraph at lines 342--342
+[][][][]\OT1/cmr/m/n/9 Karl Jo-han-nes Jon-dell (15 april 2021b). \OT1/cmr/m/it/9 kj-jondell/Radio-Diabetes\OT1/cmr/m/n/9 . original-date: 2021-02-
+ []
+
+<../media/flowchart.png, id=460, 776.9025pt x 1315.91624pt>
 File: ../media/flowchart.png Graphic file (type png)
 <use ../media/flowchart.png>
-Package pdftex.def Info: ../media/flowchart.png  used on input line 357.
+Package pdftex.def Info: ../media/flowchart.png  used on input line 346.
 (pdftex.def)             Requested size: 213.39568pt x 361.44638pt.
- [8
+[10
 
  <../media/flowchart.png>]
-<../media/hemsida.png, id=367, 2039.62pt x 1291.82625pt>
+<../media/hemsida.png, id=489, 2039.62pt x 1291.82625pt>
 File: ../media/hemsida.png Graphic file (type png)
 <use ../media/hemsida.png>
-Package pdftex.def Info: ../media/hemsida.png  used on input line 369.
+Package pdftex.def Info: ../media/hemsida.png  used on input line 358.
 (pdftex.def)             Requested size: 426.79135pt x 270.30594pt.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 382.
+(hyperref)                be the same. Added a new anchor on input line 371.
 
-[9 <../media/hemsida.png>] [10]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 412.
-
-[11] [12] [13
-
-] [14] [15]
+[11 <../media/hemsida.png>] [12]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 475.
+(hyperref)                be the same. Added a new anchor on input line 399.
+
+[13] [14] [15
+
+] [16] [17]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 461.
 
 
-Overfull \hbox (4.1222pt too wide) in paragraph at lines 478--479
+Overfull \hbox (4.1222pt too wide) in paragraph at lines 464--465
 \OT1/cmr/m/n/10.95 kan v[]axla mel-lan n[]ar jag vill un-derh^^Walla och/eller ut-veck-la SuperCollider-programmet.
- []
-
-[16
-
-] [17]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 498.
-
-
-Overfull \hbox (35.9416pt too wide) in paragraph at lines 498--498
-[][]\OT1/cmr/m/it/10.95 Electricity for Pro-gress \OT1/cmr/m/n/10.95 (2021). Electri-ci-ty for Pro-gress. \OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : []$\OT1/cmtt/m/n/10.95 https : / / electricityforprogress .
  []
 
 [18
 
-] [19] [20] (./kandidat.gls) (./kandidat.acr) [21
+] [19]
 
-] [22] (./kandidat.aux)
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 485.
+
+
+Overfull \hbox (35.9416pt too wide) in paragraph at lines 485--485
+[][]\OT1/cmr/m/it/10.95 Electricity for Pro-gress \OT1/cmr/m/n/10.95 (2021). Electri-ci-ty for Pro-gress. \OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : []$\OT1/cmtt/m/n/10.95 https : / / electricityforprogress .
+ []
+
+
+Overfull \hbox (12.12143pt too wide) in paragraph at lines 485--485
+[][]\OT1/cmr/m/it/10.95 F[]orst^^Wa in-for-ma-tion om glu-kosv[]arden \OT1/cmr/m/n/10.95 (2021). Li-bre-Lin-kUp. \OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : []$\OT1/cmtt/m/n/10.95 https : / / www . librelinkup .
+ []
+
+[20
+
+]
+Overfull \hbox (48.1122pt too wide) in paragraph at lines 486--486
+[][]\OT1/cmr/m/n/10.95 Bornemark, Jon-na (2018). \OT1/cmr/m/it/10.95 Det om[]atbaras ren[]assans: en uppg[]orelse med pe-dan-ter-nas v[]arldsherrav[]alde\OT1/cmr/m/n/10.95 .
+ []
+
+[21] [22] [23] (./kandidat.gls) (./kandidat.acr [24
+
+]) [25] (./kandidat.aux)
 Package rerunfilecheck Info: File `kandidat.out' has not changed.
-(rerunfilecheck)             Checksum: 8A3881BE0103130E1B9D0EAA27DB70D7;3790.
+(rerunfilecheck)             Checksum: 1EBDB98BA4AA2D14990C97344DA9CCC7;3795.
 Package logreq Info: Writing requests to 'kandidat.run.xml'.
 \openout1 = `kandidat.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27113 strings out of 478994
- 479224 string characters out of 5858185
- 1454203 words of memory out of 5000000
- 44000 multiletter control sequences out of 15000+600000
+ 27826 strings out of 478994
+ 492707 string characters out of 5858185
+ 1480390 words of memory out of 5000000
+ 44632 multiletter control sequences out of 15000+600000
  413200 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,10n,102p,1796b,2008s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,10n,102p,2041b,2008s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.85} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.84} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.83} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.82} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.81} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.80} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.79} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.78} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.77} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.76} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.75} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.74} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.73} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.72} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.71} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.70} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.69} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.68} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.67} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.66} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.65} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.64} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.63} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.62} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.61} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.60} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.59} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.58} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.57} has been referenced but does not exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{Hfootnote.56} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.55} has been referenced but does not exist, replaced by a fixed one
@@ -1091,10 +1222,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on kandidat.pdf (23 pages, 563496 bytes).
+Output written on kandidat.pdf (26 pages, 589307 bytes).
 PDF statistics:
- 669 PDF objects out of 1000 (max. 8388607)
- 618 compressed objects within 7 object streams
- 202 named destinations out of 1000 (max. 500000)
+ 865 PDF objects out of 1000 (max. 8388607)
+ 809 compressed objects within 9 object streams
+ 259 named destinations out of 1000 (max. 500000)
  267 words of extra memory for PDF output out of 10000 (max. 10000000)
 

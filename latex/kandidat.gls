@@ -2,27 +2,30 @@
 \begin{theglossary}\glossaryheader
 \glsgroupheading{glssymbols}\relax \glsresetentrylist %
 \glossentry{pattern}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{10}}}%
+		\setentrycounter[]{page}\glsnumberformat{12}}}%
 \glossentry{synthdef}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{10}}}%
+		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{15}}}%
 \glossentry{ugen}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{13}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{15}}}\glsgroupskip
 \glsgroupheading{A}\relax \glsresetentrylist %
 \glossentry{audification}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{6}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{2\delimR 4}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{6}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{15}}}\glsgroupskip
 \glsgroupheading{B}\relax \glsresetentrylist %
 \glossentry{backend}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{10}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{12}}}\glsgroupskip
 \glsgroupheading{F}\relax \glsresetentrylist %
 \glossentry{flask}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{10}}}%
+		\setentrycounter[]{page}\glsnumberformat{12}}}%
 \glossentry{frontend}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{11}}}\glsgroupskip
 \glsgroupheading{S}\relax \glsresetentrylist %
 \glossentry{sonification}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{5}}}%
+		\setentrycounter[]{page}\glsnumberformat{4\delimR 6}}}%
 \glossentry{stack}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{1}}}%
-\glossentry{supercollider}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{10}}}%
+\glossentry{supercollider}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{12}}}%
 \end{theglossary}\glossarypostamble

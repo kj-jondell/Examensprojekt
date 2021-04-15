@@ -38,6 +38,42 @@
       \verb https://supercollider.github.io/
       \endverb
     \endentry
+    \entry{jondell_radio_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a70585efdf51d8964d83d42840c415bc}{%
+           family={Jondell},
+           familyi={J\bibinitperiod},
+           given={Karl\bibnamedelima Johannes},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{fullhash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{bibnamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{authorbibnamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{authornamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{authorfullhash}{a70585efdf51d8964d83d42840c415bc}
+      \field{extraname}{1}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Radio Diabetes}
+      \field{titleaddon}{Radio Diabetes}
+      \field{urlday}{7}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb React App:/Users/kj/Zotero/storage/UTAIHYT5/radiodiabetes.eu.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://radiodiabetes.eu/
+      \endverb
+      \verb{url}
+      \verb https://radiodiabetes.eu/
+      \endverb
+    \endentry
     \entry{noauthor_freestyle_nodate}{online}{}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{url}
@@ -71,8 +107,8 @@
       \strng{authorbibnamehash}{a70585efdf51d8964d83d42840c415bc}
       \strng{authornamehash}{a70585efdf51d8964d83d42840c415bc}
       \strng{authorfullhash}{a70585efdf51d8964d83d42840c415bc}
-      \field{extraname}{1}
-      \field{extradate}{1}
+      \field{extraname}{2}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -879,23 +915,26 @@
       \field{pages}{301\bibrangedash 321}
       \range{pages}{21}
     \endentry
-    \entry{noauthor_diasend_nodate}{online}{}
+    \entry{noauthor_lar_nodate}{online}{}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{url}
       \field{labeltitlesource}{title}
-      \field{title}{Diasend}
+      \field{abstract}{Samlingssida för information om diabetes}
+      \field{langid}{swedish}
+      \field{title}{Lär dig om diabetes}
+      \field{titleaddon}{Diabetesförbundet}
       \field{urlday}{15}
       \field{urlmonth}{4}
       \field{urlyear}{2021}
       \field{urldateera}{ce}
       \verb{file}
-      \verb Diasend.com | Home:/Users/kj/Zotero/storage/ZQBQHF9Y/diasend.com.html:text/html
+      \verb Snapshot:/Users/kj/Zotero/storage/XDJZ4YYA/lar-om-diabetes.html:text/html
       \endverb
       \verb{urlraw}
-      \verb https://diasend.com/
+      \verb http://diabetes.se/diabetes/lar-om-diabetes/
       \endverb
       \verb{url}
-      \verb https://diasend.com/
+      \verb http://diabetes.se/diabetes/lar-om-diabetes/
       \endverb
     \endentry
     \entry{arvidson_det_2016}{article}{}
@@ -945,6 +984,293 @@
       \endverb
       \keyw{autoimmun sjukdom,diabetes typ-1,jaget,överlevnadsstrategi,paus,prestation,social acceleration}
     \endentry
+    \entry{noauthor_diabetes_nodate}{online}{}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{langid}{swedish}
+      \field{title}{Diabetes}
+      \field{titleaddon}{Diabetesfonden}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/NFBNW9Q8/diabetes.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.diabetes.se/diabetesfonden/diabetes/
+      \endverb
+      \verb{url}
+      \verb https://www.diabetes.se/diabetesfonden/diabetes/
+      \endverb
+    \endentry
+    \entry{noauthor_insulinet_nodate}{online}{}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Leonard Thompson vägde under 30 kilo innan han som första människa fick en injektion insulin. Svältkuren han ordinerats hittills var den enda metoden läkarna visste kunde förlänga livet på diabetiker – något som snart kom att ändras.}
+      \field{langid}{swedish}
+      \field{title}{Insulinet 100 år}
+      \field{titleaddon}{Storstockholms Diabetesförening}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/8BMNH59M/insulinet-100-ar.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://ssdf.nu/nyheter/insulinet-100-ar
+      \endverb
+      \verb{url}
+      \verb https://ssdf.nu/nyheter/insulinet-100-ar
+      \endverb
+    \endentry
+    \entry{noauthor_blood_2021}{online}{}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The blood sugar level, blood sugar concentration, or blood glucose level is the concentration of glucose present in the blood of humans and other animals. Glucose is a simple sugar, and approximately 4 g of glucose are present in the blood of a 70 kg (154 lb) human at all times. The body tightly regulates blood glucose levels as a part of metabolic homeostasis. Glucose is stored in skeletal muscle and liver cells in the form of glycogen; in fasting individuals, blood glucose is maintained at a constant level at the expense of glycogen stores in the liver and skeletal muscle.In humans, a blood glucose level of four grams, or about a teaspoon, is critical for normal function in a number of tissues, and the human brain consumes approximately 60\% of blood glucose in fasting, sedentary individuals. A persistent elevation in blood glucose leads to glucose toxicity, which contributes to cell dysfunction and the pathology grouped together as complications of diabetes. Glucose can be transported from the intestines or liver to other tissues in the body via the bloodstream. Cellular glucose uptake is primarily regulated by insulin, a hormone produced in the pancreas.Glucose levels are usually lowest in the morning, before the first meal of the day, and rise after meals for an hour or two by a few millimoles. Blood sugar levels outside the normal range may be an indicator of a medical condition. A persistently high level is referred to as hyperglycemia; low levels are referred to as hypoglycemia. Diabetes mellitus is characterized by persistent hyperglycemia from any of several causes, and it is the most prominent disease related to the failure of blood sugar regulation. There are different methods of testing and measuring blood sugar levels. The intake of alcohol causes an initial surge in blood sugar and later tends to cause levels to fall. Also, certain drugs can increase or decrease glucose levels.}
+      \field{day}{29}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{note}{Page Version {ID}: 1014791724}
+      \field{title}{Blood sugar level}
+      \field{titleaddon}{Wikipedia}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/ZWV7ACDJ/index.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Blood_sugar_level
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Blood_sugar_level
+      \endverb
+    \endentry
+    \entry{noauthor_dexcom_nodate}{online}{}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Dexcom Continuous Glucose Monitoring}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Dexcom Continuous Glucose Monitoring | Dexcom CGM:/Users/kj/Zotero/storage/CI7BJK8E/sv-SE.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.dexcom.com/sv-SE
+      \endverb
+      \verb{url}
+      \verb https://www.dexcom.com/sv-SE
+      \endverb
+    \endentry
+    \entry{noauthor_forsta_nodate}{online}{}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Förstå information om glukosvärden}
+      \field{titleaddon}{{LibreLinkUp}}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Förstå information om glukosvärden:/Users/kj/Zotero/storage/3GD9N6UR/glucose-readings.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.librelinkup.com/articles/glucose-readings
+      \endverb
+      \verb{url}
+      \verb https://www.librelinkup.com/articles/glucose-readings
+      \endverb
+    \endentry
+    \entry{noauthor_vad_2018}{online}{}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dexcom G6 är Dexcoms senaste generations kontinuerliga glukosmätningssystem ({CGM}). Till skillnad från tidigare generationer är detta {CGM}-system fabrikskalibrerat, så det krävs inga stick i fingret.* Dexcom G6 består av en sensor, sändare och display-enhet (mottagare och/eller kompatibel smart-enhet)**. Systemet har en nyutvecklad automatisk snabbkopplingsapplikator och elegant, diskret sändare. Dexcom G6 skickar glukosavläsningar till en smart-enhet eller Dexcom-mottagaren var 5:e minut. Dexcom G6 är godkänd för patienter i åldrarna 2 och äldre.}
+      \field{day}{10}
+      \field{langid}{swedish}
+      \field{month}{8}
+      \field{title}{Vad är Dexcom G6?}
+      \field{titleaddon}{Dexcom}
+      \field{type}{Text}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/9M9WX7YK/vad-är-dexcom-g6.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.dexcom.com/sv-SE/faq/vad-%C3%A4r-dexcom-g6
+      \endverb
+      \verb{url}
+      \verb https://www.dexcom.com/sv-SE/faq/vad-%C3%A4r-dexcom-g6
+      \endverb
+    \endentry
+    \entry{noauthor_diasend_nodate}{online}{}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Diasend}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Diasend.com | Home:/Users/kj/Zotero/storage/ZQBQHF9Y/diasend.com.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://diasend.com/
+      \endverb
+      \verb{url}
+      \verb https://diasend.com/
+      \endverb
+    \endentry
+    \entry{bornemark_det_2018}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0e966a02a6ded44e65396808f53580a1}{%
+           family={Bornemark},
+           familyi={B\bibinitperiod},
+           given={Jonna},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Stockholm}%
+      }
+      \list{publisher}{1}{%
+        {Volante}%
+      }
+      \strng{namehash}{0e966a02a6ded44e65396808f53580a1}
+      \strng{fullhash}{0e966a02a6ded44e65396808f53580a1}
+      \strng{bibnamehash}{0e966a02a6ded44e65396808f53580a1}
+      \strng{authorbibnamehash}{0e966a02a6ded44e65396808f53580a1}
+      \strng{authornamehash}{0e966a02a6ded44e65396808f53580a1}
+      \strng{authorfullhash}{0e966a02a6ded44e65396808f53580a1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{Det omätbaras renässans}
+      \field{title}{Det omätbaras renässans: en uppgörelse med pedanternas världsherravälde}
+      \field{year}{2018}
+      \field{dateera}{ce}
+    \endentry
+    \entry{lupton_quantified_2016}{book}{}
+      \name{author}{1}{}{%
+        {{hash=87ecd018a55d18b4c916c52860a4c9fa}{%
+           family={Lupton},
+           familyi={L\bibinitperiod},
+           given={Deborah},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Malden, {MA}}%
+      }
+      \list{publisher}{1}{%
+        {Polity}%
+      }
+      \strng{namehash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{fullhash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{bibnamehash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{authorbibnamehash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{authornamehash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{authorfullhash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{The quantified self}
+      \field{title}{The quantified self : a sociology of self-tracking}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \keyw{Digitala medier-- sociala aspekter,Reflexion (filosofi)}
+    \endentry
+    \entry{segersson_person_2021}{online}{}
+      \name{author}{1}{}{%
+        {{hash=219b84713cdb492caba082c4fdabc2d5}{%
+           family={Segersson},
+           familyi={S\bibinitperiod},
+           given={Sofia},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{219b84713cdb492caba082c4fdabc2d5}
+      \strng{fullhash}{219b84713cdb492caba082c4fdabc2d5}
+      \strng{bibnamehash}{219b84713cdb492caba082c4fdabc2d5}
+      \strng{authorbibnamehash}{219b84713cdb492caba082c4fdabc2d5}
+      \strng{authornamehash}{219b84713cdb492caba082c4fdabc2d5}
+      \strng{authorfullhash}{219b84713cdb492caba082c4fdabc2d5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Jag var femton år när jag helt oväntat drabbades av typ 1 diabetes. Vi hade ingen i släkten, familjen eller vår umgängeskrets med samma diagnos. Det ledde till att vi missade de så tydliga symptom som fick mig att rasa i vikt, dricka liter efter liter och springa på toaletten stup i kvarten. Efter ett … Fortsätter}
+      \field{day}{9}
+      \field{month}{3}
+      \field{title}{Person före patient}
+      \field{titleaddon}{Hälsoportalen}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/NUC3VABK/person-fore-patient.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.folkhalsasverige.se/diabetes/person-fore-patient/
+      \endverb
+      \verb{url}
+      \verb https://www.folkhalsasverige.se/diabetes/person-fore-patient/
+      \endverb
+    \endentry
+    \entry{integritetsskyddsmyndigheten_kansliga_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1a8138bdd8fed579c04967eb17ed747f}{%
+           family={Integritetsskyddsmyndigheten},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a8138bdd8fed579c04967eb17ed747f}
+      \strng{fullhash}{1a8138bdd8fed579c04967eb17ed747f}
+      \strng{bibnamehash}{1a8138bdd8fed579c04967eb17ed747f}
+      \strng{authorbibnamehash}{1a8138bdd8fed579c04967eb17ed747f}
+      \strng{authornamehash}{1a8138bdd8fed579c04967eb17ed747f}
+      \strng{authorfullhash}{1a8138bdd8fed579c04967eb17ed747f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Vissa personuppgifter är till sin natur särskilt känsliga och har därför ett starkare skydd i dataskyddsförordningen. Utgångspunkten är att det är förbjudet att behandla sådana personuppgifter. Det finns dock flera undantag från förbudet. Även personnummer kan räknas till personuppgifter som är särskilt integritetskänsliga.}
+      \field{langid}{english}
+      \field{title}{Känsliga personuppgifter}
+      \field{titleaddon}{Känsliga personuppgifter}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/UH8YTHPD/kansliga-personuppgifter.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.imy.se/lagar--regler/dataskyddsforordningen/kansliga-personuppgifter/
+      \endverb
+      \verb{url}
+      \verb https://www.imy.se/lagar--regler/dataskyddsforordningen/kansliga-personuppgifter/
+      \endverb
+    \endentry
     \entry{vetenskapsradet_god_2017}{book}{}
       \name{author}{1}{}{%
         {{hash=2d51044db17774d5de40a92ecd76eada}{%
@@ -974,6 +1300,44 @@
       \field{dateera}{ce}
       \verb{file}
       \verb Vetenskapsrådet - 2017 - God forskningssed.pdf:/Users/kj/Zotero/storage/9A6DU4ZD/Vetenskapsrådet - 2017 - God forskningssed.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{jondell_kj-jondellradio-diabetes_2021}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a70585efdf51d8964d83d42840c415bc}{%
+           family={Jondell},
+           familyi={J\bibinitperiod},
+           given={Karl\bibnamedelima Johannes},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{fullhash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{bibnamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{authorbibnamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{authornamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{authorfullhash}{a70585efdf51d8964d83d42840c415bc}
+      \field{extraname}{3}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{kod för mitt examensprojekt. Contribute to kj-jondell/Radio-Diabetes development by creating an account on {GitHub}.}
+      \field{day}{15}
+      \field{month}{4}
+      \field{note}{original-date: 2021-02-16T09:43:29Z}
+      \field{title}{kj-jondell/Radio-Diabetes}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://repo.radiodiabetes.eu
+      \endverb
+      \verb{url}
+      \verb http://repo.radiodiabetes.eu
       \endverb
     \endentry
     \entry{noauthor_enterprise_nodate}{online}{}
@@ -1091,42 +1455,6 @@
       \endverb
       \verb{url}
       \verb https://icecast.org/
-      \endverb
-    \endentry
-    \entry{jondell_radio_nodate}{online}{}
-      \name{author}{1}{}{%
-        {{hash=a70585efdf51d8964d83d42840c415bc}{%
-           family={Jondell},
-           familyi={J\bibinitperiod},
-           given={Karl\bibnamedelima Johannes},
-           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{a70585efdf51d8964d83d42840c415bc}
-      \strng{fullhash}{a70585efdf51d8964d83d42840c415bc}
-      \strng{bibnamehash}{a70585efdf51d8964d83d42840c415bc}
-      \strng{authorbibnamehash}{a70585efdf51d8964d83d42840c415bc}
-      \strng{authornamehash}{a70585efdf51d8964d83d42840c415bc}
-      \strng{authorfullhash}{a70585efdf51d8964d83d42840c415bc}
-      \field{extraname}{2}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{url}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Radio Diabetes}
-      \field{titleaddon}{Radio Diabetes}
-      \field{urlday}{7}
-      \field{urlmonth}{4}
-      \field{urlyear}{2021}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb React App:/Users/kj/Zotero/storage/UTAIHYT5/radiodiabetes.eu.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://radiodiabetes.eu/
-      \endverb
-      \verb{url}
-      \verb https://radiodiabetes.eu/
       \endverb
     \endentry
     \entry{noauthor_react_nodate}{online}{}
@@ -1267,9 +1595,13 @@
       \field{labeltitlesource}{title}
       \field{editoratype}{collaborator}
       \field{title}{Insulin A \& B Chains}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
       \field{volume}{{DNA} Music / {DNA} Suite}
       \field{year}{1983}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.amazon.com/Insulin-a-B-Chains/dp/B00EFYDV9Y
       \endverb
@@ -1298,8 +1630,12 @@
       \field{labeltitlesource}{title}
       \field{editoratype}{collaborator}
       \field{title}{Värden och en vagga}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
       \field{year}{2017}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://soundcloud.com/k-j-jondell/va-rden-och-en-vagga/s-LVawj
       \endverb
@@ -1328,8 +1664,12 @@
       \field{labeltitlesource}{title}
       \field{editoratype}{collaborator}
       \field{title}{Calling out of context}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
       \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://soundcloud.com/k-j-jondell/calling-out-of-context-binaural
       \endverb
@@ -1382,13 +1722,17 @@
       \field{labeltitlesource}{title}
       \field{editoratype}{collaborator}
       \field{title}{Hugging Tightly: Human {RNase} Inhibitor}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
       \field{year}{2009}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=cZhAwiG81_Q&list=LL&index=13
+      \verb https://www.youtube.com/watch?v=cZhAwiG81_Q
       \endverb
       \verb{url}
-      \verb https://www.youtube.com/watch?v=cZhAwiG81_Q&list=LL&index=13
+      \verb https://www.youtube.com/watch?v=cZhAwiG81_Q
       \endverb
     \endentry
     \entry{yupanqui_sounds_2021}{audio}{}
@@ -1542,6 +1886,66 @@
       \verb https://electricityforprogress.com/Forum/
       \endverb
     \endentry
+    \entry{noauthor_blood_2021}{online}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The blood sugar level, blood sugar concentration, or blood glucose level is the concentration of glucose present in the blood of humans and other animals. Glucose is a simple sugar, and approximately 4 g of glucose are present in the blood of a 70 kg (154 lb) human at all times. The body tightly regulates blood glucose levels as a part of metabolic homeostasis. Glucose is stored in skeletal muscle and liver cells in the form of glycogen; in fasting individuals, blood glucose is maintained at a constant level at the expense of glycogen stores in the liver and skeletal muscle.In humans, a blood glucose level of four grams, or about a teaspoon, is critical for normal function in a number of tissues, and the human brain consumes approximately 60\% of blood glucose in fasting, sedentary individuals. A persistent elevation in blood glucose leads to glucose toxicity, which contributes to cell dysfunction and the pathology grouped together as complications of diabetes. Glucose can be transported from the intestines or liver to other tissues in the body via the bloodstream. Cellular glucose uptake is primarily regulated by insulin, a hormone produced in the pancreas.Glucose levels are usually lowest in the morning, before the first meal of the day, and rise after meals for an hour or two by a few millimoles. Blood sugar levels outside the normal range may be an indicator of a medical condition. A persistently high level is referred to as hyperglycemia; low levels are referred to as hypoglycemia. Diabetes mellitus is characterized by persistent hyperglycemia from any of several causes, and it is the most prominent disease related to the failure of blood sugar regulation. There are different methods of testing and measuring blood sugar levels. The intake of alcohol causes an initial surge in blood sugar and later tends to cause levels to fall. Also, certain drugs can increase or decrease glucose levels.}
+      \field{day}{29}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{note}{Page Version {ID}: 1014791724}
+      \field{title}{Blood sugar level}
+      \field{titleaddon}{Wikipedia}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/ZWV7ACDJ/index.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Blood_sugar_level
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Blood_sugar_level
+      \endverb
+    \endentry
+    \entry{bornemark_det_2018}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0e966a02a6ded44e65396808f53580a1}{%
+           family={Bornemark},
+           familyi={B\bibinitperiod},
+           given={Jonna},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Stockholm}%
+      }
+      \list{publisher}{1}{%
+        {Volante}%
+      }
+      \strng{namehash}{0e966a02a6ded44e65396808f53580a1}
+      \strng{fullhash}{0e966a02a6ded44e65396808f53580a1}
+      \strng{bibnamehash}{0e966a02a6ded44e65396808f53580a1}
+      \strng{authorbibnamehash}{0e966a02a6ded44e65396808f53580a1}
+      \strng{authornamehash}{0e966a02a6ded44e65396808f53580a1}
+      \strng{authorfullhash}{0e966a02a6ded44e65396808f53580a1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{Det omätbaras renässans}
+      \field{title}{Det omätbaras renässans: en uppgörelse med pedanternas världsherravälde}
+      \field{year}{2018}
+      \field{dateera}{ce}
+    \endentry
     \entry{brecht_radio_nodate}{online}{}
       \name{author}{1}{}{%
         {{hash=7383a641aba3c0cef1525fed0b6effd0}{%
@@ -1599,8 +2003,12 @@
       \field{labeltitlesource}{title}
       \field{editoratype}{collaborator}
       \field{title}{Calling out of context}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
       \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://soundcloud.com/k-j-jondell/calling-out-of-context-binaural
       \endverb
@@ -1627,6 +2035,50 @@
       \endverb
       \verb{url}
       \verb http://www.darkice.org/
+      \endverb
+    \endentry
+    \entry{noauthor_dexcom_nodate}{online}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Dexcom Continuous Glucose Monitoring}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Dexcom Continuous Glucose Monitoring | Dexcom CGM:/Users/kj/Zotero/storage/CI7BJK8E/sv-SE.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.dexcom.com/sv-SE
+      \endverb
+      \verb{url}
+      \verb https://www.dexcom.com/sv-SE
+      \endverb
+    \endentry
+    \entry{noauthor_diabetes_nodate}{online}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{langid}{swedish}
+      \field{title}{Diabetes}
+      \field{titleaddon}{Diabetesfonden}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/NFBNW9Q8/diabetes.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.diabetes.se/diabetesfonden/diabetes/
+      \endverb
+      \verb{url}
+      \verb https://www.diabetes.se/diabetesfonden/diabetes/
       \endverb
     \endentry
     \entry{noauthor_diasend_nodate}{online}{}
@@ -1899,6 +2351,28 @@
       \verb https://www.freestyle.abbott/se-sv/home.html
       \endverb
     \endentry
+    \entry{noauthor_forsta_nodate}{online}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Förstå information om glukosvärden}
+      \field{titleaddon}{{LibreLinkUp}}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Förstå information om glukosvärden:/Users/kj/Zotero/storage/3GD9N6UR/glucose-readings.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.librelinkup.com/articles/glucose-readings
+      \endverb
+      \verb{url}
+      \verb https://www.librelinkup.com/articles/glucose-readings
+      \endverb
+    \endentry
     \entry{hermann_parameter_2011}{incollection}{}
       \name{author}{2}{}{%
         {{hash=7e32a865fbbed50c8f3ff4a02d98d3fb}{%
@@ -2042,13 +2516,17 @@
       \field{labeltitlesource}{title}
       \field{editoratype}{collaborator}
       \field{title}{Hugging Tightly: Human {RNase} Inhibitor}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
       \field{year}{2009}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=cZhAwiG81_Q&list=LL&index=13
+      \verb https://www.youtube.com/watch?v=cZhAwiG81_Q
       \endverb
       \verb{url}
-      \verb https://www.youtube.com/watch?v=cZhAwiG81_Q&list=LL&index=13
+      \verb https://www.youtube.com/watch?v=cZhAwiG81_Q
       \endverb
     \endentry
     \entry{noauthor_icecast_nodate}{online}{}
@@ -2101,14 +2579,78 @@
       \field{labeltitlesource}{title}
       \field{editoratype}{collaborator}
       \field{title}{Insulin A \& B Chains}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
       \field{volume}{{DNA} Music / {DNA} Suite}
       \field{year}{1983}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.amazon.com/Insulin-a-B-Chains/dp/B00EFYDV9Y
       \endverb
       \verb{url}
       \verb https://www.amazon.com/Insulin-a-B-Chains/dp/B00EFYDV9Y
+      \endverb
+    \endentry
+    \entry{noauthor_insulinet_nodate}{online}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Leonard Thompson vägde under 30 kilo innan han som första människa fick en injektion insulin. Svältkuren han ordinerats hittills var den enda metoden läkarna visste kunde förlänga livet på diabetiker – något som snart kom att ändras.}
+      \field{langid}{swedish}
+      \field{title}{Insulinet 100 år}
+      \field{titleaddon}{Storstockholms Diabetesförening}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/8BMNH59M/insulinet-100-ar.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://ssdf.nu/nyheter/insulinet-100-ar
+      \endverb
+      \verb{url}
+      \verb https://ssdf.nu/nyheter/insulinet-100-ar
+      \endverb
+    \endentry
+    \entry{integritetsskyddsmyndigheten_kansliga_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1a8138bdd8fed579c04967eb17ed747f}{%
+           family={Integritetsskyddsmyndigheten},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a8138bdd8fed579c04967eb17ed747f}
+      \strng{fullhash}{1a8138bdd8fed579c04967eb17ed747f}
+      \strng{bibnamehash}{1a8138bdd8fed579c04967eb17ed747f}
+      \strng{authorbibnamehash}{1a8138bdd8fed579c04967eb17ed747f}
+      \strng{authornamehash}{1a8138bdd8fed579c04967eb17ed747f}
+      \strng{authorfullhash}{1a8138bdd8fed579c04967eb17ed747f}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Vissa personuppgifter är till sin natur särskilt känsliga och har därför ett starkare skydd i dataskyddsförordningen. Utgångspunkten är att det är förbjudet att behandla sådana personuppgifter. Det finns dock flera undantag från förbudet. Även personnummer kan räknas till personuppgifter som är särskilt integritetskänsliga.}
+      \field{langid}{english}
+      \field{title}{Känsliga personuppgifter}
+      \field{titleaddon}{Känsliga personuppgifter}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/UH8YTHPD/kansliga-personuppgifter.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.imy.se/lagar--regler/dataskyddsforordningen/kansliga-personuppgifter/
+      \endverb
+      \verb{url}
+      \verb https://www.imy.se/lagar--regler/dataskyddsforordningen/kansliga-personuppgifter/
       \endverb
     \endentry
     \entry{jondell_kj-jondelldiabetes-synth_2021}{online}{}
@@ -2150,7 +2692,7 @@
       \verb https://github.com/kj-jondell/Diabetes-Synth
       \endverb
     \endentry
-    \entry{jondell_radio_nodate}{online}{}
+    \entry{jondell_kj-jondellradio-diabetes_2021}{online}{}
       \name{author}{1}{}{%
         {{hash=a70585efdf51d8964d83d42840c415bc}{%
            family={Jondell},
@@ -2168,6 +2710,46 @@
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{kod för mitt examensprojekt. Contribute to kj-jondell/Radio-Diabetes development by creating an account on {GitHub}.}
+      \field{day}{15}
+      \field{month}{4}
+      \field{note}{original-date: 2021-02-16T09:43:29Z}
+      \field{title}{kj-jondell/Radio-Diabetes}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://repo.radiodiabetes.eu
+      \endverb
+      \verb{url}
+      \verb http://repo.radiodiabetes.eu
+      \endverb
+    \endentry
+    \entry{jondell_radio_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a70585efdf51d8964d83d42840c415bc}{%
+           family={Jondell},
+           familyi={J\bibinitperiod},
+           given={Karl\bibnamedelima Johannes},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{fullhash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{bibnamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{authorbibnamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{authornamehash}{a70585efdf51d8964d83d42840c415bc}
+      \strng{authorfullhash}{a70585efdf51d8964d83d42840c415bc}
+      \field{extraname}{3}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradate}{3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{url}
       \field{labelnamesource}{author}
@@ -2317,6 +2899,62 @@
       \endverb
       \verb{url}
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4798795/
+      \endverb
+    \endentry
+    \entry{lupton_quantified_2016}{book}{}
+      \name{author}{1}{}{%
+        {{hash=87ecd018a55d18b4c916c52860a4c9fa}{%
+           family={Lupton},
+           familyi={L\bibinitperiod},
+           given={Deborah},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Malden, {MA}}%
+      }
+      \list{publisher}{1}{%
+        {Polity}%
+      }
+      \strng{namehash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{fullhash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{bibnamehash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{authorbibnamehash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{authornamehash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \strng{authorfullhash}{87ecd018a55d18b4c916c52860a4c9fa}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{The quantified self}
+      \field{title}{The quantified self : a sociology of self-tracking}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \keyw{Digitala medier-- sociala aspekter,Reflexion (filosofi)}
+    \endentry
+    \entry{noauthor_lar_nodate}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Samlingssida för information om diabetes}
+      \field{langid}{swedish}
+      \field{title}{Lär dig om diabetes}
+      \field{titleaddon}{Diabetesförbundet}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/XDJZ4YYA/lar-om-diabetes.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://diabetes.se/diabetes/lar-om-diabetes/
+      \endverb
+      \verb{url}
+      \verb http://diabetes.se/diabetes/lar-om-diabetes/
       \endverb
     \endentry
     \entry{mcluhan_understanding_2003}{book}{}
@@ -2601,6 +3239,47 @@
       \field{year}{2004}
       \field{dateera}{ce}
     \endentry
+    \entry{segersson_person_2021}{online}{}
+      \name{author}{1}{}{%
+        {{hash=219b84713cdb492caba082c4fdabc2d5}{%
+           family={Segersson},
+           familyi={S\bibinitperiod},
+           given={Sofia},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{219b84713cdb492caba082c4fdabc2d5}
+      \strng{fullhash}{219b84713cdb492caba082c4fdabc2d5}
+      \strng{bibnamehash}{219b84713cdb492caba082c4fdabc2d5}
+      \strng{authorbibnamehash}{219b84713cdb492caba082c4fdabc2d5}
+      \strng{authornamehash}{219b84713cdb492caba082c4fdabc2d5}
+      \strng{authorfullhash}{219b84713cdb492caba082c4fdabc2d5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Jag var femton år när jag helt oväntat drabbades av typ 1 diabetes. Vi hade ingen i släkten, familjen eller vår umgängeskrets med samma diagnos. Det ledde till att vi missade de så tydliga symptom som fick mig att rasa i vikt, dricka liter efter liter och springa på toaletten stup i kvarten. Efter ett … Fortsätter}
+      \field{day}{9}
+      \field{month}{3}
+      \field{title}{Person före patient}
+      \field{titleaddon}{Hälsoportalen}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/NUC3VABK/person-fore-patient.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.folkhalsasverige.se/diabetes/person-fore-patient/
+      \endverb
+      \verb{url}
+      \verb https://www.folkhalsasverige.se/diabetes/person-fore-patient/
+      \endverb
+    \endentry
     \entry{shi_electronic_2007}{article}{}
       \name{author}{3}{}{%
         {{hash=66d603126bf26d8f7e9e651ad45fa0a9}{%
@@ -2781,6 +3460,35 @@
       \verb https://supercollider.github.io/
       \endverb
     \endentry
+    \entry{noauthor_vad_2018}{online}{}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dexcom G6 är Dexcoms senaste generations kontinuerliga glukosmätningssystem ({CGM}). Till skillnad från tidigare generationer är detta {CGM}-system fabrikskalibrerat, så det krävs inga stick i fingret.* Dexcom G6 består av en sensor, sändare och display-enhet (mottagare och/eller kompatibel smart-enhet)**. Systemet har en nyutvecklad automatisk snabbkopplingsapplikator och elegant, diskret sändare. Dexcom G6 skickar glukosavläsningar till en smart-enhet eller Dexcom-mottagaren var 5:e minut. Dexcom G6 är godkänd för patienter i åldrarna 2 och äldre.}
+      \field{day}{10}
+      \field{langid}{swedish}
+      \field{month}{8}
+      \field{title}{Vad är Dexcom G6?}
+      \field{titleaddon}{Dexcom}
+      \field{type}{Text}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/kj/Zotero/storage/9M9WX7YK/vad-är-dexcom-g6.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.dexcom.com/sv-SE/faq/vad-%C3%A4r-dexcom-g6
+      \endverb
+      \verb{url}
+      \verb https://www.dexcom.com/sv-SE/faq/vad-%C3%A4r-dexcom-g6
+      \endverb
+    \endentry
     \entry{hermann_theory_2011}{incollection}{}
       \name{author}{2}{}{%
         {{hash=4ca2bb3060cb3ad9d7a8e84a79545e3f}{%
@@ -2914,8 +3622,12 @@
       \field{labeltitlesource}{title}
       \field{editoratype}{collaborator}
       \field{title}{Värden och en vagga}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
       \field{year}{2017}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://soundcloud.com/k-j-jondell/va-rden-och-en-vagga/s-LVawj
       \endverb
